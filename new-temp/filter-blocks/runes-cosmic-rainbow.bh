@@ -1,0 +1,57 @@
+// El - Ort: Ping T6 until lvl 24, then show on map until filtered at filter 1+
+ItemDisplay[RUNE=1 CLVL<24]: %LIGHT_GRAY%0 * %RUNENAME% * (%RUNENUM%)%border-d0%%TIER-6%{%ORANGE%Essence: 1}
+ItemDisplay[RUNE=1 CLVL>23 FILTLVL=0]: %LIGHT_GRAY%0 * %RUNENAME% * (%RUNENUM%)%dot-d0%%notify-dead%{%ORANGE%Essence: 1}
+ItemDisplay[RUNE=2 CLVL<24]: %LIGHT_GRAY%0 * %RUNENAME% * (%RUNENUM%)%border-d0%%TIER-6%{%ORANGE%Essence: 2}
+ItemDisplay[RUNE=2 CLVL>23 FILTLVL=0]: %LIGHT_GRAY%0 * %RUNENAME% * (%RUNENUM%)%dot-d0%%notify-dead%{%ORANGE%Essence: 2}
+ItemDisplay[RUNE=3 CLVL<24]: %LIGHT_GRAY%0 * %RUNENAME% * (%RUNENUM%)%border-d0%%TIER-6%{%ORANGE%Essence: 3}
+ItemDisplay[RUNE=3 CLVL>23 FILTLVL=0]: %LIGHT_GRAY%0 * %RUNENAME% * (%RUNENUM%)%dot-d0%%notify-dead%{%ORANGE%Essence: 3}
+ItemDisplay[RUNE=4 CLVL<24]: %LIGHT_GRAY%0 * %RUNENAME% * (%RUNENUM%)%border-d0%%TIER-6%{%ORANGE%Essence: 4}
+ItemDisplay[RUNE=4 CLVL>23 FILTLVL=0]: %LIGHT_GRAY%0 * %RUNENAME% * (%RUNENUM%)%dot-d0%%notify-dead%{%ORANGE%Essence: 4}
+ItemDisplay[RUNE=5 CLVL<24]: %LIGHT_GRAY%0 * %RUNENAME% * (%RUNENUM%)%border-d0%%TIER-6%{%ORANGE%Essence: 6}
+ItemDisplay[RUNE=5 CLVL>23 FILTLVL=0]: %LIGHT_GRAY%0 * %RUNENAME% * (%RUNENUM%)%dot-d0%%notify-dead%{%ORANGE%Essence: 6}
+ItemDisplay[RUNE=6 CLVL<24]: %LIGHT_GRAY%0 * %RUNENAME% * (%RUNENUM%)%border-d0%%TIER-6%{%ORANGE%Essence: 8}
+ItemDisplay[RUNE=6 CLVL>23 FILTLVL=0]: %LIGHT_GRAY%0 * %RUNENAME% * (%RUNENUM%)%dot-d0%%notify-dead%{%ORANGE%Essence: 8}
+ItemDisplay[RUNE=7 CLVL<24]: %LIGHT_GRAY%0 * %RUNENAME% * (%RUNENUM%)%border-d0%%TIER-6%{%ORANGE%Essence: 12}
+ItemDisplay[RUNE=7 CLVL>23 FILTLVL=0]: %LIGHT_GRAY%0 * %RUNENAME% * (%RUNENUM%)%dot-d0%%notify-dead%{%ORANGE%Essence: 12}
+ItemDisplay[RUNE=8 CLVL<24]: %LIGHT_GRAY%0 * %RUNENAME% * (%RUNENUM%)%border-d0%%TIER-6%{%ORANGE%Essence: 16}
+ItemDisplay[RUNE=8 CLVL>23 FILTLVL=0]: %LIGHT_GRAY%0 * %RUNENAME% * (%RUNENUM%)%dot-d0%%notify-dead%{%ORANGE%Essence: 16}
+ItemDisplay[RUNE=9 CLVL<24]: %LIGHT_GRAY%0 * %RUNENAME% * (%RUNENUM%)%border-d0%%TIER-6%{%ORANGE%Essence: 24}
+ItemDisplay[RUNE=9 CLVL>23 FILTLVL=0]: %LIGHT_GRAY%0* %RUNENAME% * (%RUNENUM%)%dot-d0%%notify-dead%{%ORANGE%Essence: 24}
+// Thul - Dol: Ping T6 and show on map until filter 2+
+ItemDisplay[RUNE=10 FILTLVL<2]: %LIGHT_GRAY%0 %ORANGE%* %RUNENAME% * (%RUNENUM%)%border-d0%%TIER-6%{%ORANGE%Essence: 32}
+ItemDisplay[RUNE=10 FILTLVL<2]: %LIGHT_GRAY%0 %ORANGE%* %RUNENAME% * (%RUNENUM%)%dot-d0%%notify-dead%{%ORANGE%Essence: 32}
+ItemDisplay[RUNE=11 FILTLVL<2]: %LIGHT_GRAY%0 %ORANGE%* %RUNENAME% * (%RUNENUM%)%border-d0%%TIER-6%{%ORANGE%Essence: 48}
+ItemDisplay[RUNE=11 FILTLVL<2]: %LIGHT_GRAY%0 %ORANGE%* %RUNENAME% * (%RUNENUM%)%dot-d0%%notify-dead%{%ORANGE%Essence: 48}
+ItemDisplay[RUNE=12 FILTLVL<2]: %LIGHT_GRAY%0 %ORANGE%* %RUNENAME% * (%RUNENUM%)%border-d0%%TIER-6%{%ORANGE%Essence: 64}
+ItemDisplay[RUNE=12 FILTLVL<2]: %LIGHT_GRAY%0 %ORANGE%* %RUNENAME% * (%RUNENUM%)%dot-d0%%notify-dead%{%ORANGE%Essence: 64}
+ItemDisplay[RUNE=13 FILTLVL<2]: %LIGHT_GRAY%0 %ORANGE%* %RUNENAME% * (%RUNENUM%)%border-d0%%TIER-6%{%ORANGE%Essence: 96}
+ItemDisplay[RUNE=13 FILTLVL<2]: %LIGHT_GRAY%0 %ORANGE%* %RUNENAME% * (%RUNENUM%)%dot-d0%%notify-dead%{%ORANGE%Essence: 96}
+ItemDisplay[RUNE=14 FILTLVL<2]: %LIGHT_GRAY%0 %ORANGE%* %RUNENAME% * (%RUNENUM%)%border-d0%%TIER-6%{%ORANGE%Essence: 128}
+ItemDisplay[RUNE=14 FILTLVL<2]: %LIGHT_GRAY%0 %ORANGE%* %RUNENAME% * (%RUNENUM%)%dot-d0%%notify-dead%{%ORANGE%Essence: 128}
+// Hel - Fal: Ping T5 and show on map until filter 3
+ItemDisplay[RUNE=15 FILTLVL<3]:  %TAN%0 %ORANGE%* %RUNENAME% * (%RUNENUM%)%border-d0%%TIER-5%{%ORANGE%Essence: 180}
+ItemDisplay[RUNE=15 FILTLVL<3]:  %TAN%0 %ORANGE%* %RUNENAME% * (%RUNENUM%)%dot-d0%%notify-dead%{%ORANGE%Essence: 180}
+ItemDisplay[RUNE=16 FILTLVL<3]:  %TAN%0 %ORANGE%* %RUNENAME% * (%RUNENUM%)%border-d0%%TIER-5%{%ORANGE%Essence: 256}
+ItemDisplay[RUNE=16 FILTLVL<3]:  %TAN%0 %ORANGE%* %RUNENAME% * (%RUNENUM%)%dot-d0%%notify-dead%{%ORANGE%Essence: 256}
+ItemDisplay[RUNE=17 FILTLVL<3]:  %TAN%0 %ORANGE%* %RUNENAME% * (%RUNENUM%)%border-d0%%TIER-5%{%ORANGE%Essence: 360}
+ItemDisplay[RUNE=17 FILTLVL<3]:  %TAN%0 %ORANGE%* %RUNENAME% * (%RUNENUM%)%dot-d0%%notify-dead%{%ORANGE%Essence: 360}
+ItemDisplay[RUNE=18 FILTLVL<3]:  %TAN%0 %ORANGE%* %RUNENAME% * (%RUNENUM%)%border-d0%%TIER-5%{%ORANGE%Essence: 512}
+ItemDisplay[RUNE=18 FILTLVL<3]:  %TAN%0 %ORANGE%* %RUNENAME% * (%RUNENUM%)%dot-d0%%notify-dead%{%ORANGE%Essence: 512}
+ItemDisplay[RUNE=19 FILTLVL<3]:  %TAN%0 %ORANGE%* %RUNENAME% * (%RUNENUM%)%border-d0%%TIER-5%{%ORANGE%Essence: 768}
+ItemDisplay[RUNE=19 FILTLVL<3]:  %TAN%0 %ORANGE%* %RUNENAME% * (%RUNENUM%)%dot-d0%%notify-dead%{%ORANGE%Essence: 768}
+//Lem - Gul: Red Indicator, Orange/Gold Text, Red Map Dot
+ItemDisplay[RUNE=20]:  %NL%          %RED% *********%ORANGE% %RUNENAME% (%RUNENUM%) %RED%*********          %NL% %border-d0%%dot-0a%%TIER-4%{%ORANGE%Essence: 1K}
+ItemDisplay[RUNE=21]:  %NL%          %RED% *********%ORANGE% %RUNENAME% (%RUNENUM%) %RED%*********          %NL% %border-d0%%dot-0a%%TIER-4%{%ORANGE%Essence: 1.4K}
+ItemDisplay[RUNE=22]:  %NL%          %RED% *********%ORANGE% %RUNENAME% (%RUNENUM%) %RED%*********          %NL% %border-d0%%dot-0a%%TIER-4%{%ORANGE%Essence: 2K}
+ItemDisplay[RUNE=23]:  %NL%          %RED% *********%ORANGE% %RUNENAME% (%RUNENUM%) %RED%*********          %NL% %border-d0%%dot-0a%%TIER-3%{%ORANGE%Essence: 2.9K}
+ItemDisplay[RUNE=24]:  %NL%          %RED% *********%GOLD% %RUNENAME% (%RUNENUM%) %RED%*********          %NL% %border-d0%%dot-0a%%TIER-3%{%ORANGE%Essence: 4K}
+ItemDisplay[RUNE=25]:  %NL%          %RED% *********%GOLD% %RUNENAME% (%RUNENUM%) %RED%*********          %NL% %border-d0%%dot-0a%%TIER-3%{%blue%Essence: 2}
+//Vex - Zod: Rainbow Indicator, Gold Text, Purple Map Dot
+ItemDisplay[RUNE=26]:  %NL%          %GREEN% ****%PURPLE%*%RED%*%GOLD%*%YELLOW%*%PURPLE%*%PURPLE% %GOLD%%RUNENAME% (%RUNENUM%) %PURPLE%*%YELLOW%*%GOLD%*%RED%*%PURPLE%*%GREEN%****          %NL% %border-d0%%dot-9b%%TIER-2%{%blue%Essence: 3}
+ItemDisplay[RUNE=27]:  %NL%          %GREEN% ****%PURPLE%*%RED%*%GOLD%*%YELLOW%*%PURPLE%*%PURPLE% %GOLD%%RUNENAME% (%RUNENUM%) %PURPLE%*%YELLOW%*%GOLD%*%RED%*%PURPLE%*%GREEN%****          %NL% %border-d0%%dot-9b%%TIER-2%{%blue%Essence: 4}
+ItemDisplay[RUNE=28]:  %NL%          %GREEN% ****%PURPLE%*%RED%*%GOLD%*%YELLOW%*%PURPLE%*%PURPLE% %GOLD%%RUNENAME% (%RUNENUM%) %PURPLE%*%YELLOW%*%GOLD%*%RED%*%PURPLE%*%GREEN%****          %NL% %border-d0%%dot-9b%%TIER-2%{%blue%Essence: 6}
+ItemDisplay[RUNE=29]:  %NL%          %GREEN% ****%PURPLE%*%RED%*%GOLD%*%YELLOW%*%PURPLE%*%PURPLE% %GOLD%%RUNENAME% (%RUNENUM%) %PURPLE%*%YELLOW%*%GOLD%*%RED%*%PURPLE%*%GREEN%****          %NL% %border-d0%%dot-9b%%TIER-2%{%blue%Essence: 8}
+ItemDisplay[RUNE=30]:  %NL%          %GREEN% ****%PURPLE%*%RED%*%GOLD%*%YELLOW%*%PURPLE%*%PURPLE% %GOLD%%RUNENAME% (%RUNENUM%) %PURPLE%*%YELLOW%*%GOLD%*%RED%*%PURPLE%*%GREEN%****          %NL% %border-d0%%dot-9b%%TIER-1%{%blue%Essence: 12}
+ItemDisplay[RUNE=31]:  %NL%          %GREEN% ****%PURPLE%*%RED%*%GOLD%*%YELLOW%*%PURPLE%*%PURPLE% %GOLD%%RUNENAME% (%RUNENUM%) %PURPLE%*%YELLOW%*%GOLD%*%RED%*%PURPLE%*%GREEN%****          %NL% %border-d0%%dot-9b%%TIER-1%{%blue%Essence: 16}
+ItemDisplay[RUNE=32]:  %NL%          %GREEN% ****%PURPLE%*%RED%*%GOLD%*%YELLOW%*%PURPLE%*%PURPLE% %GOLD%%RUNENAME% (%RUNENUM%) %PURPLE%*%YELLOW%*%GOLD%*%RED%*%PURPLE%*%GREEN%****          %NL% %border-d0%%dot-9b%%TIER-1%{%blue%Essence: 24}
+ItemDisplay[RUNE=33]:  %NL%          %GREEN% ****%PURPLE%*%RED%*%GOLD%*%YELLOW%*%PURPLE%*%PURPLE% %GOLD%%RUNENAME% (%RUNENUM%) %PURPLE%*%YELLOW%*%GOLD%*%RED%*%PURPLE%*%GREEN%****          %NL% %border-d0%%dot-9b%%TIER-1%{%blue%Essence: 32}
