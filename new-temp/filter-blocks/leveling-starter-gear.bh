@@ -342,12 +342,104 @@ ItemDisplay[NMAG SOCK=3 (qui || rng || scl || chn || brs || spl || tkl || lea ||
 
 //Low Level Necromancer Armor - Runewords
 ItemDisplay[NMAG SOCK=2 (na4 || na1) CLVL<35 ILVL>0]: Stealth RW (Tal Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=3 (na4 || na1) CLVL<35 ILVL>0]: Thunder RW (Ort El Nef) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Low Level Shields - Runewords
 ItemDisplay[NMAG SOCK=3 (lrg || kit || tow) CLVL<35 ILVL>0]: Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (lrg || kit || tow || spk || bsh) CLVL<35 ILVL>0]: Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Necro Shields - Runewords
+//Teeth Voodoo Head
+ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK67>0 CLVL<35 ILVL>0]: Teeth Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK67>0 CLVL<35 ILVL>0]: Teeth Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Bone Spear Voodoo Head
+ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK84>0 CLVL<35 ILVL>0]: Bone Spear Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK84>0 CLVL<35 ILVL>0]: Bone Spear Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Bone Spirit Voodoo Head
+ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK93>0 CLVL<35 ILVL>0]: Bone Spirit Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK93>0 CLVL<35 ILVL>0]: Bone Spirit Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Poison Nova Voodoo Head
+ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK92>0 CLVL<35 ILVL>0]: Psn Nova Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK92>0 CLVL<35 ILVL>0]: Psn Nova Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Toxic Delivery Voodoo Head
+ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK73>0 CLVL<35 ILVL>0]: Toxic Delivery Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK73>0 CLVL<35 ILVL>0]: Toxic Delivery Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Putrify Voodoo Head
+ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK83>0 CLVL<35 ILVL>0]: Putrify Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK83>0 CLVL<35 ILVL>0]: Putrify Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Corpse Explosion Voodoo Head
+ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK74>0 CLVL<35 ILVL>0]: CE Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK74>0 CLVL<35 ILVL>0]: CE Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Skeleton Warrior Voodoo Head
+ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK70>0 CLVL<35 ILVL>0]: Skele Warrior Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK70>0 CLVL<35 ILVL>0]: Skele Warrior Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Skeleton Archer Voodoo Head
+ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK80>0 CLVL<35 ILVL>0]: Skele Archer Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK80>0 CLVL<35 ILVL>0]: Skele Archer Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Raise Zombie Voodoo Head
+ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK89>0 CLVL<35 ILVL>0]: Zombie Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK89>0 CLVL<35 ILVL>0]: Zombie Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Minion Mastery Voodoo Head
+ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK69>0 CLVL<35 ILVL>0]: Minion Mastery Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK69>0 CLVL<35 ILVL>0]: Minion Mastery Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Blood Golem Voodoo Head
+ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK85>0 CLVL<35 ILVL>0]: Blood Golem Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK85>0 CLVL<35 ILVL>0]: Blood Golem Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Fire Golem Voodoo Head
+ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK94>0 CLVL<35 ILVL>0]: Fire Golem Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK94>0 CLVL<35 ILVL>0]: Fire Golem Despair (Mal Vex) Rhyme (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Amplify Damage Voodoo Head
+ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK66>0 CLVL<35 ILVL>0]: Amp Dmg Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK66>0 CLVL<35 ILVL>0]: Amp Dmg Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Dim Vision Voodoo Head
+ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK71>0 CLVL<35 ILVL>0]: Dim Vision Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK71>0 CLVL<35 ILVL>0]: Dim Vision Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Elemental Weakness Voodoo Head
+ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK81>0 CLVL<35 ILVL>0]: Ele Weakness Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK81>0 CLVL<35 ILVL>0]: Ele Weakness Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Decrepify Voodoo Head
+ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK87>0 CLVL<35 ILVL>0]: Decrepify Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK87>0 CLVL<35 ILVL>0]: Decrepify Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Hex Voodoo Head
+ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK91>0 CLVL<35 ILVL>0]: Hex Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK91>0 CLVL<35 ILVL>0]: Hex Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Convocation Voodoo Head
+ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK79>0 CLVL<35 ILVL>0]: Convocation Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK79>0 CLVL<35 ILVL>0]: Convocation Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Low Level Paladin Shields - Runewords
 ItemDisplay[NMAG SOCK=3 (pa1 || pa2 || tow) CLVL<35 ILVL>0]: Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (pa1 || pa2 || tow) CLVL<35 ILVL>0]: Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Paladin Helms - Runewords
+ItemDisplay[NMAG SOCK=2 (pc4 || pc1) CLVL<50 ILVL>0]: Holy Tears RW (Ral Eld) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Druid Pelts - Runewords
+ItemDisplay[NMAG SOCK=2 (dr1 || dr6) CLVL<62 ILVL>0]: Water RW (Thul Ith) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Assassin Claw - Blade Talons - Fastest IAS Base (-30 Speed) - Runewords
+ItemDisplay[NMAG SOCK=2 btl CLVL<50 ILVL>0]: Morning RW (Eld Ort) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Assassin Claw - Quhab - Runewords
+ItemDisplay[NMAG SOCK=3 9ar CLVL<55 ILVL>0]: Pattern RW (Tal Ort Tir) Authority RW (El Eth Ith) Madness RW (El Ort El) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Low Level Scimitar (-20 Speed) - Runewords
 ItemDisplay[NMAG SOCK=2 scm CLVL<35 ILVL>0]: Steel RW (Tir El) Strength (Amn Tir) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
@@ -371,13 +463,12 @@ ItemDisplay[(NMAG !INF) SOCK=5 bw4 CLVL<60 ILVL>1]: Honor (Amn El Ith Tir Sol) %
 ItemDisplay[(NMAG !INF) SOCK=3 bw5 CLVL<60 ILVL>1]: Authority (El Eth Ith) Pestilence (Tir Tal Tir) Envy (Ort Amn Ral) Black (Thul Io Nef) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[(NMAG !INF) SOCK=5 bw5 CLVL<60 ILVL>1]: Honor (Amn El Ith Tir Sol) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
+//Low Level Kris (-20 Speed) - Runewords
+ItemDisplay[(NMAG !INF) SOCK=2 kri CLVL<60 ILVL>1]: Strength (Amn Tir) Night (Tir Io) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
 //Low Level Cinquedeas (-20 Speed) - Runewords
 ItemDisplay[(NMAG !INF) SOCK=3 9kr CLVL<55 ILVL>1]: Authority (El Eth Ith) Envy (Ort Amn Ral) Black (Thul Io Nef) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 9kr CLVL<40 ILVL>1]: Strength (Amn Tir) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Fanged Knife (-20 Speed) - Runewords
-ItemDisplay[(NMAG !INF) SOCK=3 7kr CLVL<60 ILVL>1]: Authority (El Eth Ith) Envy (Ort Amn Ral) Black (Thul Io Nef) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 7kr CLVL<55 ILVL>1]: Strength (Amn Tir) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 9kr CLVL<60 ILVL>1]: Strength (Amn Tir) Night (Tir Io) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Low Level Cutlass (-30 Speed) - Runewords
 ItemDisplay[(NMAG !INF) SOCK=2 9sm CLVL<55 ILVL>1]: Steel (Tir El) Strength (Amn Tir) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
@@ -386,17 +477,25 @@ ItemDisplay[(NMAG !INF) SOCK=2 9sm CLVL<55 ILVL>1]: Steel (Tir El) Strength (Amn
 ItemDisplay[(NMAG !INF) SOCK=2 7cr CLVL<55 ILVL>1]: Steel (Tir El) Strength (Amn Tir) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[(NMAG !INF) SOCK=3 7cr CLVL<60 ILVL>1]: Authority (El Eth Ith) Envy (Ort Amn Ral) Black (Thul Io Nef) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
-//Low Level Quhab - Runewords
-ItemDisplay[NMAG SOCK=3 9ar CLVL<55 ILVL>0]: Pattern RW (Tal Ort Tir) Authority RW (El Eth Ith) Madness RW (El Ort El) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
 //Low Level Composite Bow - Stag Bow - Hunter's Bow - Light Crossbow - Runewords
 ItemDisplay[NMAG SOCK=2 (cbw || am1 || hbw || lxb) CLVL<35 ILVL>0]: Zephyr RW (Ort Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Battle Staff - Jo Staff - Gothic Staff - Walking Stick For Cascade Sorc Runewords
+ItemDisplay[NMAG SOCK=2 (bst || 8ss || 8bs || 6ss) CLVL<70 ILVL>0]: Cascade Sorc Strength (Amn Tir) Night (Tir Io) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=3 (bst || 8ss || 8bs || 6ss) CLVL<70 ILVL>0]: Cascade Sorc Madness (El Ort El) Envy (Ort Amn Ral) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=4 (bst || 8ss || 8bs || 6ss) CLVL<70 ILVL>0]: Cascade Sorc Insight (Ral Tir Tal Sol) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Fire Ball Short Staff - Gnarled Staff - Battle Staff - Long Staff - Runewords
+ItemDisplay[NMAG SOCK=2 (sst || cst || bst || lst) SK47>2 CLVL<35 ILVL>0]: Leaf RW (Tir Ral) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Hydra Short Staff - Gnarled Staff - Battle Staff - Long Staff - Runewords
+ItemDisplay[NMAG SOCK=2 (sst || cst || bst || lst) SK62>2 CLVL<35 ILVL>0]: Leaf RW (Tir Ral) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Low Level Clasped Orb (Voltaic Blast) - Runewords
 ItemDisplay[NMAG SOCK=2 ob4 CLVL<24 ILVL>0]: Voltaic Blast Terror RW (Ith Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
-//Low Level Voltaic Blast Clasped Orb - Runewords
-ItemDisplay[NMAG SOCK=2 ob4 SK43>2 CLVL<35 ILVL>0]: + 3 Voltaic Blast Terror RW (Ith Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+//Low Level Clasped Orb - Voltaic Blast - Runewords
+ItemDisplay[NMAG SOCK=2 (ob4 || ob9) SK43>0 CLVL<70 ILVL>0]: Voltaic Blast Tradition RW (Eld Amn) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Low Level Hydra Eagle Orb - Smoked Sphere - Sacred Globe - Runewords
 ItemDisplay[NMAG SOCK=2 (ob1 || ob2 || ob3 || lxb) SK62>2 CLVL<35 ILVL>0]: + 3 Hydra Terror RW (Ith Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
@@ -409,12 +508,6 @@ ItemDisplay[NMAG SOCK=2 (ob1 || ob2 || ob3 || lxb) SK37>2 CLVL<35 ILVL>0]: +3 Ic
 
 //Low Level Charged Bolt Eagle Orb - Smoked Sphere - Sacred Globe - Runewords
 ItemDisplay[NMAG SOCK=2 (ob1 || ob2 || ob3 || lxb) SK39>2 CLVL<35 ILVL>0]: +3 Charged Bolt Terror RW (Ith Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Fire Ball Short Staff - Gnarled Staff - Battle Staff - Long Staff - Runewords
-ItemDisplay[NMAG SOCK=2 (sst || cst || bst || lst) SK47>2 CLVL<35 ILVL>0]: Leaf RW (Tir Ral) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Hydra Short Staff - Gnarled Staff - Battle Staff - Long Staff - Runewords
-ItemDisplay[NMAG SOCK=2 (sst || cst || bst || lst) SK62>2 CLVL<35 ILVL>0]: Leaf RW (Tir Ral) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Low Level Teeth Bone Wand - Runewords
 ItemDisplay[NMAG SOCK=2 bwn SK67>2 CLVL<55 ILVL>0]: Terror RW (Ith Eth) White RW (Dol Io) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
