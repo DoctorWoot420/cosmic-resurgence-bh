@@ -33,7 +33,7 @@ def merge_files():
     base_lines = base_content.splitlines()
     insert_index = None
     for i, line in enumerate(base_lines):
-        if "// START RUNES BLOCK" in line:
+        if "// start runes block" in line.lower():
             insert_index = i + 3
             break
 

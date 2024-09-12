@@ -19,3 +19,8 @@ You have 3 choices for progressively filtering items:
 
 Unless something should be visibile at filter 3, it must have a notify-dead and/or a filter line, if it also has a tier line somewhere.
 You don't have to define a filter line for every tiered line because there are catch-all filters on bottom.  For any rare/craft/alch lines that you want to filter, you only need to specify the FILTLVL<X criteria on the target lines.  Just make that your criteria is the filter level below what that item would get filtered at below.  For example elite rare items dont get filtered until FILT 3 at bottom, so a rare line to highlight them would be like (ulb) (RARE) (FILTLVL<3) (otherCriteriaHere), then you can count on it matching the generic filter line once it hits filt 3.
+
+
+Filter builder from build blocks
+* Python script build_config_from_params.py served via http endpoint will combine the base bh file with a set of build-blocks based on input params
+* Sample test request: curl -X POST http://localhost:8083/merge-files -H "Content-Type: application/json" -d '{"rune_design": "cosmic-rainbow"}'

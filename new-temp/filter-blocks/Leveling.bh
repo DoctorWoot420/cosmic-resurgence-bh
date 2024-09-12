@@ -1,4 +1,541 @@
 //////////////////////////////////////////////////////////////////
+//Low Level Starting Gear/////////////////////////////////////////
+//**THESE ITEMS WILL BE AUTOMATICALLY FILTERED OUT @ LVL24**//////
+//////////////////////////////////////////////////////////////////
+
+
+//Low Level Amulets - Flat Damage
+ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5) STAT21>9 STAT22>19 CLVL<24 ILVL>0]: T4 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[MAG (au1 || au2 || au3 || au4 || au5) STAT21>9 STAT22>19 CLVL<20 ILVL>0]: T4 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Amulets - Faster Cast Rate
+ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5) FCR>9 CLVL<24 ILVL>0]: FCR %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[MAG (au1 || au2 || au3 || au4 || au5) FCR>9 CLVL<20 ILVL>0]: FCR %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Amulets - Tri Resistances
+ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5) FRES>9 CRES>9 LRES>9 CLVL<24 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5) FRES>9 CRES>9 PRES>9 CLVL<24 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5) CRES>9 LRES>9 PRES>9 CLVL<24 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5) FRES>9 LRES>9 PRES>9 CLVL<24 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Class Skills Amulets 
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK0>0 CLVL<50 ILVL>0]: Amazon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK2>0 CLVL<50 ILVL>0]: Javzon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK0>0 CLVL<50 ILVL>0]: Bowzon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK6>0 CLVL<50 ILVL>0]: Assassin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK50>0 CLVL<50 ILVL>0]: MA Sin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK48>0 CLVL<50 ILVL>0]: Trap Sin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK1>0 CLVL<50 ILVL>0]: Sorceress %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK8>0 CLVL<50 ILVL>0]: Fire Sorc %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK9>0 CLVL<50 ILVL>0]: Light Sorc %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK10>0 CLVL<50 ILVL>0]: Cold Sorc %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK2>0 CLVL<50 ILVL>0]: Necromancer %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK17>0 CLVL<50 ILVL>0]: PnB Necro %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK18>0 CLVL<50 ILVL>0]: Necro Summon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK3>0 CLVL<50 ILVL>0]: Paladin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK24>0 CLVL<50 ILVL>0]: Pally Combat %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK4>0 CLVL<50 ILVL>0]: Barbarian %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK34>0 CLVL<50 ILVL>0]: Warcry Barb %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK5>0 CLVL<50 ILVL>0]: Druid %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK40>0 CLVL<50 ILVL>0]: Druid Summon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK42>0 CLVL<50 ILVL>0]: Druid Elemental %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Rings - Flat Damage
+ItemDisplay[RARE (rg1 || rg2 || rg3 || rg4 || rg5 || li0 || li1 || li2 || li3 || li4 || sf1 || sf2 || sf3 || sf4) STAT21>4 STAT22>9 CLVL<24 ILVL>0]: T4 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[MAG (rg1 || rg2 || rg3 || rg4 || rg5 || li0 || li1 || li2 || li3 || li4 || sf1 || sf2 || sf3 || sf4) STAT21>4 STAT22>9 CLVL<24 ILVL>0]: T4 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Rings - Faster Cast Rate
+ItemDisplay[RARE (rg1 || rg2 || rg3 || rg4 || rg5 || li0 || li1 || li2 || li3 || li4 || sf1 || sf2 || sf3 || sf4) FCR>9 CLVL<24 ILVL>0]: FCR %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[MAG (rg1 || rg2 || rg3 || rg4 || rg5 || li0 || li1 || li2 || li3 || li4 || sf1 || sf2 || sf3 || sf4) FCR>9 CLVL<24 ILVL>0]: FCR %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Circlets - Flat Damage, Faster Run/Walk 
+ItemDisplay[RARE EQ7 STAT21>9 STAT22>19 FRW>9 CLVL<50 ILVL>0]: FRW Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[MAG EQ7 STAT21>9 STAT22>19 FRW>9 CLVL<50 ILVL>0]: FRW Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Circlets - Faster Cast Rate, Faster Run/Walk 
+ItemDisplay[RARE EQ7 FCR>9 FRW>9 CLVL<50 ILVL>0]: FRW FCR %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[MAG EQ7 FCR>9 FRW>9 CLVL<50 ILVL>0]: FRW FCR %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Circlets - Faster Cast Rate, 10+ Dual Resistances
+ItemDisplay[RARE EQ7 FCR>9 CRES>9 FRES>9 CLVL<50 ILVL>0]: FCR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE EQ7 FCR>9 CRES>9 LRES>9 CLVL<50 ILVL>0]: FCR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE EQ7 FCR>9 CRES>9 PRES>9 CLVL<50 ILVL>0]: FCR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE EQ7 FCR>9 LRES>9 FRES>9 CLVL<50 ILVL>0]: FCR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE EQ7 FCR>9 PRES>9 FRES>9 CLVL<50 ILVL>0]: FCR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE EQ7 FCR>9 LRES>9 PRES>9 CLVL<50 ILVL>0]: FCR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Circlets - Faster Run/Walk, 10+ Dual Resistances
+ItemDisplay[RARE EQ7 FRW>9 CRES>9 FRES>9 CLVL<50 ILVL>0]: FRW Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE EQ7 FRW>9 CRES>9 LRES>9 CLVL<50 ILVL>0]: FRW Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE EQ7 FRW>9 CRES>9 PRES>9 CLVL<50 ILVL>0]: FRW Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE EQ7 FRW>9 LRES>9 FRES>9 CLVL<50 ILVL>0]: FRW Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE EQ7 FRW>9 PRES>9 FRES>9 CLVL<50 ILVL>0]: FRW Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE EQ7 FRW>9 LRES>9 PRES>9 CLVL<50 ILVL>0]: FRW Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Circlets - Tri Resistances
+ItemDisplay[RARE EQ7 FRES>9 CRES>9 LRES>9 CLVL<50 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE EQ7 FRES>9 CRES>9 PRES>9 CLVL<50 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE EQ7 CRES>9 LRES>9 PRES>9 CLVL<50 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE EQ7 FRES>9 LRES>9 PRES>9 CLVL<50 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Class Circlets 
+ItemDisplay[(RARE || MAG) EQ7 CLSK0>0 CLVL<50 ILVL>0]: Amazon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) EQ7 TABSK2>0 CLVL<50 ILVL>0]: Javzon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) EQ7 TABSK0>0 CLVL<50 ILVL>0]: Bowzon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) EQ7 CLSK6>0 CLVL<50 ILVL>0]: Assassin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) EQ7 TABSK50>0 CLVL<50 ILVL>0]: MA Sin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) EQ7 TABSK48>0 CLVL<50 ILVL>0]: Trap Sin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) EQ7 CLSK1>0 CLVL<50 ILVL>0]: Sorceress %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) EQ7 TABSK8>0 CLVL<50 ILVL>0]: Fire Sorc %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) EQ7 TABSK9>0 CLVL<50 ILVL>0]: Light Sorc %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) EQ7 TABSK10>0 CLVL<50 ILVL>0]: Cold Sorc %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) EQ7 CLSK2>0 CLVL<50 ILVL>0]: Necromancer %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) EQ7 TABSK17>0 CLVL<50 ILVL>0]: PnB Necro %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) EQ7 TABSK18>0 CLVL<50 ILVL>0]: Necro Summon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) EQ7 CLSK3>0 CLVL<50 ILVL>0]: Paladin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) EQ7 TABSK24>0 CLVL<50 ILVL>0]: Pally Combat %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) EQ7 CLSK4>0 CLVL<50 ILVL>0]: Barbarian %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) EQ7 TABSK34>0 CLVL<50 ILVL>0]: Warcry Barb %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) EQ7 CLSK5>0 CLVL<50 ILVL>0]: Druid %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) EQ7 TABSK40>0 CLVL<50 ILVL>0]: Druid Summon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) EQ7 TABSK42>0 CLVL<50 ILVL>0]: Druid Elemental %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Barbarian Helmets - Flat Damage
+ItemDisplay[RARE ba1 STAT21>9 STAT22>19 CLVL<24 ILVL>0]: T4 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[MAG ba1 STAT21>9 STAT22>19 CLVL<24 ILVL>0]: T4 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Barbarian Helmets - Faster Hit Recovery, 10+ Dual Resistances
+ItemDisplay[RARE ba1 FHR>9 CRES>9 FRES>9 CLVL<24 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE ba1 FHR>9 CRES>9 LRES>9 CLVL<24 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE ba1 FHR>9 CRES>9 PRES>9 CLVL<24 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE ba1 FHR>9 LRES>9 FRES>9 CLVL<24 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE ba1 FHR>9 PRES>9 FRES>9 CLVL<24 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE ba1 FHR>9 LRES>9 PRES>9 CLVL<24 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Barbarian Helmets - Tri Resistances
+ItemDisplay[RARE ba1 FRES>9 CRES>9 LRES>9 CLVL<24 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE ba1 FRES>9 CRES>9 PRES>9 CLVL<24 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE ba1 CRES>9 LRES>9 PRES>9 CLVL<24 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE ba1 FRES>9 LRES>9 PRES>9 CLVL<24 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Druid Helmets - Flat Damage
+ItemDisplay[RARE dr1 STAT21>9 STAT22>19 CLVL<24 ILVL>0]: T4 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[MAG dr1 STAT21>9 STAT22>19 CLVL<24 ILVL>0]: T4 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Druid Helmets - Faster Hit Recovery, 10+ Dual Resistances
+ItemDisplay[RARE dr1 FHR>9 CRES>9 FRES>9 CLVL<24 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE dr1 FHR>9 CRES>9 LRES>9 CLVL<24 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE dr1 FHR>9 CRES>9 PRES>9 CLVL<24 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE dr1 FHR>9 LRES>9 FRES>9 CLVL<24 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE dr1 FHR>9 PRES>9 FRES>9 CLVL<24 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE dr1 FHR>9 LRES>9 PRES>9 CLVL<24 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Druid Helmets - Tri Resistances
+ItemDisplay[RARE dr1 FRES>9 CRES>9 LRES>9 CLVL<24 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE dr1 FRES>9 CRES>9 PRES>9 CLVL<24 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE dr1 CRES>9 LRES>9 PRES>9 CLVL<24 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE dr1 FRES>9 LRES>9 PRES>9 CLVL<24 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Helmets - Flat Damage
+ItemDisplay[RARE HELM STAT21>9 STAT22>19 CLVL<20 ILVL>0]: T4 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[MAG HELM STAT21>9 STAT22>19 CLVL<20 ILVL>0]: T4 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Helmets - Faster Hit Recovery, 10+ Dual Resistances
+ItemDisplay[RARE HELM FHR>9 CRES>9 FRES>9 CLVL<24 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE HELM FHR>9 CRES>9 LRES>9 CLVL<24 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE HELM FHR>9 CRES>9 PRES>9 CLVL<24 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE HELM FHR>9 LRES>9 FRES>9 CLVL<24 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE HELM FHR>9 PRES>9 FRES>9 CLVL<24 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE HELM FHR>9 LRES>9 PRES>9 CLVL<24 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Helmets - Tri Resistances
+ItemDisplay[RARE HELM FRES>9 CRES>9 LRES>9 CLVL<24 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE HELM FRES>9 CRES>9 PRES>9 CLVL<24 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE HELM CRES>9 LRES>9 PRES>9 CLVL<24 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE HELM FRES>9 LRES>9 PRES>9 CLVL<24 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Armor - Faster Hit Recovery, 10+ Dual Resistances
+ItemDisplay[RARE CHEST FHR>9 CRES>9 FRES>9 CLVL<24 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE CHEST FHR>9 CRES>9 LRES>9 CLVL<24 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE CHEST FHR>9 CRES>9 PRES>9 CLVL<24 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE CHEST FHR>9 LRES>9 FRES>9 CLVL<24 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE CHEST FHR>9 PRES>9 FRES>9 CLVL<24 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE CHEST FHR>9 LRES>9 PRES>9 CLVL<24 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Armor - Tri Resistances
+ItemDisplay[RARE CHEST FRES>9 CRES>9 LRES>9 CLVL<24 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE CHEST FRES>9 CRES>9 PRES>9 CLVL<24 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE CHEST CRES>9 LRES>9 PRES>9 CLVL<24 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE CHEST FRES>9 LRES>9 PRES>9 CLVL<24 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Amazon Gloves - Javelin Skills
+ItemDisplay[RARE (ag1 || ag4) TABSK2>0 CLVL<32 ILVL>0]: Jav Skill Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[MAG (ag1 || ag4) TABSK2>0 CLVL<32 ILVL>0]: Jav Skill Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Amazon Gloves - Bow & Crossbow Skills
+ItemDisplay[RARE (ag1 || ag4) TABSK0>0 CLVL<32 ILVL>0]: Bow Skill Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[MAG (ag1 || ag4) TABSK0>0 CLVL<32 ILVL>0]: Bow Skill Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Amazon Gloves - Flat Damage
+ItemDisplay[RARE (ag1 || ag4) STAT21>9 STAT22>19 CLVL<24 ILVL>0]: T4 Flat Dmg Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[MAG (ag1 || ag4) STAT21>9 STAT22>19 CLVL<24 ILVL>0]: T4 Flat Dmg Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Amazon Armguards Gloves - Increased Attack Speed, 10+ Dual Resistances
+ItemDisplay[RARE ag1 IAS>4 CRES>9 FRES>9 CLVL<24 ILVL>0]: IAS Dual Resist Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE ag1 IAS>4 CRES>9 LRES>9 CLVL<24 ILVL>0]: IAS Dual Resist Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE ag1 IAS>4 CRES>9 PRES>9 CLVL<24 ILVL>0]: IAS Dual Resist Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE ag1 IAS>4 LRES>9 FRES>9 CLVL<24 ILVL>0]: IAS Dual Resist Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE ag1 IAS>4 PRES>9 FRES>9 CLVL<24 ILVL>0]: IAS Dual Resist Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE ag1 IAS>4 LRES>9 PRES>9 CLVL<24 ILVL>0]: IAS Dual Resist Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Maiden Gloves - Enhanced Damage, 10+ Dual Resistances
+ItemDisplay[RARE ag4 ED>24 CRES>9 FRES>9 CLVL<24 ILVL>0]: ED Dual Resist Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE ag4 ED>24 CRES>9 LRES>9 CLVL<24 ILVL>0]: ED Dual Resist Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE ag4 ED>24 CRES>9 PRES>9 CLVL<24 ILVL>0]: ED Dual Resist Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE ag4 ED>24 LRES>9 FRES>9 CLVL<24 ILVL>0]: ED Dual Resist Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE ag4 ED>24 PRES>9 FRES>9 CLVL<24 ILVL>0]: ED Dual Resist Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE ag4 ED>24 LRES>9 PRES>9 CLVL<24 ILVL>0]: ED Dual Resist Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Amazon Gloves - Tri Resistances
+ItemDisplay[RARE (ag1 || ag4) FRES>9 CRES>9 LRES>9 CLVL<24 ILVL>0]: Tri Resist Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE (ag1 || ag4) FRES>9 CRES>9 PRES>9 CLVL<24 ILVL>0]: Tri Resist Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE (ag1 || ag4) CRES>9 LRES>9 PRES>9 CLVL<24 ILVL>0]: Tri Resist Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE (ag1 || ag4) FRES>9 LRES>9 PRES>9 CLVL<24 ILVL>0]: Tri Resist Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Gloves - Flat Damage
+ItemDisplay[RARE GLOVES STAT21>9 STAT22>19 CLVL<24 ILVL>0]: T4 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[MAG GLOVES STAT21>9 STAT22>19 CLVL<24 ILVL>0]: T4 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Gloves - Strength, 10+ Dual Resistances
+ItemDisplay[RARE GLOVES STAT0>4 CRES>9 FRES>9 CLVL<24 ILVL>0]: STR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE GLOVES STAT0>4 CRES>9 LRES>9 CLVL<24 ILVL>0]: STR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE GLOVES STAT0>4 CRES>9 PRES>9 CLVL<24 ILVL>0]: STR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE GLOVES STAT0>4 LRES>9 FRES>9 CLVL<24 ILVL>0]: STR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE GLOVES STAT0>4 PRES>9 FRES>9 CLVL<24 ILVL>0]: STR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE GLOVES STAT0>4 LRES>9 PRES>9 CLVL<24 ILVL>0]: STR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Gloves - Increased Attack Speed, 10+ Dual Resistances
+ItemDisplay[RARE GLOVES IAS>9 CRES>9 FRES>9 CLVL<24 ILVL>0]: IAS Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE GLOVES IAS>9 CRES>9 LRES>9 CLVL<24 ILVL>0]: IAS Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE GLOVES IAS>9 CRES>9 PRES>9 CLVL<24 ILVL>0]: IAS Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE GLOVES IAS>9 LRES>9 FRES>9 CLVL<24 ILVL>0]: IAS Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE GLOVES IAS>9 PRES>9 FRES>9 CLVL<24 ILVL>0]: IAS Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE GLOVES IAS>9 LRES>9 PRES>9 CLVL<24 ILVL>0]: IAS Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Gloves - Tri Resistances
+ItemDisplay[RARE GLOVES FRES>9 CRES>9 LRES>9 CLVL<24 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE GLOVES FRES>9 CRES>9 PRES>9 CLVL<24 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE GLOVES CRES>9 LRES>9 PRES>9 CLVL<24 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE GLOVES FRES>9 LRES>9 PRES>9 CLVL<24 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Boots - 20+ Faster Run/Walk
+ItemDisplay[MAG BOOTS FRW>19 CLVL<24 ILVL>0]: FRW %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE BOOTS FRW>19 CLVL<24 ILVL>0]: FRW %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Boots - 20+ Faster Run/Walk, 10+ Dual Resistances
+ItemDisplay[RARE BOOTS FRW>19 CRES>9 FRES>9 CLVL<24 ILVL>0]: FRW Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE BOOTS FRW>19 CRES>9 LRES>9 CLVL<24 ILVL>0]: FRW Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE BOOTS FRW>19 CRES>9 PRES>9 CLVL<24 ILVL>0]: FRW Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE BOOTS FRW>19 LRES>9 FRES>9 CLVL<24 ILVL>0]: FRW Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE BOOTS FRW>19 PRES>9 FRES>9 CLVL<24 ILVL>0]: FRW Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE BOOTS FRW>19 LRES>9 PRES>9 CLVL<24 ILVL>0]: FRW Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Boots - 20+ Faster Run/Walk, 10+ Tri Resistances
+ItemDisplay[RARE BOOTS FRW>19 FRES>9 CRES>9 LRES>9 CLVL<24 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE BOOTS FRW>19 FRES>9 CRES>9 PRES>9 CLVL<24 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE BOOTS FRW>19 CRES>9 LRES>9 PRES>9 CLVL<24 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE BOOTS FRW>19 FRES>9 LRES>9 PRES>9 CLVL<24 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Belts - Faster Hit Recovery, 10+ Dual Resistances
+ItemDisplay[RARE BELT FHR>9 CRES>9 FRES>9 CLVL<24 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE BELT FHR>9 CRES>9 LRES>9 CLVL<24 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE BELT FHR>9 CRES>9 PRES>9 CLVL<24 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE BELT FHR>9 LRES>9 FRES>9 CLVL<24 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE BELT FHR>9 PRES>9 FRES>9 CLVL<24 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE BELT FHR>9 LRES>9 PRES>9 CLVL<24 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Belts - Tri Resistances
+ItemDisplay[RARE BELT FRES>9 CRES>9 LRES>9 CLVL<24 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE BELT FRES>9 CRES>9 PRES>9 CLVL<24 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE BELT CRES>9 LRES>9 PRES>9 CLVL<24 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE BELT FRES>9 LRES>9 PRES>9 CLVL<24 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Shields - Faster Hit Recovery, 10+ Dual Resistances
+ItemDisplay[RARE SHIELD FHR>9 CRES>9 FRES>9 CLVL<24 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE SHIELD FHR>9 CRES>9 LRES>9 CLVL<24 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE SHIELD FHR>9 CRES>9 PRES>9 CLVL<24 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE SHIELD FHR>9 LRES>9 FRES>9 CLVL<24 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE SHIELD FHR>9 PRES>9 FRES>9 CLVL<24 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE SHIELD FHR>9 LRES>9 PRES>9 CLVL<24 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Shields - +12 All Resistances Affix
+ItemDisplay[RARE SHIELD FRES>11 CRES>11 LRES>11 PRES>11 CLVL<51 ILVL>0]: All Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Arrow & Bolt Quivers - Flat Damage
+ItemDisplay[RARE (aq2 || aq3 || bq2) STAT21>9 STAT22>14 CLVL<24 ILVL>0]: T5 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[MAG (aq2 || aq3 || bq2) STAT21>9 STAT22>14 CLVL<24 ILVL>0]: T5 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Physical Weapons - Enhanced Damage - Life Leech
+ItemDisplay[RARE (WP1 || WP2 || WP3 || WP4 || WP5 || WP8 || WP9 || WP10) ED>49 STAT60>1 CLVL<15 ILVL>0]: ED Life Leech %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Physical Weapons - Enhanced Damage - Life Leech
+ItemDisplay[RARE (WP1 || WP2 || WP3 || WP4 || WP5 || WP8 || WP9 || WP10) ED>79 STAT60>1 CLVL<24 ILVL>0]: ED Life Leech %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Assassin Claws - Enhanced Damage - Life Leech
+ItemDisplay[RARE (ktr || axf || ces || clw || btl || wrb) ED>49 STAT60>1 CLVL<15 ILVL>0]: ED Life Leech %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Assassin Claws - Enhanced Damage - Life Leech
+ItemDisplay[RARE (ktr || axf || ces || clw || btl || wrb) ED>79 STAT60>1 CLVL<24 ILVL>0]: ED Life Leech %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Assassin Claws - +3 Psychic Hammer
+ItemDisplay[RARE (ktr || axf || ces || clw || btl || wrb) SK253>2 CLVL<24 ILVL>0]: + 3 Psychic Hammer %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%] 
+ItemDisplay[MAG (ktr || axf || ces || clw || btl || wrb) SK253>2 CLVL<24 ILVL>0]: + 3 Psychic Hammer %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Assassin Claws - +1 Trap Skills
+ItemDisplay[RARE (ktr || axf || ces || clw || btl || wrb) TABSK48>0 CLVL<32 ILVL>0]: + 1 Trap Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%] 
+ItemDisplay[MAG (ktr || axf || ces || clw || btl || wrb) TABSK48>0 CLVL<32 ILVL>0]: +1 Trap Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Assassin Claws - +1 Assassin Skills
+ItemDisplay[RARE (ktr || axf || ces || clw || btl || wrb) CLSK6>0 CLVL<58 ILVL>0]: +1 Sin Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%] 
+ItemDisplay[MAG (ktr || axf || ces || clw || btl || wrb) CLSK6>0 CLVL<58 ILVL>0]: +1 Sin Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Voltaic Blast Clasped Orb - Eagle Orb - Smoked Sphere - Sacred Globe
+ItemDisplay[RARE (ob1 || ob2 || ob3 || lxb || ob4) SK43>2 CLVL<24 ILVL>0]: + 3 Voltaic Blast %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[MAG (ob1 || ob2 || ob3 || lxb || ob4) SK43>2 CLVL<24 ILVL>0]: + 3 Voltaic Blast %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Fireball Eagle Orb - Smoked Sphere - Sacred Globe
+ItemDisplay[RARE (ob1 || ob2 || ob3 || lxb) SK47>2 CLVL<24 ILVL>0]: + 3 Fireball %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[MAG (ob1 || ob2 || ob3 || lxb) SK47>2 CLVL<24 ILVL>0]: + 3 Fireball %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Hydra Eagle Orb - Smoked Sphere - Sacred Globe
+ItemDisplay[RARE (ob1 || ob2 || ob3 || lxb) SK62>2 CLVL<24 ILVL>0]: + 3 Hydra %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[MAG (ob1 || ob2 || ob3 || lxb) SK62>2 CLVL<24 ILVL>0]: + 3 Hydra %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Ice Lance Eagle Orb - Smoked Sphere - Sacred Globe
+ItemDisplay[RARE (ob1 || ob2 || ob3 || lxb) SK37>2 CLVL<24 ILVL>0]: + 3 Ice Lance %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[MAG (ob1 || ob2 || ob3 || lxb) SK37>2 CLVL<24 ILVL>0]: + 3 Ice Lance %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Charged Bolt Eagle Orb - Smoked Sphere - Sacred Globe
+ItemDisplay[RARE (ob1 || ob2 || ob3 || lxb) SK39>2 CLVL<24 ILVL>0]: + 3 Charged Bolt %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[MAG (ob1 || ob2 || ob3 || lxb) SK39>2 CLVL<24 ILVL>0]: + 3 Charged Bolt %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Teeth Bone Wand - Wand - Yew Wand 
+ItemDisplay[RARE (bwn || wnd || ywn) SK67>2 CLVL<24 ILVL>0]: + 3 Teeth %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[MAG (bwn || wnd || ywn) SK67>2 CLVL<24 ILVL>0]: + 3 Teeth %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Toxic Delivery Bone Wand - Wand - Yew Wand 
+ItemDisplay[RARE (bwn || wnd || ywn) SK73>2 CLVL<24 ILVL>0]: + 3 Toxic Delivery %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[MAG (bwn || wnd || ywn) SK73>2 CLVL<24 ILVL>0]: + 3 Toxic Delivery %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Putrify Bone Wand - Wand - Yew Wand 
+ItemDisplay[RARE (bwn || wnd || ywn) SK83>2 CLVL<24 ILVL>0]: + 3 Putrify %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[MAG (bwn || wnd || ywn) SK83>2 CLVL<24 ILVL>0]: + 3 Putrify %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Skeleton Warrior Bone Wand - Wand - Yew Wand 
+ItemDisplay[RARE (bwn || wnd || ywn) SK70>2 CLVL<24 ILVL>0]: + 3 Skeleton Warrior %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[MAG (bwn || wnd || ywn) SK70>2 CLVL<24 ILVL>0]: + 3 Skeleton Warrior %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Socketables
+//Low Level Armor - Runewords
+ItemDisplay[NMAG SOCK=2 (qui || rng || scl || chn || brs || spl || tkl || lea || hla || stu) CLVL<35 ILVL>0]: Stealth RW (Tal Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=3 (qui || rng || scl || chn || brs || spl || tkl || lea || hla || stu) CLVL<35 ILVL>0]: Hesitation RW (Tir Eld Nef) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Necromancer Armor - Runewords
+ItemDisplay[NMAG SOCK=2 (na4 || na1) CLVL<35 ILVL>0]: Stealth RW (Tal Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=3 (na4 || na1) CLVL<35 ILVL>0]: Thunder RW (Ort El Nef) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Shields - Runewords
+ItemDisplay[NMAG SOCK=3 (lrg || kit || tow) CLVL<35 ILVL>0]: Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (lrg || kit || tow || spk || bsh) CLVL<35 ILVL>0]: Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Necro Shields - Runewords
+//Teeth Voodoo Head
+ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK67>0 CLVL<35 ILVL>0]: Teeth Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK67>0 CLVL<35 ILVL>0]: Teeth Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Bone Spear Voodoo Head
+ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK84>0 CLVL<35 ILVL>0]: Bone Spear Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK84>0 CLVL<35 ILVL>0]: Bone Spear Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Bone Spirit Voodoo Head
+ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK93>0 CLVL<35 ILVL>0]: Bone Spirit Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK93>0 CLVL<35 ILVL>0]: Bone Spirit Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Poison Nova Voodoo Head
+ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK92>0 CLVL<35 ILVL>0]: Psn Nova Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK92>0 CLVL<35 ILVL>0]: Psn Nova Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Toxic Delivery Voodoo Head
+ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK73>0 CLVL<35 ILVL>0]: Toxic Delivery Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK73>0 CLVL<35 ILVL>0]: Toxic Delivery Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Putrify Voodoo Head
+ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK83>0 CLVL<35 ILVL>0]: Putrify Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK83>0 CLVL<35 ILVL>0]: Putrify Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Corpse Explosion Voodoo Head
+ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK74>0 CLVL<35 ILVL>0]: CE Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK74>0 CLVL<35 ILVL>0]: CE Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Skeleton Warrior Voodoo Head
+ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK70>0 CLVL<35 ILVL>0]: Skele Warrior Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK70>0 CLVL<35 ILVL>0]: Skele Warrior Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Skeleton Archer Voodoo Head
+ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK80>0 CLVL<35 ILVL>0]: Skele Archer Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK80>0 CLVL<35 ILVL>0]: Skele Archer Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Raise Zombie Voodoo Head
+ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK89>0 CLVL<35 ILVL>0]: Zombie Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK89>0 CLVL<35 ILVL>0]: Zombie Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Minion Mastery Voodoo Head
+ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK69>0 CLVL<35 ILVL>0]: Minion Mastery Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK69>0 CLVL<35 ILVL>0]: Minion Mastery Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Blood Golem Voodoo Head
+ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK85>0 CLVL<35 ILVL>0]: Blood Golem Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK85>0 CLVL<35 ILVL>0]: Blood Golem Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Fire Golem Voodoo Head
+ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK94>0 CLVL<35 ILVL>0]: Fire Golem Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK94>0 CLVL<35 ILVL>0]: Fire Golem Despair (Mal Vex) Rhyme (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Amplify Damage Voodoo Head
+ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK66>0 CLVL<35 ILVL>0]: Amp Dmg Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK66>0 CLVL<35 ILVL>0]: Amp Dmg Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Dim Vision Voodoo Head
+ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK71>0 CLVL<35 ILVL>0]: Dim Vision Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK71>0 CLVL<35 ILVL>0]: Dim Vision Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Elemental Weakness Voodoo Head
+ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK81>0 CLVL<35 ILVL>0]: Ele Weakness Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK81>0 CLVL<35 ILVL>0]: Ele Weakness Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Decrepify Voodoo Head
+ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK87>0 CLVL<35 ILVL>0]: Decrepify Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK87>0 CLVL<35 ILVL>0]: Decrepify Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Hex Voodoo Head
+ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK91>0 CLVL<35 ILVL>0]: Hex Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK91>0 CLVL<35 ILVL>0]: Hex Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Convocation Voodoo Head
+ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK79>0 CLVL<35 ILVL>0]: Convocation Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK79>0 CLVL<35 ILVL>0]: Convocation Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Paladin Shields - Runewords
+ItemDisplay[NMAG SOCK=3 (pa1 || pa2 || tow) CLVL<35 ILVL>0]: Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (pa1 || pa2 || tow) CLVL<35 ILVL>0]: Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Paladin Helms - Runewords
+ItemDisplay[NMAG SOCK=2 (pc4 || pc1) CLVL<50 ILVL>0]: Holy Tears RW (Ral Eld) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Druid Pelts - Runewords
+ItemDisplay[NMAG SOCK=2 (dr1 || dr6) CLVL<62 ILVL>0]: Water RW (Thul Ith) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Assassin Claw - Blade Talons - Fastest IAS Base (-30 Speed) - Runewords
+ItemDisplay[NMAG SOCK=2 btl CLVL<50 ILVL>0]: Morning RW (Eld Ort) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Assassin Claw - Quhab - Runewords
+ItemDisplay[NMAG SOCK=3 9ar CLVL<55 ILVL>0]: Pattern RW (Tal Ort Tir) Authority RW (El Eth Ith) Madness RW (El Ort El) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Scimitar (-20 Speed) - Runewords
+ItemDisplay[NMAG SOCK=2 scm CLVL<35 ILVL>0]: Steel RW (Tir El) Strength (Amn Tir) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Crystal Sword - Military Pick - War Scepter - Scythe - Brandistock - Runewords
+ItemDisplay[NMAG SOCK=3 (crs || mpi || wsp || scy || brn) CLVL<35 ILVL>0]: Authority RW (El Eth Ith) Madness RW (El Ort El) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Flail (-10 Speed) - Runewords
+ItemDisplay[(NMAG !INF) SOCK=3 fla CLVL<55 ILVL>1]: Authority RW (El Eth Ith) Madness RW (El Ort El) Black (Thul Io Nef) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Mid Level Knout (-10 Speed) - Runewords
+ItemDisplay[(NMAG !INF) SOCK=3 9fl CLVL<60 ILVL>1]: Black (Thul Io Nef) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=5 9fl CLVL<60 ILVL>1]: Honor (Amn El Ith Tir Sol) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Destroyer Axe (-10 Speed) - Runewords
+ItemDisplay[(NMAG !INF) SOCK=2 bw4 CLVL<40 ILVL>1]: Steel (Tir El) Strength (Amn Tir) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 bw4 CLVL<55 ILVL>1]: Authority (El Eth Ith) Pestilence (Tir Tal Tir) Envy (Ort Amn Ral) Black (Thul Io Nef) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=5 bw4 CLVL<60 ILVL>1]: Honor (Amn El Ith Tir Sol) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Slayer Hatchet (-10 Speed) - Runewords
+ItemDisplay[(NMAG !INF) SOCK=3 bw5 CLVL<60 ILVL>1]: Authority (El Eth Ith) Pestilence (Tir Tal Tir) Envy (Ort Amn Ral) Black (Thul Io Nef) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=5 bw5 CLVL<60 ILVL>1]: Honor (Amn El Ith Tir Sol) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Kris (-20 Speed) - Runewords
+ItemDisplay[(NMAG !INF) SOCK=2 kri CLVL<60 ILVL>1]: Strength (Amn Tir) Night (Tir Io) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Cinquedeas (-20 Speed) - Runewords
+ItemDisplay[(NMAG !INF) SOCK=3 9kr CLVL<55 ILVL>1]: Authority (El Eth Ith) Envy (Ort Amn Ral) Black (Thul Io Nef) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 9kr CLVL<60 ILVL>1]: Strength (Amn Tir) Night (Tir Io) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Cutlass (-30 Speed) - Runewords
+ItemDisplay[(NMAG !INF) SOCK=2 9sm CLVL<55 ILVL>1]: Steel (Tir El) Strength (Amn Tir) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Phase Blade (-30 speed) - Runewords
+ItemDisplay[(NMAG !INF) SOCK=2 7cr CLVL<55 ILVL>1]: Steel (Tir El) Strength (Amn Tir) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 7cr CLVL<60 ILVL>1]: Authority (El Eth Ith) Envy (Ort Amn Ral) Black (Thul Io Nef) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Composite Bow - Stag Bow - Hunter's Bow - Light Crossbow - Runewords
+ItemDisplay[NMAG SOCK=2 (cbw || am1 || hbw || lxb) CLVL<35 ILVL>0]: Zephyr RW (Ort Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Battle Staff - Jo Staff - Gothic Staff - Walking Stick For Cascade Sorc Runewords
+ItemDisplay[NMAG SOCK=2 (bst || 8ss || 8bs || 6ss) CLVL<70 ILVL>0]: Cascade Sorc Strength (Amn Tir) Night (Tir Io) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=3 (bst || 8ss || 8bs || 6ss) CLVL<70 ILVL>0]: Cascade Sorc Madness (El Ort El) Envy (Ort Amn Ral) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=4 (bst || 8ss || 8bs || 6ss) CLVL<70 ILVL>0]: Cascade Sorc Insight (Ral Tir Tal Sol) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Fire Ball Short Staff - Gnarled Staff - Battle Staff - Long Staff - Runewords
+ItemDisplay[NMAG SOCK=2 (sst || cst || bst || lst) SK47>2 CLVL<35 ILVL>0]: Leaf RW (Tir Ral) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Hydra Short Staff - Gnarled Staff - Battle Staff - Long Staff - Runewords
+ItemDisplay[NMAG SOCK=2 (sst || cst || bst || lst) SK62>2 CLVL<35 ILVL>0]: Leaf RW (Tir Ral) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Clasped Orb (Voltaic Blast) - Runewords
+ItemDisplay[NMAG SOCK=2 ob4 CLVL<24 ILVL>0]: Voltaic Blast Terror RW (Ith Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Clasped Orb - Voltaic Blast - Runewords
+ItemDisplay[NMAG SOCK=2 (ob4 || ob9) SK43>0 CLVL<70 ILVL>0]: Voltaic Blast Tradition RW (Eld Amn) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Hydra Eagle Orb - Smoked Sphere - Sacred Globe - Runewords
+ItemDisplay[NMAG SOCK=2 (ob1 || ob2 || ob3 || lxb) SK62>2 CLVL<35 ILVL>0]: + 3 Hydra Terror RW (Ith Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Fireball Eagle Orb - Smoked Sphere - Sacred Globe - Runewords
+ItemDisplay[NMAG SOCK=2 (ob1 || ob2 || ob3 || lxb) SK47>2 CLVL<35 ILVL>0]: +3 Fireball Terror RW (Ith Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Ice Lance Eagle Orb - Smoked Sphere - Sacred Globe - Runewords
+ItemDisplay[NMAG SOCK=2 (ob1 || ob2 || ob3 || lxb) SK37>2 CLVL<35 ILVL>0]: +3 Ice Lance Terror RW (Ith Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Charged Bolt Eagle Orb - Smoked Sphere - Sacred Globe - Runewords
+ItemDisplay[NMAG SOCK=2 (ob1 || ob2 || ob3 || lxb) SK39>2 CLVL<35 ILVL>0]: +3 Charged Bolt Terror RW (Ith Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Teeth Bone Wand - Runewords
+ItemDisplay[NMAG SOCK=2 bwn SK67>2 CLVL<55 ILVL>0]: Terror RW (Ith Eth) White RW (Dol Io) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Bone Spear Bone Wand - Runewords
+ItemDisplay[NMAG SOCK=2 bwn SK84>2 CLVL<55 ILVL>0]: White RW (Dol Io) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Poison Nova Bone Wand - Runewords
+ItemDisplay[NMAG SOCK=2 bwn SK92>2 CLVL<55 ILVL>0]: White RW (Dol Io) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Corpse Explosion Bone Wand - Runewords
+ItemDisplay[NMAG SOCK=2 bwn SK74>2 CLVL<55 ILVL>0]: White RW (Dol Io) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Teeth Bone Wand - Wand - Yew Wand 
+ItemDisplay[NMAG (bwn || wnd || ywn) SK67>2 CLVL<24 ILVL>0]: + 3 Teeth %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Toxic Delivery Bone Wand - Wand - Yew Wand 
+ItemDisplay[NMAG (bwn || wnd || ywn) SK73>2 CLVL<24 ILVL>0]: + 3 Toxic Delivery %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Putrify Bone Wand - Wand - Yew Wand 
+ItemDisplay[NMAG (bwn || wnd || ywn) SK83>2 CLVL<24 ILVL>0]: + 3 Putrify %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Skeleton Warrior Bone Wand - Wand - Yew Wand 
+ItemDisplay[NMAG (bwn || wnd || ywn) SK70>2 CLVL<24 ILVL>0]: + 3 Skeleton Warrior %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+
+
+//////////////////////////////////////////////////////////////////
 //Mid Level Starting Gear/////////////////////////////////////////
 //**THESE ITEMS WILL BE AUTOMATICALLY FILTERED OUT @ LVL70**//////
 //////////////////////////////////////////////////////////////////
