@@ -3,6 +3,34 @@
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
 
+/////////////////////////////////////////////////////////////////////////
+//Valor Item Alchs////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////
+
+//Templar valor alchs
+ItemDisplay[NMAG !INF !SUP 9ws ILVL>54]: Templar Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[NMAG !INF !SUP 9ws ILVL>54 FILTLVL<2]: Templar Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[NMAG !INF !SUP pc1 ILVL>19]: Templar Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[NMAG !INF !SUP pc1 ILVL>19 FILTLVL<2]: Templar Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[NMAG !INF !SUP xlt ILVL>44]: Templar Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[NMAG !INF !SUP xlt ILVL>44 FILTLVL<2]: Templar Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+
+// Justicar valor alchs - The Revered, The Redeemer, Bane of Acheron
+ItemDisplay[NMAG !SUP !INF pc4 ILVL>17]: Justicar Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[NMAG !SUP !INF pc4 ILVL>17 FILTLVL<2]: Justicar Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[NMAG !SUP !INF scp ILVL>8]: Justicar Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[NMAG !SUP !INF scp ILVL>8 FILTLVL<2]: Justicar Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[NMAG !SUP !INF plt ILVL>22]: Justicar Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[NMAG !SUP !INF plt ILVL>22 FILTLVL<2]: Justicar Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+
+// Inquisitor valor alchs - Goldstrike Fletch, Last Rites, Aemyr's Order
+ItemDisplay[NMAG !SUP !INF lwb ILVL>35]: Inquisitor Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[NMAG !SUP !INF lwb ILVL>35 FILTLVL<2]: Inquisitor Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[NMAG !SUP !INF bax ILVL>16]: Inquisitor Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[NMAG !SUP !INF bax ILVL>91 FILTLVL<2]: Inquisitor Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[NMAG !SUP !INF pa5 ILVL>27]: Inquisitor Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[NMAG !SUP !INF pa5 ILVL>91 FILTLVL<2]: Inquisitor Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+
 
 /////////////////////////////////////////////////////////////////////////
 //Jewel Alchs////////////////////////////////////////////////////////////
