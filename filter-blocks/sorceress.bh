@@ -556,6 +556,10 @@ ItemDisplay[(NMAG !INF !SUP) utp ILVL>91 FILTLVL<3]: Mithras Alch %RED%%NAME% %R
 ItemDisplay[(NMAG !INF !SUP) uui ILVL>91 FILTLVL<3]: Ormus Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
 ItemDisplay[(NMAG !INF !SUP) uui ILVL>91 FILTLVL<3]: Ormus Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 
+//Horadric Raiment Armor Alch
+ItemDisplay[(NMAG !INF !SUP) aca ILVL>91 FILTLVL<3]: Raiment Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) aca ILVL>91 FILTLVL<3]: Raiment Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+
 
 /////////////////////////////////////////////////////////////////////////
 //Glove Alchs////////////////////////////////////////////////////////////
