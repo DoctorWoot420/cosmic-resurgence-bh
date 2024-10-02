@@ -10,10 +10,10 @@ ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK9>0 CLVL<50 ILV
 ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK10>0 CLVL<50 ILVL>0]: Cold Sorc %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Low Level Sorceress Circlets
-ItemDisplay[(RARE || MAG) EQ7 CLSK1>0 CLVL<50 ILVL>0]: Sorceress %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) EQ7 TABSK8>0 CLVL<50 ILVL>0]: Fire Sorc %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) EQ7 TABSK9>0 CLVL<50 ILVL>0]: Light Sorc %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) EQ7 TABSK10>0 CLVL<50 ILVL>0]: Cold Sorc %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC CLSK1>0 CLVL<50 ILVL>0]: Sorceress %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC TABSK8>0 CLVL<50 ILVL>0]: Fire Sorc %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC TABSK9>0 CLVL<50 ILVL>0]: Light Sorc %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC TABSK10>0 CLVL<50 ILVL>0]: Cold Sorc %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Low Level Voltaic Blast Clasped Orb - Eagle Orb - Smoked Sphere - Sacred Globe
 ItemDisplay[RARE (ob1 || ob2 || ob3 || lxb || ob4) SK43>2 CLVL<24 ILVL>0]: + 3 Voltaic Blast %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
@@ -73,10 +73,10 @@ ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK9>1 CLVL<70 ILV
 ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK10>1 CLVL<70 ILVL>0]: Cold Sorc %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Mid Level Sorceress Circlets
-ItemDisplay[(RARE || MAG) EQ7 CLSK1>1 CLVL<70 ILVL>0]: Sorceress %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) EQ7 TABSK8>1 CLVL<70 ILVL>0]: Fire Sorc %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) EQ7 TABSK9>1 CLVL<70 ILVL>0]: Light Sorc %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) EQ7 TABSK10>1 CLVL<70 ILVL>0]: Cold Sorc %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC CLSK1>1 CLVL<70 ILVL>0]: Sorceress %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC TABSK8>1 CLVL<70 ILVL>0]: Fire Sorc %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC TABSK9>1 CLVL<70 ILVL>0]: Light Sorc %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC TABSK10>1 CLVL<70 ILVL>0]: Cold Sorc %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Mid Level Voltaic Blast Clasped Orb - Sparkling Ball
 ItemDisplay[RARE (ob4 || ob9) TABSK9>0 SK43>2 CLVL<70 ILVL>0]: Voltaic Blast %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
@@ -260,25 +260,25 @@ ItemDisplay[RARE (%n0 || %n7) TABSK9>0 ILVL>1]: Light Sorc Skills %PURPLE%%BASEN
 ItemDisplay[RARE (%n0 || %n7) TABSK10>0 ILVL>1]: Cold Sorc Skills %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Circlets - Sorceress Skills - Faster Run/Walk
-ItemDisplay[(RARE || MAG) EQ7 CLSK1>1 FRW>29 ILVL>0]: Sorceress %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(RARE || MAG) EQ7 TABSK8>2 FRW>29 ILVL>0]: Fire Sorc %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(RARE || MAG) EQ7 TABSK9>2 FRW>29 ILVL>0]: Light Sorc %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(RARE || MAG) EQ7 TABSK10>2 FRW>29 ILVL>0]: Cold Sorc %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC CLSK1>1 FRW>29 ILVL>0]: Sorceress %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC TABSK8>2 FRW>29 ILVL>0]: Fire Sorc %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC TABSK9>2 FRW>29 ILVL>0]: Light Sorc %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC TABSK10>2 FRW>29 ILVL>0]: Cold Sorc %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Circlets - Ping Tier 2 For +6 Sorceress Skills
-ItemDisplay[RARE (EQ4 || EQ7 || au1 || au2 || au3 || au4 || au5) TABSK8>5]: %PURPLE%0 T2 %MAP%%YELLOW%%NAME% %GREEN%+6 Fire%TIER-2%
-ItemDisplay[RARE (EQ4 || EQ7 || au1 || au2 || au3 || au4 || au5) TABSK9>5]: %PURPLE%0 T2 %MAP%%YELLOW%%NAME% %GREEN%+6 Light%TIER-2%
-ItemDisplay[RARE (EQ4 || EQ7 || au1 || au2 || au3 || au4 || au5) TABSK10>5]: %PURPLE%0 T2 %MAP%%YELLOW%%NAME% %GREEN%+6 Cold%TIER-2%
+ItemDisplay[RARE (CIRC || au1 || au2 || au3 || au4 || au5) TABSK8>5]: %PURPLE%0 T2 %MAP%%YELLOW%%NAME% %GREEN%+6 Fire%TIER-2%
+ItemDisplay[RARE (CIRC || au1 || au2 || au3 || au4 || au5) TABSK9>5]: %PURPLE%0 T2 %MAP%%YELLOW%%NAME% %GREEN%+6 Light%TIER-2%
+ItemDisplay[RARE (CIRC || au1 || au2 || au3 || au4 || au5) TABSK10>5]: %PURPLE%0 T2 %MAP%%YELLOW%%NAME% %GREEN%+6 Cold%TIER-2%
 
 //Circlets - Ping Tier 3 For 4+ Sorceress Skills
-ItemDisplay[RARE (EQ4 || EQ7 || au1 || au2 || au3 || au4 || au5) ((TABSK8>1 CLSK1>1) || (TABSK8>2 CLSK1>0))]: %RED%0 T3 %MAP%%YELLOW%%NAME% %GREEN%4+ Fire%TIER-3%
-ItemDisplay[RARE (EQ4 || EQ7 || au1 || au2 || au3 || au4 || au5) ((TABSK9>1 CLSK1>1) || (TABSK9>2 CLSK1>0))]: %RED%0 T3 %MAP%%YELLOW%%NAME% %GREEN%4+ Light%TIER-3%
-ItemDisplay[RARE (EQ4 || EQ7 || au1 || au2 || au3 || au4 || au5) ((TABSK10>1 CLSK1>1) || (TABSK10>2 CLSK1>0))]: %RED%0 T3 %MAP%%YELLOW%%NAME% %GREEN%4+ Cold%TIER-3%
+ItemDisplay[RARE (CIRC || au1 || au2 || au3 || au4 || au5) ((TABSK8>1 CLSK1>1) || (TABSK8>2 CLSK1>0))]: %RED%0 T3 %MAP%%YELLOW%%NAME% %GREEN%4+ Fire%TIER-3%
+ItemDisplay[RARE (CIRC || au1 || au2 || au3 || au4 || au5) ((TABSK9>1 CLSK1>1) || (TABSK9>2 CLSK1>0))]: %RED%0 T3 %MAP%%YELLOW%%NAME% %GREEN%4+ Light%TIER-3%
+ItemDisplay[RARE (CIRC || au1 || au2 || au3 || au4 || au5) ((TABSK10>1 CLSK1>1) || (TABSK10>2 CLSK1>0))]: %RED%0 T3 %MAP%%YELLOW%%NAME% %GREEN%4+ Cold%TIER-3%
 
 //Circlets - Ping Tier 5 For +3 Sorceress Skills
-ItemDisplay[RARE (EQ7 || au1 || au2 || au3 || au4 || au5) TABSK8>2]: %GREEN%+3 Fire %MAP%%YELLOW%%NAME%%TIER-5%
-ItemDisplay[RARE (EQ7 || au1 || au2 || au3 || au4 || au5) TABSK9>2]: %GREEN%+3 Light %MAP%%YELLOW%%NAME%%TIER-5%
-ItemDisplay[RARE (EQ7 || au1 || au2 || au3 || au4 || au5) TABSK10>2]: %GREEN%+3 Cold %MAP%%YELLOW%%NAME%%TIER-5%
+ItemDisplay[RARE (CIRC || au1 || au2 || au3 || au4 || au5) TABSK8>2]: %GREEN%+3 Fire %MAP%%YELLOW%%NAME%%TIER-5%
+ItemDisplay[RARE (CIRC || au1 || au2 || au3 || au4 || au5) TABSK9>2]: %GREEN%+3 Light %MAP%%YELLOW%%NAME%%TIER-5%
+ItemDisplay[RARE (CIRC || au1 || au2 || au3 || au4 || au5) TABSK10>2]: %GREEN%+3 Cold %MAP%%YELLOW%%NAME%%TIER-5%
 
 
 /////////////////////////////////////////////////////////////////////////

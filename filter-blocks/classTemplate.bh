@@ -366,10 +366,10 @@ ItemDisplay[NMAG !INF SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || n
 ItemDisplay[NMAG !INF SOCK=2 (ywn || bwn || wnd || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) SK94>1 ILVL>1 FILTLVL<3]: Fire Golem Base %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
 ItemDisplay[NMAG !INF SOCK=2 (ywn || bwn || wnd || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) SK94>1 ILVL>1 FILTLVL<3]: Fire Golem Base %SOCKETS%os %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 // + 3 Consecration Paldain Helm For Runewords
-ItemDisplay[(NMAG !INF) EQ7 SOCK=3 SK114>2 ILVL>1 FILTLVL<3]: + 3 Consecration %RED%%NAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF) EQ7 SOCK=3 SK114>2 ILVL>1 FILTLVL<3]: + 3 Consecration %SOCKETS%os %RED%%NAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[(NMAG !INF) EQ7 SK114>2 ILVL>1 FILTLVL<3]: + 3 Consecration %RED%%NAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF) EQ7 SK114>2 ILVL>1 FILTLVL<3]: + 3 Consecration %RED%%NAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) CIRC SOCK=3 SK114>2 ILVL>1 FILTLVL<3]: + 3 Consecration %RED%%NAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) CIRC SOCK=3 SK114>2 ILVL>1 FILTLVL<3]: + 3 Consecration %SOCKETS%os %RED%%NAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) CIRC SK114>2 ILVL>1 FILTLVL<3]: + 3 Consecration %RED%%NAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) CIRC SK114>2 ILVL>1 FILTLVL<3]: + 3 Consecration %RED%%NAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //Perfect Sacred Armor Base
 ItemDisplay[(NMAG !INF) uar SOCK=3 ED=20 STAT36=5 ILVL>1 FILTLVL<3]: Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
 ItemDisplay[(NMAG !INF) uar SOCK=3 ED=20 STAT36=5 ILVL>1 FILTLVL<3]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
@@ -530,3 +530,4 @@ ItemDisplay[(NMAG !INF) uhn SOCK=3 STAT34=10 ILVL>1 FILTLVL<3]: Perfect Automod 
 ItemDisplay[(NMAG !INF) uhn SOCK=3 STAT34=10 ILVL>1 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 ItemDisplay[(NMAG !INF) uhn SOCK=4 STAT34=10 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
 ItemDisplay[(NMAG !INF) uhn SOCK=4 STAT34=10 ILVL>1 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+
