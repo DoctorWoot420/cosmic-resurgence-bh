@@ -582,6 +582,40 @@ ItemDisplay[(NMAG !INF !SUP) 8bs ILVL>56 FILTLVL<3]: Providence Alch %RED%%NAME%
 ItemDisplay[(NMAG !INF !SUP) 6bs ILVL>84 FILTLVL<3]: Providence Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
 ItemDisplay[(NMAG !INF !SUP) 6bs ILVL>84 FILTLVL<3]: Providence Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 
+//Amm's Eclipe Orb For Discharge Sorc
+ItemDisplay[(NMAG !INF !SUP) ob8 ILVL>49 FILTLVL<3]: Amm's Eclipse Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) ob8 ILVL>49 FILTLVL<3]: Amm's Eclipse Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) obd ILVL>73 FILTLVL<3]: Amm's Absolution Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) obd ILVL>73 FILTLVL<3]: Amm's Absolution Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+
+//Ulm's Undulator Vortex Orb For Voltaic Blast Sorc
+ItemDisplay[(NMAG !INF !SUP) obe ILVL>73 FILTLVL<3]: Ulm's Undulator Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) obe ILVL>73 FILTLVL<3]: Ulm's Undulator Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+
+//Death's Fathom Dimensional Shard For Cold Sorc
+ItemDisplay[(NMAG !INF !SUP) obf ILVL>76 FILTLVL<3]: Death's Fathom Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) obf ILVL>76 FILTLVL<3]: Death's Fathom Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+
+/////////////////////////////////////////////////////////////////////////
+//Shield Alchs///////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////
+
+//Visceratuant/Donumatre Shield (Discharge Build)
+ItemDisplay[(NMAG !INF !SUP) xuc ILVL>41 FILTLVL<3]: Visceratuant Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) xuc ILVL>41 FILTLVL<3]: Visceratuant Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+
+/////////////////////////////////////////////////////////////////////////
+//Ring Alchs/////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////
+
+//Rathma's Union Charged Stone Alch (Energy Shield Build)
+ItemDisplay[(NMAG !INF !SUP) sf1 ILVL>80 FILTLVL<2]: Rathma's Union Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) sf1 ILVL>80 FILTLVL<2]: Rathma's Union Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+
+//Tear OF Elyssia Arcane Stone
+ItemDisplay[(NMAG !INF !SUP) sf4 ILVL>80 FILTLVL<2]: Tear of Elyssia Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) sf4 ILVL>80 FILTLVL<2]: Tear of Elyssia Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+
 
 /////////////////////////////////////////////////////////////////////////
 //Magic Crafts & Jeweler's Socketables///////////////////////////////////
