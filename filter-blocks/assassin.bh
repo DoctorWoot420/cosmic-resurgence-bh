@@ -5,6 +5,24 @@
 
 
 /////////////////////////////////////////////////////////////////////////
+//RARE CLAWS/////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////
+
+//Enhanced Damage, Enchantment of Fire Aura
+ItemDisplay[RARE (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) enchantment_of_fire_aura ED>29 ILVL>1]: Enchantment Aura %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+//Enhanced Damage, Enchantment of Cold Aura
+ItemDisplay[RARE (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) enchantment_of_cold_aura ED>29 ILVL>1]: Enchantment Aura %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+//Enhanced Damage, Enchantment of Lightning Aura
+ItemDisplay[RARE (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) enchantment_of_lightning_aura ED>29 ILVL>1]: Enchantment Aura %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+//Enhanced Damage, Pestilence Aura
+ItemDisplay[RARE (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) pestilence_aura ED>29 ILVL>1]: Pestilence Aura %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+//Enhanced Damage, Enchantment of Bones Aura
+ItemDisplay[RARE (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) enchantment_of_bones_aura ED>29 ILVL>1]: Enchantment Aura %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+//Enhanced Damage, Enchantment of Vigor Aura
+ItemDisplay[RARE (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) enchantment_of_vigor_aura ED>29 ILVL>1]: Enchantment Aura %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+
+
+/////////////////////////////////////////////////////////////////////////
 //Jewel Alchs////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////
 
