@@ -117,6 +117,11 @@ ItemDisplay[(NMAG !INF !SUP) utb ILVL>91 FILTLVL<3]: Indomitable Alch %RED%%NAME
 //Shield Alchs///////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////
 
+//Spellbender Alch
+ItemDisplay[(NMAG !INF !SUP) pa2 ILVL>12 FILTLVL<4]: Spellbender Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) pa2 ILVL>12 FILTLVL<4]: Spellbender Alch %NAME% %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) pa7 ILVL>38 FILTLVL<4]: Spelleater Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) pa7 ILVL>38 FILTLVL<4]: Spelleater Alch %NAME% %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //Ward - Ghaa's Guide Alch
 ItemDisplay[(NMAG !INF !SUP) uts ILVL>91 FILTLVL<3]: Ghaa's Guide Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 ItemDisplay[(NMAG !INF !SUP) uts ILVL>91 FILTLVL<3]: Ghaa's Guide Alch %NAME% %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
@@ -130,6 +135,11 @@ ItemDisplay[(NMAG !INF !SUP) uow ILVL>80]: Zahhak's Alch %RED%%NAME% %RED%0%WHIT
 //Weapon Alchs///////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////
 
+//Glitterblade Alch
+ItemDisplay[(NMAG !INF !SUP) crs ILVL>23 FILTLVL<4]: Glitterblade Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) crs ILVL>23 FILTLVL<4]: Glitterblade Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) 9cr ILVL>48 FILTLVL<4]: Ethereal Edge Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) 9cr ILVL>48 FILTLVL<4]: Ethereal Edge Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //Suicide Branch Alch
 ItemDisplay[(NMAG !INF !SUP) 7wn ILVL>70 FILTLVL<3]: Suicide Branch Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
 ItemDisplay[(NMAG !INF !SUP) 7wn ILVL>70 FILTLVL<3]: Suicide Branch Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
