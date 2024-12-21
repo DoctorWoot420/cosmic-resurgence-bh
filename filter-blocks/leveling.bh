@@ -426,12 +426,12 @@ ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK79>0 CLVL<35 
 ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK79>0 CLVL<35 ILVL>0]: Convocation Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Low Level Paladin Shields - Runewords
-ItemDisplay[NMAG SOCK=3 (pa1 || pa2 || tow) CLVL<50 ILVL>0]: Ancients Pledge RW (Ral Ort Tal) Piety RW (Hel Ort Eld) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[NMAG SOCK=2 (pa1 || pa2 || tow) CLVL<50 ILVL>0]: Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=3 (pa1 || pa2 || pa7 || pa9 || paa || tow) CLVL<60 ILVL>0]: Ancients Pledge RW (Ral Ort Tal) Piety RW (Hel Ort Eld) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (pa1 || pa2 || pa7 || pa9 || paa || tow) CLVL<60 ILVL>0]: Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Low Level Paladin Helms - Runewords
-ItemDisplay[NMAG SOCK=2 (pc4 || pc1) CLVL<50 ILVL>0]: Holy Tears RW (Ral Eld) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[NMAG SOCK=3 (pc4 || pc1) CLVL<50 ILVL>0]: Piety RW (Hel Ort Eld) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (pc4 || pc1 || pc5 || pc2) CLVL<60 ILVL>0]: Holy Tears RW (Ral Eld) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=3 (pc4 || pc1 || pc5 || pc2) CLVL<60 ILVL>0]: Piety RW (Hel Ort Eld) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Low Level Druid Pelts - Runewords
 ItemDisplay[NMAG SOCK=2 (dr1 || dr6) CLVL<62 ILVL>0]: Water RW (Thul Ith) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
