@@ -85,6 +85,8 @@ ItemDisplay[(NMAG !INF !SUP) ba8 ILVL>43 FILTLVL<3]: Primal Scream Alch %RED%%NA
 ItemDisplay[(NMAG !INF !SUP) ba8 ILVL>43 FILTLVL<3]: Primal Scream Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 ItemDisplay[(NMAG !INF !SUP) bad ILVL>64 FILTLVL<3]: Primal Scream Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
 ItemDisplay[(NMAG !INF !SUP) bad ILVL>64 FILTLVL<3]: Primal Scream Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+//Avatar of Fire Alch
+ItemDisplay[(NMAG !INF !SUP) bae ILVL>76]: Avatar of Fire Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
 
 
 
