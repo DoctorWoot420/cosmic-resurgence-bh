@@ -18,8 +18,11 @@ ItemDisplay[MAG (baf || bae || bad || bac || bab || baa || ba9 || ba8 || ba7 || 
 //Weapon Alchs///////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////
 
-//Ginther's Rift
+//Ginther's Rift Alch (Use for Cold Uber)
 ItemDisplay[(NMAG !INF !SUP) 9cr ILVL>49]: Ginther's Rift Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+//Renit's Fury Alch (Use With Frenzy)
+ItemDisplay[(NMAG !INF !SUP) tsp ILVL>20]: Renit's Rage Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) 9ts ILVL>52]: Renit's Anger Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 
 
 
