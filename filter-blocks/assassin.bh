@@ -117,7 +117,7 @@ ItemDisplay[(RARE || MAG) (ktr || axf || ces || clw || btl || skr || wrb || 9ar 
 //+5 & +6 Lightning Sentry Claws
 ItemDisplay[(RARE || MAG) (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) SK271>2 CLSK6>1 ILVL>1]: + 5 Lightning Sentry %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-2% [L%ILVL%]
 ItemDisplay[(RARE || MAG) (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) SK271>2 TABSK48>2 ILVL>1]: + 6 Lightning Sentry %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
-//+5 & +6 Lightning Sentry Claws
+//+5 & +6 Wake of Fire Claws
 ItemDisplay[(RARE || MAG) (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) SK262>2 CLSK6>1 ILVL>1]: + 5 Wake of Fire %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-2% [L%ILVL%]
 ItemDisplay[(RARE || MAG) (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) SK262>2 TABSK48>2 ILVL>1]: + 6 Wake of Fire %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
 
