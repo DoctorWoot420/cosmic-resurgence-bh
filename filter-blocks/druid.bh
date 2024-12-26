@@ -4,6 +4,84 @@
 //////////////////////////////////////////////////////////////////
 
 
+//Low Level Class Skills Amulets
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK5>0 CLVL<50 ILVL>0]: Druid %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK40>0 CLVL<50 ILVL>0]: Druid Summon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK42>0 CLVL<50 ILVL>0]: Druid Elemental %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Class Circlets
+ItemDisplay[(RARE || MAG) CIRC CLSK5>0 CLVL<50 ILVL>0]: Druid %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC TABSK40>0 CLVL<50 ILVL>0]: Druid Summon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC TABSK42>0 CLVL<50 ILVL>0]: Druid Elemental %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Druid Helmets - Flat Damage
+ItemDisplay[RARE dr1 STAT21>9 STAT22>19 CLVL<24 ILVL>0]: T4 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[MAG dr1 STAT21>9 STAT22>19 CLVL<24 ILVL>0]: T4 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Druid Helmets - Faster Hit Recovery, 10+ Dual Resistances
+ItemDisplay[RARE dr1 FHR>9 CRES>9 FRES>9 CLVL<24 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE dr1 FHR>9 CRES>9 LRES>9 CLVL<24 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE dr1 FHR>9 CRES>9 PRES>9 CLVL<24 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE dr1 FHR>9 LRES>9 FRES>9 CLVL<24 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE dr1 FHR>9 PRES>9 FRES>9 CLVL<24 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE dr1 FHR>9 LRES>9 PRES>9 CLVL<24 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Druid Helmets - Tri Resistances
+ItemDisplay[RARE dr1 FRES>9 CRES>9 LRES>9 CLVL<24 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE dr1 FRES>9 CRES>9 PRES>9 CLVL<24 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE dr1 CRES>9 LRES>9 PRES>9 CLVL<24 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE dr1 FRES>9 LRES>9 PRES>9 CLVL<24 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Druid Pelts - Runewords
+ItemDisplay[NMAG SOCK=2 (dr1 || dr6 || drb) CLVL<62 ILVL>0]: Water RW (Thul Ith) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (dr1 || dr6 || drb) SK223>0 CLVL<88 ILVL>0]: + Werewolf Water RW (Thul Ith) Lore (Ort Sol) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (dr1 || dr6 || drb) SK224>0 CLVL<88 ILVL>0]: + Lycanthropy Water RW (Thul Ith) Lore (Ort Sol) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (dr1 || dr6 || drb) SK228>0 CLVL<88 ILVL>0]: + Werebear Water RW (Thul Ith) Lore (Ort Sol) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (dr1 || dr6 || drb) SK232>0 CLVL<88 ILVL>0]: + Feral Rage Water RW (Thul Ith) Lore (Ort Sol) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (dr1 || dr6 || drb || drc) SK239>0 CLVL<88 ILVL>0]: + Fire Claws Water RW (Thul Ith) Lore (Ort Sol) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (dr1 || dr6 || drb) SK233>0 CLVL<88 ILVL>0]: + Maul Water RW (Thul Ith) Lore (Ort Sol) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (dr1 || dr6 || drb) SK248>0 CLVL<88 ILVL>0]: + Fury Water RW (Thul Ith) Lore (Ort Sol) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 DRU SK243>0 CLVL<88 ILVL>0]: + Shockwave Water RW (Thul Ith) Lore (Ort Sol) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 DRU SK249>0 CLVL<88 ILVL>0]: + Armageddon Water RW (Thul Ith) Lore (Ort Sol) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 DRU SK250>0 CLVL<88 ILVL>0]: + Hurricane Water RW (Thul Ith) Lore (Ort Sol) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 DRU SK226>0 CLVL<88 ILVL>0]: + Oak Sage Water RW (Thul Ith) Lore (Ort Sol) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 DRU SK236>0 CLVL<88 ILVL>0]: + Heart of The Wolverine Water RW (Thul Ith) Lore (Ort Sol) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 DRU SK246>0 CLVL<88 ILVL>0]: + Star Spirit Water RW (Thul Ith) Lore (Ort Sol) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 DRU SK247>0 CLVL<88 ILVL>0]: + Summon Grizzly Water RW (Thul Ith) Lore (Ort Sol) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Mid Level Class Skills Amulets
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK5>1 CLVL<70 ILVL>0]: Druid %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK40>1 CLVL<70 ILVL>0]: Druid Summon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK42>1 CLVL<70 ILVL>0]: Druid Elemental %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Mid Level Class Circlets
+ItemDisplay[(RARE || MAG) CIRC CLSK5>1 CLVL<70 ILVL>0]: Druid %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC TABSK40>1 CLVL<70 ILVL>0]: Druid Summon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC TABSK42>1 CLVL<70 ILVL>0]: Druid Elemental %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Mid Level Druid Helmets - Tier 3 Flat Damage
+ItemDisplay[RARE (dr1 || dr6 || drb) STAT21>24 STAT22>49 CLVL<42 ILVL>0]: T3 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[MAG (dr1 || dr6 || drb) STAT21>24 STAT22>49 CLVL<42 ILVL>0]: T3 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Mid Level Druid Helmets - Tier 2 Flat Damage
+ItemDisplay[RARE (dr1 || dr6 || drb) STAT21>34 STAT22>69 CLVL<70 ILVL>0]: T2 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[MAG (dr1 || dr6 || drb) STAT21>34 STAT22>69 CLVL<70 ILVL>0]: T2 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Mid Level Druid Helmets - Faster Hit Recovery, 20+ Dual Resistances
+ItemDisplay[RARE (dr1 || dr6 || drb) FHR>16 CRES>19 FRES>19 CLVL<70 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE (dr1 || dr6 || drb) FHR>16 CRES>19 LRES>19 CLVL<70 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE (dr1 || dr6 || drb) FHR>16 CRES>19 PRES>19 CLVL<70 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE (dr1 || dr6 || drb) FHR>16 LRES>19 FRES>19 CLVL<70 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE (dr1 || dr6 || drb) FHR>16 PRES>19 FRES>19 CLVL<70 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE (dr1 || dr6 || drb) FHR>16 LRES>19 PRES>19 CLVL<70 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Mid Level Druid Helmets - Tri Resistances
+ItemDisplay[RARE (dr1 || dr6 || drb) FRES>24 CRES>24 LRES>24 CLVL<70 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE (dr1 || dr6 || drb) FRES>24 CRES>24 PRES>24 CLVL<70 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE (dr1 || dr6 || drb) CRES>24 LRES>24 PRES>24 CLVL<70 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE (dr1 || dr6 || drb) FRES>24 LRES>24 PRES>24 CLVL<70 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+
 /////////////////////////////////////////////////////////////////////////
 //Jewel Alchs////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////
@@ -74,7 +152,8 @@ ItemDisplay[(NMAG !INF !SUP) xng ILVL>43 FILTLVL<3]: Replenisher Alch %RED%%NAME
 ItemDisplay[(NMAG !INF !SUP) xar ILVL>57 FILTLVL<3]: Cub's Wrath Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
 ItemDisplay[(NMAG !INF !SUP) xar ILVL>57 FILTLVL<3]: Cub's Wrath Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //Tigulated Mail - Frozen Fortune
-ItemDisplay[(NMAG !INF !SUP) xcl ILVL>45]: Frozen Fortune Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) xcl ILVL>45 FILTLVL<3]: Frozen Fortune Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) xcl ILVL>45 FILTLVL<3]: Frozen Fortune Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 
 /////////////////////////////////////////////////////////////////////////
 //Glove Alchs////////////////////////////////////////////////////////////
@@ -111,7 +190,7 @@ ItemDisplay[(NMAG !INF !SUP) zlb ILVL>39 FILTLVL<3]: Lenymo Alch %RED%%NAME% %RE
 //Burning Buckle, Snowblind & Thundergod's Belt Alch
 ItemDisplay[(NMAG !INF !SUP) hbl ILVL>19 FILTLVL<3]: Snowblind - TGod's Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
 ItemDisplay[(NMAG !INF !SUP) hbl ILVL>19 FILTLVL<3]: Snowblind - TGod's Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) zhb ILVL>54 FILTLVL<3]: Snowbind - TGod's Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) zhb ILVL>54 FILTLVL<3]: Snowblind - TGod's Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
 ItemDisplay[(NMAG !INF !SUP) zhb ILVL>54 FILTLVL<3]: Snowblind - TGod's Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 
 /////////////////////////////////////////////////////////////////////////
@@ -164,7 +243,7 @@ ItemDisplay[(NMAG !INF !SUP) 7bs ILVL>81 FILTLVL<3]: Blade of Ammuit Alch %RED%%
 
 //Lich Rings For Crafting (Cave Of Horrors)
 ItemDisplay[MAG (li0 || li1 || li2 || li3 || li4 || li5 || li6) ILVL>1]: Craft %BASENAME%%RED%0%BLUE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (li0 || li1 || li2 || li3 || li4 || li5 || li6) ILVL>1]: Craft %BASENAME%%RED%0%BLUE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (li0 || li1 || li2 || li3 || li4 || li5 || li6) ILVL>1]: Diffuse %BASENAME%%RED%0%BLUE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Shockwave Druid Dream Spirit For Crafting
 ItemDisplay[(NMAG || MAG) drf ILVL>1 FILTLVL<3]: Shockwave Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
 ItemDisplay[(NMAG || MAG) drf ILVL>1 FILTLVL<3]: Shockwave Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
