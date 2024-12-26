@@ -32,6 +32,12 @@ ItemDisplay[MAG (ktr || axf || ces || clw || btl || wrb) TABSK48>0 CLVL<32 ILVL>
 ItemDisplay[RARE (ktr || axf || ces || clw || btl || wrb) CLSK6>0 CLVL<58 ILVL>0]: +1 Sin Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%] 
 ItemDisplay[MAG (ktr || axf || ces || clw || btl || wrb) CLSK6>0 CLVL<58 ILVL>0]: +1 Sin Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
+//Low Level Assassin Claw - Blade Talons - Fastest IAS Base (-30 Speed) - Runewords
+ItemDisplay[NMAG SOCK=2 btl CLVL<60 ILVL>0]: Morning RW (Eld Ort) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Assassin Claw - Quhab - Runewords
+ItemDisplay[NMAG SOCK=3 9ar CLVL<60 ILVL>0]: Pattern RW (Tal Ort Tir) Authority RW (El Eth Ith) Madness RW (El Ort El) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
 
 //Mid Level Class Skills Amulets
 ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK6>1 CLVL<70 ILVL>0]: Assassin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
