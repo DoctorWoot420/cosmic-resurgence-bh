@@ -176,12 +176,6 @@ ItemDisplay[NMAG SOCK=3 (qui || rng || scl || chn || brs || spl || tkl || lea ||
 ItemDisplay[NMAG SOCK=3 (lrg || kit || spk || tow) CLVL<35 ILVL>0]: Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[NMAG SOCK=2 (lrg || kit || spk || tow || bsh) CLVL<35 ILVL>0]: Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
-//Low Level Assassin Claw - Blade Talons - Fastest IAS Base (-30 Speed) - Runewords
-ItemDisplay[NMAG SOCK=2 btl CLVL<50 ILVL>0]: Morning RW (Eld Ort) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Assassin Claw - Quhab - Runewords
-ItemDisplay[NMAG SOCK=3 9ar CLVL<55 ILVL>0]: Pattern RW (Tal Ort Tir) Authority RW (El Eth Ith) Madness RW (El Ort El) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
 //Low Level Scimitar (-20 Speed) - Runewords
 ItemDisplay[NMAG SOCK=2 scm CLVL<35 ILVL>0]: Steel RW (Tir El) Strength (Amn Tir) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
