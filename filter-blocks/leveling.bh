@@ -19,9 +19,6 @@ ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5) CRES>9 LRES>9 PRES>9 CLVL<24 
 ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5) FRES>9 LRES>9 PRES>9 CLVL<24 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Low Level Class Skills Amulets
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK2>0 CLVL<50 ILVL>0]: Necromancer %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK17>0 CLVL<50 ILVL>0]: PnB Necro %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK18>0 CLVL<50 ILVL>0]: Necro Summon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK3>0 CLVL<50 ILVL>0]: Paladin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK24>0 CLVL<50 ILVL>0]: Pally Combat %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK4>0 CLVL<50 ILVL>0]: Barbarian %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
@@ -69,9 +66,6 @@ ItemDisplay[RARE CIRC CRES>9 LRES>9 PRES>9 CLVL<50 ILVL>0]: Tri Resist %PURPLE%%
 ItemDisplay[RARE CIRC FRES>9 LRES>9 PRES>9 CLVL<50 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Low Level Class Circlets
-ItemDisplay[(RARE || MAG) CIRC CLSK2>0 CLVL<50 ILVL>0]: Necromancer %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) CIRC TABSK17>0 CLVL<50 ILVL>0]: PnB Necro %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) CIRC TABSK18>0 CLVL<50 ILVL>0]: Necro Summon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[(RARE || MAG) CIRC CLSK3>0 CLVL<50 ILVL>0]: Paladin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[(RARE || MAG) CIRC TABSK24>0 CLVL<50 ILVL>0]: Pally Combat %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[(RARE || MAG) CIRC CLSK4>0 CLVL<50 ILVL>0]: Barbarian %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
@@ -227,111 +221,14 @@ ItemDisplay[RARE (WP1 || WP2 || WP3 || WP4 || WP5 || WP8 || WP9 || WP10) ED>49 S
 //Low Level Physical Weapons - Enhanced Damage - Life Leech
 ItemDisplay[RARE (WP1 || WP2 || WP3 || WP4 || WP5 || WP8 || WP9 || WP10) ED>79 STAT60>1 CLVL<24 ILVL>0]: ED Life Leech %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
-//Low Level Teeth Bone Wand - Wand - Yew Wand 
-ItemDisplay[RARE (bwn || wnd || ywn) SK67>2 CLVL<24 ILVL>0]: + 3 Teeth %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[MAG (bwn || wnd || ywn) SK67>2 CLVL<24 ILVL>0]: + 3 Teeth %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Toxic Delivery Bone Wand - Wand - Yew Wand 
-ItemDisplay[RARE (bwn || wnd || ywn) SK73>2 CLVL<24 ILVL>0]: + 3 Toxic Delivery %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[MAG (bwn || wnd || ywn) SK73>2 CLVL<24 ILVL>0]: + 3 Toxic Delivery %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Putrify Bone Wand - Wand - Yew Wand 
-ItemDisplay[RARE (bwn || wnd || ywn) SK83>2 CLVL<24 ILVL>0]: + 3 Putrify %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[MAG (bwn || wnd || ywn) SK83>2 CLVL<24 ILVL>0]: + 3 Putrify %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Skeleton Warrior Bone Wand - Wand - Yew Wand 
-ItemDisplay[RARE (bwn || wnd || ywn) SK70>2 CLVL<24 ILVL>0]: + 3 Skeleton Warrior %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[MAG (bwn || wnd || ywn) SK70>2 CLVL<24 ILVL>0]: + 3 Skeleton Warrior %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
 //Low Level Socketables
 //Low Level Armor - Runewords
 ItemDisplay[NMAG SOCK=2 (qui || rng || scl || chn || brs || spl || tkl || lea || hla || stu) CLVL<35 ILVL>0]: Stealth RW (Tal Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[NMAG SOCK=3 (qui || rng || scl || chn || brs || spl || tkl || lea || hla || stu) CLVL<35 ILVL>0]: Hesitation RW (Tir Eld Nef) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
-//Low Level Necromancer Armor - Runewords
-ItemDisplay[NMAG SOCK=2 (na4 || na1) CLVL<35 ILVL>0]: Stealth RW (Tal Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[NMAG SOCK=3 (na4 || na1) CLVL<35 ILVL>0]: Thunder RW (Ort El Nef) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
 //Low Level Shields - Runewords
-ItemDisplay[NMAG SOCK=3 (lrg || kit || tow) CLVL<35 ILVL>0]: Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[NMAG SOCK=2 (lrg || kit || tow || spk || bsh) CLVL<35 ILVL>0]: Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Necro Shields - Runewords
-//Teeth Voodoo Head
-ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK67>0 CLVL<35 ILVL>0]: Teeth Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK67>0 CLVL<35 ILVL>0]: Teeth Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Bone Spear Voodoo Head
-ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK84>0 CLVL<35 ILVL>0]: Bone Spear Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK84>0 CLVL<35 ILVL>0]: Bone Spear Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Bone Spirit Voodoo Head
-ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK93>0 CLVL<35 ILVL>0]: Bone Spirit Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK93>0 CLVL<35 ILVL>0]: Bone Spirit Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Poison Nova Voodoo Head
-ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK92>0 CLVL<35 ILVL>0]: Psn Nova Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK92>0 CLVL<35 ILVL>0]: Psn Nova Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Toxic Delivery Voodoo Head
-ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK73>0 CLVL<35 ILVL>0]: Toxic Delivery Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK73>0 CLVL<35 ILVL>0]: Toxic Delivery Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Putrify Voodoo Head
-ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK83>0 CLVL<35 ILVL>0]: Putrify Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK83>0 CLVL<35 ILVL>0]: Putrify Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Corpse Explosion Voodoo Head
-ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK74>0 CLVL<35 ILVL>0]: CE Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK74>0 CLVL<35 ILVL>0]: CE Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Skeleton Warrior Voodoo Head
-ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK70>0 CLVL<35 ILVL>0]: Skele Warrior Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK70>0 CLVL<35 ILVL>0]: Skele Warrior Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Skeleton Archer Voodoo Head
-ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK80>0 CLVL<35 ILVL>0]: Skele Archer Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK80>0 CLVL<35 ILVL>0]: Skele Archer Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Raise Zombie Voodoo Head
-ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK89>0 CLVL<35 ILVL>0]: Zombie Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK89>0 CLVL<35 ILVL>0]: Zombie Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Minion Mastery Voodoo Head
-ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK69>0 CLVL<35 ILVL>0]: Minion Mastery Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK69>0 CLVL<35 ILVL>0]: Minion Mastery Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Blood Golem Voodoo Head
-ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK85>0 CLVL<35 ILVL>0]: Blood Golem Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK85>0 CLVL<35 ILVL>0]: Blood Golem Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Fire Golem Voodoo Head
-ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK94>0 CLVL<35 ILVL>0]: Fire Golem Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK94>0 CLVL<35 ILVL>0]: Fire Golem Despair (Mal Vex) Rhyme (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Amplify Damage Voodoo Head
-ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK66>0 CLVL<35 ILVL>0]: Amp Dmg Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK66>0 CLVL<35 ILVL>0]: Amp Dmg Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Dim Vision Voodoo Head
-ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK71>0 CLVL<35 ILVL>0]: Dim Vision Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK71>0 CLVL<35 ILVL>0]: Dim Vision Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Elemental Weakness Voodoo Head
-ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK81>0 CLVL<35 ILVL>0]: Ele Weakness Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK81>0 CLVL<35 ILVL>0]: Ele Weakness Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Decrepify Voodoo Head
-ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK87>0 CLVL<35 ILVL>0]: Decrepify Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK87>0 CLVL<35 ILVL>0]: Decrepify Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Hex Voodoo Head
-ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK91>0 CLVL<35 ILVL>0]: Hex Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK91>0 CLVL<35 ILVL>0]: Hex Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Convocation Voodoo Head
-ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK79>0 CLVL<35 ILVL>0]: Convocation Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK79>0 CLVL<35 ILVL>0]: Convocation Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=3 (lrg || kit || spk || tow) CLVL<35 ILVL>0]: Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (lrg || kit || spk || tow || bsh) CLVL<35 ILVL>0]: Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Low Level Paladin Shields - Runewords
 ItemDisplay[NMAG SOCK=3 (pa1 || pa2 || pa7 || pa9 || paa || tow) CLVL<60 ILVL>0]: Ancients Pledge RW (Ral Ort Tal) Piety RW (Hel Ort Eld) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
@@ -389,31 +286,6 @@ ItemDisplay[(NMAG !INF) SOCK=3 7cr CLVL<60 ILVL>1]: Authority (El Eth Ith) Envy 
 //Low Level Composite Bow - Stag Bow - Hunter's Bow - Light Crossbow - Runewords
 ItemDisplay[NMAG SOCK=2 (cbw || am1 || hbw || lxb) CLVL<35 ILVL>0]: Zephyr RW (Ort Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
-//Low Level Teeth Bone Wand - Runewords
-ItemDisplay[NMAG SOCK=2 bwn SK67>2 CLVL<75 ILVL>0]: Terror RW (Ith Eth) White RW (Dol Io) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Bone Spear Bone Wand - Runewords
-ItemDisplay[NMAG SOCK=2 bwn SK84>2 CLVL<75 ILVL>0]: White RW (Dol Io) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Poison Nova Bone Wand - Runewords
-ItemDisplay[NMAG SOCK=2 bwn SK92>2 CLVL<75 ILVL>0]: White RW (Dol Io) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Corpse Explosion Bone Wand - Runewords
-ItemDisplay[NMAG SOCK=2 bwn SK74>2 CLVL<75 ILVL>0]: White RW (Dol Io) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Teeth Bone Wand - Wand - Yew Wand 
-ItemDisplay[NMAG (bwn || wnd || ywn) SK67>2 CLVL<24 ILVL>0]: + 3 Teeth %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Toxic Delivery Bone Wand - Wand - Yew Wand 
-ItemDisplay[NMAG (bwn || wnd || ywn) SK73>2 CLVL<24 ILVL>0]: + 3 Toxic Delivery %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Putrify Bone Wand - Wand - Yew Wand 
-ItemDisplay[NMAG (bwn || wnd || ywn) SK83>2 CLVL<24 ILVL>0]: + 3 Putrify %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Skeleton Warrior Bone Wand - Wand - Yew Wand 
-ItemDisplay[NMAG (bwn || wnd || ywn) SK70>2 CLVL<24 ILVL>0]: + 3 Skeleton Warrior %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-
 
 //////////////////////////////////////////////////////////////////
 //Mid Level Starting Gear/////////////////////////////////////////
@@ -444,9 +316,6 @@ ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5) CRES>19 LRES>19 PRES>19 CLVL<
 ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5) FRES>19 LRES>19 PRES>19 CLVL<70 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Mid Level Class Skills Amulets
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK2>1 CLVL<70 ILVL>0]: Necromancer %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK17>1 CLVL<70 ILVL>0]: PnB Necro %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK18>1 CLVL<70 ILVL>0]: Necro Summon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK3>1 CLVL<70 ILVL>0]: Paladin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK24>1 CLVL<70 ILVL>0]: Pally Combat %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK4>1 CLVL<70 ILVL>0]: Barbarian %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
@@ -506,9 +375,6 @@ ItemDisplay[RARE CIRC CRES>24 LRES>24 PRES>24 CLVL<70 ILVL>0]: Tri Resist %PURPL
 ItemDisplay[RARE CIRC FRES>24 LRES>24 PRES>24 CLVL<70 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Mid Level Class Circlets
-ItemDisplay[(RARE || MAG) CIRC CLSK2>1 CLVL<70 ILVL>0]: Necromancer %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) CIRC TABSK17>1 CLVL<70 ILVL>0]: PnB Necro %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) CIRC TABSK18>1 CLVL<70 ILVL>0]: Necro Summon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[(RARE || MAG) CIRC CLSK3>1 CLVL<70 ILVL>0]: Paladin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[(RARE || MAG) CIRC TABSK24>1 CLVL<70 ILVL>0]: Pally Combat %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[(RARE || MAG) CIRC CLSK4>1 CLVL<70 ILVL>0]: Barbarian %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
@@ -692,44 +558,4 @@ ItemDisplay[RARE (WP1 || WP2 || WP3 || WP5 || WP8 || WP9 || WP10) ED>199 STAT60>
 
 //Mid Level Physical Weapons - Enhanced Damage - Dual Leech
 ItemDisplay[RARE (WP1 || WP2 || WP3 || WP5 || WP8 || WP9 || WP10) ED>219 STAT60>2 STAT62>2 CLVL<70 ILVL>0]: ED Dual Leech %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Teeth Wand 
-ItemDisplay[RARE (bwn || wnd || ywn || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw) TABSK17>0 SK67>2 CLVL<70 ILVL>0]: Teeth %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[MAG (bwn || wnd || ywn || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw) TABSK17>0 SK67>2 CLVL<70 ILVL>0]: Teeth %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Teeth Wand 
-ItemDisplay[RARE (bwn || wnd || ywn || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw) GOODSK>0 SK67>2 CLVL<70 ILVL>0]: Teeth %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[MAG (bwn || wnd || ywn || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw) GOODSK>0 SK67>2 CLVL<70 ILVL>0]: Teeth %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Bone Spear Wand
-ItemDisplay[RARE (bwn || wnd || ywn || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw) TABSK17>0 SK84>2 CLVL<70 ILVL>0]: Bone Spear %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[MAG (bwn || wnd || ywn || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw) TABSK17>0 SK84>2 CLVL<70 ILVL>0]: Bone Spear %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Bone Spear Wand 
-ItemDisplay[RARE (bwn || wnd || ywn || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw) GOODSK>0 SK84>2 CLVL<70 ILVL>0]: Bone Spear %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[MAG (bwn || wnd || ywn || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw) GOODSK>0 SK84>2 CLVL<70 ILVL>0]: Bone Spear %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Corpse Explosion Wand 
-ItemDisplay[RARE (bwn || wnd || ywn || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw) TABSK17>0 SK74>2 CLVL<70 ILVL>0]: Corpse Explosion %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[MAG (bwn || wnd || ywn || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw) TABSK17>0 SK74>2 CLVL<70 ILVL>0]: Corpse Explosion %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Corpse Explosion Wand 
-ItemDisplay[RARE (bwn || wnd || ywn || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw) GOODSK>0 SK74>2 CLVL<70 ILVL>0]: Corpse Explosion %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[MAG (bwn || wnd || ywn || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw) GOODSK>0 SK74>2 CLVL<70 ILVL>0]: Corpse Explosion %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Poison Nova Wand 
-ItemDisplay[RARE (bwn || wnd || ywn || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw) TABSK17>0 SK92>2 CLVL<70 ILVL>0]: Poison Nova %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[MAG (bwn || wnd || ywn || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw) TABSK17>0 SK92>2 CLVL<70 ILVL>0]: Poison Nova %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Poison Nova Wand 
-ItemDisplay[RARE (bwn || wnd || ywn || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw) GOODSK>0 SK92>2 CLVL<70 ILVL>0]: Poison Nova %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[MAG (bwn || wnd || ywn || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw) GOODSK>0 SK92>2 CLVL<70 ILVL>0]: Poison Nova %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Fire Golem Wand 
-ItemDisplay[RARE (bwn || wnd || ywn || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw) TABSK18>0 SK94>2 CLVL<70 ILVL>0]: Fire Golem %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[MAG (bwn || wnd || ywn || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw) TABSK18>0 SK94>2 CLVL<70 ILVL>0]: Fire Golem %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Fire Golem Wand 
-ItemDisplay[RARE (bwn || wnd || ywn || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw) GOODSK>0 SK94>2 CLVL<70 ILVL>0]: Fire Golem %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[MAG (bwn || wnd || ywn || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw) GOODSK>0 SK94>2 CLVL<70 ILVL>0]: Fire Golem %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
