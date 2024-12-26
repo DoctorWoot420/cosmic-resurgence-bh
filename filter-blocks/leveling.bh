@@ -19,9 +19,6 @@ ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5) CRES>9 LRES>9 PRES>9 CLVL<24 
 ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5) FRES>9 LRES>9 PRES>9 CLVL<24 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Low Level Class Skills Amulets 
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK0>0 CLVL<50 ILVL>0]: Amazon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK2>0 CLVL<50 ILVL>0]: Javzon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK0>0 CLVL<50 ILVL>0]: Bowzon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK6>0 CLVL<50 ILVL>0]: Assassin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK50>0 CLVL<50 ILVL>0]: MA Sin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK48>0 CLVL<50 ILVL>0]: Trap Sin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
@@ -79,9 +76,6 @@ ItemDisplay[RARE CIRC CRES>9 LRES>9 PRES>9 CLVL<50 ILVL>0]: Tri Resist %PURPLE%%
 ItemDisplay[RARE CIRC FRES>9 LRES>9 PRES>9 CLVL<50 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Low Level Class Circlets 
-ItemDisplay[(RARE || MAG) CIRC CLSK0>0 CLVL<50 ILVL>0]: Amazon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) CIRC TABSK2>0 CLVL<50 ILVL>0]: Javzon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) CIRC TABSK0>0 CLVL<50 ILVL>0]: Bowzon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[(RARE || MAG) CIRC CLSK6>0 CLVL<50 ILVL>0]: Assassin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[(RARE || MAG) CIRC TABSK50>0 CLVL<50 ILVL>0]: MA Sin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[(RARE || MAG) CIRC TABSK48>0 CLVL<50 ILVL>0]: Trap Sin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
@@ -167,40 +161,6 @@ ItemDisplay[RARE CHEST FRES>9 CRES>9 LRES>9 CLVL<24 ILVL>0]: Tri Resist %PURPLE%
 ItemDisplay[RARE CHEST FRES>9 CRES>9 PRES>9 CLVL<24 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[RARE CHEST CRES>9 LRES>9 PRES>9 CLVL<24 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[RARE CHEST FRES>9 LRES>9 PRES>9 CLVL<24 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Amazon Gloves - Javelin Skills
-ItemDisplay[RARE (ag1 || ag4) TABSK2>0 CLVL<32 ILVL>0]: Jav Skill Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[MAG (ag1 || ag4) TABSK2>0 CLVL<32 ILVL>0]: Jav Skill Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Amazon Gloves - Bow & Crossbow Skills
-ItemDisplay[RARE (ag1 || ag4) TABSK0>0 CLVL<32 ILVL>0]: Bow Skill Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[MAG (ag1 || ag4) TABSK0>0 CLVL<32 ILVL>0]: Bow Skill Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Amazon Gloves - Flat Damage
-ItemDisplay[RARE (ag1 || ag4) STAT21>9 STAT22>19 CLVL<24 ILVL>0]: T4 Flat Dmg Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[MAG (ag1 || ag4) STAT21>9 STAT22>19 CLVL<24 ILVL>0]: T4 Flat Dmg Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Amazon Armguards Gloves - Increased Attack Speed, 10+ Dual Resistances
-ItemDisplay[RARE ag1 IAS>4 CRES>9 FRES>9 CLVL<24 ILVL>0]: IAS Dual Resist Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[RARE ag1 IAS>4 CRES>9 LRES>9 CLVL<24 ILVL>0]: IAS Dual Resist Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[RARE ag1 IAS>4 CRES>9 PRES>9 CLVL<24 ILVL>0]: IAS Dual Resist Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[RARE ag1 IAS>4 LRES>9 FRES>9 CLVL<24 ILVL>0]: IAS Dual Resist Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[RARE ag1 IAS>4 PRES>9 FRES>9 CLVL<24 ILVL>0]: IAS Dual Resist Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[RARE ag1 IAS>4 LRES>9 PRES>9 CLVL<24 ILVL>0]: IAS Dual Resist Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Maiden Gloves - Enhanced Damage, 10+ Dual Resistances
-ItemDisplay[RARE ag4 ED>24 CRES>9 FRES>9 CLVL<24 ILVL>0]: ED Dual Resist Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[RARE ag4 ED>24 CRES>9 LRES>9 CLVL<24 ILVL>0]: ED Dual Resist Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[RARE ag4 ED>24 CRES>9 PRES>9 CLVL<24 ILVL>0]: ED Dual Resist Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[RARE ag4 ED>24 LRES>9 FRES>9 CLVL<24 ILVL>0]: ED Dual Resist Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[RARE ag4 ED>24 PRES>9 FRES>9 CLVL<24 ILVL>0]: ED Dual Resist Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[RARE ag4 ED>24 LRES>9 PRES>9 CLVL<24 ILVL>0]: ED Dual Resist Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Amazon Gloves - Tri Resistances
-ItemDisplay[RARE (ag1 || ag4) FRES>9 CRES>9 LRES>9 CLVL<24 ILVL>0]: Tri Resist Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[RARE (ag1 || ag4) FRES>9 CRES>9 PRES>9 CLVL<24 ILVL>0]: Tri Resist Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[RARE (ag1 || ag4) CRES>9 LRES>9 PRES>9 CLVL<24 ILVL>0]: Tri Resist Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[RARE (ag1 || ag4) FRES>9 LRES>9 PRES>9 CLVL<24 ILVL>0]: Tri Resist Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Low Level Gloves - Flat Damage
 ItemDisplay[RARE GLOVES STAT21>9 STAT22>19 CLVL<24 ILVL>0]: T4 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
@@ -561,10 +521,7 @@ ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5) FRES>19 CRES>19 PRES>19 CLVL<
 ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5) CRES>19 LRES>19 PRES>19 CLVL<70 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5) FRES>19 LRES>19 PRES>19 CLVL<70 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
-//Mid Level Class Skills Amulets 
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK0>1 CLVL<70 ILVL>0]: Amazon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK2>1 CLVL<70 ILVL>0]: Javzon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK0>1 CLVL<70 ILVL>0]: Bowzon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+//Mid Level Class Skills Amulets
 ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK6>1 CLVL<70 ILVL>0]: Assassin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK50>1 CLVL<70 ILVL>0]: MA Sin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK48>1 CLVL<70 ILVL>0]: Trap Sin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
@@ -633,10 +590,7 @@ ItemDisplay[RARE CIRC FRES>24 CRES>24 PRES>24 CLVL<70 ILVL>0]: Tri Resist %PURPL
 ItemDisplay[RARE CIRC CRES>24 LRES>24 PRES>24 CLVL<70 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[RARE CIRC FRES>24 LRES>24 PRES>24 CLVL<70 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
-//Mid Level Class Circlets 
-ItemDisplay[(RARE || MAG) CIRC CLSK0>1 CLVL<70 ILVL>0]: Amazon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) CIRC TABSK2>1 CLVL<70 ILVL>0]: Javzon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) CIRC TABSK0>1 CLVL<70 ILVL>0]: Bowzon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+//Mid Level Class Circlets
 ItemDisplay[(RARE || MAG) CIRC CLSK6>1 CLVL<70 ILVL>0]: Assassin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[(RARE || MAG) CIRC TABSK50>1 CLVL<70 ILVL>0]: MA Sin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[(RARE || MAG) CIRC TABSK48>1 CLVL<70 ILVL>0]: Trap Sin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
@@ -734,52 +688,6 @@ ItemDisplay[RARE CHEST FRES>24 CRES>24 LRES>24 CLVL<70 ILVL>0]: Tri Resist %PURP
 ItemDisplay[RARE CHEST FRES>24 CRES>24 PRES>24 CLVL<70 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[RARE CHEST CRES>24 LRES>24 PRES>24 CLVL<70 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[RARE CHEST FRES>24 LRES>24 PRES>24 CLVL<70 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Amazon Gloves - +2 Javelin Skills
-ItemDisplay[RARE (ag1 || ag4 || ag2 || ag5) TABSK2>1 CLVL<48 ILVL>0]: + 2 Jav Skill Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[MAG (ag1 || ag4 || ag2 || ag5) TABSK2>1 CLVL<48 ILVL>0]: + 2 Jav Skill Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Amazon Gloves - +3 Javelin Skills
-ItemDisplay[RARE (ag1 || ag4 || ag2 || ag5) TABSK2>2 CLVL<70 ILVL>0]: + 3 Jav Skill Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[MAG (ag1 || ag4 || ag2 || ag5) TABSK2>2 CLVL<70 ILVL>0]: + 3 Jav Skill Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Amazon Gloves - +2 Bow & Crossbow Skills
-ItemDisplay[RARE (ag1 || ag4 || ag2 || ag5) TABSK0>1 CLVL<48 ILVL>0]: + 2 Bow Skill Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[MAG (ag1 || ag4 || ag2 || ag5) TABSK0>1 CLVL<48 ILVL>0]: + 2 Bow Skill Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Amazon Gloves - +3 Bow & Crossbow Skills
-ItemDisplay[RARE (ag1 || ag4 || ag2 || ag5) TABSK0>2 CLVL<70 ILVL>0]: + 3 Bow Skill Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[MAG (ag1 || ag4 || ag2 || ag5) TABSK0>2 CLVL<70 ILVL>0]: + 3 Bow Skill Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Amazon Gloves - Tier 3 Flat Damage
-ItemDisplay[RARE (ag1 || ag4 || ag2 || ag5) STAT21>24 STAT22>49 CLVL<42 ILVL>0]: T3 Flat Dmg Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[MAG (ag1 || ag4 || ag2 || ag5) STAT21>24 STAT22>49 CLVL<42 ILVL>0]: T3 Flat Dmg Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Amazon Gloves - Tier 2 Flat Damage
-ItemDisplay[RARE (ag1 || ag4 || ag2 || ag5) STAT21>34 STAT22>69 CLVL<70 ILVL>0]: T2 Flat Dmg Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[MAG (ag1 || ag4 || ag2 || ag5) STAT21>34 STAT22>69 CLVL<70 ILVL>0]: T2 Flat Dmg Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Amazon Armguards and Fletcher Mitt Gloves - Increased Attack Speed, 20+ Dual Resistances
-ItemDisplay[RARE (ag1 || ag2) IAS>4 CRES>19 FRES>19 CLVL<70 ILVL>0]: IAS Dual Resist Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[RARE (ag1 || ag2) IAS>4 CRES>19 LRES>19 CLVL<70 ILVL>0]: IAS Dual Resist Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[RARE (ag1 || ag2) IAS>4 CRES>19 PRES>19 CLVL<70 ILVL>0]: IAS Dual Resist Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[RARE (ag1 || ag2) IAS>4 LRES>19 FRES>19 CLVL<70 ILVL>0]: IAS Dual Resist Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[RARE (ag1 || ag2) IAS>4 PRES>19 FRES>19 CLVL<70 ILVL>0]: IAS Dual Resist Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[RARE (ag1 || ag2) IAS>4 LRES>19 PRES>19 CLVL<70 ILVL>0]: IAS Dual Resist Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Amazon Maiden and Matriarch Bracer Gloves - Enhanced Damage, 20+ Dual Resistances
-ItemDisplay[RARE (ag4 || ag5) ED>24 CRES>19 FRES>19 CLVL<70 ILVL>0]: ED Dual Resist Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[RARE (ag4 || ag5) ED>24 CRES>19 LRES>19 CLVL<70 ILVL>0]: ED Dual Resist Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[RARE (ag4 || ag5) ED>24 CRES>19 PRES>19 CLVL<70 ILVL>0]: ED Dual Resist Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[RARE (ag4 || ag5) ED>24 LRES>19 FRES>19 CLVL<70 ILVL>0]: ED Dual Resist Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[RARE (ag4 || ag5) ED>24 PRES>19 FRES>19 CLVL<70 ILVL>0]: ED Dual Resist Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[RARE (ag4 || ag5) ED>24 LRES>19 PRES>19 CLVL<70 ILVL>0]: ED Dual Resist Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Amazon Gloves - Tri Resistances
-ItemDisplay[RARE (ag1 || ag4 || ag2 || ag5) FRES>24 CRES>24 LRES>24 CLVL<70 ILVL>0]: Tri Resist Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[RARE (ag1 || ag4 || ag2 || ag5) FRES>24 CRES>24 PRES>24 CLVL<70 ILVL>0]: Tri Resist Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[RARE (ag1 || ag4 || ag2 || ag5) CRES>24 LRES>24 PRES>24 CLVL<70 ILVL>0]: Tri Resist Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[RARE (ag1 || ag4 || ag2 || ag5) FRES>24 LRES>24 PRES>24 CLVL<70 ILVL>0]: Tri Resist Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Mid Level Gloves - T3 Flat Damage
 ItemDisplay[RARE GLOVES STAT21>24 STAT22>49 CLVL<42 ILVL>0]: T3 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
