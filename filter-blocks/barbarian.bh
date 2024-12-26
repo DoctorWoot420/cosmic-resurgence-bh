@@ -3,6 +3,81 @@
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
 
+
+//Low Level Class Skills Amulets
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK4>0 CLVL<50 ILVL>0]: Barbarian %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK34>0 CLVL<50 ILVL>0]: Warcry Barb %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Class Circlets
+ItemDisplay[(RARE || MAG) CIRC CLSK4>0 CLVL<50 ILVL>0]: Barbarian %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC TABSK34>0 CLVL<50 ILVL>0]: Warcry Barb %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Barbarian Helmets - Flat Damage
+ItemDisplay[RARE ba1 STAT21>9 STAT22>19 CLVL<24 ILVL>0]: T4 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[MAG ba1 STAT21>9 STAT22>19 CLVL<24 ILVL>0]: T4 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[MAG ba1 SK145>0 CLVL<24 ILVL>0]: + Frenzy %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Barbarian Helmets - Faster Hit Recovery, 10+ Dual Resistances
+ItemDisplay[RARE ba1 FHR>9 CRES>9 FRES>9 CLVL<24 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE ba1 FHR>9 CRES>9 LRES>9 CLVL<24 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE ba1 FHR>9 CRES>9 PRES>9 CLVL<24 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE ba1 FHR>9 LRES>9 FRES>9 CLVL<24 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE ba1 FHR>9 PRES>9 FRES>9 CLVL<24 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE ba1 FHR>9 LRES>9 PRES>9 CLVL<24 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Barbarian Helmets - Tri Resistances
+ItemDisplay[RARE ba1 FRES>9 CRES>9 LRES>9 CLVL<24 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE ba1 FRES>9 CRES>9 PRES>9 CLVL<24 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE ba1 CRES>9 LRES>9 PRES>9 CLVL<24 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE ba1 FRES>9 LRES>9 PRES>9 CLVL<24 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Barbarian Helmets - Runewords
+ItemDisplay[(NMAG !INF) SOCK=2 (ba1 || ba6 || bab) SK145>0 CLVL<80 ILVL>0]: + Frenzy Lore (Ort Sol) %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 BAR SK148>0 CLVL<80 ILVL>0]: + Whirlwind Lore (Ort Sol) %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (bac || bad || bae || baf) SK150>0 CLVL<88 ILVL>0]: + Warcry Lore (Ort Sol) %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (bac || bae) SK141>0 CLVL<88 ILVL>0]: + Ancients Fury Lore (Ort Sol) %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 BAR SK131>0 CLVL<88 ILVL>0]: + Winters Fury Lore (Ort Sol) %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Destroyer Axe (-10 Speed) - Runewords
+ItemDisplay[(NMAG !INF) SOCK=2 bw4 CLVL<70 ILVL>1]: Steel (Tir El) Strength (Amn Tir) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 bw4 CLVL<70 ILVL>1]: Authority (El Eth Ith) Pestilence (Tir Tal Tir) Envy (Ort Amn Ral) Black (Thul Io Nef) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=5 bw4 CLVL<70 ILVL>1]: Honor (Amn El Ith Tir Sol) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Slayer Hatchet (-10 Speed) - Runewords
+ItemDisplay[(NMAG !INF) SOCK=3 bw5 CLVL<70 ILVL>1]: Authority (El Eth Ith) Pestilence (Tir Tal Tir) Envy (Ort Amn Ral) Black (Thul Io Nef) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=5 bw5 CLVL<70 ILVL>1]: Honor (Amn El Ith Tir Sol) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Mid Level Class Skills Amulets
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK4>1 CLVL<70 ILVL>0]: Barbarian %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK34>1 CLVL<70 ILVL>0]: Warcry Barb %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Mid Level Class Circlets
+ItemDisplay[(RARE || MAG) CIRC CLSK4>1 CLVL<70 ILVL>0]: Barbarian %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC TABSK34>1 CLVL<70 ILVL>0]: Warcry Barb %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Mid Level Barbarian Helmets - Flat Damage
+ItemDisplay[RARE (ba1 || ba6 || bab) STAT21>24 STAT22>49 CLVL<42 ILVL>0]: T3 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[MAG (ba1 || ba6 || bab) STAT21>24 STAT22>49 CLVL<42 ILVL>0]: T3 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Mid Level Barbarian Helmets - Flat Damage
+ItemDisplay[RARE (ba1 || ba6 || bab) STAT21>34 STAT22>69 CLVL<70 ILVL>0]: T2 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[MAG (ba1 || ba6 || bab) STAT21>34 STAT22>69 CLVL<70 ILVL>0]: T2 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Mid Level Barbarian Helmets - Faster Hit Recovery, 20+ Dual Resistances
+ItemDisplay[RARE (ba1 || ba6 || bab || bac) FHR>16 CRES>19 FRES>19 CLVL<70 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE (ba1 || ba6 || bab || bac) FHR>16 CRES>19 LRES>19 CLVL<70 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE (ba1 || ba6 || bab || bac) FHR>16 CRES>19 PRES>19 CLVL<70 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE (ba1 || ba6 || bab || bac) FHR>16 LRES>19 FRES>19 CLVL<70 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE (ba1 || ba6 || bab || bac) FHR>16 PRES>19 FRES>19 CLVL<70 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE (ba1 || ba6 || bab || bac) FHR>16 LRES>19 PRES>19 CLVL<70 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Mid Level Barbarian Helmets - Tri Resistances
+ItemDisplay[RARE (ba1 || ba6 || bab || bac) FRES>24 CRES>24 LRES>24 CLVL<70 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE (ba1 || ba6 || bab || bac) FRES>24 CRES>24 PRES>24 CLVL<70 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE (ba1 || ba6 || bab || bac) CRES>24 LRES>24 PRES>24 CLVL<70 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE (ba1 || ba6 || bab || bac) FRES>24 LRES>24 PRES>24 CLVL<70 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+
 //////////////////////////////////////////////////////////////////
 //Rare Helms//////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
@@ -13,20 +88,32 @@ ItemDisplay[RARE (baf || bae || bad || bac || bab || baa || ba9 || ba8 || ba7 ||
 ItemDisplay[MAG (baf || bae || bad || bac || bab || baa || ba9 || ba8 || ba7 || ba6 || ba2 || ba1 || ba5 || ba4 || ba3) SK142>2 CLSK4>1 ILVL>1]: + 5 Totems %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 ItemDisplay[MAG (baf || bae || bad || bac || bab || baa || ba9 || ba8 || ba7 || ba6 || ba2 || ba1 || ba5 || ba4 || ba3) SK142>2 TABSK34>2 ILVL>1]: + 6 Totems %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
 
+//Barb Helm - +5-6 Winters Fury (Throw Skill)
+ItemDisplay[RARE (baf || bae || bad || bac || bab || baa || ba9 || ba8 || ba7 || ba6 || ba2 || ba1 || ba5 || ba4 || ba3) SK131>2 CLSK4>1 ILVL>1]: + 5 Winters Fury %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (baf || bae || bad || bac || bab || baa || ba9 || ba8 || ba7 || ba6 || ba2 || ba1 || ba5 || ba4 || ba3) SK131>2 TABSK34>2 ILVL>1]: + 6 Winters Fury %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
+ItemDisplay[MAG (baf || bae || bad || bac || bab || baa || ba9 || ba8 || ba7 || ba6 || ba2 || ba1 || ba5 || ba4 || ba3) SK131>2 CLSK4>1 ILVL>1]: + 5 Winters Fury %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (baf || bae || bad || bac || bab || baa || ba9 || ba8 || ba7 || ba6 || ba2 || ba1 || ba5 || ba4 || ba3) SK131>2 TABSK34>2 ILVL>1]: + 6 Winters Fury %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
+
 
 /////////////////////////////////////////////////////////////////////////
 //Weapon Alchs///////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////
 
 //Ginther's Rift Alch (Use for Cold Uber)
-ItemDisplay[(NMAG !INF !SUP) 9cr ILVL>49]: Ginther's Rift Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) 9cr ILVL>49 FILTLVL<3]: Ginther's Rift Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) 9cr ILVL>49 FILTLVL<3]: Ginther's Rift Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //Renit's Fury Alch (Use With Frenzy)
-ItemDisplay[(NMAG !INF !SUP) tsp ILVL>20]: Renit's Rage Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) 9ts ILVL>52]: Renit's Anger Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) tsp ILVL>20 FILTLVL<3]: Renit's Rage Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) tsp ILVL>20 FILTLVL<3]: Renit's Rage Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) 9ts ILVL>52 FILTLVL<3]: Renit's Anger Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) 9ts ILVL>52 FILTLVL<3]: Renit's Anger Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //The Diggler Alch (Use for Warcry Barbs)
-ItemDisplay[(NMAG !INF !SUP) dir ILVL>11]: The Diggler Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) 9di ILVL>43]: Heart Carver Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) 7di ILVL>74]: Soul Sculpter Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) dir ILVL>11 FILTLVL<3]: The Diggler Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) dir ILVL>11 FILTLVL<3]: The Diggler Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) 9di ILVL>43 FILTLVL<3]: Heart Carver Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) 9di ILVL>43 FILTLVL<3]: Heart Carver Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) 7di ILVL>74 FILTLVL<3]: Soul Sculpter Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) 7di ILVL>74 FILTLVL<3]: Soul Sculpter Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 
 
 
@@ -162,6 +249,9 @@ ItemDisplay[(NMAG !INF !SUP) ab5 ILVL>57 FILTLVL<3]: Ingenuity Alch %RED%%NAME% 
 //Magic Crafts & Jeweler's Socketables///////////////////////////////////
 /////////////////////////////////////////////////////////////////////////
 
+//Lich Rings For Crafting (Cave Of Horrors)
+ItemDisplay[MAG (li0 || li1 || li2 || li3 || li4 || li5 || li6) ILVL>1]: Craft %BASENAME%%RED%0%BLUE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (li0 || li1 || li2 || li3 || li4 || li5 || li6) ILVL>1]: Diffuse %BASENAME%%RED%0%BLUE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Loricated Mail For Crafting
 ItemDisplay[(NMAG || MAG) ucl ILVL>1 FILTLVL<3]: MA Sin Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
 ItemDisplay[(NMAG || MAG) ucl ILVL>1 FILTLVL<3]: MA Sin Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
@@ -187,8 +277,8 @@ ItemDisplay[(NMAG || MAG) ulb ILVL>1 FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BL
 ItemDisplay[(NMAG || MAG) umb ILVL>1 FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
 ItemDisplay[(NMAG || MAG) umb ILVL>1 FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //Colossus Blade For Crafting
-ItemDisplay[(NMAG || MAG) 7gd ILVL>1]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG || MAG) 7gd ILVL>1]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG || MAG) 7gd ILVL>1 FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG || MAG) 7gd ILVL>1 FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 
 
 /////////////////////////////////////////////////////////////////////////
