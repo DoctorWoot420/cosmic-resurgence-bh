@@ -19,8 +19,6 @@ ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5) CRES>9 LRES>9 PRES>9 CLVL<24 
 ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5) FRES>9 LRES>9 PRES>9 CLVL<24 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Low Level Class Skills Amulets
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK4>0 CLVL<50 ILVL>0]: Barbarian %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK34>0 CLVL<50 ILVL>0]: Warcry Barb %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK5>0 CLVL<50 ILVL>0]: Druid %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK40>0 CLVL<50 ILVL>0]: Druid Summon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK42>0 CLVL<50 ILVL>0]: Druid Elemental %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
@@ -64,29 +62,9 @@ ItemDisplay[RARE CIRC CRES>9 LRES>9 PRES>9 CLVL<50 ILVL>0]: Tri Resist %PURPLE%%
 ItemDisplay[RARE CIRC FRES>9 LRES>9 PRES>9 CLVL<50 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Low Level Class Circlets
-ItemDisplay[(RARE || MAG) CIRC CLSK4>0 CLVL<50 ILVL>0]: Barbarian %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) CIRC TABSK34>0 CLVL<50 ILVL>0]: Warcry Barb %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[(RARE || MAG) CIRC CLSK5>0 CLVL<50 ILVL>0]: Druid %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[(RARE || MAG) CIRC TABSK40>0 CLVL<50 ILVL>0]: Druid Summon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[(RARE || MAG) CIRC TABSK42>0 CLVL<50 ILVL>0]: Druid Elemental %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Barbarian Helmets - Flat Damage
-ItemDisplay[RARE ba1 STAT21>9 STAT22>19 CLVL<24 ILVL>0]: T4 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[MAG ba1 STAT21>9 STAT22>19 CLVL<24 ILVL>0]: T4 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Barbarian Helmets - Faster Hit Recovery, 10+ Dual Resistances
-ItemDisplay[RARE ba1 FHR>9 CRES>9 FRES>9 CLVL<24 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[RARE ba1 FHR>9 CRES>9 LRES>9 CLVL<24 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[RARE ba1 FHR>9 CRES>9 PRES>9 CLVL<24 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[RARE ba1 FHR>9 LRES>9 FRES>9 CLVL<24 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[RARE ba1 FHR>9 PRES>9 FRES>9 CLVL<24 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[RARE ba1 FHR>9 LRES>9 PRES>9 CLVL<24 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Barbarian Helmets - Tri Resistances
-ItemDisplay[RARE ba1 FRES>9 CRES>9 LRES>9 CLVL<24 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[RARE ba1 FRES>9 CRES>9 PRES>9 CLVL<24 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[RARE ba1 CRES>9 LRES>9 PRES>9 CLVL<24 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[RARE ba1 FRES>9 LRES>9 PRES>9 CLVL<24 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Low Level Druid Helmets - Flat Damage
 ItemDisplay[RARE dr1 STAT21>9 STAT22>19 CLVL<24 ILVL>0]: T4 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
@@ -248,15 +226,6 @@ ItemDisplay[(NMAG !INF) SOCK=3 fla CLVL<55 ILVL>1]: Authority RW (El Eth Ith) Ma
 ItemDisplay[(NMAG !INF) SOCK=3 9fl CLVL<60 ILVL>1]: Black (Thul Io Nef) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[(NMAG !INF) SOCK=5 9fl CLVL<60 ILVL>1]: Honor (Amn El Ith Tir Sol) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
-//Low Level Destroyer Axe (-10 Speed) - Runewords
-ItemDisplay[(NMAG !INF) SOCK=2 bw4 CLVL<40 ILVL>1]: Steel (Tir El) Strength (Amn Tir) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=3 bw4 CLVL<55 ILVL>1]: Authority (El Eth Ith) Pestilence (Tir Tal Tir) Envy (Ort Amn Ral) Black (Thul Io Nef) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=5 bw4 CLVL<60 ILVL>1]: Honor (Amn El Ith Tir Sol) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Slayer Hatchet (-10 Speed) - Runewords
-ItemDisplay[(NMAG !INF) SOCK=3 bw5 CLVL<60 ILVL>1]: Authority (El Eth Ith) Pestilence (Tir Tal Tir) Envy (Ort Amn Ral) Black (Thul Io Nef) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=5 bw5 CLVL<60 ILVL>1]: Honor (Amn El Ith Tir Sol) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
 //Low Level Kris (-20 Speed) - Runewords
 ItemDisplay[(NMAG !INF) SOCK=2 kri CLVL<60 ILVL>1]: Strength (Amn Tir) Night (Tir Io) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
@@ -304,8 +273,6 @@ ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5) CRES>19 LRES>19 PRES>19 CLVL<
 ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5) FRES>19 LRES>19 PRES>19 CLVL<70 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Mid Level Class Skills Amulets
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK4>1 CLVL<70 ILVL>0]: Barbarian %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK34>1 CLVL<70 ILVL>0]: Warcry Barb %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK5>1 CLVL<70 ILVL>0]: Druid %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK40>1 CLVL<70 ILVL>0]: Druid Summon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK42>1 CLVL<70 ILVL>0]: Druid Elemental %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
@@ -361,33 +328,9 @@ ItemDisplay[RARE CIRC CRES>24 LRES>24 PRES>24 CLVL<70 ILVL>0]: Tri Resist %PURPL
 ItemDisplay[RARE CIRC FRES>24 LRES>24 PRES>24 CLVL<70 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Mid Level Class Circlets
-ItemDisplay[(RARE || MAG) CIRC CLSK4>1 CLVL<70 ILVL>0]: Barbarian %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) CIRC TABSK34>1 CLVL<70 ILVL>0]: Warcry Barb %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[(RARE || MAG) CIRC CLSK5>1 CLVL<70 ILVL>0]: Druid %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[(RARE || MAG) CIRC TABSK40>1 CLVL<70 ILVL>0]: Druid Summon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[(RARE || MAG) CIRC TABSK42>1 CLVL<70 ILVL>0]: Druid Elemental %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Barbarian Helmets - Flat Damage
-ItemDisplay[RARE (ba1 || ba6 || bab) STAT21>24 STAT22>49 CLVL<42 ILVL>0]: T3 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[MAG (ba1 || ba6 || bab) STAT21>24 STAT22>49 CLVL<42 ILVL>0]: T3 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Barbarian Helmets - Flat Damage
-ItemDisplay[RARE (ba1 || ba6 || bab) STAT21>34 STAT22>69 CLVL<70 ILVL>0]: T2 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[MAG (ba1 || ba6 || bab) STAT21>34 STAT22>69 CLVL<70 ILVL>0]: T2 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Barbarian Helmets - Faster Hit Recovery, 20+ Dual Resistances
-ItemDisplay[RARE (ba1 || ba6 || bab || bac) FHR>16 CRES>19 FRES>19 CLVL<70 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[RARE (ba1 || ba6 || bab || bac) FHR>16 CRES>19 LRES>19 CLVL<70 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[RARE (ba1 || ba6 || bab || bac) FHR>16 CRES>19 PRES>19 CLVL<70 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[RARE (ba1 || ba6 || bab || bac) FHR>16 LRES>19 FRES>19 CLVL<70 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[RARE (ba1 || ba6 || bab || bac) FHR>16 PRES>19 FRES>19 CLVL<70 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[RARE (ba1 || ba6 || bab || bac) FHR>16 LRES>19 PRES>19 CLVL<70 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Barbarian Helmets - Tri Resistances
-ItemDisplay[RARE (ba1 || ba6 || bab || bac) FRES>24 CRES>24 LRES>24 CLVL<70 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[RARE (ba1 || ba6 || bab || bac) FRES>24 CRES>24 PRES>24 CLVL<70 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[RARE (ba1 || ba6 || bab || bac) CRES>24 LRES>24 PRES>24 CLVL<70 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[RARE (ba1 || ba6 || bab || bac) FRES>24 LRES>24 PRES>24 CLVL<70 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Mid Level Druid Helmets - Tier 3 Flat Damage
 ItemDisplay[RARE (dr1 || dr6 || drb) STAT21>24 STAT22>49 CLVL<42 ILVL>0]: T3 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
