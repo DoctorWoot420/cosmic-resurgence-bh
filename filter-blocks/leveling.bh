@@ -18,10 +18,7 @@ ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5) FRES>9 CRES>9 PRES>9 CLVL<24 
 ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5) CRES>9 LRES>9 PRES>9 CLVL<24 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5) FRES>9 LRES>9 PRES>9 CLVL<24 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
-//Low Level Class Skills Amulets 
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK6>0 CLVL<50 ILVL>0]: Assassin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK50>0 CLVL<50 ILVL>0]: MA Sin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK48>0 CLVL<50 ILVL>0]: Trap Sin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+//Low Level Class Skills Amulets
 ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK1>0 CLVL<50 ILVL>0]: Sorceress %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK8>0 CLVL<50 ILVL>0]: Fire Sorc %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK9>0 CLVL<50 ILVL>0]: Light Sorc %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
@@ -75,10 +72,7 @@ ItemDisplay[RARE CIRC FRES>9 CRES>9 PRES>9 CLVL<50 ILVL>0]: Tri Resist %PURPLE%%
 ItemDisplay[RARE CIRC CRES>9 LRES>9 PRES>9 CLVL<50 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[RARE CIRC FRES>9 LRES>9 PRES>9 CLVL<50 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
-//Low Level Class Circlets 
-ItemDisplay[(RARE || MAG) CIRC CLSK6>0 CLVL<50 ILVL>0]: Assassin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) CIRC TABSK50>0 CLVL<50 ILVL>0]: MA Sin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) CIRC TABSK48>0 CLVL<50 ILVL>0]: Trap Sin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+//Low Level Class Circlets
 ItemDisplay[(RARE || MAG) CIRC CLSK1>0 CLVL<50 ILVL>0]: Sorceress %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[(RARE || MAG) CIRC TABSK8>0 CLVL<50 ILVL>0]: Fire Sorc %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[(RARE || MAG) CIRC TABSK9>0 CLVL<50 ILVL>0]: Light Sorc %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
@@ -240,24 +234,6 @@ ItemDisplay[RARE (WP1 || WP2 || WP3 || WP4 || WP5 || WP8 || WP9 || WP10) ED>49 S
 
 //Low Level Physical Weapons - Enhanced Damage - Life Leech
 ItemDisplay[RARE (WP1 || WP2 || WP3 || WP4 || WP5 || WP8 || WP9 || WP10) ED>79 STAT60>1 CLVL<24 ILVL>0]: ED Life Leech %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Assassin Claws - Enhanced Damage - Life Leech
-ItemDisplay[RARE (ktr || axf || ces || clw || btl || wrb) ED>49 STAT60>1 CLVL<15 ILVL>0]: ED Life Leech %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Assassin Claws - Enhanced Damage - Life Leech
-ItemDisplay[RARE (ktr || axf || ces || clw || btl || wrb) ED>79 STAT60>1 CLVL<24 ILVL>0]: ED Life Leech %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Assassin Claws - +3 Psychic Hammer
-ItemDisplay[RARE (ktr || axf || ces || clw || btl || wrb) SK253>2 CLVL<24 ILVL>0]: + 3 Psychic Hammer %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%] 
-ItemDisplay[MAG (ktr || axf || ces || clw || btl || wrb) SK253>2 CLVL<24 ILVL>0]: + 3 Psychic Hammer %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Assassin Claws - +1 Trap Skills
-ItemDisplay[RARE (ktr || axf || ces || clw || btl || wrb) TABSK48>0 CLVL<32 ILVL>0]: + 1 Trap Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%] 
-ItemDisplay[MAG (ktr || axf || ces || clw || btl || wrb) TABSK48>0 CLVL<32 ILVL>0]: +1 Trap Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Assassin Claws - +1 Assassin Skills
-ItemDisplay[RARE (ktr || axf || ces || clw || btl || wrb) CLSK6>0 CLVL<58 ILVL>0]: +1 Sin Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%] 
-ItemDisplay[MAG (ktr || axf || ces || clw || btl || wrb) CLSK6>0 CLVL<58 ILVL>0]: +1 Sin Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Low Level Voltaic Blast Clasped Orb - Eagle Orb - Smoked Sphere - Sacred Globe
 ItemDisplay[RARE (ob1 || ob2 || ob3 || lxb || ob4) SK43>2 CLVL<24 ILVL>0]: + 3 Voltaic Blast %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
@@ -522,9 +498,6 @@ ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5) CRES>19 LRES>19 PRES>19 CLVL<
 ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5) FRES>19 LRES>19 PRES>19 CLVL<70 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Mid Level Class Skills Amulets
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK6>1 CLVL<70 ILVL>0]: Assassin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK50>1 CLVL<70 ILVL>0]: MA Sin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK48>1 CLVL<70 ILVL>0]: Trap Sin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK1>1 CLVL<70 ILVL>0]: Sorceress %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK8>1 CLVL<70 ILVL>0]: Fire Sorc %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK9>1 CLVL<70 ILVL>0]: Light Sorc %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
@@ -591,9 +564,6 @@ ItemDisplay[RARE CIRC CRES>24 LRES>24 PRES>24 CLVL<70 ILVL>0]: Tri Resist %PURPL
 ItemDisplay[RARE CIRC FRES>24 LRES>24 PRES>24 CLVL<70 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Mid Level Class Circlets
-ItemDisplay[(RARE || MAG) CIRC CLSK6>1 CLVL<70 ILVL>0]: Assassin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) CIRC TABSK50>1 CLVL<70 ILVL>0]: MA Sin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) CIRC TABSK48>1 CLVL<70 ILVL>0]: Trap Sin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[(RARE || MAG) CIRC CLSK1>1 CLVL<70 ILVL>0]: Sorceress %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[(RARE || MAG) CIRC TABSK8>1 CLVL<70 ILVL>0]: Fire Sorc %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[(RARE || MAG) CIRC TABSK9>1 CLVL<70 ILVL>0]: Light Sorc %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
@@ -784,33 +754,6 @@ ItemDisplay[RARE (WP1 || WP2 || WP3 || WP5 || WP8 || WP9 || WP10) ED>199 STAT60>
 
 //Mid Level Physical Weapons - Enhanced Damage - Dual Leech
 ItemDisplay[RARE (WP1 || WP2 || WP3 || WP5 || WP8 || WP9 || WP10) ED>219 STAT60>2 STAT62>2 CLVL<70 ILVL>0]: ED Dual Leech %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Assassin Claws - Enhanced Damage - Dual Leech
-ItemDisplay[RARE (skr || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf) ED>99 STAT60>2 STAT62>2 CLVL<35 ILVL>0]: ED Dual Leech %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Assassin Claws - Enhanced Damage - Dual Leech
-ItemDisplay[RARE (skr || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf) ED>119 STAT60>2 STAT62>2 CLVL<40 ILVL>0]: ED Dual Leech %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Assassin Claws - Enhanced Damage - Dual Leech
-ItemDisplay[RARE (skr || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf) ED>149 STAT60>2 STAT62>2 CLVL<54 ILVL>0]: ED Dual Leech %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Assassin Claws - Enhanced Damage - Dual Leech
-ItemDisplay[RARE (skr || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf) ED>199 STAT60>2 STAT62>2 CLVL<64 ILVL>0]: ED Dual Leech %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Assassin Claws - Enhanced Damage - Dual Leech
-ItemDisplay[RARE (skr || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf) ED>219 STAT60>2 STAT62>2 CLVL<70 ILVL>0]: ED Dual Leech %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Assassin Claws - +2 Trap Skills
-ItemDisplay[RARE (skr || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf) TABSK48>1 CLVL<48 ILVL>0]: + 2 Trap Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%] 
-ItemDisplay[MAG (skr || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf) TABSK48>1 CLVL<48 ILVL>0]: + 2 Trap Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Assassin Claws - +3 Trap Skills
-ItemDisplay[RARE (skr || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf) TABSK48>2 CLVL<70 ILVL>0]: + 3 Trap Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%] 
-ItemDisplay[MAG (skr || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf) TABSK48>2 CLVL<70 ILVL>0]: + 3 Trap Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Assassin Claws - +2 Assassin Skills
-ItemDisplay[RARE (skr || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf) CLSK6>1 CLVL<70 ILVL>0]: + 2 Sin Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%] 
-ItemDisplay[MAG (skr || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf) CLSK6>1 CLVL<70 ILVL>0]: + 2 Sin Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Mid Level Voltaic Blast Clasped Orb - Sparkling Ball
 ItemDisplay[RARE (ob4 || ob9) TABSK9>0 SK43>2 CLVL<70 ILVL>0]: Voltaic Blast %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
