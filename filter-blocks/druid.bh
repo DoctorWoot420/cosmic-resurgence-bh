@@ -83,6 +83,77 @@ ItemDisplay[RARE (dr1 || dr6 || drb) FRES>24 LRES>24 PRES>24 CLVL<70 ILVL>0]: Tr
 
 
 /////////////////////////////////////////////////////////////////////////
+//Druid Helms////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////
+
+//Druid Helm - +5-6 Armageddon
+ItemDisplay[RARE DRU SK249>2 CLSK5>1 ILVL>1]: + 5 Armageddon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE DRU SK249>2 TABSK42>2 ILVL>1]: + 6 Armageddon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
+ItemDisplay[MAG DRU SK249>2 CLSK5>1 ILVL>1]: + 5 Armageddon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG DRU SK249>2 TABSK42>2 ILVL>1]: + 6 Armageddon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
+
+//Druid Helm - +5-6 Hurricane
+ItemDisplay[RARE DRU SK250>2 CLSK5>1 ILVL>1]: + 5 Hurricane %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE DRU SK250>2 TABSK42>2 ILVL>1]: + 6 Hurricane %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
+ItemDisplay[MAG DRU SK250>2 CLSK5>1 ILVL>1]: + 5 Hurricane %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG DRU SK250>2 TABSK42>2 ILVL>1]: + 6 Hurricane %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
+
+//Druid Helm - +5-6 Shockwave
+ItemDisplay[RARE DRU SK243>2 CLSK5>1 ILVL>1]: + 5 Shockwave %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE DRU SK243>2 TABSK41>2 ILVL>1]: + 6 Shockwave %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
+ItemDisplay[MAG DRU SK243>2 CLSK5>1 ILVL>1]: + 5 Shockwave %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG DRU SK243>2 TABSK41>2 ILVL>1]: + 6 Shockwave %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
+
+//Druid Helm - +5-6 Summon Grizzly
+ItemDisplay[RARE DRU SK247>2 CLSK5>1 ILVL>1]: + 5 Summon Grizzly %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE DRU SK247>2 TABSK40>2 ILVL>1]: + 6 Summon Grizzly %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
+ItemDisplay[MAG DRU SK247>2 CLSK5>1 ILVL>1]: + 5 Summon Grizzly %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG DRU SK247>2 TABSK40>2 ILVL>1]: + 6 Summon Grizzly %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
+
+//Druid Helm - +5-6 Feral Rage
+ItemDisplay[RARE (dr1 || dr6 || drb) SK232>2 CLSK5>1 ILVL>1]: + 5 Feral Rage %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (dr1 || dr6 || drb) SK232>2 TABSK41>2 ILVL>1]: + 6 Feral Rage %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
+ItemDisplay[MAG (dr1 || dr6 || drb) SK232>2 CLSK5>1 ILVL>1]: + 5 Feral Rage %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (dr1 || dr6 || drb) SK232>2 TABSK41>2 ILVL>1]: + 6 Feral Rage %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
+
+//Druid Helm - +5-6 Fury
+ItemDisplay[RARE (dr1 || dr6 || drb) SK248>2 CLSK5>1 ILVL>1]: + 5 Fury %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (dr1 || dr6 || drb) SK248>2 TABSK41>2 ILVL>1]: + 6 Fury %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
+ItemDisplay[MAG (dr1 || dr6 || drb) SK248>2 CLSK5>1 ILVL>1]: + 5 Fury %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (dr1 || dr6 || drb) SK248>2 TABSK41>2 ILVL>1]: + 6 Fury %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
+
+//Druid Helm - +5-6 Maul
+ItemDisplay[RARE (dr1 || dr6 || drb) SK233>2 CLSK5>1 ILVL>1]: + 5 Maul %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (dr1 || dr6 || drb) SK233>2 TABSK41>2 ILVL>1]: + 6 Maul %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
+ItemDisplay[MAG (dr1 || dr6 || drb) SK233>2 CLSK5>1 ILVL>1]: + 5 Maul %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (dr1 || dr6 || drb) SK233>2 TABSK41>2 ILVL>1]: + 6 Maul %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
+
+//Druid Helm - +5-6 Fire Claws
+ItemDisplay[RARE (dr1 || dr6 || drb || drc) SK239>2 CLSK5>1 ILVL>1]: + 5 Fire Claws %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (dr1 || dr6 || drb || drc) SK239>2 TABSK41>2 ILVL>1]: + 6 Fire Claws %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
+ItemDisplay[MAG (dr1 || dr6 || drb || drc) SK239>2 CLSK5>1 ILVL>1]: + 5 Fire Claws %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (dr1 || dr6 || drb || drc) SK239>2 TABSK41>2 ILVL>1]: + 6 Fire Claws %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
+
+//Druid Helm - +5-6 Werewolf
+ItemDisplay[RARE (dr1 || dr6 || drb) SK223>2 CLSK5>1 ILVL>1]: + 5 Werewolf %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (dr1 || dr6 || drb) SK223>2 TABSK41>2 ILVL>1]: + 6 Werewolf %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
+ItemDisplay[MAG (dr1 || dr6 || drb) SK223>2 CLSK5>1 ILVL>1]: + 5 Werewolf %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (dr1 || dr6 || drb) SK223>2 TABSK41>2 ILVL>1]: + 6 Werewolf %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
+
+//Druid Helm - +5-6 Werebear
+ItemDisplay[RARE (dr1 || dr6 || drb) SK228>2 CLSK5>1 ILVL>1]: + 5 Werebear %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (dr1 || dr6 || drb) SK228>2 TABSK41>2 ILVL>1]: + 6 Werebear %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
+ItemDisplay[MAG (dr1 || dr6 || drb) SK228>2 CLSK5>1 ILVL>1]: + 5 Werebear %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (dr1 || dr6 || drb) SK228>2 TABSK41>2 ILVL>1]: + 6 Werebear %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
+
+//Druid Helm - +5-6 Werebear
+ItemDisplay[RARE (dr1 || dr6 || drb) SK224>2 CLSK5>1 ILVL>1]: + 5 Lycanthropy %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (dr1 || dr6 || drb) SK224>2 TABSK41>2 ILVL>1]: + 6 Lycanthropy %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
+ItemDisplay[MAG (dr1 || dr6 || drb) SK224>2 CLSK5>1 ILVL>1]: + 5 Lycanthropy %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (dr1 || dr6 || drb) SK224>2 TABSK41>2 ILVL>1]: + 6 Lycanthropy %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
+
+
+/////////////////////////////////////////////////////////////////////////
 //Jewel Alchs////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////
 
