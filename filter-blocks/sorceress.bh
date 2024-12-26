@@ -3,6 +3,7 @@
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
 
+
 //Low Level Sorceress Skills Amulets
 ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK1>0 CLVL<50 ILVL>0]: Sorceress %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK8>0 CLVL<50 ILVL>0]: Fire Sorc %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
@@ -129,31 +130,6 @@ ItemDisplay[NMAG SOCK=2 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba ||
 //Low Level Lightning Mastery Eagle Orb - Smoked Sphere - Sacred Globe - Jareds Stone - Glowing Orb - Crystalline Globe - Cloudy Sphere - Swirling Crystal - Heavenly Stone - Eldritch Orb - Demon Heart - Dimensional Shard - Runewords
 ItemDisplay[NMAG SOCK=2 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK63>2 ILVL>0]: + 3 Lightning Mastery Tradition RW (Eld Amn) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
-//Punishment Orb Runeword
-//Voltaic Blast Clasped Orb - Sparkling Ball - Vortex Orb - Runewords
-ItemDisplay[NMAG SOCK=3 (ob4 || ob9 || obe) SK43>2 ILVL>0]: + 3 Voltaic Blast Punishment RW (Lo Jah Lo) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-
-//Charged Bolt Eagle Orb - Smoked Sphere - Sacred Globe - Jareds Stone - Glowing Orb - Crystalline Globe - Cloudy Sphere - Swirling Crystal - Heavenly Stone - Eldritch Orb - Demon Heart - Dimensional Shard - Runewords
-ItemDisplay[NMAG SOCK=3 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK39>2 ILVL>0]: + 3 Charged Bolt Punishment RW (Lo Jah Lo) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-
-//Chain Lightning Eagle Orb - Smoked Sphere - Sacred Globe - Jareds Stone - Glowing Orb - Crystalline Globe - Cloudy Sphere - Swirling Crystal - Heavenly Stone - Eldritch Orb - Demon Heart - Dimensional Shard - Runewords
-ItemDisplay[NMAG SOCK=3 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK53>2 ILVL>0]: + 3 Chain Lightning Punishment RW (Lo Jah Lo) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-
-//Lightning Eagle Orb - Smoked Sphere - Sacred Globe - Jareds Stone - Glowing Orb - Crystalline Globe - Cloudy Sphere - Swirling Crystal - Heavenly Stone - Eldritch Orb - Demon Heart - Dimensional Shard - Runewords
-ItemDisplay[NMAG SOCK=3 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK49>2 ILVL>0]: + 3 Lightning Punishment RW (Lo Jah Lo) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-
-//Discharge Eagle Orb - Smoked Sphere - Sacred Globe - Jareds Stone - Glowing Orb - Crystalline Globe - Cloudy Sphere - Swirling Crystal - Heavenly Stone - Eldritch Orb - Demon Heart - Dimensional Shard - Runewords
-ItemDisplay[NMAG SOCK=3 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK54>2 ILVL>0]: + 3 Discharge Punishment RW (Lo Jah Lo) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-
-//Energy Shield Eagle Orb - Smoked Sphere - Sacred Globe - Jareds Stone - Glowing Orb - Crystalline Globe - Cloudy Sphere - Swirling Crystal - Heavenly Stone - Eldritch Orb - Demon Heart - Dimensional Shard - Runewords
-ItemDisplay[NMAG SOCK=3 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK58>2 ILVL>0]: + 3 Energy Shield Punishment RW (Lo Jah Lo) {%NAME%%GRAY%Use For Pre-Buff}%RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-
-//Nova Eagle Orb - Smoked Sphere - Sacred Globe - Jareds Stone - Glowing Orb - Crystalline Globe - Cloudy Sphere - Swirling Crystal - Heavenly Stone - Eldritch Orb - Demon Heart - Dimensional Shard - Runewords
-ItemDisplay[NMAG SOCK=3 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK48>2 ILVL>0]: + 3 Nova Punishment RW (Lo Jah Lo) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-
-//Lightning Mastery Eagle Orb - Smoked Sphere - Sacred Globe - Jareds Stone - Glowing Orb - Crystalline Globe - Cloudy Sphere - Swirling Crystal - Heavenly Stone - Eldritch Orb - Demon Heart - Dimensional Shard - Runewords
-ItemDisplay[NMAG SOCK=3 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK63>2 ILVL>0]: + 3 Lightning Mastery Punishment RW (Lo Jah Lo) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-
 
 ////////Mid Level Sorceress Skills Amulets
 ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK1>1 CLVL<70 ILVL>0]: Sorceress %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
@@ -257,6 +233,32 @@ ItemDisplay[MAG (ob1 || ob2 || ob3 || lxb || ob5 || ob6 || ob7 || ob8 || ob9 || 
 
 
 /////////////////Hell Level Sorceress Gear
+
+//Punishment Orb Runeword
+//Voltaic Blast Clasped Orb - Sparkling Ball - Vortex Orb - Runewords
+ItemDisplay[NMAG SOCK=3 (ob4 || ob9 || obe) SK43>2 ILVL>0]: + 3 Voltaic Blast Punishment RW (Lo Jah Lo) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+
+//Charged Bolt Eagle Orb - Smoked Sphere - Sacred Globe - Jareds Stone - Glowing Orb - Crystalline Globe - Cloudy Sphere - Swirling Crystal - Heavenly Stone - Eldritch Orb - Demon Heart - Dimensional Shard - Runewords
+ItemDisplay[NMAG SOCK=3 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK39>2 ILVL>0]: + 3 Charged Bolt Punishment RW (Lo Jah Lo) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+
+//Chain Lightning Eagle Orb - Smoked Sphere - Sacred Globe - Jareds Stone - Glowing Orb - Crystalline Globe - Cloudy Sphere - Swirling Crystal - Heavenly Stone - Eldritch Orb - Demon Heart - Dimensional Shard - Runewords
+ItemDisplay[NMAG SOCK=3 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK53>2 ILVL>0]: + 3 Chain Lightning Punishment RW (Lo Jah Lo) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+
+//Lightning Eagle Orb - Smoked Sphere - Sacred Globe - Jareds Stone - Glowing Orb - Crystalline Globe - Cloudy Sphere - Swirling Crystal - Heavenly Stone - Eldritch Orb - Demon Heart - Dimensional Shard - Runewords
+ItemDisplay[NMAG SOCK=3 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK49>2 ILVL>0]: + 3 Lightning Punishment RW (Lo Jah Lo) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+
+//Discharge Eagle Orb - Smoked Sphere - Sacred Globe - Jareds Stone - Glowing Orb - Crystalline Globe - Cloudy Sphere - Swirling Crystal - Heavenly Stone - Eldritch Orb - Demon Heart - Dimensional Shard - Runewords
+ItemDisplay[NMAG SOCK=3 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK54>2 ILVL>0]: + 3 Discharge Punishment RW (Lo Jah Lo) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+
+//Energy Shield Eagle Orb - Smoked Sphere - Sacred Globe - Jareds Stone - Glowing Orb - Crystalline Globe - Cloudy Sphere - Swirling Crystal - Heavenly Stone - Eldritch Orb - Demon Heart - Dimensional Shard - Runewords
+ItemDisplay[NMAG SOCK=3 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK58>2 ILVL>0]: + 3 Energy Shield Punishment RW (Lo Jah Lo) {%NAME%%GRAY%Use For Pre-Buff}%RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+
+//Nova Eagle Orb - Smoked Sphere - Sacred Globe - Jareds Stone - Glowing Orb - Crystalline Globe - Cloudy Sphere - Swirling Crystal - Heavenly Stone - Eldritch Orb - Demon Heart - Dimensional Shard - Runewords
+ItemDisplay[NMAG SOCK=3 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK48>2 ILVL>0]: + 3 Nova Punishment RW (Lo Jah Lo) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+
+//Lightning Mastery Eagle Orb - Smoked Sphere - Sacred Globe - Jareds Stone - Glowing Orb - Crystalline Globe - Cloudy Sphere - Swirling Crystal - Heavenly Stone - Eldritch Orb - Demon Heart - Dimensional Shard - Runewords
+ItemDisplay[NMAG SOCK=3 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK63>2 ILVL>0]: + 3 Lightning Mastery Punishment RW (Lo Jah Lo) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+
 //Rings - Matching Sorceress Skills - Elemental % Damage
 ItemDisplay[RARE (sf2 || sf4) STAT417>0 ILVL>1 FILTLVL<3]: Fire Sorc Skills %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 ItemDisplay[RARE (sf2 || sf4) STAT417>0 ILVL>1 FILTLVL<3]: Fire Sorc Skills %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
