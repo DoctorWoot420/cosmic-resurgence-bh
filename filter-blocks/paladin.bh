@@ -19,7 +19,18 @@ ItemDisplay[NMAG SOCK=2 (pa1 || pa2 || pa7 || pa9 || paa || tow) CLVL<60 ILVL>0]
 //Low Level Paladin Helms - Runewords
 ItemDisplay[NMAG SOCK=2 (pc4 || pc1 || pc5 || pc2) CLVL<60 ILVL>0]: Holy Tears RW (Ral Eld) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[NMAG SOCK=3 (pc4 || pc1 || pc5 || pc2) CLVL<60 ILVL>0]: Piety RW (Hel Ort Eld) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
+ItemDisplay[NMAG SOCK=2 (pc4 || pc1 || pc5 || pc2 || pc3 || pc6) SK96>2 CLVL<88 ILVL>0]: + 3 Sacrifice Holy Tears RW (Ral Eld) Lore (Ort Sol) Question (Cham Vex) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=3 (pc4 || pc1 || pc5 || pc2 || pc3 || pc6) SK96>2 CLVL<88 ILVL>0]: + 3 Sacrifice Piety RW (Hel Ort Eld) Innocence (Ist Ist Ith) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (pc4 || pc1 || pc5 || pc2 || pc3 || pc6) SK105>2 CLVL<88 ILVL>0]: + 3 Zeal Holy Tears RW (Ral Eld) Lore (Ort Sol) Question (Cham Vex) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=3 (pc4 || pc1 || pc5 || pc2 || pc3 || pc6) SK105>2 CLVL<88 ILVL>0]: + 3 Zeal Piety RW (Hel Ort Eld) Innocence (Ist Ist Ith) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (pc4 || pc1 || pc5 || pc2 || pc3 || pc6) SK111>2 CLVL<88 ILVL>0]: + 3 Consecration Holy Tears RW (Ral Eld) Lore (Ort Sol) Question (Cham Vex) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=3 (pc4 || pc1 || pc5 || pc2 || pc3 || pc6) SK111>2 CLVL<88 ILVL>0]: + 3 Consecration Piety RW (Hel Ort Eld) Innocence (Ist Ist Ith) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (pc4 || pc1 || pc5 || pc2 || pc3 || pc6) SK110>2 CLVL<88 ILVL>0]: + 3 Blessed Hammer Holy Tears RW (Ral Eld) Lore (Ort Sol) Question (Cham Vex) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=3 (pc4 || pc1 || pc5 || pc2 || pc3 || pc6) SK110>2 CLVL<88 ILVL>0]: + 3 Blessed Hammer Piety RW (Hel Ort Eld) Innocence (Ist Ist Ith) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (pc4 || pc1 || pc5 || pc2 || pc3 || pc6) SK119>2 CLVL<88 ILVL>0]: + 3 FoH Holy Tears RW (Ral Eld) Lore (Ort Sol) Question (Cham Vex) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=3 (pc4 || pc1 || pc5 || pc2 || pc3 || pc6) SK119>2 CLVL<88 ILVL>0]: + 3 FoH Piety RW (Hel Ort Eld) Innocence (Ist Ist Ith) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (pc4 || pc1 || pc5 || pc2 || pc3 || pc6) SK109>2 CLVL<88 ILVL>0]: + 3 Vengeance Holy Tears RW (Ral Eld) Lore (Ort Sol) Question (Cham Vex) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=3 (pc4 || pc1 || pc5 || pc2 || pc3 || pc6) SK109>2 CLVL<88 ILVL>0]: + 3 Vengeance Piety RW (Hel Ort Eld) Innocence (Ist Ist Ith) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Mid Level Class Skills Amulets
 ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK3>1 CLVL<70 ILVL>0]: Paladin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
@@ -29,6 +40,46 @@ ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK24>1 CLVL<70 IL
 ItemDisplay[(RARE || MAG) CIRC CLSK3>1 CLVL<70 ILVL>0]: Paladin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[(RARE || MAG) CIRC TABSK24>1 CLVL<70 ILVL>0]: Pally Combat %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
+
+/////////////////////////////////////////////////////////////////////////
+//Rare Helms/////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////
+
+//Paladin Helm - +5-6 Sacrifice
+ItemDisplay[RARE DIN SK96>2 CLSK3>1 ILVL>1]: + 5 Sacrifice %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE DIN SK96>2 TABSK24>2 ILVL>1]: + 6 Sacrifice %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
+ItemDisplay[MAG DIN SK96>2 CLSK3>1 ILVL>1]: + 5 Sacrifice %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG DIN SK96>2 TABSK24>2 ILVL>1]: + 6 Sacrifice %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
+
+//Paladin Helm - +5-6 Zeal
+ItemDisplay[RARE DIN SK105>2 CLSK3>1 ILVL>1]: + 5 Zeal %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE DIN SK105>2 TABSK24>2 ILVL>1]: + 6 Zeal %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
+ItemDisplay[MAG DIN SK105>2 CLSK3>1 ILVL>1]: + 5 Zeal %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG DIN SK105>2 TABSK24>2 ILVL>1]: + 6 Zeal %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
+
+//Paladin Helm - +5-6 Consecration
+ItemDisplay[RARE DIN SK111>2 CLSK3>1 ILVL>1]: + 5 Consecration %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE DIN SK111>2 TABSK24>2 ILVL>1]: + 6 Consecration %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
+ItemDisplay[MAG DIN SK111>2 CLSK3>1 ILVL>1]: + 5 Consecration %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG DIN SK111>2 TABSK24>2 ILVL>1]: + 6 Consecration %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
+
+//Paladin Helm - +5-6 Blessed Hammer
+ItemDisplay[RARE DIN SK110>2 CLSK3>1 ILVL>1]: + 5 Blessed Hammer %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE DIN SK110>2 TABSK24>2 ILVL>1]: + 6 Blessed Hammer %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
+ItemDisplay[MAG DIN SK110>2 CLSK3>1 ILVL>1]: + 5 Blessed Hammer %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG DIN SK110>2 TABSK24>2 ILVL>1]: + 6 Blessed Hammer %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
+
+//Paladin Helm - +5-6 Fist of The Heavens
+ItemDisplay[RARE DIN SK119>2 CLSK3>1 ILVL>1]: + 5 Fist of The Heavens %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE DIN SK119>2 TABSK24>2 ILVL>1]: + 6 Fist of The Heavens %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
+ItemDisplay[MAG DIN SK119>2 CLSK3>1 ILVL>1]: + 5 Fist of The Heavens %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG DIN SK119>2 TABSK24>2 ILVL>1]: + 6 Fist of The Heavens %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
+
+//Paladin Helm - +5-6 Vengeance
+ItemDisplay[RARE DIN SK109>2 CLSK3>1 ILVL>1]: + 5 Vengeance %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE DIN SK109>2 TABSK24>2 ILVL>1]: + 6 Vengeance %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
+ItemDisplay[MAG DIN SK109>2 CLSK3>1 ILVL>1]: + 5 Vengeance %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG DIN SK109>2 TABSK24>2 ILVL>1]: + 6 Vengeance %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
 
 /////////////////////////////////////////////////////////////////////////
 //Jewel Alchs////////////////////////////////////////////////////////////
