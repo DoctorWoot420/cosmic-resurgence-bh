@@ -9,10 +9,23 @@ files_to_append = [
     "leveling.bh", "necromancer.bh", "paladin.bh", "sorceress.bh"
 ]
 
-def append_to_file(file_path, content):
-    """Appends content to the given file."""
-    with open(file_path, "a") as f:
-        f.write(content + "\n")
+start_marker = "//////////////////////////////////////////////////////////////////\n// START FILTER BLOCKS\n//////////////////////////////////////////////////////////////////"
+end_marker = "//////////////////////////////////////////////////////////////////\n// END FILTER BLOCKS\n//////////////////////////////////////////////////////////////////"
+
+
+def append_filter_blocks(source_content, filter_blocks):
+    """Inserts filter blocks between start and end markers."""
+    before_start, after_end = source_content.split(start_marker, 1)
+    after_start, after_end = after_end.split(end_marker, 1)
+    
+    # Combine content
+    combined_content = (
+        before_start + start_marker + "\n\n" +
+        filter_blocks + "\n" +
+        end_marker + after_end
+    )
+    return combined_content
+
 
 def main():
     # Check if the source config file exists
@@ -20,27 +33,28 @@ def main():
         print(f"Error: {source_config_file} not found.")
         return
 
-    # Create or overwrite the combined output file
-    with open(output_config_file, "w") as f:
-        with open(source_config_file, "r") as source:
-            f.write(source.read())
-        f.write("\n")  # Add a blank line for separation
+    # Read the source config file
+    with open(source_config_file, "r") as f:
+        source_content = f.read()
 
-    print(f"Copied {source_config_file} to {output_config_file}.")
+    # Ensure both markers exist
+    if start_marker not in source_content or end_marker not in source_content:
+        print(f"Error: Missing start or end marker in {source_config_file}.")
+        return
 
-    # Check if filter folder exists
+    # Check if the filter folder exists
     if not os.path.isdir(filter_folder):
         print(f"Error: Folder '{filter_folder}' not found.")
         return
 
-    # Append each file's content
+    # Collect content from the files to append
+    filter_blocks = ""
     for filename in files_to_append:
         file_path = os.path.join(filter_folder, filename)
         if os.path.exists(file_path):
             with open(file_path, "r") as f:
-                content = f.read()
-            append_to_file(output_config_file, content)
-            print(f"Appended {filename} to {output_config_file}.")
+                filter_blocks += f.read() + "\n"
+            print(f"Appended {filename} to filter blocks.")
         else:
             print(f"Warning: {filename} not found in {filter_folder}. Skipping.")
 
@@ -63,13 +77,21 @@ def main():
     runes_path = os.path.join(filter_folder, runes_file)
     if os.path.exists(runes_path):
         with open(runes_path, "r") as f:
-            content = f.read()
-        append_to_file(output_config_file, content)
-        print(f"Appended {runes_file} to {output_config_file}.")
+            filter_blocks += f.read() + "\n"
+        print(f"Appended {runes_file} to filter blocks.")
     else:
         print(f"Error: {runes_file} not found in {filter_folder}.")
+        return
+
+    # Combine the source content with the filter blocks
+    combined_content = append_filter_blocks(source_content, filter_blocks)
+
+    # Write the combined content to the output file
+    with open(output_config_file, "w") as f:
+        f.write(combined_content)
 
     print(f"Done! Combined config saved as {output_config_file}.")
+
 
 if __name__ == "__main__":
     main()
