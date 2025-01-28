@@ -117,6 +117,21 @@ ItemDisplay[NMAG SOCK=3 DRU SK236>2 ILVL>0]: + 3 Heart of The Wolverine %RED%%NA
 ItemDisplay[NMAG SOCK=3 DRU SK246>2 ILVL>0]: + 3 Star Spirit %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 ItemDisplay[NMAG SOCK=3 DRU SK247>2 ILVL>0]: + 3 Summon Grizzly %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
+ItemDisplay[NMAG (dr1 || dr6 || drb) SK223>2 ILVL>0]: + 3 Werewolf %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[NMAG (dr1 || dr6 || drb) SK224>2 ILVL>0]: + 3 Lycanthropy %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[NMAG (dr1 || dr6 || drb) SK228>2 ILVL>0]: + 3 Werebear %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[NMAG (dr1 || dr6 || drb) SK232>2 ILVL>0]: + 3 Feral Rage %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[NMAG (dr1 || dr6 || drb || drc) SK239>2 ILVL>0]: + 3 Fire Claws %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[NMAG (dr1 || dr6 || drb) SK233>2 ILVL>0]: + 3 Maul %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[NMAG (dr1 || dr6 || drb) SK248>2 ILVL>0]: + 3 Fury %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[NMAG DRU SK243>2 ILVL>0]: + 3 Shockwave %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[NMAG DRU SK249>2 ILVL>0]: + 3 Armageddon %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[NMAG DRU SK250>2 ILVL>0]: + 3 Hurricane %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[NMAG DRU SK226>2 ILVL>0]: + 3 Oak Sage %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[NMAG DRU SK236>2 ILVL>0]: + 3 Heart of The Wolverine %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[NMAG DRU SK246>2 ILVL>0]: + 3 Star Spirit %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[NMAG DRU SK247>2 ILVL>0]: + 3 Summon Grizzly %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+
 
 /////////////////////////////////////////////////////////////////////////
 //Druid Helms////////////////////////////////////////////////////////////
