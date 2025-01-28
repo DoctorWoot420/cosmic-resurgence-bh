@@ -83,6 +83,42 @@ ItemDisplay[RARE (dr1 || dr6 || drb) FRES>24 LRES>24 PRES>24 CLVL<70 ILVL>0]: Tr
 
 
 /////////////////////////////////////////////////////////////////////////
+//Druid Socketable Helms/////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////
+
+ItemDisplay[NMAG SOCK=2 (dr1 || dr6 || drb) SK223>2 ILVL>0]: + 3 Werewolf Water RW (Thul Ith) Lore (Ort Sol) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (dr1 || dr6 || drb) SK224>2 ILVL>0]: + 3 Lycanthropy Water RW (Thul Ith) Lore (Ort Sol) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (dr1 || dr6 || drb) SK228>2 ILVL>0]: + 3 Werebear Water RW (Thul Ith) Lore (Ort Sol) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (dr1 || dr6 || drb) SK232>2 ILVL>0]: + 3 Feral Rage Water RW (Thul Ith) Lore (Ort Sol) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (dr1 || dr6 || drb || drc) SK239>2 ILVL>0]: + 3 Fire Claws Water RW (Thul Ith) Lore (Ort Sol) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (dr1 || dr6 || drb) SK233>2 ILVL>0]: + 3 Maul Water RW (Thul Ith) Lore (Ort Sol) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (dr1 || dr6 || drb) SK248>2 ILVL>0]: + 3 Fury Water RW (Thul Ith) Lore (Ort Sol) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 DRU SK243>2 ILVL>0]: + 3 Shockwave Water RW (Thul Ith) Lore (Ort Sol) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 DRU SK249>2 ILVL>0]: + 3 Armageddon Water RW (Thul Ith) Lore (Ort Sol) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 DRU SK250>2 ILVL>0]: + 3 Hurricane Water RW (Thul Ith) Lore (Ort Sol) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 DRU SK226>2 ILVL>0]: + 3 Oak Sage Water RW (Thul Ith) Lore (Ort Sol) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 DRU SK236>2 ILVL>0]: + 3 Heart of The Wolverine Water RW (Thul Ith) Lore (Ort Sol) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 DRU SK246>2 ILVL>0]: + 3 Star Spirit Water RW (Thul Ith) Lore (Ort Sol) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 DRU SK247>2 ILVL>0]: + 3 Summon Grizzly Water RW (Thul Ith) Lore (Ort Sol) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+
+
+ItemDisplay[NMAG SOCK=3 (dr1 || dr6 || drb) SK223>2 ILVL>0]: + 3 Werewolf %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[NMAG SOCK=3 (dr1 || dr6 || drb) SK224>2 ILVL>0]: + 3 Lycanthropy %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[NMAG SOCK=3 (dr1 || dr6 || drb) SK228>2 ILVL>0]: + 3 Werebear %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[NMAG SOCK=3 (dr1 || dr6 || drb) SK232>2 ILVL>0]: + 3 Feral Rage %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[NMAG SOCK=3 (dr1 || dr6 || drb || drc) SK239>2 ILVL>0]: + 3 Fire Claws %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[NMAG SOCK=3 (dr1 || dr6 || drb) SK233>2 ILVL>0]: + 3 Maul %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[NMAG SOCK=3 (dr1 || dr6 || drb) SK248>2 ILVL>0]: + 3 Fury %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[NMAG SOCK=3 DRU SK243>2 ILVL>0]: + 3 Shockwave %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[NMAG SOCK=3 DRU SK249>2 ILVL>0]: + 3 Armageddon %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[NMAG SOCK=3 DRU SK250>2 ILVL>0]: + 3 Hurricane %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[NMAG SOCK=3 DRU SK226>2 ILVL>0]: + 3 Oak Sage %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[NMAG SOCK=3 DRU SK236>2 ILVL>0]: + 3 Heart of The Wolverine %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[NMAG SOCK=3 DRU SK246>2 ILVL>0]: + 3 Star Spirit %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[NMAG SOCK=3 DRU SK247>2 ILVL>0]: + 3 Summon Grizzly %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+
+
+/////////////////////////////////////////////////////////////////////////
 //Druid Helms////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////
 
