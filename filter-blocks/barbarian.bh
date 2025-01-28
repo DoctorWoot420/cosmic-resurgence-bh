@@ -79,7 +79,22 @@ ItemDisplay[RARE (ba1 || ba6 || bab || bac) FRES>24 LRES>24 PRES>24 CLVL<70 ILVL
 
 
 //////////////////////////////////////////////////////////////////
-//Rare Helms//////////////////////////////////////////////////////
+//+3 SOCKETABLE BARB HELMS////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+
+//Barb Helm - +3 Ancients Fury (Totem)
+ItemDisplay[NMAG (baf || bae || bad || bac || bab || baa || ba9 || ba8 || ba7 || ba6 || ba2 || ba1 || ba5 || ba4 || ba3) SK141>2 ILVL>1]: + 3 Totems %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (baf || bae || bad || bac || bab || baa || ba9 || ba8 || ba7 || ba6 || ba2 || ba1 || ba5 || ba4 || ba3) SK141>2 ILVL>1]: + 3 Totems %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[NMAG SOCK=3 (baf || bae || bad || bac || bab || baa || ba9 || ba8 || ba7 || ba6 || ba2 || ba1 || ba5 || ba4 || ba3) SK141>2 ILVL>1]: + 3 Totems %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+
+//Barb Helm - +3 Winters Fury (Throw Skill)
+ItemDisplay[NMAG (baf || bae || bad || bac || bab || baa || ba9 || ba8 || ba7 || ba6 || ba2 || ba1 || ba5 || ba4 || ba3) SK131>2 ILVL>1]: + 3 Winters Fury %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (baf || bae || bad || bac || bab || baa || ba9 || ba8 || ba7 || ba6 || ba2 || ba1 || ba5 || ba4 || ba3) SK131>2 ILVL>1]: + 3 Winters Fury %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[NMAG SOCK=3 (baf || bae || bad || bac || bab || baa || ba9 || ba8 || ba7 || ba6 || ba2 || ba1 || ba5 || ba4 || ba3) SK131>2 ILVL>1]: + 3 Winters Fury %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+
+
+//////////////////////////////////////////////////////////////////
+//RARE BARB HELMS/////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
 
 //Barb Helm - +5-6 Ancients Fury (Totem)
