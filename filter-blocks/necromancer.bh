@@ -477,6 +477,99 @@ ItemDisplay[MAG (ywn || bwn || wnd || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 
 ItemDisplay[MAG (ywn || bwn || wnd || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) TABSK17>2 SK84>2 ILVL>1 FILTLVL<3]: + 3 PnB + 3 Bone Spear %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 
 
+/////////////////////////////////////////////////////////////////////////
+//RARE NECROMANCER SHIELDS/VOODOO HEADS//////////////////////////////////
+/////////////////////////////////////////////////////////////////////////
+
+//+2 Necromancer Skills/+3 Poison & Bone Skills +2-3 Teeth Voodoo Head
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK67>1 ILVL>0]: + 2 Necro Skills + Teeth %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK17>2 SK67>1 ILVL>0]: + 3 PnB Skills + Teeth %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+
+//+2 Necromancer Skills/+3 Poison & Bone Skills +2-3 Bone Spear Voodoo Head
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK84>1 ILVL>0]: + 2 Necro Skills + Bone Spear %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK17>2 SK84>1 ILVL>0]: + 3 PnB Skills + Bone Spear %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+
+//+2 Necromancer Skills/+3 Poison & Bone Skills +2-3 Bone Spirit Voodoo Head
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK93>1 ILVL>0]: + 2 Necro Skills + Bone Spirit %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK17>2 SK93>1 ILVL>0]: + 3 PnB Skills + Bone Spirit %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+
+//+2 Necromancer Skills/+3 Poison & Bone Skills +2-3 Bone Armor Voodoo Head
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK68>1 ILVL>0]: + 2 Necro Skills + Bone Armor %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK17>2 SK68>1 ILVL>0]: + 3 PnB Skills + Bone Armor %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+
+//+2 Necromancer Skills/+3 Poison & Bone Skills +2-3 Poison Nova Voodoo Head
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK92>1 ILVL>0]: + 2 Necro Skills + Poison Nova %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK17>2 SK92>1 ILVL>0]: + 3 PnB Skills + Poison Nova %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+
+//+2 Necromancer Skills/+3 Poison & Bone Skills +2-3 Toxic Delivery Voodoo Head
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK73>1 ILVL>0]: + 2 Necro Skills + Toxic Delivery %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK17>2 SK73>1 ILVL>0]: + 3 PnB Skills + Toxic Delivery %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+
+//+2 Necromancer Skills/+3 Poison & Bone Skills +2-3 Putrify Voodoo Head
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK83>1 ILVL>0]: + 2 Necro Skills + Putrify %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK17>2 SK83>1 ILVL>0]: + 3 PnB Skills + Putrify %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+
+//+2 Necromancer Skills/+3 Poison & Bone Skills +2-3 Corpse Explosion Voodoo Head
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK74>1 ILVL>0]: + 2 Necro Skills + Corpse Explosion %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK17>2 SK74>1 ILVL>0]: + 3 PnB Skills + Corpse Explosion %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+
+//+2 Necromancer Skills/+3 Summoning Skills +2-3 Skeleton Warrior Voodoo Head
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK70>1 ILVL>0]: + 2 Necro Skills + Skeleton Warrior %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK18>2 SK70>1 ILVL>0]: + 3 Summoning Skills + Skeleton Warrior %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+
+//+2 Necromancer Skills/+3 Summoning Skills +2-3 Skeleton Archer Voodoo Head
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK80>1 ILVL>0]: + 2 Necro Skills + Skeleton Archer %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK18>2 SK80>1 ILVL>0]: + 3 Summoning Skills + Skeleton Archer %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+
+//+2 Necromancer Skills/+3 Summoning Skills +2-3 Raise Zombie Voodoo Head
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK89>1 ILVL>0]: + 2 Necro Skills + Raise Zombie %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK18>2 SK89>1 ILVL>0]: + 3 Summoning Skills + Raise Zombie %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+
+//+2 Necromancer Skills/+3 Summoning Skills +2-3 Minion Mastery Voodoo Head
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK69>1 ILVL>0]: + 2 Necro Skills + Minion Mastery %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK18>2 SK69>1 ILVL>0]: + 3 Summoning Skills + Minion Mastery %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+
+//+2 Necromancer Skills/+3 Summoning Skills +2-3 Revive Voodoo Head
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK95>1 ILVL>0]: + 2 Necro Skills + Revive %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK18>2 SK95>1 ILVL>0]: + 3 Summoning Skills + Revive %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+
+//+2 Necromancer Skills/+3 Summoning Skills +2-3 Blood Golem Voodoo Head
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK85>1 ILVL>0]: + 2 Necro Skills + Blood Golem %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK18>2 SK85>1 ILVL>0]: + 3 Summoning Skills + Blood Golem %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+
+//+2 Necromancer Skills/+3 Summoning Skills +2-3 Fire Golem Voodoo Head
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK94>1 ILVL>0]: + 2 Necro Skills + Fire Golem %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK18>2 SK94>1 ILVL>0]: + 3 Summoning Skills + Fire Golem %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+
+//+2 Necromancer Skills/+3 Curse Skills +2-3 Amplify Damage Voodoo Head
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK66>1 ILVL>0]: + 2 Necro Skills + Amplify Damage %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK16>2 SK66>1 ILVL>0]: + 3 Curse Skills + Amplify Damage %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+
+//+2 Necromancer Skills/+3 Curse Skills +2-3 Dim Vision Voodoo Head
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK71>1 ILVL>0]: + 2 Necro Skills + Dim Vision %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK16>2 SK71>1 ILVL>0]: + 3 Curse Skills + Dim Vision %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+
+//+2 Necromancer Skills/+3 Curse Skills +2-3 Terror Voodoo Head
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK77>1 ILVL>0]: + 2 Necro Skills + Terror %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK16>2 SK77>1 ILVL>0]: + 3 Curse Skills + Terror %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+
+//+2 Necromancer Skills/+3 Curse Skills +2-3 Elemental Weakness Voodoo Head
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK81>1 ILVL>0]: + 2 Necro Skills + Elemental Weakness %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK16>2 SK81>1 ILVL>0]: + 3 Curse Skills + Elemental Weakness %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+
+//+2 Necromancer Skills/+3 Curse Skills +2-3 Decrepify Voodoo Head
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK87>1 ILVL>0]: + 2 Necro Skills + Decrepify %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK16>2 SK87>1 ILVL>0]: + 3 Curse Skills + Decrepify %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+
+//+2 Necromancer Skills/+3 Curse Skills +2-3 Hex Voodoo Head
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK91>1 ILVL>0]: + 2 Necro Skills + Hex %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK16>2 SK91>1 ILVL>0]: + 3 Curse Skills + Hex %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+
+//+2 Necromancer Skills/+3 Summoning Skills +2-3 Convocation Voodoo Head
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK79>1 ILVL>0]: + 2 Necro Skills + Convocation %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK18>2 SK79>1 ILVL>0]: + 3 Summoning Skills + Convocation %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+
+
 
 /////////////////////////////////////////////////////////////////////////
 //Jewel Alchs////////////////////////////////////////////////////////////
