@@ -634,7 +634,7 @@ ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) ( haste_on_melee_attac
 
 //CTC Chain Lightning
 ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) chain_lightning_skill_on_melee_attack]: CTC Chain Lightning %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6)chain_lightning_skill_on_kill]: CTC Chain Lightning %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) chain_lightning_skill_on_kill]: CTC Chain Lightning %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) chain_lightning_skill_when_struck]: CTC Chain Lightning %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) chain_lightning_skill_on_striking]: CTC Chain Lightning %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
