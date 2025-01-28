@@ -304,6 +304,9 @@ ItemDisplay[NMAG SOCK=2 (bwn || gwn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw ||
 //+3 Blood Golem 2 Socket Wand 
 ItemDisplay[NMAG SOCK=2 (bwn || gwn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) SK85>2 ILVL>0]: + 3 Blood Golem Terror RW (Ith Eth) White RW (Dol Io) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
+//+3 Iron Golem 2 Socket Wand 
+ItemDisplay[NMAG SOCK=2 (bwn || gwn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) SK90>2 ILVL>0]: + 3 Iron Golem Terror RW (Ith Eth) White RW (Dol Io) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+
 //+3 Fire Golem 2 Socket Wand 
 ItemDisplay[NMAG SOCK=2 (bwn || gwn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) SK94>2 ILVL>0]: + 3 Fire Golem Terror RW (Ith Eth) White RW (Dol Io) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
@@ -336,86 +339,112 @@ ItemDisplay[NMAG SOCK=2 (bwn || gwn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw ||
 //+3 Teeth Voodoo Head
 ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK67>2 ILVL>0]: + 3 Teeth Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK67>2 ILVL>0]: + 3 Teeth Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[NMAG (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK67>2 ILVL>0]: + 3 Teeth %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 
 //+3 Bone Spear Voodoo Head
 ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK84>2 ILVL>0]: + 3 Bone Spear Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK84>2 ILVL>0]: + 3 Bone Spear Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[NMAG (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK84>2 ILVL>0]: + 3 Bone Spear %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 
 //+3 Bone Spirit Voodoo Head
 ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK93>2 ILVL>0]: + 3 Bone Spirit Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK93>2 ILVL>0]: + 3 Bone Spirit Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[NMAG (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK93>2 ILVL>0]: + 3 Bone Spirit %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 
 //+3 Bone Armor Voodoo Head
 ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK68>2 ILVL>0]: + 3 Bone Armor Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK68>2 ILVL>0]: + 3 Bone Armor Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[NMAG (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK68>2 ILVL>0]: + 3 Bone Armor %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 
 //+3 Poison Nova Voodoo Head
 ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK92>2 ILVL>0]: + 3 Psn Nova Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK92>2 ILVL>0]: + 3 Psn Nova Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[NMAG (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK92>2 ILVL>0]: + 3 Psn Nova %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 
 //+3 Toxic Delivery Voodoo Head
 ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK73>2 ILVL>0]: + 3 Toxic Delivery Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK73>2 ILVL>0]: + 3 Toxic Delivery Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[NMAG (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK73>2 ILVL>0]: + 3 Toxic Delivery %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 
 //+3 Putrify Voodoo Head
 ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK83>2 ILVL>0]: + 3 Putrify Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK83>2 ILVL>0]: + 3 Putrify Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[NMAG (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK83>2 ILVL>0]: + 3 Putrify %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 
 //+3 Corpse Explosion Voodoo Head
 ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK74>2 ILVL>0]: + 3 CE Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK74>2 ILVL>0]: + 3 CE Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[NMAG (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK74>2 ILVL>0]: + 3 CE %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 
 //+3 Skeleton Warrior Voodoo Head
 ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK70>2 ILVL>0]: + 3 Skele Warrior Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK70>2 ILVL>0]: + 3 Skele Warrior Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[NMAG (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK70>2 ILVL>0]: + 3 Skele Warrior %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 
 //+3 Skeleton Archer Voodoo Head
 ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK80>2 ILVL>0]: + 3 Skele Archer Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK80>2 ILVL>0]: + 3 Skele Archer Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[NMAG (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK80>2 ILVL>0]: + 3 Skele Archer %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 
 //+3 Raise Zombie Voodoo Head
 ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK89>2 ILVL>0]: + 3 Zombie Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK89>2 ILVL>0]: + 3 Zombie Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[NMAG (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK89>2 ILVL>0]: + 3 Zombie %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 
 //+3 Minion Mastery Voodoo Head
 ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK69>2 ILVL>0]: + 3 Minion Mastery Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK69>2 ILVL>0]: + 3 Minion Mastery Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[NMAG (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK69>2 ILVL>0]: + 3 Minion Mastery %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 
 //+3 Revive Voodoo Head
 ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK95>2 ILVL>0]: + 3 Revive Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK95>2 ILVL>0]: + 3 Revive Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[NMAG (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK95>2 ILVL>0]: + 3 Revive %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 
 //+3 Blood Golem Voodoo Head
 ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK85>2 ILVL>0]: + 3 Blood Golem Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK85>2 ILVL>0]: + 3 Blood Golem Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[NMAG (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK85>2 ILVL>0]: + 3 Blood Golem %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+
+//+3 Iron Golem Voodoo Head
+ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK90>2 ILVL>0]: + 3 Iron Golem Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK90>2 ILVL>0]: + 3 Iron Golem Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[NMAG (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK90>2 ILVL>0]: + 3 Iron Golem %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 
 //+3 Amplify Damage Voodoo Head
 ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK66>2 ILVL>0]: + 3 Amp Dmg Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK66>2 ILVL>0]: + 3 Amp Dmg Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[NMAG (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK66>2 ILVL>0]: + 3 Amp Dmg %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 
 //+3 Dim Vision Voodoo Head
 ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK71>2 ILVL>0]: + 3 Dim Vision Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK71>2 ILVL>0]: + 3 Dim Vision Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[NMAG (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK71>2 ILVL>0]: + 3 Dim Vision %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 
 //+3 Terror Voodoo Head
 ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK77>2 ILVL>0]: + 3 Terror Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK77>2 ILVL>0]: + 3 Terror Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[NMAG (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK77>2 ILVL>0]: + 3 Terror %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 
 //+3 Elemental Weakness Voodoo Head
 ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK81>2 ILVL>0]: + 3 Ele Weakness Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK81>2 ILVL>0]: + 3 Ele Weakness Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[NMAG (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK81>2 ILVL>0]: + 3 Ele Weakness %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 
 //+3 Decrepify Voodoo Head
 ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK87>2 ILVL>0]: + 3 Decrepify Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK87>2 ILVL>0]: + 3 Decrepify Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[NMAG (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK87>2 ILVL>0]: + 3 Decrepify %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 
 //+3 Hex Voodoo Head
 ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK91>2 ILVL>0]: + 3 Hex Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK91>2 ILVL>0]: + 3 Hex Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[NMAG (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK91>2 ILVL>0]: + 3 Hex %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 
 //+3 Convocation Voodoo Head
 ItemDisplay[NMAG SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK79>2 ILVL>0]: + 3 Convocation Ancients Pledge RW (Ral Ort Tal) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 ItemDisplay[NMAG SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK79>2 ILVL>0]: + 3 Convocation Rhyme RW (Shael Eth) %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[NMAG (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK79>2 ILVL>0]: + 3 Convocation %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 
 
 /////////////////////////////////////////////////////////////////////////
