@@ -168,7 +168,7 @@ ItemDisplay[(NMAG !INF !SUP) ung ILVL>78 FILTLVL<3]: Askari Alch %RED%%NAME% %RE
 /////////////////////////////////////////////////////////////////////////
 
 //Crusader Gauntlets - Perimetus Glory Alch
-ItemDisplay[(NMAG !INF !SUP) utg ILVL>88]: Perimetus Glory Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) utg ILVL>91]: Perimetus Glory Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Mirabella Gloves Alch
 ItemDisplay[(NMAG !INF !SUP) ag3 ILVL>74]: Mirabella Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
