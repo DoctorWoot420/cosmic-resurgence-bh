@@ -111,9 +111,16 @@ ItemDisplay[RARE (ag1 || ag4 || ag2 || ag5) FRES>24 LRES>24 PRES>24 CLVL<70 ILVL
 /////////////////////////////////////////////////////////////////////////
 
 //+6 Javelins
-ItemDisplay[RARE (jav || am5 || 9ja || ama || 7ja || amf) IAS>29 TABSK2>5  ILVL>0]: + 6 Javzon Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG (jav || am5 || 9ja || ama || 7ja || amf) IAS>29 TABSK2>5  ILVL>0]: + 6 Javzon Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-
+ItemDisplay[RARE (jav || am5 || 9ja || ama || 7ja || amf) TABSK2>5 ILVL>0]: + 6 Javzon Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (jav || am5 || 9ja || ama || 7ja || amf) CLSK0>1 TABSK2>3 ILVL>0]: + 6 Javzon Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (jav || am5 || 9ja || ama || 7ja || amf) CLSK0>0 TABSK2>4 ILVL>0]: + 6 Javzon Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (jav || am5 || 9ja || ama || 7ja || amf) CLSK0>2 TABSK2>2 ILVL>0]: + 6 Javzon Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (jav || am5 || 9ja || ama || 7ja || amf) CLSK0>3 TABSK2>1 ILVL>0]: + 6 Javzon Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (jav || am5 || 9ja || ama || 7ja || amf) TABSK2>5 ILVL>0]: + 6 Javzon Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (jav || am5 || 9ja || ama || 7ja || amf) CLSK0>1 TABSK2>3 ILVL>0]: + 6 Javzon Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (jav || am5 || 9ja || ama || 7ja || amf) CLSK0>0 TABSK2>4 ILVL>0]: + 6 Javzon Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (jav || am5 || 9ja || ama || 7ja || amf) CLSK0>2 TABSK2>2 ILVL>0]: + 6 Javzon Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (jav || am5 || 9ja || ama || 7ja || amf) CLSK0>3 TABSK2>1 ILVL>0]: + 6 Javzon Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 
 /////////////////////////////////////////////////////////////////////////
