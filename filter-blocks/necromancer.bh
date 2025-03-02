@@ -503,7 +503,7 @@ ItemDisplay[RARE (ywn || bwn || wnd || gwn || 9wn || 9yw || 9bw || 9gw || 7wn ||
 /////////////////////////////////////////////////////////////////////////
 
 //Rare Paladin Incursion Helms to use for Iron Golems (Nearby Enemies have - Physical Resistance Stat) (NOT WORKING ATM)
-ItemDisplay[RARE (pc4 || pc1 || pc5 || pc2 || pc6 || pc3) [nearby_enemies_physical_pierce] ILVL>1]: {%NAME%%GRAY%Use For Iron Golem}%PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (pc4 || pc1 || pc5 || pc2 || pc6 || pc3) [phys_aura] ILVL>1]: {%NAME%%GRAY%Use For Iron Golem}%PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 
 /////////////////////////////////////////////////////////////////////////
