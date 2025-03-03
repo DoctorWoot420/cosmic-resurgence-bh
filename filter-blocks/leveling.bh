@@ -169,42 +169,64 @@ ItemDisplay[RARE (WP1 || WP2 || WP3 || WP4 || WP5 || WP8 || WP9 || WP10) ED>79 S
 
 //Low Level Socketables
 //Low Level Armor - Runewords
-ItemDisplay[NMAG SOCK=2 (qui || rng || scl || chn || brs || spl || tkl || lea || hla || stu) CLVL<35 ILVL>0]: {%GRAY%Stealth: %ORANGE%TalEth%NL%%GRAY%Daylight: %ORANGE%TirThul%NL%%GRAY%Smoke: %ORANGE%NefLum%NL%%GRAY%Prudence: %ORANGE%MalTir} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[NMAG SOCK=3 (qui || rng || scl || chn || brs || spl || tkl || lea || hla || stu) CLVL<35 ILVL>0]: {%GRAY%Hesitation: %ORANGE%TirEldNef%NL%%GRAY%Resurgence: %ORANGE%ShaelHelSol%NL%%GRAY%Gloom: %ORANGE%FalUmPul%NL%%GRAY%Hustle: %ORANGE%IstKoGul} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (qui || rng || scl || chn || brs || spl || tkl || lea || hla || stu) CLVL<35 ILVL>0]: {%GRAY%Stealth: %ORANGE%TalEth%NL%%GRAY%Daylight: %ORANGE%TirThul%NL%%GRAY%Smoke: %ORANGE%NefLum%NL%%GRAY%Prudence: %ORANGE%MalTir} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (qui || rng || scl || chn || brs || spl || tkl || lea || hla || stu) ED=20 CLVL<35 ILVL>0]: Perfect ED {%GRAY%Stealth: %ORANGE%TalEth%NL%%GRAY%Daylight: %ORANGE%TirThul%NL%%GRAY%Smoke: %ORANGE%NefLum%NL%%GRAY%Prudence: %ORANGE%MalTir} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (qui || rng || scl || chn || brs || spl || tkl || lea || hla || stu) CLVL<35 ILVL>0]: {%GRAY%Hesitation: %ORANGE%TirEldNef%NL%%GRAY%Resurgence: %ORANGE%ShaelHelSol%NL%%GRAY%Gloom: %ORANGE%FalUmPul%NL%%GRAY%Hustle: %ORANGE%IstKoGul} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (qui || rng || scl || chn || brs || spl || tkl || lea || hla || stu) ED=20 CLVL<35 ILVL>0]: Perfect ED {%GRAY%Hesitation: %ORANGE%TirEldNef%NL%%GRAY%Resurgence: %ORANGE%ShaelHelSol%NL%%GRAY%Gloom: %ORANGE%FalUmPul%NL%%GRAY%Hustle: %ORANGE%IstKoGul} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+//Low Level Helms - Runewords
+ItemDisplay[(NMAG !INF) SOCK=2 (cap || hlm|| fhl || msk || bhm || ghm || crn || skp || xap) CLVL<35 ILVL>0]: {%GRAY%Lore: %ORANGE%OrtSol%NL%%GRAY%Nadir: %ORANGE%NefTir%NL%%GRAY%Knights Vigil: %ORANGE%IoShael} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (cap || hlm|| fhl || msk || bhm || ghm || crn || skp || xap) ED=20 CLVL<35 ILVL>0]: Perfect ED {%GRAY%Lore: %ORANGE%OrtSol%NL%%GRAY%Nadir: %ORANGE%NefTir%NL%%GRAY%Knights Vigil: %ORANGE%IoShael} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (cap || hlm|| fhl || msk || bhm || ghm || crn || skp || xap) CLVL<35 ILVL>0]: {%GRAY%Radiance: %ORANGE%NefSolIth%NL%%GRAY%Resurgence: %ORANGE%ShaelHelSol} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (cap || hlm|| fhl || msk || bhm || ghm || crn || skp || xap) ED=20 CLVL<35 ILVL>0]: Perfect ED {%GRAY%Radiance: %ORANGE%NefSolIth%NL%%GRAY%Resurgence: %ORANGE%ShaelHelSol} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Low Level Shields - Runewords
-ItemDisplay[NMAG SOCK=3 (lrg || kit || spk || tow) CLVL<35 ILVL>0]: {%GRAY%Ancients Pledge: %ORANGE%RalOrtTal%NL%%GRAY%Resurgence: %ORANGE%ShaelHelSol} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[NMAG SOCK=2 (lrg || kit || spk || tow || bsh) CLVL<35 ILVL>0]: {%GRAY%Rhyme: %ORANGE%Shael Eth%NL%%GRAY%Splendor: %ORANGE%Eth Lum} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (lrg || kit || spk || tow) CLVL<35 ILVL>0]: {%GRAY%Ancients Pledge: %ORANGE%RalOrtTal%NL%%GRAY%Resurgence: %ORANGE%ShaelHelSol} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (lrg || kit || spk || tow) ED=20 CLVL<35 ILVL>0]: Perfect ED {%GRAY%Ancients Pledge: %ORANGE%RalOrtTal%NL%%GRAY%Resurgence: %ORANGE%ShaelHelSol} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (lrg || kit || spk || tow || bsh) CLVL<35 ILVL>0]: {%GRAY%Rhyme: %ORANGE%Shael Eth%NL%%GRAY%Splendor: %ORANGE%Eth Lum} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (lrg || kit || spk || tow || bsh) ED=20 CLVL<35 ILVL>0]: Perfect ED {%GRAY%Rhyme: %ORANGE%Shael Eth%NL%%GRAY%Splendor: %ORANGE%Eth Lum} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Low Level Scimitar (-20 Speed) - Runewords
-ItemDisplay[NMAG SOCK=2 scm CLVL<35 ILVL>0]: {%GRAY%Steel: %ORANGE%Tir El%NL%%GRAY%Strength: %ORANGE%Amn Tir} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 scm CLVL<35 ILVL>0]: {%GRAY%Steel: %ORANGE%Tir El%NL%%GRAY%Strength: %ORANGE%Amn Tir} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 scm ED=20 CLVL<35 ILVL>0]: Perfect ED {%GRAY%Steel: %ORANGE%Tir El%NL%%GRAY%Strength: %ORANGE%Amn Tir} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Low Level Crystal Sword - Military Pick - War Scepter - Scythe - Brandistock - Runewords
-ItemDisplay[NMAG SOCK=3 (crs || mpi || wsp || scy || brn) CLVL<35 ILVL>0]: {%GRAY%Authority: %ORANGE%El Eth Ith%NL%%GRAY%Madness: %ORANGE%El Ort El} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (crs || mpi || wsp || scy || brn) CLVL<35 ILVL>0]: {%GRAY%Authority: %ORANGE%El Eth Ith%NL%%GRAY%Madness: %ORANGE%El Ort El} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (crs || mpi || wsp || scy || brn) ED=20 CLVL<35 ILVL>0]: Perfect ED {%GRAY%Authority: %ORANGE%El Eth Ith%NL%%GRAY%Madness: %ORANGE%El Ort El} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Low Level Flail (-10 Speed) - Runewords
 ItemDisplay[(NMAG !INF) SOCK=3 fla CLVL<55 ILVL>1]: {%GRAY%Authority: %ORANGE%El Eth Ith%NL%%GRAY%Madness: %ORANGE%El Ort El%NL%%GRAY%Black: %ORANGE%Thul Io Nef} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 fla ED=20 CLVL<55 ILVL>1]: Perfect ED {%GRAY%Authority: %ORANGE%El Eth Ith%NL%%GRAY%Madness: %ORANGE%El Ort El%NL%%GRAY%Black: %ORANGE%Thul Io Nef} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Mid Level Knout (-10 Speed) - Runewords
 ItemDisplay[(NMAG !INF) SOCK=3 9fl CLVL<60 ILVL>1]: {%GRAY%Black: %ORANGE%Thul Io Nef} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 9fl ED=20 CLVL<60 ILVL>1]: Perfect ED {%GRAY%Black: %ORANGE%Thul Io Nef} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[(NMAG !INF) SOCK=5 9fl CLVL<60 ILVL>1]: {%GRAY%Honor: %ORANGE%Amn El Ith Tir Sol} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=5 9fl ED=20 CLVL<60 ILVL>1]: Perfect ED {%GRAY%Honor: %ORANGE%Amn El Ith Tir Sol} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Low Level Kris (-20 Speed) - Runewords
 ItemDisplay[(NMAG !INF) SOCK=2 kri CLVL<60 ILVL>1]: {%GRAY%Strength: %ORANGE%Amn Tir%NL%%GRAY%Night: %ORANGE%Tir Io} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 kri ED=20 CLVL<60 ILVL>1]: Perfect ED {%GRAY%Strength: %ORANGE%Amn Tir%NL%%GRAY%Night: %ORANGE%Tir Io} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Low Level Cinquedeas (-20 Speed) - Runewords
 ItemDisplay[(NMAG !INF) SOCK=3 9kr CLVL<55 ILVL>1]: {%GRAY%Authority: %ORANGE%El Eth Ith%NL%%GRAY%Envy: %ORANGE%Ort Amn Ral%NL%%GRAY%Black: %ORANGE%Thul Io Nef} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 9kr ED=20 CLVL<55 ILVL>1]: Perfect ED {%GRAY%Authority: %ORANGE%El Eth Ith%NL%%GRAY%Envy: %ORANGE%Ort Amn Ral%NL%%GRAY%Black: %ORANGE%Thul Io Nef} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[(NMAG !INF) SOCK=2 9kr CLVL<60 ILVL>1]: {%GRAY%Strength: %ORANGE%Amn Tir%NL%%GRAY%Night: %ORANGE%Tir Io} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 9kr ED=20 CLVL<60 ILVL>1]: Perfect ED {%GRAY%Strength: %ORANGE%Amn Tir%NL%%GRAY%Night: %ORANGE%Tir Io} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Low Level Cutlass (-30 Speed) - Runewords
 ItemDisplay[(NMAG !INF) SOCK=2 9sm CLVL<55 ILVL>1]: {%GRAY%Steel: %ORANGE%Tir El%NL%%GRAY%Strength: %ORANGE%Amn Tir} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 9sm ED=20 CLVL<55 ILVL>1]: Perfect ED {%GRAY%Steel: %ORANGE%Tir El%NL%%GRAY%Strength: %ORANGE%Amn Tir} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Low Level Phase Blade (-30 speed) - Runewords
 ItemDisplay[(NMAG !INF) SOCK=2 7cr CLVL<55 ILVL>1]: {%GRAY%Steel: %ORANGE%Tir El%NL%%GRAY%Strength: %ORANGE%Amn Tir} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 7cr ED=20 CLVL<55 ILVL>1]: Perfect ED {%GRAY%Steel: %ORANGE%Tir El%NL%%GRAY%Strength: %ORANGE%Amn Tir} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[(NMAG !INF) SOCK=3 7cr CLVL<60 ILVL>1]: {%GRAY%Authority: %ORANGE%El Eth Ith%NL%%GRAY%Envy: %ORANGE%Ort Amn Ral%NL%%GRAY%Black: %ORANGE%Thul Io Nef} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 7cr ED=20 CLVL<60 ILVL>1]: Perfect ED {%GRAY%Authority: %ORANGE%El Eth Ith%NL%%GRAY%Envy: %ORANGE%Ort Amn Ral%NL%%GRAY%Black: %ORANGE%Thul Io Nef} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Low Level Composite Bow - Stag Bow - Hunter's Bow - Light Crossbow - Runewords
 ItemDisplay[NMAG SOCK=2 (cbw || am1 || hbw || lxb) CLVL<35 ILVL>0]: {%GRAY%Zephyr: %ORANGE%Ort Eth} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[NMAG SOCK=2 (cbw || am1 || hbw || lxb) ED=20 CLVL<35 ILVL>0]: Perfect ED {%GRAY%Zephyr: %ORANGE%Ort Eth} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 
 //////////////////////////////////////////////////////////////////
