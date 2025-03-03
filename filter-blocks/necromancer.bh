@@ -1040,8 +1040,8 @@ ItemDisplay[((NMAG !SUP !INF) || MAG) umb ILVL>1 FILTLVL<3]: Craft %RED%%BASENAM
 /////////////////////////////////////////////////////////////////////////
 
 //Enigma Necromancer Exoskeleton Base
-ItemDisplay[(NMAG !INF) na6 SOCK=3 STAT36>8 ILVL>1 FILTLVL<3]: Enigma RW (Jah Ith Ber) %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF) na6 SOCK=3 STAT36>8 ILVL>1 FILTLVL<3]: Enigma RW (Jah Ith Ber) %SOCKETS%os %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) na6 SOCK=3 STAT36>8 ILVL>1 FILTLVL<3]: {%GRAY%Enigma: %ORANGE%(Jah Ith Ber)} %SOCKETS%os %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) na6 SOCK=3 STAT36>8 ILVL>1 FILTLVL<3]: %SOCKETS%os %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 // +Fire Golem Shield Bases for Runewords
 ItemDisplay[NMAG !INF SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK94>0 ILVL>1]: Fire Golem Base %SOCKETS%os %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 // +Fire Golem Wand Bases For Runewords
