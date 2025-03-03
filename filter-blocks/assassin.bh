@@ -301,6 +301,7 @@ ItemDisplay[(NMAG !INF) (ktr || axf || ces || clw || btl || skr || wrb || 9ar ||
 //3os Runic Talons - Fastest IAS Claw Base For Runewords
 ItemDisplay[(NMAG !INF) 7tw SOCK=3 ILVL>1 FILTLVL<3]: {%GRAY%Mosaic: %ORANGE%(Cham Vex Ohm)%NL%%GRAY%Plague: (Cham Fal Um)} %SOCKETS%os %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
 ItemDisplay[(NMAG !INF) 7tw SOCK=3 ILVL>1 FILTLVL<3]: %SOCKETS%os %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) 7tw SOCK=3 ED=20 ILVL>1]: Perfect ED {%GRAY%Mosaic: %ORANGE%(Cham Vex Ohm)%NL%%GRAY%Plague: (Cham Fal Um)} %SOCKETS%os %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Perfect Great Hauberk Armor Base
 ItemDisplay[(NMAG !INF) urs SOCK=3 ED=20 LIFE=40 ILVL>1]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 ItemDisplay[(NMAG !INF) urs SOCK=4 ED=20 LIFE=40 ILVL>1]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
