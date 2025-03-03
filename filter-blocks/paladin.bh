@@ -290,6 +290,9 @@ ItemDisplay[(NMAG || MAG) umb ILVL>1 FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BL
 //4 Socket Caduceus for Hand of Justice Runeword
 ItemDisplay[(NMAG !INF) 7ws SOCK=4 ILVL>1 FILTLVL<3]: {%GRAY%Hand Of Justice: %ORANGE%(Sur Cham Amn Lo)} %SOCKETS%os %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
 ItemDisplay[(NMAG !INF) 7ws SOCK=4 ILVL>1 FILTLVL<3]: %SOCKETS%os %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) 7ws SOCK=4 ED=20 STAT358=6 ILVL>1]: Perfect {%GRAY%Hand Of Justice: %ORANGE%(Sur Cham Amn Lo)} %SOCKETS%os %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) 7ws SOCK=4 ED=20 ILVL>1]: Perfect ED {%GRAY%Hand Of Justice: %ORANGE%(Sur Cham Amn Lo)} %SOCKETS%os %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) 7ws SOCK=4 STAT358=6 ILVL>1]: Perfect Automod {%GRAY%Hand Of Justice: %ORANGE%(Sur Cham Amn Lo)} %SOCKETS%os %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //3 Socket Sacred Rondache for Dragon, Dream Runewords
 ItemDisplay[(NMAG !INF) pac SOCK=3 ILVL>1 FILTLVL<3]: {%GRAY%Dragon: %ORANGE%(Sur Lo Sol)%NL%%GRAY%Dream: %ORANGE%(Io Jah Pul)} %SOCKETS%os %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
 ItemDisplay[(NMAG !INF) pac SOCK=3 ILVL>1 FILTLVL<3]: %SOCKETS%os %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
