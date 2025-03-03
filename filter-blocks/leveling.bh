@@ -225,8 +225,8 @@ ItemDisplay[(NMAG !INF) SOCK=3 7cr CLVL<60 ILVL>1]: {%GRAY%Authority: %ORANGE%El
 ItemDisplay[(NMAG !INF) SOCK=3 7cr ED=20 CLVL<60 ILVL>1]: Perfect ED {%GRAY%Authority: %ORANGE%El Eth Ith%NL%%GRAY%Envy: %ORANGE%Ort Amn Ral%NL%%GRAY%Black: %ORANGE%Thul Io Nef} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Low Level Composite Bow - Stag Bow - Hunter's Bow - Light Crossbow - Runewords
-ItemDisplay[NMAG SOCK=2 (cbw || am1 || hbw || lxb) CLVL<35 ILVL>0]: {%GRAY%Zephyr: %ORANGE%Ort Eth} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[NMAG SOCK=2 (cbw || am1 || hbw || lxb) ED=20 CLVL<35 ILVL>0]: Perfect ED {%GRAY%Zephyr: %ORANGE%Ort Eth} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (cbw || am1 || hbw || lxb) CLVL<35 ILVL>0]: {%GRAY%Zephyr: %ORANGE%Ort Eth} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (cbw || am1 || hbw || lxb) ED=20 CLVL<35 ILVL>0]: Perfect ED {%GRAY%Zephyr: %ORANGE%Ort Eth} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 
 //////////////////////////////////////////////////////////////////
