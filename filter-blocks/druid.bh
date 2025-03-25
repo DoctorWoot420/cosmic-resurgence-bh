@@ -339,7 +339,7 @@ ItemDisplay[(NMAG !INF !SUP) xcl ILVL>45 FILTLVL<3]: Frozen Fortune Alch %RED%%N
 /////////////////////////////////////////////////////////////////////////
 
 //Crusader Gauntlets - Perimetus Glory Alch
-ItemDisplay[(NMAG !INF !SUP) utg ILVL>88]: Perimetus Glory Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) utg ILVL>91]: Perimetus Glory Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 /////////////////////////////////////////////////////////////////////////
 //Belt Alchs/////////////////////////////////////////////////////////////
