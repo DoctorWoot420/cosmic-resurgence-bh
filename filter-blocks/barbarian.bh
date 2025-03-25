@@ -4,88 +4,88 @@
 //////////////////////////////////////////////////////////////////
 
 
-//Low Level Class Skills Amulets
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK4>0 CLVL<70 ILVL>0]: Barbarian %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK34>0 CLVL<70 ILVL>0]: Warcry Barb %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Class Circlets
-ItemDisplay[(RARE || MAG) CIRC CLSK4>0 CLVL<70 ILVL>0]: Barbarian %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) CIRC TABSK34>0 CLVL<70 ILVL>0]: Warcry Barb %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Barbarian Helmets - Flat Damage
-ItemDisplay[RARE ba1 STAT21>9 STAT22>19 CLVL<24 ILVL>0]: T4 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[MAG ba1 STAT21>9 STAT22>19 CLVL<24 ILVL>0]: T4 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[MAG ba1 SK145>0 CLVL<24 ILVL>0]: + Frenzy %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Barbarian Helmets - Faster Hit Recovery, 10+ Dual Resistances
-ItemDisplay[RARE ba1 FHR>9 CRES>9 FRES>9 CLVL<24 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[RARE ba1 FHR>9 CRES>9 LRES>9 CLVL<24 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[RARE ba1 FHR>9 CRES>9 PRES>9 CLVL<24 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[RARE ba1 FHR>9 LRES>9 FRES>9 CLVL<24 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[RARE ba1 FHR>9 PRES>9 FRES>9 CLVL<24 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[RARE ba1 FHR>9 LRES>9 PRES>9 CLVL<24 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Barbarian Helmets - Tri Resistances
-ItemDisplay[RARE ba1 FRES>9 CRES>9 LRES>9 CLVL<24 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[RARE ba1 FRES>9 CRES>9 PRES>9 CLVL<24 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[RARE ba1 CRES>9 LRES>9 PRES>9 CLVL<24 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[RARE ba1 FRES>9 LRES>9 PRES>9 CLVL<24 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Barbarian Helmets - Runewords
-ItemDisplay[(NMAG !INF) SOCK=2 (ba1 || ba6 || bab) SK145>0 CLVL<80 ILVL>0]: + Frenzy {%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (ba1 || ba6 || bab) ED=20 SK145>0 CLVL<80 ILVL>0]: + Frenzy Perfect ED {%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 BAR SK148>0 CLVL<80 ILVL>0]: + Whirlwind {%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 BAR ED=20 SK148>0 CLVL<80 ILVL>0]: + Whirlwind Perfect ED {%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (bac || bad || bae || baf) SK150>0 CLVL<88 ILVL>0]: + Warcry {%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (bac || bad || bae || baf) ED=20 SK150>0 CLVL<88 ILVL>0]: + Warcry Perfect ED {%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (bac || bae) SK141>0 CLVL<88 ILVL>0]: + Ancients Fury {%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (bac || bae) ED=20 SK141>0 CLVL<88 ILVL>0]: + Ancients Fury Perfect ED {%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 BAR SK131>0 CLVL<88 ILVL>0]: + Winters Fury {%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 BAR ED=20 SK131>0 CLVL<88 ILVL>0]: + Winters Fury Perfect ED {%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Destroyer Axe (-10 Speed) - Runewords
-ItemDisplay[(NMAG !INF) SOCK=2 bw4 CLVL<70 ILVL>1]: {%GRAY%Steel: %ORANGE%Tir El%NL%%GRAY%Strength: %ORANGE%Amn Tir} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 bw4 ED=20 CLVL<70 ILVL>1]: Perfect ED {%GRAY%Steel: %ORANGE%Tir El%NL%%GRAY%Strength: %ORANGE%Amn Tir} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=3 bw4 CLVL<70 ILVL>1]: {%GRAY%Authority: %ORANGE%El Eth Ith%NL%%GRAY%Pestilence: %ORANGE%Tir Tal Tir%NL%%GRAY%Envy: %ORANGE%Ort Amn Ral%NL%%GRAY%Black: %ORANGE%Thul Io Nef} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=3 bw4 ED=20 CLVL<70 ILVL>1]: Perfect ED {%GRAY%Authority: %ORANGE%El Eth Ith%NL%%GRAY%Pestilence: %ORANGE%Tir Tal Tir%NL%%GRAY%Envy: %ORANGE%Ort Amn Ral%NL%%GRAY%Black: %ORANGE%Thul Io Nef} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=5 bw4 CLVL<70 ILVL>1]: {%GRAY%Honor: %ORANGE%Amn El Ith Tir Sol} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=5 bw4 ED=20 CLVL<70 ILVL>1]: Perfect ED {%GRAY%Honor: %ORANGE%Amn El Ith Tir Sol} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Slayer Hatchet (-10 Speed) - Runewords
-ItemDisplay[(NMAG !INF) SOCK=3 bw5 CLVL<70 ILVL>1]: {%GRAY%Authority: %ORANGE%El Eth Ith%NL%%GRAY%Pestilence: %ORANGE%Tir Tal Tir%NL%%GRAY%Envy: %ORANGE%Ort Amn Ral%NL%%GRAY%Black: %ORANGE%Thul Io Nef} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=3 bw5 ED=20 CLVL<70 ILVL>1]: Perfect ED {%GRAY%Authority: %ORANGE%El Eth Ith%NL%%GRAY%Pestilence: %ORANGE%Tir Tal Tir%NL%%GRAY%Envy: %ORANGE%Ort Amn Ral%NL%%GRAY%Black: %ORANGE%Thul Io Nef} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=5 bw5 CLVL<70 ILVL>1]: {%GRAY%Honor: %ORANGE%Amn El Ith Tir Sol} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=5 bw5 ED=20 CLVL<70 ILVL>1]: Perfect ED {%GRAY%Honor: %ORANGE%Amn El Ith Tir Sol} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
 //Mid Level Class Skills Amulets
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK4>1 CLVL<70 ILVL>0]: Barbarian %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK34>1 CLVL<70 ILVL>0]: Warcry Barb %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK4>1 CLVL<70]: Barbarian %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK34>1 CLVL<70]: Warcry Barb %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
 
 //Mid Level Class Circlets
-ItemDisplay[(RARE || MAG) CIRC CLSK4>1 CLVL<70 ILVL>0]: Barbarian %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) CIRC TABSK34>1 CLVL<70 ILVL>0]: Warcry Barb %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC CLSK4>1 CLVL<70]: Barbarian %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC TABSK34>1 CLVL<70]: Warcry Barb %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
 
 //Mid Level Barbarian Helmets - Flat Damage
-ItemDisplay[RARE (ba1 || ba6 || bab) STAT21>24 STAT22>49 CLVL<42 ILVL>0]: T3 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[MAG (ba1 || ba6 || bab) STAT21>24 STAT22>49 CLVL<42 ILVL>0]: T3 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE (ba1 || ba6 || bab) STAT21>34 STAT22>69 CLVL<70]: T2 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[MAG (ba1 || ba6 || bab) STAT21>34 STAT22>69 CLVL<70]: T2 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
 
 //Mid Level Barbarian Helmets - Flat Damage
-ItemDisplay[RARE (ba1 || ba6 || bab) STAT21>34 STAT22>69 CLVL<70 ILVL>0]: T2 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[MAG (ba1 || ba6 || bab) STAT21>34 STAT22>69 CLVL<70 ILVL>0]: T2 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Barbarian Helmets - Faster Hit Recovery, 20+ Dual Resistances
-ItemDisplay[RARE (ba1 || ba6 || bab || bac) FHR>16 CRES>19 FRES>19 CLVL<70 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[RARE (ba1 || ba6 || bab || bac) FHR>16 CRES>19 LRES>19 CLVL<70 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[RARE (ba1 || ba6 || bab || bac) FHR>16 CRES>19 PRES>19 CLVL<70 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[RARE (ba1 || ba6 || bab || bac) FHR>16 LRES>19 FRES>19 CLVL<70 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[RARE (ba1 || ba6 || bab || bac) FHR>16 PRES>19 FRES>19 CLVL<70 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[RARE (ba1 || ba6 || bab || bac) FHR>16 LRES>19 PRES>19 CLVL<70 ILVL>0]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE (ba1 || ba6 || bab) STAT21>24 STAT22>49 CLVL<50]: T3 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[MAG (ba1 || ba6 || bab) STAT21>24 STAT22>49 CLVL<50]: T3 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
 
 //Mid Level Barbarian Helmets - Tri Resistances
-ItemDisplay[RARE (ba1 || ba6 || bab || bac) FRES>24 CRES>24 LRES>24 CLVL<70 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[RARE (ba1 || ba6 || bab || bac) FRES>24 CRES>24 PRES>24 CLVL<70 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[RARE (ba1 || ba6 || bab || bac) CRES>24 LRES>24 PRES>24 CLVL<70 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[RARE (ba1 || ba6 || bab || bac) FRES>24 LRES>24 PRES>24 CLVL<70 ILVL>0]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE (ba1 || ba6 || bab || bac) FRES>24 CRES>24 LRES>24 CLVL<70]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[RARE (ba1 || ba6 || bab || bac) FRES>24 CRES>24 PRES>24 CLVL<70]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[RARE (ba1 || ba6 || bab || bac) CRES>24 LRES>24 PRES>24 CLVL<70]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[RARE (ba1 || ba6 || bab || bac) FRES>24 LRES>24 PRES>24 CLVL<70]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+
+//Mid Level Barbarian Helmets - Faster Hit Recovery, 20+ Dual Resistances
+ItemDisplay[RARE (ba1 || ba6 || bab || bac) FHR>16 CRES>19 FRES>19 CLVL<70]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[RARE (ba1 || ba6 || bab || bac) FHR>16 CRES>19 LRES>19 CLVL<70]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[RARE (ba1 || ba6 || bab || bac) FHR>16 CRES>19 PRES>19 CLVL<70]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[RARE (ba1 || ba6 || bab || bac) FHR>16 LRES>19 FRES>19 CLVL<70]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[RARE (ba1 || ba6 || bab || bac) FHR>16 PRES>19 FRES>19 CLVL<70]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[RARE (ba1 || ba6 || bab || bac) FHR>16 LRES>19 PRES>19 CLVL<70]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+
+//Low Level Class Skills Amulets
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK4>0 CLVL<70]: Barbarian %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK34>0 CLVL<70]: Warcry Barb %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+
+//Low Level Class Circlets
+ItemDisplay[(RARE || MAG) CIRC CLSK4>0 CLVL<70]: Barbarian %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC TABSK34>0 CLVL<70]: Warcry Barb %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+
+//Low Level Barbarian Helmets - Flat Damage
+ItemDisplay[RARE ba1 STAT21>9 STAT22>19 CLVL<35]: T4 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[MAG ba1 STAT21>9 STAT22>19 CLVL<35]: T4 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[MAG ba1 SK145>0 CLVL<35]: + Frenzy %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+
+//Low Level Barbarian Helmets - Tri Resistances
+ItemDisplay[RARE ba1 FRES>9 CRES>9 LRES>9 CLVL<35]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[RARE ba1 FRES>9 CRES>9 PRES>9 CLVL<35]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[RARE ba1 CRES>9 LRES>9 PRES>9 CLVL<35]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[RARE ba1 FRES>9 LRES>9 PRES>9 CLVL<35]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+
+//Low Level Barbarian Helmets - Faster Hit Recovery, 10+ Dual Resistances
+ItemDisplay[RARE ba1 FHR>9 CRES>9 FRES>9 CLVL<35]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[RARE ba1 FHR>9 CRES>9 LRES>9 CLVL<35]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[RARE ba1 FHR>9 CRES>9 PRES>9 CLVL<35]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[RARE ba1 FHR>9 LRES>9 FRES>9 CLVL<35]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[RARE ba1 FHR>9 PRES>9 FRES>9 CLVL<35]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[RARE ba1 FHR>9 LRES>9 PRES>9 CLVL<35]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+
+//Low Level Barbarian Helmets - Runewords
+ItemDisplay[(NMAG !INF) SOCK=2 (ba1 || ba6 || bab) SK145>0 CLVL<80]: + Frenzy {%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (ba1 || ba6 || bab) ED=20 SK145>0 CLVL<80]: + Frenzy Perfect ED {%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 BAR SK148>0 CLVL<80]: + Whirlwind {%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 BAR ED=20 SK148>0 CLVL<80]: + Whirlwind Perfect ED {%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (bac || bad || bae || baf) SK150>0 CLVL<88]: + Warcry {%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (bac || bad || bae || baf) ED=20 SK150>0 CLVL<88]: + Warcry Perfect ED {%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (bac || bae) SK141>0 CLVL<88]: + Ancients Fury {%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (bac || bae) ED=20 SK141>0 CLVL<88]: + Ancients Fury Perfect ED {%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 BAR SK131>0 CLVL<88]: + Winters Fury {%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 BAR ED=20 SK131>0 CLVL<88]: + Winters Fury Perfect ED {%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+
+//Low Level Destroyer Axe (-10 Speed) - Runewords
+ItemDisplay[(NMAG !INF) SOCK=2 bw4 CLVL<70]: {%GRAY%Steel: %ORANGE%Tir El%NL%%GRAY%Strength: %ORANGE%Amn Tir} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 bw4 ED=20 CLVL<70]: Perfect ED {%GRAY%Steel: %ORANGE%Tir El%NL%%GRAY%Strength: %ORANGE%Amn Tir} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 bw4 CLVL<70]: {%GRAY%Authority: %ORANGE%El Eth Ith%NL%%GRAY%Pestilence: %ORANGE%Tir Tal Tir%NL%%GRAY%Envy: %ORANGE%Ort Amn Ral%NL%%GRAY%Black: %ORANGE%Thul Io Nef} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 bw4 ED=20 CLVL<70]: Perfect ED {%GRAY%Authority: %ORANGE%El Eth Ith%NL%%GRAY%Pestilence: %ORANGE%Tir Tal Tir%NL%%GRAY%Envy: %ORANGE%Ort Amn Ral%NL%%GRAY%Black: %ORANGE%Thul Io Nef} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=5 bw4 CLVL<70]: {%GRAY%Honor: %ORANGE%Amn El Ith Tir Sol} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=5 bw4 ED=20 CLVL<70]: Perfect ED {%GRAY%Honor: %ORANGE%Amn El Ith Tir Sol} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+
+//Low Level Slayer Hatchet (-10 Speed) - Runewords
+ItemDisplay[(NMAG !INF) SOCK=3 bw5 CLVL<70]: {%GRAY%Authority: %ORANGE%El Eth Ith%NL%%GRAY%Pestilence: %ORANGE%Tir Tal Tir%NL%%GRAY%Envy: %ORANGE%Ort Amn Ral%NL%%GRAY%Black: %ORANGE%Thul Io Nef} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 bw5 ED=20 CLVL<70]: Perfect ED {%GRAY%Authority: %ORANGE%El Eth Ith%NL%%GRAY%Pestilence: %ORANGE%Tir Tal Tir%NL%%GRAY%Envy: %ORANGE%Ort Amn Ral%NL%%GRAY%Black: %ORANGE%Thul Io Nef} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=5 bw5 CLVL<70]: {%GRAY%Honor: %ORANGE%Amn El Ith Tir Sol} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=5 bw5 ED=20 CLVL<70]: Perfect ED {%GRAY%Honor: %ORANGE%Amn El Ith Tir Sol} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 
 //////////////////////////////////////////////////////////////////
@@ -93,14 +93,14 @@ ItemDisplay[RARE (ba1 || ba6 || bab || bac) FRES>24 LRES>24 PRES>24 CLVL<70 ILVL
 //////////////////////////////////////////////////////////////////
 
 //Barb Helm - +3 Ancients Fury (Totem)
-ItemDisplay[(NMAG !INF) (baf || bae || bad || bac || bab || baa || ba9 || ba8 || ba7 || ba6 || ba2 || ba1 || ba5 || ba4 || ba3) SK141>2 ILVL>1]: + 3 Totems %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (baf || bae || bad || bac || bab || baa || ba9 || ba8 || ba7 || ba6 || ba2 || ba1 || ba5 || ba4 || ba3) SK141>2 ILVL>1]: + 3 Totems %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=3 (baf || bae || bad || bac || bab || baa || ba9 || ba8 || ba7 || ba6 || ba2 || ba1 || ba5 || ba4 || ba3) SK141>2 ILVL>1]: + 3 Totems %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) (baf || bae || bad || bac || bab || baa || ba9 || ba8 || ba7 || ba6 || ba2 || ba1 || ba5 || ba4 || ba3) SK141>2]: + 3 Totems %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (baf || bae || bad || bac || bab || baa || ba9 || ba8 || ba7 || ba6 || ba2 || ba1 || ba5 || ba4 || ba3) SK141>2]: + 3 Totems %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (baf || bae || bad || bac || bab || baa || ba9 || ba8 || ba7 || ba6 || ba2 || ba1 || ba5 || ba4 || ba3) SK141>2]: + 3 Totems %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Barb Helm - +3 Winters Fury (Throw Skill)
-ItemDisplay[(NMAG !INF) (baf || bae || bad || bac || bab || baa || ba9 || ba8 || ba7 || ba6 || ba2 || ba1 || ba5 || ba4 || ba3) SK131>2 ILVL>1]: + 3 Winters Fury %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (baf || bae || bad || bac || bab || baa || ba9 || ba8 || ba7 || ba6 || ba2 || ba1 || ba5 || ba4 || ba3) SK131>2 ILVL>1]: + 3 Winters Fury %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=3 (baf || bae || bad || bac || bab || baa || ba9 || ba8 || ba7 || ba6 || ba2 || ba1 || ba5 || ba4 || ba3) SK131>2 ILVL>1]: + 3 Winters Fury %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) (baf || bae || bad || bac || bab || baa || ba9 || ba8 || ba7 || ba6 || ba2 || ba1 || ba5 || ba4 || ba3) SK131>2]: + 3 Winters Fury %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (baf || bae || bad || bac || bab || baa || ba9 || ba8 || ba7 || ba6 || ba2 || ba1 || ba5 || ba4 || ba3) SK131>2]: + 3 Winters Fury %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (baf || bae || bad || bac || bab || baa || ba9 || ba8 || ba7 || ba6 || ba2 || ba1 || ba5 || ba4 || ba3) SK131>2]: + 3 Winters Fury %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 
 //////////////////////////////////////////////////////////////////
@@ -108,16 +108,16 @@ ItemDisplay[(NMAG !INF) SOCK=3 (baf || bae || bad || bac || bab || baa || ba9 ||
 //////////////////////////////////////////////////////////////////
 
 //Barb Helm - +5-6 Ancients Fury (Totem)
-ItemDisplay[RARE (baf || bae || bad || bac || bab || baa || ba9 || ba8 || ba7 || ba6 || ba2 || ba1 || ba5 || ba4 || ba3) SK141>2 CLSK4>1 ILVL>1]: + 5 Totems %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (baf || bae || bad || bac || bab || baa || ba9 || ba8 || ba7 || ba6 || ba2 || ba1 || ba5 || ba4 || ba3) SK141>2 TABSK34>2 ILVL>1]: + 6 Totems %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
-ItemDisplay[MAG (baf || bae || bad || bac || bab || baa || ba9 || ba8 || ba7 || ba6 || ba2 || ba1 || ba5 || ba4 || ba3) SK141>2 CLSK4>1 ILVL>1]: + 5 Totems %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG (baf || bae || bad || bac || bab || baa || ba9 || ba8 || ba7 || ba6 || ba2 || ba1 || ba5 || ba4 || ba3) SK141>2 TABSK34>2 ILVL>1]: + 6 Totems %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
+ItemDisplay[RARE (baf || bae || bad || bac || bab || baa || ba9 || ba8 || ba7 || ba6 || ba2 || ba1 || ba5 || ba4 || ba3) SK141>2 TABSK34>2]: + 6 Totems %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
+ItemDisplay[MAG (baf || bae || bad || bac || bab || baa || ba9 || ba8 || ba7 || ba6 || ba2 || ba1 || ba5 || ba4 || ba3) SK141>2 TABSK34>2]: + 6 Totems %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
+ItemDisplay[RARE (baf || bae || bad || bac || bab || baa || ba9 || ba8 || ba7 || ba6 || ba2 || ba1 || ba5 || ba4 || ba3) SK141>2 CLSK4>1]: + 5 Totems %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (baf || bae || bad || bac || bab || baa || ba9 || ba8 || ba7 || ba6 || ba2 || ba1 || ba5 || ba4 || ba3) SK141>2 CLSK4>1]: + 5 Totems %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Barb Helm - +5-6 Winters Fury (Throw Skill)
-ItemDisplay[RARE (baf || bae || bad || bac || bab || baa || ba9 || ba8 || ba7 || ba6 || ba2 || ba1 || ba5 || ba4 || ba3) SK131>2 CLSK4>1 ILVL>1]: + 5 Winters Fury %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (baf || bae || bad || bac || bab || baa || ba9 || ba8 || ba7 || ba6 || ba2 || ba1 || ba5 || ba4 || ba3) SK131>2 TABSK34>2 ILVL>1]: + 6 Winters Fury %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
-ItemDisplay[MAG (baf || bae || bad || bac || bab || baa || ba9 || ba8 || ba7 || ba6 || ba2 || ba1 || ba5 || ba4 || ba3) SK131>2 CLSK4>1 ILVL>1]: + 5 Winters Fury %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG (baf || bae || bad || bac || bab || baa || ba9 || ba8 || ba7 || ba6 || ba2 || ba1 || ba5 || ba4 || ba3) SK131>2 TABSK34>2 ILVL>1]: + 6 Winters Fury %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
+ItemDisplay[RARE (baf || bae || bad || bac || bab || baa || ba9 || ba8 || ba7 || ba6 || ba2 || ba1 || ba5 || ba4 || ba3) SK131>2 TABSK34>2]: + 6 Winters Fury %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
+ItemDisplay[MAG (baf || bae || bad || bac || bab || baa || ba9 || ba8 || ba7 || ba6 || ba2 || ba1 || ba5 || ba4 || ba3) SK131>2 TABSK34>2]: + 6 Winters Fury %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
+ItemDisplay[RARE (baf || bae || bad || bac || bab || baa || ba9 || ba8 || ba7 || ba6 || ba2 || ba1 || ba5 || ba4 || ba3) SK131>2 CLSK4>1]: + 5 Winters Fury %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (baf || bae || bad || bac || bab || baa || ba9 || ba8 || ba7 || ba6 || ba2 || ba1 || ba5 || ba4 || ba3) SK131>2 CLSK4>1]: + 5 Winters Fury %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 
 /////////////////////////////////////////////////////////////////////////
@@ -139,18 +139,9 @@ ItemDisplay[(NMAG !INF !SUP) 9di ILVL>43 FILTLVL<3]: Heart Carver Alch %RED%%NAM
 ItemDisplay[(NMAG !INF !SUP) 9di ILVL>43 FILTLVL<3]: Heart Carver Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 ItemDisplay[(NMAG !INF !SUP) 7di ILVL>74 FILTLVL<3]: Soul Sculpter Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
 ItemDisplay[(NMAG !INF !SUP) 7di ILVL>74 FILTLVL<3]: Soul Sculpter Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-//The Devourer Axe
-ItemDisplay[(NMAG !INF !SUP) hax ILVL>4]: The Gnawer Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) hax ILVL>4]: The Gnawer Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) 9ha ILVL>44]: The Gnasher Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) 9ha ILVL>44]: The Gnasher Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) 7ha ILVL>77]: The Devourer Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) 7ha ILVL>77]: The Devourer Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //Bonds of Blood Set - Sister of The Slaughter - Brother of The Beast
 ItemDisplay[(NMAG !INF !SUP) bw6 ILVL>84]: Bonds of Blood Axe Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 ItemDisplay[(NMAG !INF !SUP) bw6 ILVL>84]: Bonds of Blood Axe Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-
-
 
 
 /////////////////////////////////////////////////////////////////////////
@@ -168,8 +159,6 @@ ItemDisplay[(NMAG !INF !SUP) jw2 ILVL>47 FILTLVL<3]: Bloodbathe Alch %RED%%NAME%
 ItemDisplay[(NMAG !INF !SUP) jw6 ILVL>70]: Illyria's Tear Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 
-
-
 ///////////////////////////////////////////////////////////////////////////
 //Rings & Amulet Alchs/////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
@@ -182,13 +171,11 @@ ItemDisplay[(NMAG !INF !SUP) rg1 ILVL>91]: Eon Band Alch %RED%%NAME% %RED%0%WHIT
 //Constriction Ring Alch
 ItemDisplay[(NMAG !INF !SUP) rg2 ILVL>94]: Constriction Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Topaz Amulet - Horologia's Pendulum Alch
-ItemDisplay[((NMAG !INF !SUP ILVL>91) || (MAG ILVL>92)) au3]: Horo Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[((NMAG !INF !SUP ILVL>91) || (MAG ILVL>91)) au3]: Horo Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Garnet Ring - Carbuncle Star Alch
 ItemDisplay[(NMAG !INF !SUP) rg3 ILVL>91]: Carbuncle Star Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Lich Rings for Alching (Cave Of Horrors)
 ItemDisplay[NMAG (li0 || li1 || li2 || li3 || li4 || li5 || li6) ILVL>91]: Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-
-
 
 
 /////////////////////////////////////////////////////////////////////////
@@ -215,13 +202,12 @@ ItemDisplay[(NMAG !INF !SUP) bad ILVL>64 FILTLVL<3]: Primal Scream Alch %RED%%NA
 ItemDisplay[(NMAG !INF !SUP) bae ILVL>76]: Avatar of Fire Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 
-
 /////////////////////////////////////////////////////////////////////////
 //Armor Alchs////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////
 
 //Tyrael's Armor Alch
-ItemDisplay[(NMAG !INF !SUP) aca ILVL>79 FILTLVL<3]: Tyrael's Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) aca ILVL>79 FILTLVL<3]: Tyrael's Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 ItemDisplay[(NMAG !INF !SUP) aca ILVL>79 FILTLVL<3]: Tyrael's Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //Linked Mail - The Replenisher Alch
 ItemDisplay[(NMAG !INF !SUP) xng ILVL>43 FILTLVL<3]: Replenisher Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
@@ -285,35 +271,35 @@ ItemDisplay[(NMAG !INF !SUP) ab5 ILVL>57 FILTLVL<3]: Ingenuity Alch %RED%%NAME% 
 /////////////////////////////////////////////////////////////////////////
 
 //Lich Rings For Crafting (Cave Of Horrors)
-ItemDisplay[MAG (li0 || li1 || li2 || li3 || li4 || li5 || li6) ILVL>1]: Craft %BASENAME%%RED%0%BLUE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (li0 || li1 || li2 || li3 || li4 || li5 || li6) ILVL>1]: Diffuse %BASENAME%%RED%0%BLUE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (li0 || li1 || li2 || li3 || li4 || li5 || li6)]: Craft %BASENAME%%RED%0%BLUE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (li0 || li1 || li2 || li3 || li4 || li5 || li6)]: Diffuse %BASENAME%%RED%0%BLUE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Loricated Mail For Crafting
-ItemDisplay[(NMAG || MAG) ucl ILVL>1 FILTLVL<3]: MA Sin Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG || MAG) ucl ILVL>1 FILTLVL<3]: MA Sin Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP || MAG) ucl FILTLVL<3]: MA Sin Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP || MAG) ucl FILTLVL<3]: MA Sin Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //Shadow Steps Sin Boots For Crafting
-ItemDisplay[(NMAG || MAG) ab3 ILVL>1 FILTLVL<3]: MA Sin Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG || MAG) ab3 ILVL>1 FILTLVL<3]: MA Sin Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP || MAG) ab3 FILTLVL<3]: MA Sin Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP || MAG) ab3 FILTLVL<3]: MA Sin Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //Dark Slippers Sin Boots For Crafting
-ItemDisplay[(NMAG || MAG) ab6 ILVL>1 FILTLVL<3]: Sin Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG || MAG) ab6 ILVL>1 FILTLVL<3]: Sin Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP || MAG) ab6 FILTLVL<3]: Sin Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP || MAG) ab6 FILTLVL<3]: Sin Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //Vampirefang Belt For Crafting
-ItemDisplay[(NMAG || MAG) uvc ILVL>1 FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG || MAG) uvc ILVL>1 FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP || MAG) uvc FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP || MAG) uvc FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //Mithril Coil Belt For Crafting 
-ItemDisplay[(NMAG || MAG) umc ILVL>1 FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG || MAG) umc ILVL>1 FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP || MAG) umc FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP || MAG) umc FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //Crusader Gauntlets For Crafting
-ItemDisplay[(NMAG || MAG) utg ILVL>1 FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG || MAG) utg ILVL>1 FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP || MAG) utg FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP || MAG) utg FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //Wyrmhide Boots For Crafting
-ItemDisplay[(NMAG || MAG) ulb ILVL>1 FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG || MAG) ulb ILVL>1 FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP || MAG) ulb FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP || MAG) ulb FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //Boneweave Boots For Crafting
-ItemDisplay[(NMAG || MAG) umb ILVL>1 FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG || MAG) umb ILVL>1 FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP || MAG) umb FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP || MAG) umb FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //Colossus Blade For Crafting
-ItemDisplay[(NMAG || MAG) 7gd ILVL>1 FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG || MAG) 7gd ILVL>1 FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP || MAG) 7gd FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP || MAG) 7gd FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 
 
 /////////////////////////////////////////////////////////////////////////
@@ -321,116 +307,116 @@ ItemDisplay[(NMAG || MAG) 7gd ILVL>1 FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BL
 /////////////////////////////////////////////////////////////////////////
 
 //Harmony Runeword Bow Bases
-ItemDisplay[(NMAG !INF) (cbw || hbw || swb || 8hb || 8lb) SOCK=4 ILVL>1 FILTLVL<3]: {%GRAY%Harmony: %ORANGE%(Tir Ith Sol Ko)} %SOCKETS%os %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF) (cbw || hbw || swb || 8hb || 8lb) SOCK=4 ILVL>1 FILTLVL<3]: %SOCKETS%os %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) (cbw || hbw || swb || 8hb || 8lb) SOCK=4 FILTLVL<3]: {%GRAY%Harmony: %ORANGE%(Tir Ith Sol Ko)} %SOCKETS%os %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) (cbw || hbw || swb || 8hb || 8lb) SOCK=4 FILTLVL<3]: %SOCKETS%os %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //2os Barb Helm With Melee Splash For Runewords
-ItemDisplay[(NMAG !INF) bab SOCK=2 ILVL>1]: {%GRAY%Cure: %ORANGE%(Lo Jah)} %SOCKETS%os %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) bab ED=20 SOCK=2 ILVL>1]: Perfect ED {%GRAY%Cure: %ORANGE%(Lo Jah)} %SOCKETS%os %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) bab SOCK=2]: {%GRAY%Cure: %ORANGE%(Lo Jah)} %SOCKETS%os %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) bab ED=20 SOCK=2]: Perfect ED {%GRAY%Cure: %ORANGE%(Lo Jah)} %SOCKETS%os %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Perfect Saintly Armor Base
-ItemDisplay[(NMAG !INF) aca SOCK=3 ED=20 STAT37=8 ILVL>1]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) aca SOCK=4 ED=20 STAT37=8 ILVL>1]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) aca SOCK=0 STAT37=8 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF) aca SOCK=0 STAT37=8 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[(NMAG !INF) aca SOCK=3 STAT37=8 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF) aca SOCK=3 STAT37=8 ILVL>1 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[(NMAG !INF) aca SOCK=4 STAT37=8 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF) aca SOCK=4 STAT37=8 ILVL>1 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) aca SOCK=3 ED=20 STAT37=8]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) aca SOCK=4 ED=20 STAT37=8]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) aca SOCK=0 STAT37=8 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) aca SOCK=0 STAT37=8 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) aca SOCK=3 STAT37=8 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) aca SOCK=3 STAT37=8 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) aca SOCK=4 STAT37=8 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) aca SOCK=4 STAT37=8 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //Perfect Sacred Armor Base
-ItemDisplay[(NMAG !INF) uar SOCK=3 ED=20 STAT36=5 ILVL>1]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) uar SOCK=4 ED=20 STAT36=5 ILVL>1]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) uar SOCK=0 STAT36=5 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF) uar SOCK=0 STAT36=5 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[(NMAG !INF) uar SOCK=3 STAT36=5 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF) uar SOCK=3 STAT36=5 ILVL>1 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[(NMAG !INF) uar SOCK=4 STAT36=5 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF) uar SOCK=4 STAT36=5 ILVL>1 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) uar SOCK=3 ED=20 STAT36=5]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) uar SOCK=4 ED=20 STAT36=5]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) uar SOCK=0 STAT36=5 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) uar SOCK=0 STAT36=5 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) uar SOCK=3 STAT36=5 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) uar SOCK=3 STAT36=5 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) uar SOCK=4 STAT36=5 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) uar SOCK=4 STAT36=5 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //Perfect Shadow Plate Armor Base
-ItemDisplay[(NMAG !INF) uul SOCK=3 ED=20 STAT102=15 ILVL>1]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) uul SOCK=4 ED=20 STAT102=15 ILVL>1]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) uul SOCK=0 STAT102=15 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF) uul SOCK=0 STAT102=15 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[(NMAG !INF) uul SOCK=3 STAT102=15 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF) uul SOCK=3 STAT102=15 ILVL>1 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[(NMAG !INF) uul SOCK=4 STAT102=15 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF) uul SOCK=4 STAT102=15 ILVL>1 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) uul SOCK=3 ED=20 STAT102=15]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) uul SOCK=4 ED=20 STAT102=15]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) uul SOCK=0 STAT102=15 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) uul SOCK=0 STAT102=15 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) uul SOCK=3 STAT102=15 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) uul SOCK=3 STAT102=15 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) uul SOCK=4 STAT102=15 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) uul SOCK=4 STAT102=15 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //Perfect Lacquered Plate Armor Base
-ItemDisplay[(NMAG !INF) uth SOCK=3 ED=20 STAT32=500 ILVL>1]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) uth SOCK=4 ED=20 STAT32=500 ILVL>1]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) uth SOCK=0 STAT32=500 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF) uth SOCK=0 STAT32=500 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[(NMAG !INF) uth SOCK=3 STAT32=500 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF) uth SOCK=3 STAT32=500 ILVL>1 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[(NMAG !INF) uth SOCK=4 STAT32=500 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF) uth SOCK=4 STAT32=500 ILVL>1 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) uth SOCK=3 ED=20 STAT32=500]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) uth SOCK=4 ED=20 STAT32=500]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) uth SOCK=0 STAT32=500 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) uth SOCK=0 STAT32=500 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) uth SOCK=3 STAT32=500 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) uth SOCK=3 STAT32=500 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) uth SOCK=4 STAT32=500 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) uth SOCK=4 STAT32=500 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //Perfect Kraken Shell Armor Base
-ItemDisplay[(NMAG !INF) uld SOCK=3 ED=20 ILVL>1]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) uld SOCK=4 ED=20 ILVL>1]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) uld SOCK=3 ED=20]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) uld SOCK=4 ED=20]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Perfect Barbed Carapace Armor Base
-ItemDisplay[(NMAG !INF) ukl SOCK=3 ED=20 ILVL>1]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) ukl SOCK=4 ED=20 ILVL>1]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) ukl SOCK=3 ED=20]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) ukl SOCK=4 ED=20]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Perfect Hellforge Plate Armor Base
-ItemDisplay[(NMAG !INF) ult SOCK=3 ED=20 ILVL>1]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) ult SOCK=4 ED=20 ILVL>1]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) ult SOCK=3 ED=20]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) ult SOCK=4 ED=20]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Perfect Balrog Skin Armor Base
-ItemDisplay[(NMAG !INF) upl SOCK=3 ED=20 ILVL>1]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) upl SOCK=4 ED=20 ILVL>1]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) upl SOCK=3 ED=20]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) upl SOCK=4 ED=20]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Perfect Great Hauberk Armor Base
-ItemDisplay[(NMAG !INF) urs SOCK=3 ED=20 LIFE=40 ILVL>1]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) urs SOCK=4 ED=20 LIFE=40 ILVL>1]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) urs SOCK=0 LIFE=40 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF) urs SOCK=0 LIFE=40 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[(NMAG !INF) urs SOCK=3 LIFE=40 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF) urs SOCK=3 LIFE=40 ILVL>1 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[(NMAG !INF) urs SOCK=4 LIFE=40 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF) urs SOCK=4 LIFE=40 ILVL>1 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) urs SOCK=3 ED=20 LIFE=40]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) urs SOCK=4 ED=20 LIFE=40]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) urs SOCK=0 LIFE=40 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) urs SOCK=0 LIFE=40 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) urs SOCK=3 LIFE=40 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) urs SOCK=3 LIFE=40 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) urs SOCK=4 LIFE=40 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) urs SOCK=4 LIFE=40 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //Perfect Loricated Mail Armor Base
-ItemDisplay[(NMAG !INF) ucl SOCK=3 ED=20 AR=400 ILVL>1]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) ucl SOCK=4 ED=20 AR=400 ILVL>1]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) ucl SOCK=0 AR=400 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF) ucl SOCK=0 AR=400 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[(NMAG !INF) ucl SOCK=3 AR=400 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF) ucl SOCK=3 AR=400 ILVL>1 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[(NMAG !INF) ucl SOCK=4 AR=400 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF) ucl SOCK=4 AR=400 ILVL>1 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) ucl SOCK=3 ED=20 AR=400]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) ucl SOCK=4 ED=20 AR=400]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) ucl SOCK=0 AR=400 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) ucl SOCK=0 AR=400 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) ucl SOCK=3 AR=400 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) ucl SOCK=3 AR=400 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) ucl SOCK=4 AR=400 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) ucl SOCK=4 AR=400 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //Perfect Diamond Mail Armor Base
-ItemDisplay[(NMAG !INF) ung SOCK=3 ED=20 ILVL>1]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) ung SOCK=4 ED=20 ILVL>1]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) ung SOCK=3 ED=20]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) ung SOCK=4 ED=20]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Perfect Wire Fleece Armor Base
-ItemDisplay[(NMAG !INF) utu SOCK=3 ED=20 FRW=8 ILVL>1]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) utu SOCK=4 ED=20 FRW=8 ILVL>1]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) utu SOCK=0 FRW=8 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF) utu SOCK=0 FRW=8 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[(NMAG !INF) utu SOCK=3 FRW=8 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF) utu SOCK=3 FRW=8 ILVL>1 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[(NMAG !INF) utu SOCK=4 FRW=8 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF) utu SOCK=4 FRW=8 ILVL>1 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) utu SOCK=3 ED=20 FRW=8]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) utu SOCK=4 ED=20 FRW=8]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) utu SOCK=0 FRW=8 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) utu SOCK=0 FRW=8 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) utu SOCK=3 FRW=8 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) utu SOCK=3 FRW=8 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) utu SOCK=4 FRW=8 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) utu SOCK=4 FRW=8 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //Perfect Sacarab Husk Armor Base
-ItemDisplay[(NMAG !INF) ula SOCK=3 ED=20 ILVL>1]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) ula SOCK=4 ED=20 ILVL>1]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) ula SOCK=3 ED=20]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) ula SOCK=4 ED=20]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Perfect Wyrmhide Armor Base
-ItemDisplay[(NMAG !INF) uea SOCK=3 ED=20 FHR=15 ILVL>1]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) uea SOCK=4 ED=20 FHR=15 ILVL>1]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) uea SOCK=0 FHR=15 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF) uea SOCK=0 FHR=15 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[(NMAG !INF) uea SOCK=3 FHR=15 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF) uea SOCK=3 FHR=15 ILVL>1 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[(NMAG !INF) uea SOCK=4 FHR=15 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF) uea SOCK=4 FHR=15 ILVL>1 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) uea SOCK=3 ED=20 FHR=15]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) uea SOCK=4 ED=20 FHR=15]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) uea SOCK=0 FHR=15 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) uea SOCK=0 FHR=15 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) uea SOCK=3 FHR=15 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) uea SOCK=3 FHR=15 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) uea SOCK=4 FHR=15 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) uea SOCK=4 FHR=15 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //Perfect Dusk Shroud Armor Base
-ItemDisplay[(NMAG !INF) uui SOCK=3 ED=20 STAT35=10 ILVL>1]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) uui SOCK=4 ED=20 STAT35=10 ILVL>1]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) uui SOCK=0 STAT35=10 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF) uui SOCK=0 STAT35=10 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[(NMAG !INF) uui SOCK=3 STAT35=10 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF) uui SOCK=3 STAT35=10 ILVL>1 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[(NMAG !INF) uui SOCK=4 STAT35=10 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF) uui SOCK=4 STAT35=10 ILVL>1 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) uui SOCK=3 ED=20 STAT35=10]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) uui SOCK=4 ED=20 STAT35=10]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) uui SOCK=0 STAT35=10 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) uui SOCK=0 STAT35=10 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) uui SOCK=3 STAT35=10 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) uui SOCK=3 STAT35=10 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) uui SOCK=4 STAT35=10 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) uui SOCK=4 STAT35=10 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //Perfect Boneweave Armor Base
-ItemDisplay[(NMAG !INF) uhn SOCK=3 ED=20 STAT34=10 ILVL>1]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) uhn SOCK=4 ED=20 STAT34=10 ILVL>1]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) uhn SOCK=0 STAT34=10 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF) uhn SOCK=0 STAT34=10 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[(NMAG !INF) uhn SOCK=3 STAT34=10 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF) uhn SOCK=3 STAT34=10 ILVL>1 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[(NMAG !INF) uhn SOCK=4 STAT34=10 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF) uhn SOCK=4 STAT34=10 ILVL>1 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) uhn SOCK=3 ED=20 STAT34=10]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) uhn SOCK=4 ED=20 STAT34=10]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) uhn SOCK=0 STAT34=10 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) uhn SOCK=0 STAT34=10 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) uhn SOCK=3 STAT34=10 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) uhn SOCK=3 STAT34=10 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) uhn SOCK=4 STAT34=10 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) uhn SOCK=4 STAT34=10 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
