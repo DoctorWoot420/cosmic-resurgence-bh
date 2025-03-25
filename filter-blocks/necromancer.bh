@@ -4,258 +4,257 @@
 //////////////////////////////////////////////////////////////////
 
 
+//Mid Level Class Skills Amulets
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK2>1 CLVL<75]: Necromancer %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK17>1 CLVL<75]: PnB Necro %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK18>1 CLVL<75]: Necro Summon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+
+//Mid Level Class Circlets
+ItemDisplay[(RARE || MAG) CIRC CLSK2>1 CLVL<75]: Necromancer %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC TABSK17>1 CLVL<75]: PnB Necro %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC TABSK18>1 CLVL<75]: Necro Summon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+
+//Mid Level Teeth Wand 
+ItemDisplay[RARE (bwn || wnd || ywn || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw) TABSK17>0 SK67>2 CLVL<80]: Teeth %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[MAG (bwn || wnd || ywn || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw) TABSK17>0 SK67>2 CLVL<80]: Teeth %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+
+//Mid Level Teeth Wand 
+ItemDisplay[RARE (bwn || wnd || ywn || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw) GOODSK>0 SK67>2 CLVL<80]: Teeth %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[MAG (bwn || wnd || ywn || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw) GOODSK>0 SK67>2 CLVL<80]: Teeth %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+
+//Mid Level Bone Spear Wand
+ItemDisplay[RARE (bwn || wnd || ywn || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw) TABSK17>0 SK84>2 CLVL<80]: Bone Spear %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[MAG (bwn || wnd || ywn || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw) TABSK17>0 SK84>2 CLVL<80]: Bone Spear %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+
+//Mid Level Bone Spear Wand 
+ItemDisplay[RARE (bwn || wnd || ywn || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw) GOODSK>0 SK84>2 CLVL<80]: Bone Spear %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[MAG (bwn || wnd || ywn || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw) GOODSK>0 SK84>2 CLVL<80]: Bone Spear %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+
+//Mid Level Corpse Explosion Wand 
+ItemDisplay[RARE (bwn || wnd || ywn || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw) TABSK17>0 SK74>2 CLVL<80]: Corpse Explosion %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[MAG (bwn || wnd || ywn || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw) TABSK17>0 SK74>2 CLVL<80]: Corpse Explosion %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+
+//Mid Level Corpse Explosion Wand 
+ItemDisplay[RARE (bwn || wnd || ywn || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw) GOODSK>0 SK74>2 CLVL<80]: Corpse Explosion %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[MAG (bwn || wnd || ywn || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw) GOODSK>0 SK74>2 CLVL<80]: Corpse Explosion %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+
+//Mid Level Poison Nova Wand 
+ItemDisplay[RARE (bwn || wnd || ywn || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw) TABSK17>0 SK92>2 CLVL<80]: Poison Nova %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[MAG (bwn || wnd || ywn || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw) TABSK17>0 SK92>2 CLVL<80]: Poison Nova %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+
+//Mid Level Poison Nova Wand 
+ItemDisplay[RARE (bwn || wnd || ywn || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw) GOODSK>0 SK92>2 CLVL<80]: Poison Nova %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[MAG (bwn || wnd || ywn || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw) GOODSK>0 SK92>2 CLVL<80]: Poison Nova %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+
+//Mid Level Fire Golem Wand 
+ItemDisplay[RARE (bwn || wnd || ywn || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw) TABSK18>0 SK94>2 CLVL<80]: Fire Golem %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[MAG (bwn || wnd || ywn || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw) TABSK18>0 SK94>2 CLVL<80]: Fire Golem %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+
+//Mid Level Fire Golem Wand 
+ItemDisplay[RARE (bwn || wnd || ywn || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw) GOODSK>0 SK94>2 CLVL<80]: Fire Golem %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[MAG (bwn || wnd || ywn || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw) GOODSK>0 SK94>2 CLVL<80]: Fire Golem %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+
 //Low Level Class Skills Amulets
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK2>0 CLVL<60 ILVL>0]: Necromancer %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK17>0 CLVL<60 ILVL>0]: PnB Necro %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK18>0 CLVL<60 ILVL>0]: Necro Summon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK2>0 CLVL<60]: Necromancer %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK17>0 CLVL<60]: PnB Necro %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK18>0 CLVL<60]: Necro Summon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
 
 //Low Level Class Circlets
-ItemDisplay[(RARE || MAG) CIRC CLSK2>0 CLVL<60 ILVL>0]: Necromancer %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) CIRC TABSK17>0 CLVL<60 ILVL>0]: PnB Necro %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) CIRC TABSK18>0 CLVL<60 ILVL>0]: Necro Summon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC CLSK2>0 CLVL<60]: Necromancer %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC TABSK17>0 CLVL<60]: PnB Necro %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC TABSK18>0 CLVL<60]: Necro Summon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
 
 //Low Level Teeth Wand
-ItemDisplay[RARE WAND SK67>2 CLVL<75 ILVL>0]: + 3 Teeth %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[MAG (bwn || wnd || ywn) SK67>2 CLVL<75 ILVL>0]: + 3 Teeth %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE WAND SK67>2 CLVL<75]: + 3 Teeth %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[MAG (bwn || wnd || ywn) SK67>2 CLVL<75]: + 3 Teeth %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
 
 //Low Level Toxic Wand
-ItemDisplay[RARE WAND SK73>2 CLVL<75 ILVL>0]: + 3 Toxic Delivery %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[MAG WAND SK73>2 CLVL<75 ILVL>0]: + 3 Toxic Delivery %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE WAND SK73>2 CLVL<75]: + 3 Toxic Delivery %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[MAG WAND SK73>2 CLVL<75]: + 3 Toxic Delivery %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
 
 //Low Level Corpse Explosion Wand 
-ItemDisplay[RARE WAND SK74>2 CLVL<75 ILVL>0]: + 3 Corpse Explosion %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[MAG WAND SK74>2 CLVL<75 ILVL>0]: + 3 Corpse Explosion %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE WAND SK74>2 CLVL<75]: + 3 Corpse Explosion %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[MAG WAND SK74>2 CLVL<75]: + 3 Corpse Explosion %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
 
 //Low Level Putrify Wand 
-ItemDisplay[RARE WAND SK83>2 CLVL<75 ILVL>0]: + 3 Putrify %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[MAG WAND SK83>2 CLVL<75 ILVL>0]: + 3 Putrify %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE WAND SK83>2 CLVL<75]: + 3 Putrify %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[MAG WAND SK83>2 CLVL<75]: + 3 Putrify %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
 
 //Low Level Bone Spear Wand 
-ItemDisplay[RARE WAND SK84>2 CLVL<75 ILVL>0]: + 3 Bone Spear %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[MAG WAND SK84>2 CLVL<75 ILVL>0]: + 3 Bone Spear %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE WAND SK84>2 CLVL<75]: + 3 Bone Spear %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[MAG WAND SK84>2 CLVL<75]: + 3 Bone Spear %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
 
 //Low Level Bone Spirit Wand 
-ItemDisplay[RARE WAND SK93>2 CLVL<75 ILVL>0]: + 3 Bone Spirit %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[MAG WAND SK93>2 CLVL<75 ILVL>0]: + 3 Bone Spirit %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE WAND SK93>2 CLVL<75]: + 3 Bone Spirit %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[MAG WAND SK93>2 CLVL<75]: + 3 Bone Spirit %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
 
 //Low Level Bone Armor Wand 
-ItemDisplay[RARE WAND SK68>2 CLVL<75 ILVL>0]: + 3 Bone Armor %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[MAG WAND SK68>2 CLVL<75 ILVL>0]: + 3 Bone Armor %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE WAND SK68>2 CLVL<75]: + 3 Bone Armor %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[MAG WAND SK68>2 CLVL<75]: + 3 Bone Armor %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
 
 //Low Level Poison Nova Wand 
-ItemDisplay[RARE WAND SK92>2 CLVL<75 ILVL>0]: + 3 Poison Nova %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[MAG WAND SK92>2 CLVL<75 ILVL>0]: + 3 Poison Nova %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE WAND SK92>2 CLVL<75]: + 3 Poison Nova %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[MAG WAND SK92>2 CLVL<75]: + 3 Poison Nova %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
 
 //Low Level Skeleton Warrior Wand 
-ItemDisplay[RARE WAND SK70>2 CLVL<75 ILVL>0]: + 3 Skeleton Warrior %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[MAG WAND SK70>2 CLVL<75 ILVL>0]: + 3 Skeleton Warrior %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE WAND SK70>2 CLVL<75]: + 3 Skeleton Warrior %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[MAG WAND SK70>2 CLVL<75]: + 3 Skeleton Warrior %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
 
 //Low Level Minion Mastery Wand
-ItemDisplay[RARE WAND SK69>2 CLVL<75 ILVL>0]: + 3 Minion Mastery %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[MAG WAND SK69>2 CLVL<75 ILVL>0]: + 3 Minion Mastery %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE WAND SK69>2 CLVL<75]: + 3 Minion Mastery %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[MAG WAND SK69>2 CLVL<75]: + 3 Minion Mastery %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
 
 //Low Level Raise Zombie Wand 
-ItemDisplay[RARE WAND SK89>2 CLVL<75 ILVL>0]: + 3 Raise Zombie %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[MAG WAND SK89>2 CLVL<75 ILVL>0]: + 3 Raise Zombie %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE WAND SK89>2 CLVL<75]: + 3 Raise Zombie %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[MAG WAND SK89>2 CLVL<75 ILVL>0]: + 3 Raise Zombie %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
 
 //Low Level Skeleton Archer Wand 
-ItemDisplay[RARE WAND SK80>2 CLVL<75 ILVL>0]: + 3 Skeleton Archer %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[MAG WAND SK80>2 CLVL<75 ILVL>0]: + 3 Skeleton Archer %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE WAND SK80>2 CLVL<75]: + 3 Skeleton Archer %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[MAG WAND SK80>2 CLVL<75]: + 3 Skeleton Archer %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
 
 //Low Level Revive Bone Wand 
-ItemDisplay[RARE WAND SK95>2 CLVL<75 ILVL>0]: + 3 Revive %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[MAG WAND SK95>2 CLVL<75 ILVL>0]: + 3 Revive %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE WAND SK95>2 CLVL<75]: + 3 Revive %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[MAG WAND SK95>2 CLVL<75]: + 3 Revive %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
 
 //Low Level Blood Golem Wand 
-ItemDisplay[RARE WAND SK85>2 CLVL<75 ILVL>0]: + 3 Blood Golem %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[MAG WAND SK85>2 CLVL<75 ILVL>0]: + 3 Blood Golem %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE WAND SK85>2 CLVL<75]: + 3 Blood Golem %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[MAG WAND SK85>2 CLVL<75]: + 3 Blood Golem %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
 
 //Low Level Fire Golem Wand 
-ItemDisplay[RARE WAND SK94>2 CLVL<75 ILVL>0]: + 3 Fire Golem %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[MAG WAND SK94>2 CLVL<75 ILVL>0]: + 3 Fire Golem %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE WAND SK94>2 CLVL<75]: + 3 Fire Golem %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[MAG WAND SK94>2 CLVL<75]: + 3 Fire Golem %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
 
 //Low Level Convocation Wand 
-ItemDisplay[RARE WAND SK79>2 CLVL<75 ILVL>0]: + 3 Convocation %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[MAG WAND SK79>2 CLVL<75 ILVL>0]: + 3 Convocation %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE WAND SK79>2 CLVL<75]: + 3 Convocation %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[MAG WAND SK79>2 CLVL<75]: + 3 Convocation %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
 
 //Low Level Amplify Damage Wand 
-ItemDisplay[RARE WAND SK66>2 CLVL<75 ILVL>0]: + 3 Amplify Damage %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[MAG WAND SK66>2 CLVL<75 ILVL>0]: + 3 Amplify Damage %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE WAND SK66>2 CLVL<75]: + 3 Amplify Damage %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[MAG WAND SK66>2 CLVL<75]: + 3 Amplify Damage %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
 
 //Low Level Dim Vision Wand 
-ItemDisplay[RARE WAND SK71>2 CLVL<75 ILVL>0]: + 3 Dim Vision %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[MAG WAND SK71>2 CLVL<75 ILVL>0]: + 3 Dim Vision %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE WAND SK71>2 CLVL<75]: + 3 Dim Vision %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[MAG WAND SK71>2 CLVL<75]: + 3 Dim Vision %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
 
 //Low Level Terror Wand
-ItemDisplay[RARE WAND SK77>2 CLVL<75 ILVL>0]: + 3 Terror %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[MAG WAND SK77>2 CLVL<75 ILVL>0]: + 3 Terror %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE WAND SK77>2 CLVL<75]: + 3 Terror %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[MAG WAND SK77>2 CLVL<75]: + 3 Terror %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
 
 //Low Level Elemental Weakness Wand 
-ItemDisplay[RARE WAND SK81>2 CLVL<75 ILVL>0]: + 3 Elemental Weakness %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[MAG WAND SK81>2 CLVL<75 ILVL>0]: + 3 Elemental Weakness %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE WAND SK81>2 CLVL<75]: + 3 Elemental Weakness %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[MAG WAND SK81>2 CLVL<75]: + 3 Elemental Weakness %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
 
 //Low Level Decrepify Wand
-ItemDisplay[RARE WAND SK87>2 CLVL<75 ILVL>0]: + 3 Decrepify %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[MAG WAND SK87>2 CLVL<75 ILVL>0]: + 3 Decrepify %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE WAND SK87>2 CLVL<75]: + 3 Decrepify %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[MAG WAND SK87>2 CLVL<75]: + 3 Decrepify %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
 
 //Low Level Hex Wand 
-ItemDisplay[RARE WAND SK91>2 CLVL<75 ILVL>0]: + 3 Hex %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[MAG WAND SK91>2 CLVL<75 ILVL>0]: + 3 Hex %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE WAND SK91>2 CLVL<75]: + 3 Hex %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[MAG WAND SK91>2 CLVL<75]: + 3 Hex %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
 
 //Low Level Necromancer Armor - Runewords
-ItemDisplay[(NMAG !INF) SOCK=2 (na4 || na1) CLVL<60 ILVL>0]: {%GRAY%Stealth: %ORANGE%(Tal Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=3 (na4 || na1) CLVL<75 ILVL>0]: {%GRAY%Thunder: %ORANGE%(Ort El Nef)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (na4 || na1) CLVL<60]: {%GRAY%Stealth: %ORANGE%(Tal Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (na4 || na1) CLVL<75]: {%GRAY%Thunder: %ORANGE%(Ort El Nef)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Low Level Necro Shields - Runewords
 //Teeth Voodoo Head
-ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK67>0 CLVL<75 ILVL>0]: Teeth {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK67>0 CLVL<75 ILVL>0]: Teeth {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK67>0 CLVL<75]: Teeth {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK67>0 CLVL<75]: Teeth {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Bone Spear Voodoo Head
-ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK84>0 CLVL<75 ILVL>0]: Bone Spear {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK84>0 CLVL<75 ILVL>0]: Bone Spear {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK84>0 CLVL<75]: Bone Spear {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK84>0 CLVL<75]: Bone Spear {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Bone Spirit Voodoo Head
-ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK93>0 CLVL<75 ILVL>0]: Bone Spirit {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK93>0 CLVL<75 ILVL>0]: Bone Spirit {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK93>0 CLVL<75]: Bone Spirit {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK93>0 CLVL<75]: Bone Spirit {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Bone Armor Voodoo Head
-ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK68>0 CLVL<75 ILVL>0]: Bone Armor {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK68>0 CLVL<75 ILVL>0]: Bone Armor {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK68>0 CLVL<75]: Bone Armor {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK68>0 CLVL<75]: Bone Armor {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Poison Nova Voodoo Head
-ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK92>0 CLVL<75 ILVL>0]: Psn Nova {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK92>0 CLVL<75 ILVL>0]: Psn Nova {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK92>0 CLVL<75]: Psn Nova {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK92>0 CLVL<75]: Psn Nova {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Toxic Delivery Voodoo Head
-ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK73>0 CLVL<75 ILVL>0]: Toxic Delivery {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK73>0 CLVL<75 ILVL>0]: Toxic Delivery {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK73>0 CLVL<75]: Toxic Delivery {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK73>0 CLVL<75]: Toxic Delivery {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Putrify Voodoo Head
-ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK83>0 CLVL<75 ILVL>0]: Putrify {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK83>0 CLVL<75 ILVL>0]: Putrify {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK83>0 CLVL<75]: Putrify {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK83>0 CLVL<75]: Putrify {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Corpse Explosion Voodoo Head
-ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK74>0 CLVL<75 ILVL>0]: Corpse Explosion {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK74>0 CLVL<75 ILVL>0]: Corpse Explosion {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK74>0 CLVL<75]: Corpse Explosion {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK74>0 CLVL<75]: Corpse Explosion {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Skeleton Warrior Voodoo Head
-ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK70>0 CLVL<75 ILVL>0]: Skele Warrior {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK70>0 CLVL<75 ILVL>0]: Skele Warrior {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK70>0 CLVL<75]: Skele Warrior {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK70>0 CLVL<75]: Skele Warrior {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Skeleton Archer Voodoo Head
-ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK80>0 CLVL<75 ILVL>0]: Skele Archer {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK80>0 CLVL<75 ILVL>0]: Skele Archer {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK80>0 CLVL<75]: Skele Archer {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK80>0 CLVL<75]: Skele Archer {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Raise Zombie Voodoo Head
-ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK89>0 CLVL<75 ILVL>0]: Zombie {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK89>0 CLVL<75 ILVL>0]: Zombie {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK89>0 CLVL<75]: Zombie {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK89>0 CLVL<75]: Zombie {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Minion Mastery Voodoo Head
-ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK69>0 CLVL<75 ILVL>0]: Minion Mastery {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK69>0 CLVL<75 ILVL>0]: Minion Mastery {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK69>0 CLVL<75]: Minion Mastery {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK69>0 CLVL<75]: Minion Mastery {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Revive Voodoo Head
-ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK95>0 CLVL<75 ILVL>0]: Revive {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK95>0 CLVL<75 ILVL>0]: Revive {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK95>0 CLVL<75]: Revive {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK95>0 CLVL<75]: Revive {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Blood Golem Voodoo Head
-ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK85>0 CLVL<75 ILVL>0]: Blood Golem {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK85>0 CLVL<75 ILVL>0]: Blood Golem {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK85>0 CLVL<75]: Blood Golem {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK85>0 CLVL<75]: Blood Golem {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Fire Golem Voodoo Head
-ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK94>0 CLVL<75 ILVL>0]: Fire Golem {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK94>0 CLVL<75]: Fire Golem {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Amplify Damage Voodoo Head
-ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK66>0 CLVL<75 ILVL>0]: Amp Dmg {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK66>0 CLVL<75 ILVL>0]: Amp Dmg {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK66>0 CLVL<75]: Amp Dmg {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK66>0 CLVL<75]: Amp Dmg {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Dim Vision Voodoo Head
-ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK71>0 CLVL<75 ILVL>0]: Dim Vision {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK71>0 CLVL<75 ILVL>0]: Dim Vision {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK71>0 CLVL<75]: Dim Vision {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK71>0 CLVL<75]: Dim Vision {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Terror Voodoo Head
-ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK77>0 CLVL<75 ILVL>0]: Terror {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK77>0 CLVL<75 ILVL>0]: Terror {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK77>0 CLVL<75]: Terror {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK77>0 CLVL<75]: Terror {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Elemental Weakness Voodoo Head
-ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK81>0 CLVL<75 ILVL>0]: Ele Weakness {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK81>0 CLVL<75 ILVL>0]: Ele Weakness {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK81>0 CLVL<75]: Ele Weakness {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK81>0 CLVL<75]: Ele Weakness {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Decrepify Voodoo Head
-ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK87>0 CLVL<75 ILVL>0]: Decrepify {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK87>0 CLVL<75 ILVL>0]: Decrepify {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK87>0 CLVL<75]: Decrepify {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK87>0 CLVL<75]: Decrepify {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Hex Voodoo Head
-ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK91>0 CLVL<75 ILVL>0]: Hex {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK91>0 CLVL<75 ILVL>0]: Hex {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK91>0 CLVL<75]: Hex {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK91>0 CLVL<75]: Hex {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Convocation Voodoo Head
-ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK79>0 CLVL<75 ILVL>0]: Convocation {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK79>0 CLVL<75 ILVL>0]: Convocation {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK79>0 CLVL<75]: Convocation {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK79>0 CLVL<75]: Convocation {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Low Level Teeth Bone Wand - Wand - Yew Wand 
-ItemDisplay[(NMAG !INF) (bwn || wnd || ywn) SK67>2 CLVL<24 ILVL>0]: + 3 Teeth %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) (bwn || wnd || ywn) SK67>2 CLVL<24]: + 3 Teeth %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Low Level Toxic Delivery Bone Wand - Wand - Yew Wand 
-ItemDisplay[(NMAG !INF) (bwn || wnd || ywn) SK73>2 CLVL<24 ILVL>0]: + 3 Toxic Delivery %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) (bwn || wnd || ywn) SK73>2 CLVL<24]: + 3 Toxic Delivery %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Low Level Putrify Bone Wand - Wand - Yew Wand 
-ItemDisplay[(NMAG !INF) (bwn || wnd || ywn) SK83>2 CLVL<24 ILVL>0]: + 3 Putrify %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) (bwn || wnd || ywn) SK83>2 CLVL<24]: + 3 Putrify %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Low Level Skeleton Warrior Bone Wand - Wand - Yew Wand 
-ItemDisplay[(NMAG !INF) (bwn || wnd || ywn) SK70>2 CLVL<24 ILVL>0]: + 3 Skeleton Warrior %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-
-//Mid Level Class Skills Amulets
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK2>1 CLVL<75 ILVL>0]: Necromancer %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK17>1 CLVL<75 ILVL>0]: PnB Necro %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK18>1 CLVL<75 ILVL>0]: Necro Summon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Class Circlets
-ItemDisplay[(RARE || MAG) CIRC CLSK2>1 CLVL<75 ILVL>0]: Necromancer %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) CIRC TABSK17>1 CLVL<75 ILVL>0]: PnB Necro %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) CIRC TABSK18>1 CLVL<75 ILVL>0]: Necro Summon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Teeth Wand 
-ItemDisplay[RARE (bwn || wnd || ywn || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw) TABSK17>0 SK67>2 CLVL<80 ILVL>0]: Teeth %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[MAG (bwn || wnd || ywn || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw) TABSK17>0 SK67>2 CLVL<80 ILVL>0]: Teeth %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Teeth Wand 
-ItemDisplay[RARE (bwn || wnd || ywn || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw) GOODSK>0 SK67>2 CLVL<80 ILVL>0]: Teeth %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[MAG (bwn || wnd || ywn || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw) GOODSK>0 SK67>2 CLVL<80 ILVL>0]: Teeth %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Bone Spear Wand
-ItemDisplay[RARE (bwn || wnd || ywn || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw) TABSK17>0 SK84>2 CLVL<80 ILVL>0]: Bone Spear %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[MAG (bwn || wnd || ywn || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw) TABSK17>0 SK84>2 CLVL<80 ILVL>0]: Bone Spear %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Bone Spear Wand 
-ItemDisplay[RARE (bwn || wnd || ywn || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw) GOODSK>0 SK84>2 CLVL<80 ILVL>0]: Bone Spear %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[MAG (bwn || wnd || ywn || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw) GOODSK>0 SK84>2 CLVL<80 ILVL>0]: Bone Spear %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Corpse Explosion Wand 
-ItemDisplay[RARE (bwn || wnd || ywn || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw) TABSK17>0 SK74>2 CLVL<80 ILVL>0]: Corpse Explosion %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[MAG (bwn || wnd || ywn || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw) TABSK17>0 SK74>2 CLVL<80 ILVL>0]: Corpse Explosion %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Corpse Explosion Wand 
-ItemDisplay[RARE (bwn || wnd || ywn || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw) GOODSK>0 SK74>2 CLVL<80 ILVL>0]: Corpse Explosion %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[MAG (bwn || wnd || ywn || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw) GOODSK>0 SK74>2 CLVL<80 ILVL>0]: Corpse Explosion %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Poison Nova Wand 
-ItemDisplay[RARE (bwn || wnd || ywn || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw) TABSK17>0 SK92>2 CLVL<80 ILVL>0]: Poison Nova %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[MAG (bwn || wnd || ywn || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw) TABSK17>0 SK92>2 CLVL<80 ILVL>0]: Poison Nova %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Poison Nova Wand 
-ItemDisplay[RARE (bwn || wnd || ywn || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw) GOODSK>0 SK92>2 CLVL<80 ILVL>0]: Poison Nova %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[MAG (bwn || wnd || ywn || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw) GOODSK>0 SK92>2 CLVL<80 ILVL>0]: Poison Nova %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Fire Golem Wand 
-ItemDisplay[RARE (bwn || wnd || ywn || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw) TABSK18>0 SK94>2 CLVL<80 ILVL>0]: Fire Golem %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[MAG (bwn || wnd || ywn || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw) TABSK18>0 SK94>2 CLVL<80 ILVL>0]: Fire Golem %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Fire Golem Wand 
-ItemDisplay[RARE (bwn || wnd || ywn || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw) GOODSK>0 SK94>2 CLVL<80 ILVL>0]: Fire Golem %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[MAG (bwn || wnd || ywn || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw) GOODSK>0 SK94>2 CLVL<80 ILVL>0]: Fire Golem %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) (bwn || wnd || ywn) SK70>2 CLVL<24]: + 3 Skeleton Warrior %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 
 /////////////////////////////////////////////////////////////////////////
@@ -263,73 +262,73 @@ ItemDisplay[MAG (bwn || wnd || ywn || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 
 /////////////////////////////////////////////////////////////////////////
 
 //+3 Teeth 2 Socket Wand 
-ItemDisplay[(NMAG !INF) SOCK=2 (bwn || gwn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) SK67>2 ILVL>0]: + 3 Teeth {%GRAY%Terror: %ORANGE%(Ith Eth)%NL%%GRAY%White: %ORANGE%(Dol Io)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (bwn || gwn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) SK67>2]: + 3 Teeth {%GRAY%Terror: %ORANGE%(Ith Eth)%NL%%GRAY%White: %ORANGE%(Dol Io)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //+3 Toxic Delivery 2 Socket Wand 
-ItemDisplay[(NMAG !INF) SOCK=2 (bwn || gwn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) SK73>2 ILVL>0]: + 3 Toxic Delivery {%GRAY%Terror: %ORANGE%(Ith Eth)%NL%%GRAY%White: %ORANGE%(Dol Io)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (bwn || gwn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) SK73>2]: + 3 Toxic Delivery {%GRAY%Terror: %ORANGE%(Ith Eth)%NL%%GRAY%White: %ORANGE%(Dol Io)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //+3 Corpse Explosion 2 Socket Wand 
-ItemDisplay[(NMAG !INF) SOCK=2 (bwn || gwn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) SK74>2 ILVL>0]: + 3 Corpse Explosion {%GRAY%Terror: %ORANGE%(Ith Eth)%NL%%GRAY%White: %ORANGE%(Dol Io)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (bwn || gwn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) SK74>2]: + 3 Corpse Explosion {%GRAY%Terror: %ORANGE%(Ith Eth)%NL%%GRAY%White: %ORANGE%(Dol Io)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //+3 Putrify 2 Socket Wand 
-ItemDisplay[(NMAG !INF) SOCK=2 (bwn || gwn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) SK83>2 ILVL>0]: + 3 Putrify {%GRAY%Terror: %ORANGE%(Ith Eth)%NL%%GRAY%White: %ORANGE%(Dol Io)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (bwn || gwn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) SK83>2]: + 3 Putrify {%GRAY%Terror: %ORANGE%(Ith Eth)%NL%%GRAY%White: %ORANGE%(Dol Io)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //+3 Bone Spear 2 Socket Wand 
-ItemDisplay[(NMAG !INF) SOCK=2 (bwn || gwn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) SK84>2 ILVL>0]: + 3 Bone Spear {%GRAY%Terror: %ORANGE%(Ith Eth)%NL%%GRAY%White: %ORANGE%(Dol Io)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (bwn || gwn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) SK84>2]: + 3 Bone Spear {%GRAY%Terror: %ORANGE%(Ith Eth)%NL%%GRAY%White: %ORANGE%(Dol Io)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //+3 Bone Spirit 2 Socket Wand 
-ItemDisplay[(NMAG !INF) SOCK=2 (bwn || gwn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) SK93>2 ILVL>0]: + 3 Bone Spirit {%GRAY%Terror: %ORANGE%(Ith Eth)%NL%%GRAY%White: %ORANGE%(Dol Io)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (bwn || gwn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) SK93>2]: + 3 Bone Spirit {%GRAY%Terror: %ORANGE%(Ith Eth)%NL%%GRAY%White: %ORANGE%(Dol Io)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //+3 Bone Armor 2 Socket Wand 
-ItemDisplay[(NMAG !INF) SOCK=2 (bwn || gwn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) SK68>2 ILVL>0]: + 3 Bone Armor {%GRAY%Terror: %ORANGE%(Ith Eth)%NL%%GRAY%White: %ORANGE%(Dol Io)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (bwn || gwn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) SK68>2]: + 3 Bone Armor {%GRAY%Terror: %ORANGE%(Ith Eth)%NL%%GRAY%White: %ORANGE%(Dol Io)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //+3 Poison Nova 2 Socket Wand 
-ItemDisplay[(NMAG !INF) SOCK=2 (bwn || gwn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) SK92>2 ILVL>0]: + 3 Poison Nova {%GRAY%Terror: %ORANGE%(Ith Eth)%NL%%GRAY%White: %ORANGE%(Dol Io)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (bwn || gwn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) SK92>2]: + 3 Poison Nova {%GRAY%Terror: %ORANGE%(Ith Eth)%NL%%GRAY%White: %ORANGE%(Dol Io)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //+3 Skeleton Warrior 2 Socket Wand 
-ItemDisplay[(NMAG !INF) SOCK=2 (bwn || gwn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) SK70>2 ILVL>0]: + 3 Skele Warrior {%GRAY%Terror: %ORANGE%(Ith Eth)%NL%%GRAY%White: %ORANGE%(Dol Io)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (bwn || gwn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) SK70>2]: + 3 Skele Warrior {%GRAY%Terror: %ORANGE%(Ith Eth)%NL%%GRAY%White: %ORANGE%(Dol Io)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //+3 Minion Mastery 2 Socket Wand 
-ItemDisplay[(NMAG !INF) SOCK=2 (bwn || gwn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) SK69>2 ILVL>0]: + 3 Minion Mastery {%GRAY%Terror: %ORANGE%(Ith Eth)%NL%%GRAY%White: %ORANGE%(Dol Io)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (bwn || gwn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) SK69>2]: + 3 Minion Mastery {%GRAY%Terror: %ORANGE%(Ith Eth)%NL%%GRAY%White: %ORANGE%(Dol Io)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //+3 Raise Zombie 2 Socket Wand
-ItemDisplay[(NMAG !INF) SOCK=2 (bwn || gwn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) SK89>2 ILVL>0]: + 3 Zombie {%GRAY%Terror: %ORANGE%(Ith Eth)%NL%%GRAY%White: %ORANGE%(Dol Io)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (bwn || gwn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) SK89>2]: + 3 Zombie {%GRAY%Terror: %ORANGE%(Ith Eth)%NL%%GRAY%White: %ORANGE%(Dol Io)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //+3 Skeleton Archer 2 Socket Wand 
-ItemDisplay[(NMAG !INF) SOCK=2 (bwn || gwn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) SK80>2 ILVL>0]: + 3 Skele Archer {%GRAY%Terror: %ORANGE%(Ith Eth)%NL%%GRAY%White: %ORANGE%(Dol Io)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (bwn || gwn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) SK80>2]: + 3 Skele Archer {%GRAY%Terror: %ORANGE%(Ith Eth)%NL%%GRAY%White: %ORANGE%(Dol Io)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //+3 Revive 2 Socket Wand 
-ItemDisplay[(NMAG !INF) SOCK=2 (bwn || gwn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) SK95>2 ILVL>0]: + 3 Revive {%GRAY%Terror: %ORANGE%(Ith Eth)%NL%%GRAY%White: %ORANGE%(Dol Io)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (bwn || gwn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) SK95>2]: + 3 Revive {%GRAY%Terror: %ORANGE%(Ith Eth)%NL%%GRAY%White: %ORANGE%(Dol Io)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //+3 Blood Golem 2 Socket Wand 
-ItemDisplay[(NMAG !INF) SOCK=2 (bwn || gwn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) SK85>2 ILVL>0]: + 3 Blood Golem {%GRAY%Terror: %ORANGE%(Ith Eth)%NL%%GRAY%White: %ORANGE%(Dol Io)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (bwn || gwn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) SK85>2]: + 3 Blood Golem {%GRAY%Terror: %ORANGE%(Ith Eth)%NL%%GRAY%White: %ORANGE%(Dol Io)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //+3 Iron Golem 2 Socket Wand 
-ItemDisplay[(NMAG !INF) SOCK=2 (bwn || gwn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) SK90>2 ILVL>0]: + 3 Iron Golem {%GRAY%Terror: %ORANGE%(Ith Eth)%NL%%GRAY%White: %ORANGE%(Dol Io)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (bwn || gwn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) SK90>2]: + 3 Iron Golem {%GRAY%Terror: %ORANGE%(Ith Eth)%NL%%GRAY%White: %ORANGE%(Dol Io)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //+3 Fire Golem 2 Socket Wand 
-ItemDisplay[(NMAG !INF) SOCK=2 (bwn || gwn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) SK94>2 ILVL>0]: + 3 Fire Golem {%GRAY%Terror: %ORANGE%(Ith Eth)%NL%%GRAY%White: %ORANGE%(Dol Io)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (bwn || gwn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) SK94>2]: + 3 Fire Golem {%GRAY%Terror: %ORANGE%(Ith Eth)%NL%%GRAY%White: %ORANGE%(Dol Io)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //+3 Convocation 2 Socket Wand 
-ItemDisplay[(NMAG !INF) SOCK=2 (bwn || gwn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) SK79>2 ILVL>0]: + 3 Convocation {%GRAY%Terror: %ORANGE%(Ith Eth)%NL%%GRAY%White: %ORANGE%(Dol Io)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (bwn || gwn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) SK79>2]: + 3 Convocation {%GRAY%Terror: %ORANGE%(Ith Eth)%NL%%GRAY%White: %ORANGE%(Dol Io)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //+3 Amplify Damage 2 Socket Wand 
-ItemDisplay[(NMAG !INF) SOCK=2 (bwn || gwn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) SK66>2 ILVL>0]: + 3 Amp Dmg {%GRAY%Terror: %ORANGE%(Ith Eth)%NL%%GRAY%White: %ORANGE%(Dol Io)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (bwn || gwn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) SK66>2]: + 3 Amp Dmg {%GRAY%Terror: %ORANGE%(Ith Eth)%NL%%GRAY%White: %ORANGE%(Dol Io)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //+3 Dim Vision 2 Socket Wand 
-ItemDisplay[(NMAG !INF) SOCK=2 (bwn || gwn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) SK71>2 ILVL>0]: + 3 Dim Vision {%GRAY%Terror: %ORANGE%(Ith Eth)%NL%%GRAY%White: %ORANGE%(Dol Io)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (bwn || gwn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) SK71>2]: + 3 Dim Vision {%GRAY%Terror: %ORANGE%(Ith Eth)%NL%%GRAY%White: %ORANGE%(Dol Io)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //+3 Terror 2 Socket Wand 
-ItemDisplay[(NMAG !INF) SOCK=2 (bwn || gwn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) SK77>2 ILVL>0]: + 3 Terror {%GRAY%Terror: %ORANGE%(Ith Eth)%NL%%GRAY%White: %ORANGE%(Dol Io)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (bwn || gwn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) SK77>2]: + 3 Terror {%GRAY%Terror: %ORANGE%(Ith Eth)%NL%%GRAY%White: %ORANGE%(Dol Io)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //+3 Elemental Weakness 2 Socket Wand 
-ItemDisplay[(NMAG !INF) SOCK=2 (bwn || gwn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) SK81>2 ILVL>0]: + 3 Ele Weakness {%GRAY%Terror: %ORANGE%(Ith Eth)%NL%%GRAY%White: %ORANGE%(Dol Io)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (bwn || gwn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) SK81>2]: + 3 Ele Weakness {%GRAY%Terror: %ORANGE%(Ith Eth)%NL%%GRAY%White: %ORANGE%(Dol Io)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //+3 Decrepify 2 Socket Wand
-ItemDisplay[(NMAG !INF) SOCK=2 (bwn || gwn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) SK87>2 ILVL>0]: + 3 Decrepify {%GRAY%Terror: %ORANGE%(Ith Eth)%NL%%GRAY%White: %ORANGE%(Dol Io)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (bwn || gwn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) SK87>2]: + 3 Decrepify {%GRAY%Terror: %ORANGE%(Ith Eth)%NL%%GRAY%White: %ORANGE%(Dol Io)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //+3 Hex 2 Socket Wand 
-ItemDisplay[(NMAG !INF) SOCK=2 (bwn || gwn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) SK91>2 ILVL>0]: + 3 Hex {%GRAY%Terror: %ORANGE%(Ith Eth)%NL%%GRAY%White: %ORANGE%(Dol Io)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (bwn || gwn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) SK91>2]: + 3 Hex {%GRAY%Terror: %ORANGE%(Ith Eth)%NL%%GRAY%White: %ORANGE%(Dol Io)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 
 /////////////////////////////////////////////////////////////////////////
@@ -337,114 +336,114 @@ ItemDisplay[(NMAG !INF) SOCK=2 (bwn || gwn || 9yw || 9bw || 9gw || 7wn || 7yw ||
 /////////////////////////////////////////////////////////////////////////
 
 //+3 Teeth Voodoo Head
-ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK67>2 ILVL>0]: + 3 Teeth {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK67>2 ILVL>0]: + 3 Teeth {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK67>2 ILVL>0]: + 3 Teeth %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK67>2]: + 3 Teeth {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK67>2]: + 3 Teeth {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK67>2]: + 3 Teeth %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 
 //+3 Bone Spear Voodoo Head
-ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK84>2 ILVL>0]: + 3 Bone Spear {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK84>2 ILVL>0]: + 3 Bone Spear {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK84>2 ILVL>0]: + 3 Bone Spear %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK84>2]: + 3 Bone Spear {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK84>2]: + 3 Bone Spear {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK84>2]: + 3 Bone Spear %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 
 //+3 Bone Spirit Voodoo Head
-ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK93>2 ILVL>0]: + 3 Bone Spirit {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK93>2 ILVL>0]: + 3 Bone Spirit {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK93>2 ILVL>0]: + 3 Bone Spirit %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK93>2]: + 3 Bone Spirit {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK93>2]: + 3 Bone Spirit {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK93>2]: + 3 Bone Spirit %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 
 //+3 Bone Armor Voodoo Head
-ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK68>2 ILVL>0]: + 3 Bone Armor {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK68>2 ILVL>0]: + 3 Bone Armor {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK68>2 ILVL>0]: + 3 Bone Armor %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK68>2]: + 3 Bone Armor {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK68>2]: + 3 Bone Armor {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK68>2]: + 3 Bone Armor %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 
 //+3 Poison Nova Voodoo Head
-ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK92>2 ILVL>0]: + 3 Psn Nova {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK92>2 ILVL>0]: + 3 Psn Nova {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK92>2 ILVL>0]: + 3 Psn Nova %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK92>2]: + 3 Psn Nova {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK92>2]: + 3 Psn Nova {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK92>2]: + 3 Psn Nova %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 
 //+3 Toxic Delivery Voodoo Head
-ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK73>2 ILVL>0]: + 3 Toxic Delivery {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK73>2 ILVL>0]: + 3 Toxic Delivery {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK73>2 ILVL>0]: + 3 Toxic Delivery %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK73>2]: + 3 Toxic Delivery {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK73>2]: + 3 Toxic Delivery {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK73>2]: + 3 Toxic Delivery %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 
 //+3 Putrify Voodoo Head
-ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK83>2 ILVL>0]: + 3 Putrify {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK83>2 ILVL>0]: + 3 Putrify {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK83>2 ILVL>0]: + 3 Putrify %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK83>2]: + 3 Putrify {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK83>2]: + 3 Putrify {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK83>2]: + 3 Putrify %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 
 //+3 Corpse Explosion Voodoo Head
-ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK74>2 ILVL>0]: + 3 Corpse Explosion {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK74>2 ILVL>0]: + 3 Corpse Explosion {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK74>2 ILVL>0]: + 3 Corpse Explosion %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK74>2]: + 3 Corpse Explosion {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK74>2]: + 3 Corpse Explosion {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK74>2]: + 3 Corpse Explosion %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 
 //+3 Skeleton Warrior Voodoo Head
-ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK70>2 ILVL>0]: + 3 Skele Warrior {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK70>2 ILVL>0]: + 3 Skele Warrior {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK70>2 ILVL>0]: + 3 Skele Warrior %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK70>2]: + 3 Skele Warrior {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK70>2]: + 3 Skele Warrior {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK70>2]: + 3 Skele Warrior %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 
 //+3 Skeleton Archer Voodoo Head
-ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK80>2 ILVL>0]: + 3 Skele Archer {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK80>2 ILVL>0]: + 3 Skele Archer {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK80>2 ILVL>0]: + 3 Skele Archer %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK80>2]: + 3 Skele Archer {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK80>2]: + 3 Skele Archer {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK80>2]: + 3 Skele Archer %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 
 //+3 Raise Zombie Voodoo Head
-ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK89>2 ILVL>0]: + 3 Zombie {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK89>2 ILVL>0]: + 3 Zombie {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK89>2 ILVL>0]: + 3 Zombie %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK89>2]: + 3 Zombie {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK89>2]: + 3 Zombie {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK89>2]: + 3 Zombie %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 
 //+3 Minion Mastery Voodoo Head
-ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK69>2 ILVL>0]: + 3 Minion Mastery {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK69>2 ILVL>0]: + 3 Minion Mastery {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK69>2 ILVL>0]: + 3 Minion Mastery %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK69>2]: + 3 Minion Mastery {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK69>2]: + 3 Minion Mastery {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK69>2]: + 3 Minion Mastery %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 
 //+3 Revive Voodoo Head
-ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK95>2 ILVL>0]: + 3 Revive {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK95>2 ILVL>0]: + 3 Revive {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK95>2 ILVL>0]: + 3 Revive %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK95>2]: + 3 Revive {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK95>2]: + 3 Revive {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK95>2]: + 3 Revive %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 
 //+3 Blood Golem Voodoo Head
-ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK85>2 ILVL>0]: + 3 Blood Golem {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK85>2 ILVL>0]: + 3 Blood Golem {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK85>2 ILVL>0]: + 3 Blood Golem %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK85>2]: + 3 Blood Golem {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK85>2]: + 3 Blood Golem {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK85>2]: + 3 Blood Golem %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 
 //+3 Iron Golem Voodoo Head
-ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK90>2 ILVL>0]: + 3 Iron Golem {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK90>2 ILVL>0]: + 3 Iron Golem {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK90>2 ILVL>0]: + 3 Iron Golem %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK90>2]: + 3 Iron Golem {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK90>2]: + 3 Iron Golem {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK90>2]: + 3 Iron Golem %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 
 //+3 Amplify Damage Voodoo Head
-ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK66>2 ILVL>0]: + 3 Amp Dmg {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK66>2 ILVL>0]: + 3 Amp Dmg {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK66>2 ILVL>0]: + 3 Amp Dmg %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK66>2]: + 3 Amp Dmg {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK66>2]: + 3 Amp Dmg {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK66>2]: + 3 Amp Dmg %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 
 //+3 Dim Vision Voodoo Head
-ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK71>2 ILVL>0]: + 3 Dim Vision {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK71>2 ILVL>0]: + 3 Dim Vision {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK71>2 ILVL>0]: + 3 Dim Vision %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK71>2]: + 3 Dim Vision {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK71>2]: + 3 Dim Vision {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK71>2]: + 3 Dim Vision %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 
 //+3 Terror Voodoo Head
-ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK77>2 ILVL>0]: + 3 Terror {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK77>2 ILVL>0]: + 3 Terror {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK77>2 ILVL>0]: + 3 Terror %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK77>2]: + 3 Terror {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK77>2]: + 3 Terror {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK77>2]: + 3 Terror %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 
 //+3 Elemental Weakness Voodoo Head
-ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK81>2 ILVL>0]: + 3 Ele Weakness {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK81>2 ILVL>0]: + 3 Ele Weakness {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK81>2 ILVL>0]: + 3 Ele Weakness %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK81>2]: + 3 Ele Weakness {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK81>2]: + 3 Ele Weakness {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK81>2]: + 3 Ele Weakness %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 
 //+3 Decrepify Voodoo Head
-ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK87>2 ILVL>0]: + 3 Decrepify {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK87>2 ILVL>0]: + 3 Decrepify {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK87>2 ILVL>0]: + 3 Decrepify %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK87>2]: + 3 Decrepify {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK87>2]: + 3 Decrepify {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK87>2]: + 3 Decrepify %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 
 //+3 Hex Voodoo Head
-ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK91>2 ILVL>0]: + 3 Hex {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK91>2 ILVL>0]: + 3 Hex {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK91>2 ILVL>0]: + 3 Hex %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK91>2]: + 3 Hex {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK91>2]: + 3 Hex {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK91>2]: + 3 Hex %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 
 //+3 Convocation Voodoo Head
-ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK79>2 ILVL>0]: + 3 Convocation {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK79>2 ILVL>0]: + 3 Convocation {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK79>2 ILVL>0]: + 3 Convocation %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK79>2]: + 3 Convocation {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK79>2]: + 3 Convocation {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK79>2]: + 3 Convocation %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 
 
 /////////////////////////////////////////////////////////////////////////
@@ -452,10 +451,10 @@ ItemDisplay[(NMAG !INF) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 ||
 /////////////////////////////////////////////////////////////////////////
 
 //Rare Pestilenace Aura, Poison Damage %, Poison Pierce Wand 
-ItemDisplay[RARE (ywn || bwn || wnd || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) pestilence_aura STAT332>4 STAT308>2 ILVL>1]: Pestilence Aura %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (ywn || bwn || wnd || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) pestilence_aura STAT332>4 STAT308>2]: Pestilence Aura %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Rare Pestilenace Aura, Poison Damage % Wand 
-ItemDisplay[RARE (ywn || bwn || wnd || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) pestilence_aura STAT332>7 ILVL>1]: Pestilence Aura %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (ywn || bwn || wnd || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) pestilence_aura STAT332>7]: Pestilence Aura %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 
 /////////////////////////////////////////////////////////////////////////
@@ -463,39 +462,39 @@ ItemDisplay[RARE (ywn || bwn || wnd || gwn || 9wn || 9yw || 9bw || 9gw || 7wn ||
 /////////////////////////////////////////////////////////////////////////
 
 //Rare +2 Necromancer Skills +3 Fire Golem Wand 
-ItemDisplay[RARE (ywn || bwn || wnd || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) CLSK2>1 SK94>2 ILVL>1]: + 2 Necro + 3 Fire Golem %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (ywn || bwn || wnd || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) CLSK2>1 SK94>2]: + 2 Necro + 3 Fire Golem %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Rare +3 Summoning Skills +3 Fire Golem Wand 
-ItemDisplay[RARE (ywn || bwn || wnd || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) TABSK18>2 SK94>2 ILVL>1]: + 3 Summon + 3 Fire Golem %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (ywn || bwn || wnd || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) TABSK18>2 SK94>2]: + 3 Summon + 3 Fire Golem %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Magic +2 Necromancer Skills +3 Fire Golem Unearthed Wands
-ItemDisplay[MAG (7gw || gwn || 9gw) CLSK2>1 SK94>2 ILVL>1]: + 2 Necro + 3 Fire Golem %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (7gw || gwn || 9gw) CLSK2>1 SK94>2]: + 2 Necro + 3 Fire Golem %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Magic +3 Summoning Skills +3 Fire Golem Unearthed Wands
-ItemDisplay[MAG (7gw || gwn || 9gw) TABSK18>2 SK94>2 ILVL>1]: + 3 Summon + 3 Fire Golem %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (7gw || gwn || 9gw) TABSK18>2 SK94>2]: + 3 Summon + 3 Fire Golem %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Rare +2 Necromancer Skills, +3 Poison Nova, Poison Damage % Wand 
-ItemDisplay[RARE (ywn || bwn || wnd || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) CLSK2>1 SK92>2 STAT332>7 ILVL>1]: + 2 Necro + 3 Poison Nova %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (ywn || bwn || wnd || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) CLSK2>1 SK92>2 STAT332>7]: + 2 Necro + 3 Poison Nova %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Rare +3 Poison & Bone Skills, +3 Poison Nova, Poison Damage % Wand 
-ItemDisplay[RARE (ywn || bwn || wnd || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) TABSK17>2 SK92>2 STAT332>7 ILVL>1]: + 3 PnB + 3 Poison Nova %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (ywn || bwn || wnd || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) TABSK17>2 SK92>2 STAT332>7]: + 3 PnB + 3 Poison Nova %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Rare +2 Necromancer Skills, +3, Poison Nova, Poison Damage %, Poison Pierce Wand 
-ItemDisplay[RARE (ywn || bwn || wnd || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) CLSK2>1 SK92>2 STAT332>4 STAT308>2 ILVL>1]: + 2 Necro + 3 Poison Nova %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (ywn || bwn || wnd || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) CLSK2>1 SK92>2 STAT332>4 STAT308>2]: + 2 Necro + 3 Poison Nova %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Rare +3 Poison & Bone Skills, +3 Poison Nova, Poison Damage %, Poison Pierce Wand 
-ItemDisplay[RARE (ywn || bwn || wnd || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) TABSK17>2 SK92>2 STAT332>4 STAT308>2 ILVL>1]: + 3 PnB + 3 Poison Nova %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (ywn || bwn || wnd || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) TABSK17>2 SK92>2 STAT332>4 STAT308>2]: + 3 PnB + 3 Poison Nova %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Magic +2 Necromancer Skills, +3 Poison Nova Wand 
-ItemDisplay[MAG (ywn || bwn || wnd || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) CLSK2>1 SK92>2 ILVL>1]: + 2 Necro + 3 Poison Nova %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (ywn || bwn || wnd || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) CLSK2>1 SK92>2]: + 2 Necro + 3 Poison Nova %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Magic +3 Poison & Bone Skills, +3 Poison Nova Wand 
-ItemDisplay[MAG (ywn || bwn || wnd || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) TABSK17>2 SK92>2 ILVL>1]: + 3 PnB + 3 Poison Nova %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (ywn || bwn || wnd || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) TABSK17>2 SK92>2]: + 3 PnB + 3 Poison Nova %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Rare +2 Necromancer Skills, +3 Bone Spear Wand 
-ItemDisplay[RARE (ywn || bwn || wnd || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) CLSK2>1 SK84>2 ILVL>1]: + 2 Necro + 3 Bone Spear %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (ywn || bwn || wnd || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) CLSK2>1 SK84>2]: + 2 Necro + 3 Bone Spear %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Rare +3 Poison & Bone Skills, +3 Bone Spear Wand 
-ItemDisplay[RARE (ywn || bwn || wnd || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) TABSK17>2 SK84>2 ILVL>1]: + 3 PnB + 3 Bone Spear %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (ywn || bwn || wnd || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) TABSK17>2 SK84>2]: + 3 PnB + 3 Bone Spear %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Magic +2 Necromancer Skills, +3 Bone Spear Wand 
-ItemDisplay[MAG (ywn || bwn || wnd || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) CLSK2>1 SK84>2 ILVL>1]: + 2 Necro + 3 Bone Spear %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (ywn || bwn || wnd || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) CLSK2>1 SK84>2]: + 2 Necro + 3 Bone Spear %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Magic +3 Poison & Bone Skills, +3 Bone Spear Wand 
-ItemDisplay[MAG (ywn || bwn || wnd || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) TABSK17>2 SK84>2 ILVL>1]: + 3 PnB + 3 Bone Spear %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (ywn || bwn || wnd || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) TABSK17>2 SK84>2]: + 3 PnB + 3 Bone Spear %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Rare +3 Summoning Skills, Incursion Physical Pierce Wands
-ItemDisplay[RARE (ywn || bwn || wnd || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) TABSK18>2 STAT373>9 ILVL>1]: + 3 Summon Phys Pierce %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (ywn || bwn || wnd || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) TABSK18>2 STAT373>9]: + 3 Summon Phys Pierce %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Rare +2 Necromancer Skills, Incursion Physical Pierce Wands 
-ItemDisplay[RARE (ywn || bwn || wnd || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) CLSK2>1 STAT373>9 ILVL>1]: + 2 Necro Phys Pierce %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (ywn || bwn || wnd || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) CLSK2>1 STAT373>9]: + 2 Necro Phys Pierce %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Rare +3 Poison & Bone Skills, Incursion Physical Pierce Wands 
-ItemDisplay[RARE (ywn || bwn || wnd || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) TABSK17>2 STAT373>9 ILVL>1]: + 3 PnB Phys Pierce %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (ywn || bwn || wnd || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) TABSK17>2 STAT373>9]: + 3 PnB Phys Pierce %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 
 /////////////////////////////////////////////////////////////////////////
@@ -503,7 +502,7 @@ ItemDisplay[RARE (ywn || bwn || wnd || gwn || 9wn || 9yw || 9bw || 9gw || 7wn ||
 /////////////////////////////////////////////////////////////////////////
 
 //Rare Paladin Incursion Helms to use for Iron Golems (Nearby Enemies have - Physical Resistance Stat)
-ItemDisplay[RARE (pc4 || pc1 || pc5 || pc2 || pc6 || pc3) nearby_enemies_phys_pierce ILVL>1]: Iron Golem Candidate %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (pc4 || pc1 || pc5 || pc2 || pc6 || pc3) nearby_enemies_phys_pierce]: Iron Golem Candidate %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 
 /////////////////////////////////////////////////////////////////////////
@@ -511,54 +510,54 @@ ItemDisplay[RARE (pc4 || pc1 || pc5 || pc2 || pc6 || pc3) nearby_enemies_phys_pi
 /////////////////////////////////////////////////////////////////////////
 
 // + 2 Necromancer Skills, 20+ % Dual Resistances, 15+ Life
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) CLSK2>1 CRES>19 FRES>19 LIFE>14 ILVL>1]: + 2 Necro Skills Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) CLSK2>1 CRES>19 LRES>19 LIFE>14 ILVL>1]: + 2 Necro Skills Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) CLSK2>1 CRES>19 PRES>19 LIFE>14 ILVL>1]: + 2 Necro Skills Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) CLSK2>1 LRES>19 FRES>19 LIFE>14 ILVL>1]: + 2 Necro Skills Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) CLSK2>1 PRES>19 FRES>19 LIFE>14 ILVL>1]: + 2 Necro Skills Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) CLSK2>1 LRES>19 PRES>19 LIFE>14 ILVL>1]: + 2 Necro Skills Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) CLSK2>1 CRES>19 FRES>19 LIFE>14]: + 2 Necro Skills Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) CLSK2>1 CRES>19 LRES>19 LIFE>14]: + 2 Necro Skills Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) CLSK2>1 CRES>19 PRES>19 LIFE>14]: + 2 Necro Skills Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) CLSK2>1 LRES>19 FRES>19 LIFE>14]: + 2 Necro Skills Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) CLSK2>1 PRES>19 FRES>19 LIFE>14]: + 2 Necro Skills Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) CLSK2>1 LRES>19 PRES>19 LIFE>14]: + 2 Necro Skills Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 
 //24+ % Faster Hit Recovery, 50+ % Poison Length Reduction, 40+ Dual Resistances, 15+ Life
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) FHR>23 STAT110>49 CRES>39 FRES>39 LIFE>14 ILVL>1 FILTLVL<3]: FHR PLR Dual Res %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) FHR>23 STAT110>49 CRES>39 FRES>39 LIFE>14 ILVL>1 FILTLVL<3]: FHR PLR Dual Res %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) FHR>23 STAT110>49 CRES>39 LRES>39 LIFE>14 ILVL>1 FILTLVL<3]: FHR PLR Dual Res %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) FHR>23 STAT110>49 CRES>39 LRES>39 LIFE>14 ILVL>1 FILTLVL<3]: FHR PLR Dual Res %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) FHR>23 STAT110>49 CRES>39 PRES>39 LIFE>14 ILVL>1 FILTLVL<3]: FHR PLR Dual Res %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) FHR>23 STAT110>49 CRES>39 PRES>39 LIFE>14 ILVL>1 FILTLVL<3]: FHR PLR Dual Res %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) FHR>23 STAT110>49 LRES>39 FRES>39 LIFE>14 ILVL>1 FILTLVL<3]: FHR PLR Dual Res %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) FHR>23 STAT110>49 LRES>39 FRES>39 LIFE>14 ILVL>1 FILTLVL<3]: FHR PLR Dual Res %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) FHR>23 STAT110>49 PRES>39 FRES>39 LIFE>14 ILVL>1 FILTLVL<3]: FHR PLR Dual Res %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) FHR>23 STAT110>49 PRES>39 FRES>39 LIFE>14 ILVL>1 FILTLVL<3]: FHR PLR Dual Res %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) FHR>23 STAT110>49 LRES>39 PRES>39 LIFE>14 ILVL>1 FILTLVL<3]: FHR PLR Dual Res %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) FHR>23 STAT110>49 LRES>39 PRES>39 LIFE>14 ILVL>1 FILTLVL<3]: FHR PLR Dual Res %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) FHR>23 STAT110>49 CRES>39 FRES>39 LIFE>14 FILTLVL<3]: FHR PLR Dual Res %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) FHR>23 STAT110>49 CRES>39 FRES>39 LIFE>14 FILTLVL<3]: FHR PLR Dual Res %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) FHR>23 STAT110>49 CRES>39 LRES>39 LIFE>14 FILTLVL<3]: FHR PLR Dual Res %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) FHR>23 STAT110>49 CRES>39 LRES>39 LIFE>14 FILTLVL<3]: FHR PLR Dual Res %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) FHR>23 STAT110>49 CRES>39 PRES>39 LIFE>14 FILTLVL<3]: FHR PLR Dual Res %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) FHR>23 STAT110>49 CRES>39 PRES>39 LIFE>14 FILTLVL<3]: FHR PLR Dual Res %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) FHR>23 STAT110>49 LRES>39 FRES>39 LIFE>14 FILTLVL<3]: FHR PLR Dual Res %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) FHR>23 STAT110>49 LRES>39 FRES>39 LIFE>14 FILTLVL<3]: FHR PLR Dual Res %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) FHR>23 STAT110>49 PRES>39 FRES>39 LIFE>14 FILTLVL<3]: FHR PLR Dual Res %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) FHR>23 STAT110>49 PRES>39 FRES>39 LIFE>14 FILTLVL<3]: FHR PLR Dual Res %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) FHR>23 STAT110>49 LRES>39 PRES>39 LIFE>14 FILTLVL<3]: FHR PLR Dual Res %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) FHR>23 STAT110>49 LRES>39 PRES>39 LIFE>14 FILTLVL<3]: FHR PLR Dual Res %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 
 //30+ Magic & Elemental Damage Reduction, 40+ Dual Resistances, 15+ Life
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT35>29 CRES>39 FRES>39 LIFE>14 ILVL>1 FILTLVL<3]: MDR Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT35>29 CRES>39 FRES>39 LIFE>14 ILVL>1 FILTLVL<3]: MDR Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT35>29 CRES>39 LRES>39 LIFE>14 ILVL>1 FILTLVL<3]: MDR Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT35>29 CRES>39 LRES>39 LIFE>14 ILVL>1 FILTLVL<3]: MDR Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT35>29 CRES>39 PRES>39 LIFE>14 ILVL>1 FILTLVL<3]: MDR Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT35>29 CRES>39 PRES>39 LIFE>14 ILVL>1 FILTLVL<3]: MDR Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT35>29 LRES>39 FRES>39 LIFE>14 ILVL>1 FILTLVL<3]: MDR Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT35>29 LRES>39 FRES>39 LIFE>14 ILVL>1 FILTLVL<3]: MDR Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT35>29 PRES>39 FRES>39 LIFE>14 ILVL>1 FILTLVL<3]: MDR Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT35>29 PRES>39 FRES>39 LIFE>14 ILVL>1 FILTLVL<3]: MDR Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT35>29 LRES>39 PRES>39 LIFE>14 ILVL>1 FILTLVL<3]: MDR Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT35>29 LRES>39 PRES>39 LIFE>14 ILVL>1 FILTLVL<3]: MDR Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT35>29 CRES>39 FRES>39 LIFE>14 FILTLVL<3]: MDR Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT35>29 CRES>39 FRES>39 LIFE>14 FILTLVL<3]: MDR Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT35>29 CRES>39 LRES>39 LIFE>14 FILTLVL<3]: MDR Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT35>29 CRES>39 LRES>39 LIFE>14 FILTLVL<3]: MDR Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT35>29 CRES>39 PRES>39 LIFE>14 FILTLVL<3]: MDR Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT35>29 CRES>39 PRES>39 LIFE>14 FILTLVL<3]: MDR Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT35>29 LRES>39 FRES>39 LIFE>14 FILTLVL<3]: MDR Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT35>29 LRES>39 FRES>39 LIFE>14 FILTLVL<3]: MDR Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT35>29 PRES>39 FRES>39 LIFE>14 FILTLVL<3]: MDR Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT35>29 PRES>39 FRES>39 LIFE>14 FILTLVL<3]: MDR Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT35>29 LRES>39 PRES>39 LIFE>14 FILTLVL<3]: MDR Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT35>29 LRES>39 PRES>39 LIFE>14 FILTLVL<3]: MDR Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 
 //6+ % Physical Resistance, 40+ Dual Resistances, 15+ Life
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT36>5 CRES>39 FRES>39 LIFE>14 ILVL>1 FILTLVL<3]: Phys Res Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT36>5 CRES>39 FRES>39 LIFE>14 ILVL>1 FILTLVL<3]: Phys Res Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT36>5 CRES>39 LRES>39 LIFE>14 ILVL>1 FILTLVL<3]: Phys Res Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT36>5 CRES>39 LRES>39 LIFE>14 ILVL>1 FILTLVL<3]: Phys Res Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT36>5 CRES>39 PRES>39 LIFE>14 ILVL>1 FILTLVL<3]: Phys Res Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT36>5 CRES>39 PRES>39 LIFE>14 ILVL>1 FILTLVL<3]: Phys Res Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT36>5 LRES>39 FRES>39 LIFE>14 ILVL>1 FILTLVL<3]: Phys Res Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT36>5 LRES>39 FRES>39 LIFE>14 ILVL>1 FILTLVL<3]: Phys Res Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT36>5 PRES>39 FRES>39 LIFE>14 ILVL>1 FILTLVL<3]: Phys Res Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT36>5 PRES>39 FRES>39 LIFE>14 ILVL>1 FILTLVL<3]: Phys Res Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT36>5 LRES>39 PRES>39 LIFE>14 ILVL>1 FILTLVL<3]: Phys Res Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT36>5 LRES>39 PRES>39 LIFE>14 ILVL>1 FILTLVL<3]: Phys Res Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT36>5 CRES>39 FRES>39 LIFE>14 FILTLVL<3]: Phys Res Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT36>5 CRES>39 FRES>39 LIFE>14 FILTLVL<3]: Phys Res Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT36>5 CRES>39 LRES>39 LIFE>14 FILTLVL<3]: Phys Res Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT36>5 CRES>39 LRES>39 LIFE>14 FILTLVL<3]: Phys Res Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT36>5 CRES>39 PRES>39 LIFE>14 FILTLVL<3]: Phys Res Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT36>5 CRES>39 PRES>39 LIFE>14 FILTLVL<3]: Phys Res Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT36>5 LRES>39 FRES>39 LIFE>14 FILTLVL<3]: Phys Res Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT36>5 LRES>39 FRES>39 LIFE>14 FILTLVL<3]: Phys Res Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT36>5 PRES>39 FRES>39 LIFE>14 FILTLVL<3]: Phys Res Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT36>5 PRES>39 FRES>39 LIFE>14 FILTLVL<3]: Phys Res Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT36>5 LRES>39 PRES>39 LIFE>14 FILTLVL<3]: Phys Res Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT36>5 LRES>39 PRES>39 LIFE>14 FILTLVL<3]: Phys Res Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 
 //+2 Maximum Elemental Resistances, 20+ % All Resistances - Sacred Resisting Prefix
 ItemDisplay[(RARE || MAG) (na1 || na2 || na3 || na4 || na5 || na6) STAT40>1 STAT42>1 STAT44>1 STAT46>1 FRES>19 CRES>19 LRES>19 PRES>19 ILVL>90]: +2 Max Ele Res %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
@@ -581,56 +580,56 @@ ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT333>6 STAT334>6 ST
 ItemDisplay[MAG (na1 || na2 || na3 || na4 || na5 || na6) STAT333>6 STAT334>6 STAT335>6 STAT336>6 STAT40>1 STAT42>1 STAT44>1 STAT46>1 ILVL>90]: Ele Pierce Max Res %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Purity When Struck, Elemental Pierce
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) purity_when_struck STAT333>6 STAT334>6 STAT335>6 STAT336>6 ILVL>1]: Purity Ele Pierce %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) purity_when_struck STAT333>6 STAT334>6 STAT335>6 STAT336>6]: Purity Ele Pierce %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Purity When Struck, Max Elemental Resistances
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) purity_when_struck STAT40>1 STAT42>1 STAT44>1 STAT46>1 ILVL>1]: Purity Max Res %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) purity_when_struck STAT40>1 STAT42>1 STAT44>1 STAT46>1]: Purity Max Res %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Purity When Struck, Physical Pierce
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) purity_when_struck STAT373>6 ILVL>1]: Purity Phys Pierce %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) purity_when_struck STAT373>6]: Purity Phys Pierce %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Diamond Skin When Struck, Elemental Pierce
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) diamond_skin_when_struck STAT333>6 STAT334>6 STAT335>6 STAT336>6 ILVL>1]: Diamond Skin Ele Pierce %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) diamond_skin_when_struck STAT333>6 STAT334>6 STAT335>6 STAT336>6]: Diamond Skin Ele Pierce %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Diamond Skin When Struck, Max Elemental Resistances
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) diamond_skin_when_struck STAT40>1 STAT42>1 STAT44>1 STAT46>1 ILVL>1]: Diamond Skin Max Res %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) diamond_skin_when_struck STAT40>1 STAT42>1 STAT44>1 STAT46>1]: Diamond Skin Max Res %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Diamond Skin When Struck, Physical Pierce
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) diamond_skin_when_struck STAT373>6 ILVL>1]: Diamond Skin Phys Pierce %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) diamond_skin_when_struck STAT373>6]: Diamond Skin Phys Pierce %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Aegis When Struck, Elemental Pierce
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) aegis_when_struck STAT333>6 STAT334>6 STAT335>6 STAT336>6 ILVL>1]: Aegis Ele Pierce %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) aegis_when_struck STAT333>6 STAT334>6 STAT335>6 STAT336>6]: Aegis Ele Pierce %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Aegis When Struck, Max Elemental Resistances
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) aegis_when_struck STAT40>1 STAT42>1 STAT44>1 STAT46>1 ILVL>1]: Aegis Max Res %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) aegis_when_struck STAT40>1 STAT42>1 STAT44>1 STAT46>1]: Aegis Max Res %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Aegis When Struck, Physical Pierce
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) aegis_when_struck STAT373>6 ILVL>1]: Aegis Phys Pierce %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) aegis_when_struck STAT373>6]: Aegis Phys Pierce %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Conduction When Struck, Elemental Pierce
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) conduction_when_struck STAT333>6 STAT334>6 STAT335>6 STAT336>6 ILVL>1]: Conduction Ele Pierce %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) conduction_when_struck STAT333>6 STAT334>6 STAT335>6 STAT336>6]: Conduction Ele Pierce %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Conduction When Struck, Max Elemental Resistances
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) conduction_when_struck STAT40>1 STAT42>1 STAT44>1 STAT46>1 ILVL>1]: Conduction Max Res %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) conduction_when_struck STAT40>1 STAT42>1 STAT44>1 STAT46>1]: Conduction Max Res %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Conduction When Struck, Physical Pierce
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) conduction_when_struck STAT373>6 ILVL>1]: Conduction Phys Pierce %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) conduction_when_struck STAT373>6]: Conduction Phys Pierce %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Basic Gain Skill Armors
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) ( corruption_on_melee_attack || corruption_on_kill || corruption_when_struck || corruption_on_striking ) ILVL>1]: Corruption Gain Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) ( hellfire_on_melee_attack || hellfire_on_kill || hellfire_when_struck || hellfire_on_striking ) ILVL>1]: Hellfire Gain Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) ( avalanche_on_melee_attack || avalanche_on_kill || avalanche_when_struck || avalanche_on_striking ) ILVL>1]: Avalanche Gain Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) ( conduction_on_melee_attack || conduction_on_kill || conduction_when_struck || conduction_on_striking ) ILVL>1]: Conduction Gain Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) ( empower_on_melee_attack || empower_on_kill || empower_when_struck || empower_on_striking ) ILVL>1]: Empower Gain Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) ( diamond_skin_on_melee_attack || diamond_skin_on_kill || diamond_skin_when_struck || diamond_skin_on_striking ) ILVL>1]: Diamond Skin Gain Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) ( clarity_on_melee_attack || clarity_on_kill || clarity_when_struck || clarity_on_striking ) ILVL>1]: Clarity Gain Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) ( brutality_on_melee_attack || brutality_on_kill || brutality_when_struck || brutality_on_striking ) ILVL>1]: Brutality Gain Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) ( carnage_on_melee_attack || carnage_on_kill || carnage_when_struck || carnage_on_striking ) ILVL>1]: Carnage Gain Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) ( resurgence_on_melee_attack || resurgence_on_kill || resurgence_when_struck || resurgence_on_striking ) ILVL>1]: Resurgence Gain Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) ( grace_on_melee_attack || grace_on_kill || grace_when_struck || grace_on_striking ) ILVL>1]: Grace Gain Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3%
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) ( blood_rage_on_melee_attack || blood_rage_on_kill || blood_rage_when_struck || blood_rage_on_striking ) ILVL>1]: Blood Rage Gain Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3%
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) ( good_fortune_on_melee_attack || good_fortune_on_kill || good_fortune_when_struck || good_fortune_on_striking ) ILVL>1]: Good Fortune Gain Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3%
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) ( haste_on_melee_attack || haste_on_kill || haste_when_struck || haste_on_striking ) ILVL>1]: Haste Gain Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3%
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) ( corruption_on_melee_attack || corruption_on_kill || corruption_when_struck || corruption_on_striking )]: Corruption Gain Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) ( hellfire_on_melee_attack || hellfire_on_kill || hellfire_when_struck || hellfire_on_striking )]: Hellfire Gain Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) ( avalanche_on_melee_attack || avalanche_on_kill || avalanche_when_struck || avalanche_on_striking )]: Avalanche Gain Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) ( conduction_on_melee_attack || conduction_on_kill || conduction_when_struck || conduction_on_striking )]: Conduction Gain Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) ( empower_on_melee_attack || empower_on_kill || empower_when_struck || empower_on_striking )]: Empower Gain Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) ( diamond_skin_on_melee_attack || diamond_skin_on_kill || diamond_skin_when_struck || diamond_skin_on_striking )]: Diamond Skin Gain Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) ( clarity_on_melee_attack || clarity_on_kill || clarity_when_struck || clarity_on_striking )]: Clarity Gain Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) ( brutality_on_melee_attack || brutality_on_kill || brutality_when_struck || brutality_on_striking )]: Brutality Gain Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) ( carnage_on_melee_attack || carnage_on_kill || carnage_when_struck || carnage_on_striking )]: Carnage Gain Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) ( resurgence_on_melee_attack || resurgence_on_kill || resurgence_when_struck || resurgence_on_striking )]: Resurgence Gain Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) ( grace_on_melee_attack || grace_on_kill || grace_when_struck || grace_on_striking )]: Grace Gain Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3%
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) ( blood_rage_on_melee_attack || blood_rage_on_kill || blood_rage_when_struck || blood_rage_on_striking )]: Blood Rage Gain Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3%
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) ( good_fortune_on_melee_attack || good_fortune_on_kill || good_fortune_when_struck || good_fortune_on_striking )]: Good Fortune Gain Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3%
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) ( haste_on_melee_attack || haste_on_kill || haste_when_struck || haste_on_striking )]: Haste Gain Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3%
 
 //CTC Chain Lightning
 ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) chain_lightning_skill_on_melee_attack]: CTC Chain Lightning %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
@@ -675,36 +674,36 @@ ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) lightning_immunity_whe
 ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) lightning_immunity_on_striking]: CTC Light Immunity %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Fire Damage % , 20+ Dual Resistances
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT329>19 CRES>19 FRES>19 ILVL>1]: Fire Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT329>19 CRES>19 LRES>19 ILVL>1]: Fire Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT329>19 CRES>19 PRES>19 ILVL>1]: Fire Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT329>19 LRES>19 FRES>19 ILVL>1]: Fire Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT329>19 PRES>19 FRES>19 ILVL>1]: Fire Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT329>19 LRES>19 PRES>19 ILVL>1]: Fire Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT329>19 CRES>19 FRES>19]: Fire Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT329>19 CRES>19 LRES>19]: Fire Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT329>19 CRES>19 PRES>19]: Fire Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT329>19 LRES>19 FRES>19]: Fire Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT329>19 PRES>19 FRES>19]: Fire Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT329>19 LRES>19 PRES>19]: Fire Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Cold Damage % , 20+ Dual Resistances
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT331>19 CRES>19 FRES>19 ILVL>1]: Cold Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT331>19 CRES>19 LRES>19 ILVL>1]: Cold Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT331>19 CRES>19 PRES>19 ILVL>1]: Cold Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT331>19 LRES>19 FRES>19 ILVL>1]: Cold Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT331>19 PRES>19 FRES>19 ILVL>1]: Cold Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT331>19 LRES>19 PRES>19 ILVL>1]: Cold Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT331>19 CRES>19 FRES>19]: Cold Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT331>19 CRES>19 LRES>19]: Cold Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT331>19 CRES>19 PRES>19]: Cold Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT331>19 LRES>19 FRES>19]: Cold Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT331>19 PRES>19 FRES>19]: Cold Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT331>19 LRES>19 PRES>19]: Cold Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Lightning Damage % , 20+ Dual Resistances
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT330>19 CRES>19 FRES>19 ILVL>1]: Light Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT330>19 CRES>19 LRES>19 ILVL>1]: Light Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT330>19 CRES>19 PRES>19 ILVL>1]: Light Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT330>19 LRES>19 FRES>19 ILVL>1]: Light Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT330>19 PRES>19 FRES>19 ILVL>1]: Light Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT330>19 LRES>19 PRES>19 ILVL>1]: Light Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT330>19 CRES>19 FRES>19]: Light Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT330>19 CRES>19 LRES>19]: Light Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT330>19 CRES>19 PRES>19]: Light Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT330>19 LRES>19 FRES>19]: Light Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT330>19 PRES>19 FRES>19]: Light Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT330>19 LRES>19 PRES>19]: Light Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Poison Damage % , 20+ Dual Resistances
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT332>19 CRES>19 FRES>19 ILVL>1]: Poison Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT332>19 CRES>19 LRES>19 ILVL>1]: Poison Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT332>19 CRES>19 PRES>19 ILVL>1]: Poison Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT332>19 LRES>19 FRES>19 ILVL>1]: Poison Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT332>19 PRES>19 FRES>19 ILVL>1]: Poison Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT332>19 LRES>19 PRES>19 ILVL>1]: Poison Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT332>19 CRES>19 FRES>19]: Poison Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT332>19 CRES>19 LRES>19]: Poison Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT332>19 CRES>19 PRES>19]: Poison Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT332>19 LRES>19 FRES>19]: Poison Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT332>19 PRES>19 FRES>19]: Poison Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT332>19 LRES>19 PRES>19]: Poison Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 
 /////////////////////////////////////////////////////////////////////////
@@ -712,92 +711,92 @@ ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT332>19 LRES>19 PRE
 /////////////////////////////////////////////////////////////////////////
 
 //+2 Necromancer Skills/+3 Poison & Bone Skills +2-3 Teeth Voodoo Head
-ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK67>1 ILVL>0]: + 2 Necro Skills + Teeth %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK17>2 SK67>1 ILVL>0]: + 3 PnB Skills + Teeth %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK67>1]: + 2 Necro Skills + Teeth %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK17>2 SK67>1]: + 3 PnB Skills + Teeth %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //+2 Necromancer Skills/+3 Poison & Bone Skills +2-3 Bone Spear Voodoo Head
-ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK84>1 ILVL>0]: + 2 Necro Skills + Bone Spear %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK17>2 SK84>1 ILVL>0]: + 3 PnB Skills + Bone Spear %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK84>1]: + 2 Necro Skills + Bone Spear %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK17>2 SK84>1]: + 3 PnB Skills + Bone Spear %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //+2 Necromancer Skills/+3 Poison & Bone Skills +2-3 Bone Spirit Voodoo Head
-ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK93>1 ILVL>0]: + 2 Necro Skills + Bone Spirit %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK17>2 SK93>1 ILVL>0]: + 3 PnB Skills + Bone Spirit %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK93>1]: + 2 Necro Skills + Bone Spirit %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK17>2 SK93>1]: + 3 PnB Skills + Bone Spirit %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //+2 Necromancer Skills/+3 Poison & Bone Skills +2-3 Bone Armor Voodoo Head
-ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK68>1 ILVL>0]: + 2 Necro Skills + Bone Armor %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK17>2 SK68>1 ILVL>0]: + 3 PnB Skills + Bone Armor %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK68>1]: + 2 Necro Skills + Bone Armor %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK17>2 SK68>1]: + 3 PnB Skills + Bone Armor %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //+2 Necromancer Skills/+3 Poison & Bone Skills +2-3 Poison Nova Voodoo Head
-ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK92>1 ILVL>0]: + 2 Necro Skills + Poison Nova %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK17>2 SK92>1 ILVL>0]: + 3 PnB Skills + Poison Nova %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK92>1]: + 2 Necro Skills + Poison Nova %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK17>2 SK92>1]: + 3 PnB Skills + Poison Nova %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //+2 Necromancer Skills/+3 Poison & Bone Skills +2-3 Toxic Delivery Voodoo Head
-ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK73>1 ILVL>0]: + 2 Necro Skills + Toxic Delivery %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK17>2 SK73>1 ILVL>0]: + 3 PnB Skills + Toxic Delivery %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK73>1]: + 2 Necro Skills + Toxic Delivery %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK17>2 SK73>1]: + 3 PnB Skills + Toxic Delivery %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //+2 Necromancer Skills/+3 Poison & Bone Skills +2-3 Putrify Voodoo Head
-ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK83>1 ILVL>0]: + 2 Necro Skills + Putrify %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK17>2 SK83>1 ILVL>0]: + 3 PnB Skills + Putrify %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK83>1]: + 2 Necro Skills + Putrify %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK17>2 SK83>1]: + 3 PnB Skills + Putrify %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //+2 Necromancer Skills/+3 Poison & Bone Skills +2-3 Corpse Explosion Voodoo Head
-ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK74>1 ILVL>0]: + 2 Necro Skills + Corpse Explosion %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK17>2 SK74>1 ILVL>0]: + 3 PnB Skills + Corpse Explosion %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK74>1]: + 2 Necro Skills + Corpse Explosion %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK17>2 SK74>1]: + 3 PnB Skills + Corpse Explosion %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //+2 Necromancer Skills/+3 Summoning Skills +2-3 Skeleton Warrior Voodoo Head
-ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK70>1 ILVL>0]: + 2 Necro Skills + Skeleton Warrior %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK18>2 SK70>1 ILVL>0]: + 3 Summoning Skills + Skeleton Warrior %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK70>1]: + 2 Necro Skills + Skeleton Warrior %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK18>2 SK70>1]: + 3 Summoning Skills + Skeleton Warrior %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //+2 Necromancer Skills/+3 Summoning Skills +2-3 Skeleton Archer Voodoo Head
-ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK80>1 ILVL>0]: + 2 Necro Skills + Skeleton Archer %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK18>2 SK80>1 ILVL>0]: + 3 Summoning Skills + Skeleton Archer %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK80>1]: + 2 Necro Skills + Skeleton Archer %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK18>2 SK80>1]: + 3 Summoning Skills + Skeleton Archer %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //+2 Necromancer Skills/+3 Summoning Skills +2-3 Raise Zombie Voodoo Head
-ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK89>1 ILVL>0]: + 2 Necro Skills + Raise Zombie %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK18>2 SK89>1 ILVL>0]: + 3 Summoning Skills + Raise Zombie %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK89>1]: + 2 Necro Skills + Raise Zombie %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK18>2 SK89>1]: + 3 Summoning Skills + Raise Zombie %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //+2 Necromancer Skills/+3 Summoning Skills +2-3 Minion Mastery Voodoo Head
-ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK69>1 ILVL>0]: + 2 Necro Skills + Minion Mastery %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK18>2 SK69>1 ILVL>0]: + 3 Summoning Skills + Minion Mastery %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK69>1]: + 2 Necro Skills + Minion Mastery %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK18>2 SK69>1]: + 3 Summoning Skills + Minion Mastery %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //+2 Necromancer Skills/+3 Summoning Skills +2-3 Revive Voodoo Head
-ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK95>1 ILVL>0]: + 2 Necro Skills + Revive %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK18>2 SK95>1 ILVL>0]: + 3 Summoning Skills + Revive %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK95>1]: + 2 Necro Skills + Revive %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK18>2 SK95>1]: + 3 Summoning Skills + Revive %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //+2 Necromancer Skills/+3 Summoning Skills +2-3 Blood Golem Voodoo Head
-ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK85>1 ILVL>0]: + 2 Necro Skills + Blood Golem %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK18>2 SK85>1 ILVL>0]: + 3 Summoning Skills + Blood Golem %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK85>1]: + 2 Necro Skills + Blood Golem %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK18>2 SK85>1]: + 3 Summoning Skills + Blood Golem %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //+2 Necromancer Skills/+3 Summoning Skills +2-3 Fire Golem Voodoo Head
-ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK94>1 ILVL>0]: + 2 Necro Skills + Fire Golem %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK18>2 SK94>1 ILVL>0]: + 3 Summoning Skills + Fire Golem %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK94>1]: + 2 Necro Skills + Fire Golem %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK18>2 SK94>1]: + 3 Summoning Skills + Fire Golem %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //+2 Necromancer Skills/+3 Curse Skills +2-3 Amplify Damage Voodoo Head
-ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK66>1 ILVL>0]: + 2 Necro Skills + Amplify Damage %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK16>2 SK66>1 ILVL>0]: + 3 Curse Skills + Amplify Damage %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK66>1]: + 2 Necro Skills + Amplify Damage %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK16>2 SK66>1]: + 3 Curse Skills + Amplify Damage %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //+2 Necromancer Skills/+3 Curse Skills +2-3 Dim Vision Voodoo Head
-ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK71>1 ILVL>0]: + 2 Necro Skills + Dim Vision %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK16>2 SK71>1 ILVL>0]: + 3 Curse Skills + Dim Vision %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK71>1]: + 2 Necro Skills + Dim Vision %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK16>2 SK71>1]: + 3 Curse Skills + Dim Vision %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //+2 Necromancer Skills/+3 Curse Skills +2-3 Terror Voodoo Head
-ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK77>1 ILVL>0]: + 2 Necro Skills + Terror %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK16>2 SK77>1 ILVL>0]: + 3 Curse Skills + Terror %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK77>1]: + 2 Necro Skills + Terror %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK16>2 SK77>1]: + 3 Curse Skills + Terror %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //+2 Necromancer Skills/+3 Curse Skills +2-3 Elemental Weakness Voodoo Head
-ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK81>1 ILVL>0]: + 2 Necro Skills + Elemental Weakness %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK16>2 SK81>1 ILVL>0]: + 3 Curse Skills + Elemental Weakness %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK81>1]: + 2 Necro Skills + Elemental Weakness %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK16>2 SK81>1]: + 3 Curse Skills + Elemental Weakness %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //+2 Necromancer Skills/+3 Curse Skills +2-3 Decrepify Voodoo Head
-ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK87>1 ILVL>0]: + 2 Necro Skills + Decrepify %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK16>2 SK87>1 ILVL>0]: + 3 Curse Skills + Decrepify %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK87>1]: + 2 Necro Skills + Decrepify %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK16>2 SK87>1]: + 3 Curse Skills + Decrepify %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //+2 Necromancer Skills/+3 Curse Skills +2-3 Hex Voodoo Head
-ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK91>1 ILVL>0]: + 2 Necro Skills + Hex %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK16>2 SK91>1 ILVL>0]: + 3 Curse Skills + Hex %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK91>1]: + 2 Necro Skills + Hex %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK16>2 SK91>1]: + 3 Curse Skills + Hex %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //+2 Necromancer Skills/+3 Summoning Skills +2-3 Convocation Voodoo Head
-ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK79>1 ILVL>0]: + 2 Necro Skills + Convocation %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK18>2 SK79>1 ILVL>0]: + 3 Summoning Skills + Convocation %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLSK2>1 SK79>1]: + 2 Necro Skills + Convocation %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(MAG || RARE) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) TABSK18>2 SK79>1]: + 3 Summoning Skills + Convocation %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 
 //Voodoo Heads - T1 Flat Damage, 7+ % Physical Resistance Pierce 
@@ -915,14 +914,14 @@ ItemDisplay[(NMAG !INF !SUP) rg1 ILVL>91]: Eon Band Alch %RED%%NAME% %RED%0%WHIT
 //Constriction Ring Alch
 ItemDisplay[(NMAG !INF !SUP) rg2 ILVL>94]: Constriction Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Mara's Kaleidoscope Ammy Alch
-ItemDisplay[(NMAG !INF !SUP) au5 ILVL>76 FILTLVL<3]: Mara's Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) au5 ILVL>76 FILTLVL<3]: Mara's Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 ItemDisplay[(NMAG !INF !SUP) au5 ILVL>76 FILTLVL<3]: Mara's Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //Topaz Amulet - Horologia's Pendulum Alch
-ItemDisplay[((NMAG !INF !SUP ILVL>91) || (MAG ILVL>92)) au3]: Horo Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[((NMAG !INF !SUP ILVL>91) || (MAG ILVL>91)) au3]: Horo Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Garnet Ring - Carbuncle Star Alch
 ItemDisplay[(NMAG !INF !SUP) rg3 ILVL>91]: Carbuncle Star Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Lich Rings for Alching (Cave Of Horrors)
-ItemDisplay[NMAG (li0 || li1 || li2 || li3 || li4 || li5 || li6) ILVL>91]: Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[NMAG (li0 || li1 || li2 || li3 || li4 || li5 || li6)]: Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 
 
@@ -939,15 +938,12 @@ ItemDisplay[(NMAG !INF !SUP) ach ILVL>91]: Visions FTA Alch %RED%%NAME% %RED%0%W
 //Armor Alchs////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////
 
-//Archon Plate - Mithra's Mantle (endless fog too)
-ItemDisplay[(NMAG !INF !SUP) utp ILVL>91 FILTLVL<3]: Mithras Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) utp ILVL>91 FILTLVL<3]: Mithras Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //The Gloaming Armor Alch
 ItemDisplay[(NMAG !INF !SUP) uul ILVL>84]: Gloaming Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Horadric Raiment Armor Alch
 ItemDisplay[(NMAG !INF !SUP) aca ILVL>91]: Raiment Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Tyrael's Armor Alch
-ItemDisplay[(NMAG !INF !SUP) aca ILVL>79 FILTLVL<3]: Tyrael's Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) aca ILVL>79 FILTLVL<3]: Tyrael's Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 ItemDisplay[(NMAG !INF !SUP) aca ILVL>79 FILTLVL<3]: Tyrael's Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //Mendeln's Armor Alch
 ItemDisplay[(NMAG !INF !SUP) na4 ILVL>23 FILTLVL<3]: Mendelns Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
@@ -986,7 +982,7 @@ ItemDisplay[(NMAG !INF !SUP) xts ILVL>62 FILTLVL<3]: Radament Alch %RED%%NAME% %
 ItemDisplay[(NMAG !INF !SUP) uts ILVL>98 FILTLVL<3]: Radament Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 ItemDisplay[(NMAG !INF !SUP) uts ILVL>98 FILTLVL<3]: Radament Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //Zahhak's Entombment Shield Alch
-ItemDisplay[(NMAG !INF !SUP) uow ILVL>80]: Zahhak's Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) uow ILVL>80]: Zahhak's Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 
 /////////////////////////////////////////////////////////////////////////
 //Weapon Alchs///////////////////////////////////////////////////////////
@@ -1006,78 +1002,78 @@ ItemDisplay[(NMAG !INF !SUP) 7bw ILVL>83 FILTLVL<3]: Edyrem Odyssey Alch %RED%%N
 /////////////////////////////////////////////////////////////////////////
 
 //Lich Rings For Crafting (Cave Of Horrors)
-ItemDisplay[MAG (li0 || li1 || li2 || li3 || li4 || li5 || li6) ILVL>1]: Craft %BASENAME%%RED%0%BLUE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (li0 || li1 || li2 || li3 || li4 || li5 || li6) ILVL>1]: Diffuse %BASENAME%%RED%0%BLUE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (li0 || li1 || li2 || li3 || li4 || li5 || li6)]: Craft %BASENAME%%RED%0%BLUE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (li0 || li1 || li2 || li3 || li4 || li5 || li6)]: Diffuse %BASENAME%%RED%0%BLUE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Summoner Necromancer Unearthed Wand For Golem Crafting
-ItemDisplay[((NMAG !SUP !INF) || MAG) 7gw ILVL>1 FILTLVL<3]: Golem Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[((NMAG !SUP !INF) || MAG) 7gw ILVL>1 FILTLVL<3]: Golem Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[((NMAG !SUP !INF) || MAG) 7gw FILTLVL<3]: Golem Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[((NMAG !SUP !INF) || MAG) 7gw FILTLVL<3]: Golem Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //Necromancer Life Regen Shield For Crafting
-ItemDisplay[MAG nef ILVL>1 FILTLVL<3]: Necro Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[MAG nef ILVL>1 FILTLVL<3]: Necro Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[(NMAG !SUP !INF) nef ILVL>1 FILTLVL<3]: Necro %RED%%NAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !SUP !INF) nef ILVL>1 FILTLVL<3]: Necro %RED%%NAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[MAG nef FILTLVL<3]: Necro Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[MAG nef FILTLVL<3]: Necro Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !SUP !INF) nef FILTLVL<3]: Necro %RED%%NAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !SUP !INF) nef FILTLVL<3]: Necro %RED%%NAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //Dark Slippers Sin Boots For Crafting
-ItemDisplay[((NMAG !SUP !INF) || MAG) ab6 ILVL>1 FILTLVL<3]: Sin Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[((NMAG !SUP !INF) || MAG) ab6 ILVL>1 FILTLVL<3]: Sin Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[((NMAG !SUP !INF) || MAG) ab6 FILTLVL<3]: Sin Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[((NMAG !SUP !INF) || MAG) ab6 FILTLVL<3]: Sin Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //Mithril Coil Belt For Crafting 
-ItemDisplay[((NMAG !SUP !INF) || MAG) umc ILVL>1 FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[((NMAG !SUP !INF) || MAG) umc ILVL>1 FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[((NMAG !SUP !INF) || MAG) umc FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[((NMAG !SUP !INF) || MAG) umc FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //Crusader Gauntlets For Crafting
-ItemDisplay[((NMAG !SUP !INF) || MAG) utg ILVL>1 FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[((NMAG !SUP !INF) || MAG) utg ILVL>1 FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[((NMAG !SUP !INF) || MAG) utg FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[((NMAG !SUP !INF) || MAG) utg FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //Lich Wand For Crafting (Voltaic Blast Sorc)
-ItemDisplay[((NMAG !SUP !INF) || MAG) 7bw ILVL>1 FILTLVL<3]: Volt Blast Sorc Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[((NMAG !SUP !INF) || MAG) 7bw ILVL>1 FILTLVL<3]: Volt Blast Sorc Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[((NMAG !SUP !INF) || MAG) 7bw FILTLVL<3]: Volt Blast Sorc Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[((NMAG !SUP !INF) || MAG) 7bw FILTLVL<3]: Volt Blast Sorc Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //Wyrmhide Boots For Crafting
-ItemDisplay[((NMAG !SUP !INF) || MAG) ulb ILVL>1 FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[((NMAG !SUP !INF) || MAG) ulb ILVL>1 FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[((NMAG !SUP !INF) || MAG) ulb FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[((NMAG !SUP !INF) || MAG) ulb FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //Boneweave Boots For Crafting
-ItemDisplay[((NMAG !SUP !INF) || MAG) umb ILVL>1 FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[((NMAG !SUP !INF) || MAG) umb ILVL>1 FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[((NMAG !SUP !INF) || MAG) umb FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[((NMAG !SUP !INF) || MAG) umb FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 
 /////////////////////////////////////////////////////////////////////////
 //Socketable Bases///////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////
 
 //Enigma Necromancer Exoskeleton Base
-ItemDisplay[(NMAG !INF) na6 SOCK=3 STAT36>8 ILVL>1 FILTLVL<3]: {%GRAY%Enigma: %ORANGE%(Jah Ith Ber)} %SOCKETS%os %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF) na6 SOCK=3 STAT36>8 ILVL>1 FILTLVL<3]: %SOCKETS%os %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) na6 SOCK=3 STAT36>8 FILTLVL<3]: {%GRAY%Enigma: %ORANGE%(Jah Ith Ber)} %SOCKETS%os %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) na6 SOCK=3 STAT36>8 FILTLVL<3]: %SOCKETS%os %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 // +Fire Golem Shield Bases for Runewords
-ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK94>0 ILVL>1]: Fire Golem Base {%GRAY%Despair: %ORANGE%(Mal Vex)} %SOCKETS%os %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK94>0]: Fire Golem Base {%GRAY%Despair: %ORANGE%(Mal Vex)} %SOCKETS%os %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 // +Fire Golem Wand Bases For Runewords
-ItemDisplay[(NMAG !INF) SOCK=2 (ywn || bwn || wnd || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) SK94>1 ILVL>1 FILTLVL<3]: Fire Golem Base %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (ywn || bwn || wnd || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) SK94>1 ILVL>1 FILTLVL<3]: Fire Golem Base %SOCKETS%os %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (ywn || bwn || wnd || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) SK94>1 FILTLVL<3]: Fire Golem Base %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (ywn || bwn || wnd || gwn || 9wn || 9yw || 9bw || 9gw || 7wn || 7yw || 7bw || 7gw) SK94>1 FILTLVL<3]: Fire Golem Base %SOCKETS%os %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //Perfect Macabre Wrappings Armor Base
-ItemDisplay[(NMAG !INF) na3 SOCK=3 ED=20 FRW=15 ILVL>1]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) na3 SOCK=4 ED=20 FRW=15 ILVL>1]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) na3 SOCK=0 FRW=15 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF) na3 SOCK=0 FRW=15 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[(NMAG !INF) na3 SOCK=3 FRW=15 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF) na3 SOCK=3 FRW=15 ILVL>1 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[(NMAG !INF) na3 SOCK=4 FRW=15 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF) na3 SOCK=4 FRW=15 ILVL>1 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) na3 SOCK=3 ED=20 FRW=15]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) na3 SOCK=4 ED=20 FRW=15]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) na3 SOCK=0 FRW=15 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) na3 SOCK=0 FRW=15 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) na3 SOCK=3 FRW=15 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) na3 SOCK=3 FRW=15 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) na3 SOCK=4 FRW=15 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) na3 SOCK=4 FRW=15 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //Perfect Exoskeleton Armor Base
-ItemDisplay[(NMAG !INF) na6 SOCK=3 ED=20 STAT36=9 ILVL>1]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) na6 SOCK=4 ED=20 STAT36=9 ILVL>1]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) na6 SOCK=0 STAT36=9 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF) na6 SOCK=0 STAT36=9 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[(NMAG !INF) na6 SOCK=4 STAT36=9 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF) na6 SOCK=4 STAT36=9 ILVL>1 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) na6 SOCK=3 ED=20 STAT36=9]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) na6 SOCK=4 ED=20 STAT36=9]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) na6 SOCK=0 STAT36=9 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) na6 SOCK=0 STAT36=9 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) na6 SOCK=4 STAT36=9 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) na6 SOCK=4 STAT36=9 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //Perfect Great Hauberk Armor Base
-ItemDisplay[(NMAG !INF) urs SOCK=3 ED=20 LIFE=40 ILVL>1]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) urs SOCK=4 ED=20 LIFE=40 ILVL>1]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) urs SOCK=0 LIFE=40 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF) urs SOCK=0 LIFE=40 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[(NMAG !INF) urs SOCK=3 LIFE=40 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF) urs SOCK=3 LIFE=40 ILVL>1 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[(NMAG !INF) urs SOCK=4 LIFE=40 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF) urs SOCK=4 LIFE=40 ILVL>1 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) urs SOCK=3 ED=20 LIFE=40]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) urs SOCK=4 ED=20 LIFE=40]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) urs SOCK=0 LIFE=40 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) urs SOCK=0 LIFE=40 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) urs SOCK=3 LIFE=40 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) urs SOCK=3 LIFE=40 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) urs SOCK=4 LIFE=40 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) urs SOCK=4 LIFE=40 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //Perfect Wire Fleece Armor Base
-ItemDisplay[(NMAG !INF) utu SOCK=3 ED=20 FRW=8 ILVL>1]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) utu SOCK=4 ED=20 FRW=8 ILVL>1]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) utu SOCK=0 FRW=8 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF) utu SOCK=0 FRW=8 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[(NMAG !INF) utu SOCK=3 FRW=8 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF) utu SOCK=3 FRW=8 ILVL>1 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[(NMAG !INF) utu SOCK=4 FRW=8 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF) utu SOCK=4 FRW=8 ILVL>1 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) utu SOCK=3 ED=20 FRW=8]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) utu SOCK=4 ED=20 FRW=8]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) utu SOCK=0 FRW=8 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) utu SOCK=0 FRW=8 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) utu SOCK=3 FRW=8 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) utu SOCK=3 FRW=8 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) utu SOCK=4 FRW=8 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) utu SOCK=4 FRW=8 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
