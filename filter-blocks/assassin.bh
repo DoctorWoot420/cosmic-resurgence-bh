@@ -4,91 +4,86 @@
 //////////////////////////////////////////////////////////////////
 
 
-//Low Level Class Skills Amulets 
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK6>0 CLVL<50 ILVL>0]: Assassin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK50>0 CLVL<50 ILVL>0]: MA Sin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK48>0 CLVL<50 ILVL>0]: Trap Sin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK49>0 CLVL<50 ILVL>0]: Shadow Disc Sin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Class Circlets 
-ItemDisplay[(RARE || MAG) CIRC CLSK6>0 CLVL<50 ILVL>0]: Assassin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) CIRC TABSK50>0 CLVL<50 ILVL>0]: MA Sin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) CIRC TABSK48>0 CLVL<50 ILVL>0]: Trap Sin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) CIRC TABSK49>0 CLVL<50 ILVL>0]: Shadow Disc Sin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Assassin Claws - Enhanced Damage - Life Leech
-ItemDisplay[RARE (ktr || axf || ces || clw || btl || wrb) ED>49 STAT60>1 CLVL<15 ILVL>0]: ED Life Leech %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Assassin Claws - Enhanced Damage - Life Leech
-ItemDisplay[RARE (ktr || axf || ces || clw || btl || wrb) ED>79 STAT60>1 CLVL<24 ILVL>0]: ED Life Leech %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Assassin Claws - +3 Psychic Hammer
-ItemDisplay[RARE (ktr || axf || ces || clw || btl || wrb) SK253>2 CLVL<24 ILVL>0]: + 3 Psychic Hammer %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%] 
-ItemDisplay[MAG (ktr || axf || ces || clw || btl || wrb) SK253>2 CLVL<24 ILVL>0]: + 3 Psychic Hammer %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Assassin Claws - +1 Trap Skills
-ItemDisplay[RARE (ktr || axf || ces || clw || btl || wrb) TABSK48>0 CLVL<32 ILVL>0]: + 1 Trap Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%] 
-ItemDisplay[MAG (ktr || axf || ces || clw || btl || wrb) TABSK48>0 CLVL<32 ILVL>0]: +1 Trap Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Assassin Claws - +1 Assassin Skills
-ItemDisplay[RARE (ktr || axf || ces || clw || btl || wrb) CLSK6>0 CLVL<58 ILVL>0]: +1 Sin Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%] 
-ItemDisplay[MAG (ktr || axf || ces || clw || btl || wrb) CLSK6>0 CLVL<58 ILVL>0]: +1 Sin Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Assassin Claws - +1 Shadow Discipline Skills
-ItemDisplay[RARE (ktr || axf || ces || clw || btl || wrb) TABSK48>0 CLVL<58 ILVL>0]: +1 Shadow Disc Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%] 
-ItemDisplay[MAG (ktr || axf || ces || clw || btl || wrb) TABSK48>0 CLVL<58 ILVL>0]: +1 Shadow Disc Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Assassin Claw - Blade Talons - Fastest IAS Base (-30 Speed) - Runewords
-ItemDisplay[(NMAG !INF) SOCK=2 btl CLVL<60 ILVL>0]: {%GRAY%Morning: %ORANGE%(Eld Ort)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 btl ED=20 CLVL<60 ILVL>0]: Perfect ED {%GRAY%Morning: %ORANGE%(Eld Ort)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Assassin Claw - Quhab - Runewords
-ItemDisplay[(NMAG !INF) SOCK=3 9ar CLVL<60 ILVL>0]: {%GRAY%Pattern: %ORANGE%Tal Ort Tir%NL%%GRAY%Authority: %ORANGE%El Eth Ith%NL%%GRAY%Madness: %ORANGE%El Ort El} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=3 9ar ED=20 CLVL<60 ILVL>0]: Perfect ED {%GRAY%Pattern: %ORANGE%Tal Ort Tir%NL%%GRAY%Authority: %ORANGE%El Eth Ith%NL%%GRAY%Madness: %ORANGE%El Ort El} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-
 //Mid Level Class Skills Amulets
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK6>1 CLVL<70 ILVL>0]: Assassin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK50>1 CLVL<70 ILVL>0]: MA Sin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK48>1 CLVL<70 ILVL>0]: Trap Sin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK49>1 CLVL<70 ILVL>0]: Shadow Disc Sin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK6>1 CLVL<70]: Assassin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK50>1 CLVL<70]: MA Sin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK48>1 CLVL<70]: Trap Sin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK49>1 CLVL<70]: Shadow Disc Sin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
 
 //Mid Level Class Circlets
-ItemDisplay[(RARE || MAG) CIRC CLSK6>1 CLVL<70 ILVL>0]: Assassin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) CIRC TABSK50>1 CLVL<70 ILVL>0]: MA Sin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) CIRC TABSK48>1 CLVL<70 ILVL>0]: Trap Sin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) CIRC TABSK49>1 CLVL<70 ILVL>0]: Shadow Disc Sin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC CLSK6>1 CLVL<70]: Assassin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC TABSK50>1 CLVL<70]: MA Sin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC TABSK48>1 CLVL<70]: Trap Sin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC TABSK49>1 CLVL<70]: Shadow Disc Sin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
 
 //Mid Level Assassin Claws - Enhanced Damage - Dual Leech
-ItemDisplay[RARE (skr || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf) ED>99 STAT60>2 STAT62>2 CLVL<35 ILVL>0]: ED Dual Leech %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE (skr || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf) ED>219 STAT60>2 STAT62>2 CLVL<70]: ED Dual Leech %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
 
 //Mid Level Assassin Claws - Enhanced Damage - Dual Leech
-ItemDisplay[RARE (skr || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf) ED>119 STAT60>2 STAT62>2 CLVL<40 ILVL>0]: ED Dual Leech %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE (skr || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf) ED>199 STAT60>2 STAT62>2 CLVL<64]: ED Dual Leech %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
 
 //Mid Level Assassin Claws - Enhanced Damage - Dual Leech
-ItemDisplay[RARE (skr || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf) ED>149 STAT60>2 STAT62>2 CLVL<54 ILVL>0]: ED Dual Leech %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE (skr || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf) ED>149 STAT60>2 STAT62>2 CLVL<54]: ED Dual Leech %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
 
 //Mid Level Assassin Claws - Enhanced Damage - Dual Leech
-ItemDisplay[RARE (skr || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf) ED>199 STAT60>2 STAT62>2 CLVL<64 ILVL>0]: ED Dual Leech %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE (skr || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf) ED>119 STAT60>2 STAT62>2 CLVL<40]: ED Dual Leech %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
 
 //Mid Level Assassin Claws - Enhanced Damage - Dual Leech
-ItemDisplay[RARE (skr || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf) ED>219 STAT60>2 STAT62>2 CLVL<70 ILVL>0]: ED Dual Leech %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Assassin Claws - +2 Trap Skills
-ItemDisplay[RARE (skr || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf) TABSK48>1 CLVL<48 ILVL>0]: + 2 Trap Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%] 
-ItemDisplay[MAG (skr || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf) TABSK48>1 CLVL<48 ILVL>0]: + 2 Trap Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Assassin Claws - +3 Trap Skills
-ItemDisplay[RARE (skr || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf) TABSK48>2 CLVL<70 ILVL>0]: + 3 Trap Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%] 
-ItemDisplay[MAG (skr || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf) TABSK48>2 CLVL<70 ILVL>0]: + 3 Trap Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Assassin Claws - +3 Shadow Discipline Skills
-ItemDisplay[RARE (skr || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf) TABSK49>2 CLVL<70 ILVL>0]: + 3 Shadow Disc Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%] 
-ItemDisplay[MAG (skr || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf) TABSK49>2 CLVL<70 ILVL>0]: + 3 Shadow Disc Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE (skr || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf) ED>99 STAT60>2 STAT62>2 CLVL<35]: ED Dual Leech %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
 
 //Mid Level Assassin Claws - +2 Assassin Skills
-ItemDisplay[RARE (skr || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf) CLSK6>1 CLVL<70 ILVL>0]: + 2 Sin Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%] 
-ItemDisplay[MAG (skr || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf) CLSK6>1 CLVL<70 ILVL>0]: + 2 Sin Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE (skr || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf) CLSK6>1 CLVL<70]: + 2 Sin Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%] 
+ItemDisplay[MAG (skr || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf) CLSK6>1 CLVL<70]: + 2 Sin Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+
+//Mid Level Assassin Claws - +2 Trap Skills
+ItemDisplay[RARE (skr || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf) TABSK48>1 CLVL<60]: + 2 Trap Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%] 
+ItemDisplay[MAG (skr || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf) TABSK48>1 CLVL<60]: + 2 Trap Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+
+//Mid Level Assassin Claws - +2 Shadow Discipline Skills
+ItemDisplay[RARE (skr || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf) TABSK49>1 CLVL<60]: + 2 Shadow Disc Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%] 
+ItemDisplay[MAG (skr || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf) TABSK49>1 CLVL<60]: + 2 Shadow Disc Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+
+//Low Level Class Skills Amulets 
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK6>0 CLVL<50]: Assassin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK50>0 CLVL<50]: MA Sin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK48>0 CLVL<50]: Trap Sin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK49>0 CLVL<50]: Shadow Disc Sin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+
+//Low Level Class Circlets 
+ItemDisplay[(RARE || MAG) CIRC CLSK6>0 CLVL<50]: Assassin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC TABSK50>0 CLVL<50]: MA Sin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC TABSK48>0 CLVL<50]: Trap Sin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC TABSK49>0 CLVL<50]: Shadow Disc Sin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+
+//Low Level Assassin Claws - Enhanced Damage - Life Leech
+ItemDisplay[RARE (ktr || axf || ces || clw || btl || wrb) ED>79 STAT60>1 CLVL<24]: ED Life Leech %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+
+//Low Level Assassin Claws - Enhanced Damage - Life Leech
+ItemDisplay[RARE (ktr || axf || ces || clw || btl || wrb) ED>49 STAT60>1 CLVL<15]: ED Life Leech %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+
+//Low Level Assassin Claws - +3 Psychic Hammer
+ItemDisplay[RARE (ktr || axf || ces || clw || btl || wrb) SK253>2 CLVL<35]: + 3 Psychic Hammer %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%] 
+ItemDisplay[MAG (ktr || axf || ces || clw || btl || wrb) SK253>2 CLVL<35]: + 3 Psychic Hammer %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+
+//Low Level Assassin Claws - +1 Trap Skills
+ItemDisplay[RARE (ktr || axf || ces || clw || btl || wrb) TABSK48>0 CLVL<58]: + 1 Trap Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%] 
+ItemDisplay[MAG (ktr || axf || ces || clw || btl || wrb) TABSK48>0 CLVL<58]: +1 Trap Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+
+//Low Level Assassin Claws - +1 Assassin Skills
+ItemDisplay[RARE (ktr || axf || ces || clw || btl || wrb) CLSK6>0 CLVL<58]: +1 Sin Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%] 
+ItemDisplay[MAG (ktr || axf || ces || clw || btl || wrb) CLSK6>0 CLVL<58]: +1 Sin Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+
+//Low Level Assassin Claws - +1 Shadow Discipline Skills
+ItemDisplay[RARE (ktr || axf || ces || clw || btl || wrb) TABSK48>0 CLVL<58]: +1 Shadow Disc Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%] 
+ItemDisplay[MAG (ktr || axf || ces || clw || btl || wrb) TABSK48>0 CLVL<58]: +1 Shadow Disc Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%CONTINUE% [L%ILVL%]
+
+//Low Level Assassin Claw - Blade Talons - Fastest IAS Base (-30 Speed) - Runewords
+ItemDisplay[(NMAG !INF) SOCK=2 btl CLVL<60]: {%GRAY%Morning: %ORANGE%(Eld Ort)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 btl ED=20 CLVL<60]: Perfect ED {%GRAY%Morning: %ORANGE%(Eld Ort)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+
+//Low Level Assassin Claw - Quhab - Runewords
+ItemDisplay[(NMAG !INF) SOCK=3 9ar CLVL<60]: {%GRAY%Pattern: %ORANGE%Tal Ort Tir%NL%%GRAY%Authority: %ORANGE%El Eth Ith%NL%%GRAY%Madness: %ORANGE%El Ort El} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 9ar ED=20 CLVL<60]: Perfect ED {%GRAY%Pattern: %ORANGE%Tal Ort Tir%NL%%GRAY%Authority: %ORANGE%El Eth Ith%NL%%GRAY%Madness: %ORANGE%El Ort El} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 
 /////////////////////////////////////////////////////////////////////////
@@ -96,46 +91,48 @@ ItemDisplay[MAG (skr || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 
 /////////////////////////////////////////////////////////////////////////
 
 //Enhanced Damage, Enchantment of Fire Aura
-ItemDisplay[RARE (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) enchantment_of_fire_aura ED>29 ILVL>1]: Enchantment Aura %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) enchantment_of_fire_aura ED>29]: Enchantment Aura %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Enhanced Damage, Enchantment of Cold Aura
-ItemDisplay[RARE (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) enchantment_of_cold_aura ED>29 ILVL>1]: Enchantment Aura %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) enchantment_of_cold_aura ED>29]: Enchantment Aura %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Enhanced Damage, Enchantment of Lightning Aura
-ItemDisplay[RARE (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) enchantment_of_lightning_aura ED>29 ILVL>1]: Enchantment Aura %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) enchantment_of_lightning_aura ED>29]: Enchantment Aura %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Enhanced Damage, Pestilence Aura
-ItemDisplay[RARE (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) pestilence_aura ED>29 ILVL>1]: Pestilence Aura %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) pestilence_aura ED>29]: Pestilence Aura %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Enhanced Damage, Enchantment of Bones Aura
-ItemDisplay[RARE (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) enchantment_of_bones_aura ED>29 ILVL>1]: Enchantment Aura %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) enchantment_of_bones_aura ED>29]: Enchantment Aura %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Enhanced Damage, Enchantment of Vigor Aura
-ItemDisplay[RARE (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) enchantment_of_vigor_aura ED>29 ILVL>1]: Enchantment Aura %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) enchantment_of_vigor_aura ED>29]: Enchantment Aura %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //+3 Shadow Discipline Skills
-ItemDisplay[(RARE || MAG) (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) TABSK49>2 ILVL>1]: + 3 Shadow Discipline Skills %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-//+3 Mind Blast Claws
-ItemDisplay[(RARE || MAG) (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) SK273>2 ILVL>1]: + 3 Mindblast %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-//+3 Burst of Speed Claws
-ItemDisplay[(RARE || MAG) (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) SK258>2 ILVL>1]: + 3 BoS %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-//+3 Psychic Hammer Claws
-ItemDisplay[(RARE || MAG) (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) SK253>2 ILVL>1]: + 3 Psychic Hammer %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) TABSK49>2]: + 3 Shadow Discipline Skills %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+//+3 Trap Skills
+ItemDisplay[(RARE || MAG) (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) TABSK48>2]: + 3 Trap Skills %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //+5 & +6 Mind Blast Claws
-ItemDisplay[(RARE || MAG) (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) SK273>2 CLSK6>1 ILVL>1]: + 5 Mindblast %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-2% [L%ILVL%]
-ItemDisplay[(RARE || MAG) (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) SK273>2 TABSK49>2 ILVL>1]: + 6 Mindblast %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) SK273>2 CLSK6>1]: + 5 Mindblast %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-2% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) SK273>2 TABSK49>2]: + 6 Mindblast %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
 //+5 & +6 Burst of Speed Claws
-ItemDisplay[(RARE || MAG) (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) SK258>2 CLSK6>1 ILVL>1]: + 5 BoS %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-2% [L%ILVL%]
-ItemDisplay[(RARE || MAG) (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) SK258>2 TABSK49>2 ILVL>1]: + 6 BoS %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) SK258>2 CLSK6>1]: + 5 BoS %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-2% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) SK258>2 TABSK49>2]: + 6 BoS %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
 //+5 & +6 Fade of Speed Claws
-ItemDisplay[(RARE || MAG) (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) SK267>2 CLSK6>1 ILVL>1]: + 5 Fade %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-2% [L%ILVL%]
-ItemDisplay[(RARE || MAG) (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) SK267>2 TABSK49>2 ILVL>1]: + 6 Fade %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) SK267>2 CLSK6>1]: + 5 Fade %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-2% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) SK267>2 TABSK49>2]: + 6 Fade %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
 //+5 & +6 Psychic Hammer Claws
-ItemDisplay[(RARE || MAG) (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) SK253>2 CLSK6>1 ILVL>1]: + 5 Psychic Hammer %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-2% [L%ILVL%]
-ItemDisplay[(RARE || MAG) (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) SK253>2 TABSK49>2 ILVL>1]: + 6 Psychic Hammer %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) SK253>2 CLSK6>1]: + 5 Psychic Hammer %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-2% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) SK253>2 TABSK49>2]: + 6 Psychic Hammer %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
 //+5 & +6 Shadow Master Claws
-ItemDisplay[(RARE || MAG) (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) SK279>2 CLSK6>1 ILVL>1]: + 5 Shadow Master %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-2% [L%ILVL%]
-ItemDisplay[(RARE || MAG) (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) SK279>2 TABSK49>2 ILVL>1]: + 6 Shadow Master %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) SK279>2 CLSK6>1]: + 5 Shadow Master %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-2% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) SK279>2 TABSK49>2]: + 6 Shadow Master %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
 //+5 & +6 Lightning Sentry Claws
-ItemDisplay[(RARE || MAG) (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) SK271>2 CLSK6>1 ILVL>1]: + 5 Lightning Sentry %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-2% [L%ILVL%]
-ItemDisplay[(RARE || MAG) (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) SK271>2 TABSK48>2 ILVL>1]: + 6 Lightning Sentry %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) SK271>2 CLSK6>1]: + 5 Lightning Sentry %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-2% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) SK271>2 TABSK48>2]: + 6 Lightning Sentry %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
 //+5 & +6 Wake of Fire Claws
-ItemDisplay[(RARE || MAG) (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) SK262>2 CLSK6>1 ILVL>1]: + 5 Wake of Fire %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-2% [L%ILVL%]
-ItemDisplay[(RARE || MAG) (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) SK262>2 TABSK48>2 ILVL>1]: + 6 Wake of Fire %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) SK262>2 CLSK6>1]: + 5 Wake of Fire %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-2% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) SK262>2 TABSK48>2]: + 6 Wake of Fire %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
+//+3 Mind Blast Claws
+ItemDisplay[(RARE || MAG) (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) SK273>2]: + 3 Mindblast %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+//+3 Burst of Speed Claws
+ItemDisplay[(RARE || MAG) (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) SK258>2]: + 3 BoS %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+//+3 Psychic Hammer Claws
+ItemDisplay[(RARE || MAG) (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) SK253>2]: + 3 Psychic Hammer %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 
 /////////////////////////////////////////////////////////////////////////
@@ -161,10 +158,10 @@ ItemDisplay[(NMAG !INF !SUP) rg1 ILVL>91]: Eon Band Alch %RED%%NAME% %RED%0%WHIT
 //Constriction Ring Alch
 ItemDisplay[(NMAG !INF !SUP) rg2 ILVL>94]: Constriction Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Mara's Kaleidoscope Ammy Alch
-ItemDisplay[(NMAG !INF !SUP) au5 ILVL>76 FILTLVL<3]: Mara's Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) au5 ILVL>76 FILTLVL<3]: Mara's Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 ItemDisplay[(NMAG !INF !SUP) au5 ILVL>76 FILTLVL<3]: Mara's Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //Topaz Amulet - Horologia's Pendulum Alch
-ItemDisplay[((NMAG !INF !SUP ILVL>91) || (MAG ILVL>92)) au3]: Horo Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[((NMAG !INF !SUP ILVL>91) || (MAG ILVL>91)) au3]: Horo Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Lich Rings for Alching (Cave Of Horrors)
 ItemDisplay[NMAG (li0 || li1 || li2 || li3 || li4 || li5 || li6) ILVL>91]: Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
@@ -194,7 +191,7 @@ ItemDisplay[(NMAG !INF !SUP) uui ILVL>91]: Ormus Alch %RED%%NAME% %RED%0%WHITE%%
 //Horadric Raiment Armor Alch
 ItemDisplay[(NMAG !INF !SUP) aca ILVL>91]: Raiment Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Tyrael's Armor Alch
-ItemDisplay[(NMAG !INF !SUP) aca ILVL>79 FILTLVL<3]: Tyrael's Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) aca ILVL>79 FILTLVL<3]: Tyrael's Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 ItemDisplay[(NMAG !INF !SUP) aca ILVL>79 FILTLVL<3]: Tyrael's Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 
 /////////////////////////////////////////////////////////////////////////
@@ -260,74 +257,74 @@ ItemDisplay[(NMAG !INF !SUP) 7wc ILVL>91 FILTLVL<3]: Stormspire Alch %RED%%NAME%
 /////////////////////////////////////////////////////////////////////////
 
 //Lich Rings For Crafting (Cave Of Horrors)
-ItemDisplay[MAG (li0 || li1 || li2 || li3 || li4 || li5 || li6) ILVL>1]: Craft %BASENAME%%RED%0%BLUE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (li0 || li1 || li2 || li3 || li4 || li5 || li6) ILVL>1]: Diffuse %BASENAME%%RED%0%BLUE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (li0 || li1 || li2 || li3 || li4 || li5 || li6)]: Craft %BASENAME%%RED%0%BLUE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (li0 || li1 || li2 || li3 || li4 || li5 || li6)]: Diffuse %BASENAME%%RED%0%BLUE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Loricated Mail For Crafting
-ItemDisplay[(NMAG || MAG) ucl ILVL>1 FILTLVL<3]: MA Sin Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG || MAG) ucl ILVL>1 FILTLVL<3]: MA Sin Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP || MAG) ucl FILTLVL<3]: MA Sin Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP || MAG) ucl FILTLVL<3]: MA Sin Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //Shadow Steps Sin Boots For Crafting
-ItemDisplay[(NMAG || MAG) ab3 ILVL>1 FILTLVL<3]: MA Sin Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG || MAG) ab3 ILVL>1 FILTLVL<3]: MA Sin Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP || MAG) ab3 FILTLVL<3]: MA Sin Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP || MAG) ab3 FILTLVL<3]: MA Sin Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //Dark Slippers Sin Boots For Crafting
-ItemDisplay[(NMAG || MAG) ab6 ILVL>1 FILTLVL<3]: Sin Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG || MAG) ab6 ILVL>1 FILTLVL<3]: Sin Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP || MAG) ab6 FILTLVL<3]: Sin Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP || MAG) ab6 FILTLVL<3]: Sin Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //Vampirefang Belt For Crafting
-ItemDisplay[(NMAG || MAG) uvc ILVL>1 FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG || MAG) uvc ILVL>1 FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP || MAG) uvc FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP || MAG) uvc FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //Mithril Coil Belt For Crafting 
-ItemDisplay[(NMAG || MAG) umc ILVL>1 FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG || MAG) umc ILVL>1 FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP || MAG) umc FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP || MAG) umc FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //Crusader Gauntlets For Crafting
-ItemDisplay[(NMAG || MAG) utg ILVL>1 FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG || MAG) utg ILVL>1 FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP || MAG) utg FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP || MAG) utg FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //Wyrmhide Boots For Crafting
-ItemDisplay[(NMAG || MAG) ulb ILVL>1 FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG || MAG) ulb ILVL>1 FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP || MAG) ulb FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP || MAG) ulb FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //Boneweave Boots For Crafting
-ItemDisplay[(NMAG || MAG) umb ILVL>1 FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG || MAG) umb ILVL>1 FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP || MAG) umb FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP || MAG) umb FILTLVL<3]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 
 /////////////////////////////////////////////////////////////////////////
 //Socketable Bases///////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////
 
 //+3 Mind Blast Claws
-ItemDisplay[(NMAG !INF) (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) SK273>2 ILVL>1 FILTLVL<3]: + 3 Mindblast %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF) (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) SK273>2 ILVL>1 FILTLVL<3]: + 3 Mindblast %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) SK273>2 FILTLVL<3]: + 3 Mindblast %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) SK273>2 FILTLVL<3]: + 3 Mindblast %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //+3 Burst of Speed Claws
-ItemDisplay[(NMAG !INF) (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) SK258>2 ILVL>1 FILTLVL<3]: + 3 BoS %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF) (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) SK258>2 ILVL>1 FILTLVL<3]: + 3 BoS %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) SK258>2 FILTLVL<3]: + 3 BoS %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) SK258>2 FILTLVL<3]: + 3 BoS %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //+3 Psychic Hammer Claws
-ItemDisplay[(NMAG !INF) (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) SK253>2 ILVL>1 FILTLVL<3]: + 3 Psychic Hammer %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF) (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) SK253>2 ILVL>1 FILTLVL<3]: + 3 Psychic Hammer %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) SK253>2 FILTLVL<3]: + 3 Psychic Hammer %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) (ktr || axf || ces || clw || btl || skr || wrb || 9ar || 9wb || 9xf || 9cs || 9lw || 9tw || 9qr || 7ar || 7wb || 7xf || 7cs || 7lw || 7tw || 7qr) SK253>2 FILTLVL<3]: + 3 Psychic Hammer %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //3os Runic Talons - Fastest IAS Claw Base For Runewords
-ItemDisplay[(NMAG !INF) 7tw SOCK=3 ILVL>1 FILTLVL<3]: {%GRAY%Mosaic: %ORANGE%(Cham Vex Ohm)%NL%%GRAY%Plague: %ORANGE%(Cham Fal Um)} %SOCKETS%os %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF) 7tw SOCK=3 ILVL>1 FILTLVL<3]: %SOCKETS%os %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[(NMAG !INF) 7tw SOCK=3 ED=20 ILVL>1]: Perfect ED {%GRAY%Mosaic: %ORANGE%(Cham Vex Ohm)%NL%%GRAY%Plague: %ORANGE%(Cham Fal Um)} %SOCKETS%os %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) 7tw SOCK=3 FILTLVL<3]: {%GRAY%Mosaic: %ORANGE%(Cham Vex Ohm)%NL%%GRAY%Plague: %ORANGE%(Cham Fal Um)} %SOCKETS%os %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) 7tw SOCK=3 FILTLVL<3]: %SOCKETS%os %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) 7tw SOCK=3 ED=20]: Perfect ED {%GRAY%Mosaic: %ORANGE%(Cham Vex Ohm)%NL%%GRAY%Plague: %ORANGE%(Cham Fal Um)} %SOCKETS%os %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Perfect Great Hauberk Armor Base
-ItemDisplay[(NMAG !INF) urs SOCK=3 ED=20 LIFE=40 ILVL>1]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) urs SOCK=4 ED=20 LIFE=40 ILVL>1]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) urs SOCK=0 LIFE=40 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF) urs SOCK=0 LIFE=40 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[(NMAG !INF) urs SOCK=3 LIFE=40 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF) urs SOCK=3 LIFE=40 ILVL>1 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[(NMAG !INF) urs SOCK=4 LIFE=40 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF) urs SOCK=4 LIFE=40 ILVL>1 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) urs SOCK=3 ED=20 LIFE=40]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) urs SOCK=4 ED=20 LIFE=40]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) urs SOCK=0 LIFE=40 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) urs SOCK=0 LIFE=40 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) urs SOCK=3 LIFE=40 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) urs SOCK=3 LIFE=40 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) urs SOCK=4 LIFE=40 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) urs SOCK=4 LIFE=40 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //Perfect Loricated Mail Armor Base
-ItemDisplay[(NMAG !INF) ucl SOCK=3 ED=20 AR=400 ILVL>1]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) ucl SOCK=4 ED=20 AR=400 ILVL>1]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) ucl SOCK=0 AR=400 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF) ucl SOCK=0 AR=400 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[(NMAG !INF) ucl SOCK=3 AR=400 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF) ucl SOCK=3 AR=400 ILVL>1 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[(NMAG !INF) ucl SOCK=4 AR=400 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF) ucl SOCK=4 AR=400 ILVL>1 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) ucl SOCK=3 ED=20 AR=400]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) ucl SOCK=4 ED=20 AR=400]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) ucl SOCK=0 AR=400 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) ucl SOCK=0 AR=400 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) ucl SOCK=3 AR=400 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) ucl SOCK=3 AR=400 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) ucl SOCK=4 AR=400 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) ucl SOCK=4 AR=400 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //Perfect Wire Fleece Armor Base
-ItemDisplay[(NMAG !INF) utu SOCK=3 ED=20 FRW=8 ILVL>1]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) utu SOCK=4 ED=20 FRW=8 ILVL>1]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) utu SOCK=0 FRW=8 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF) utu SOCK=0 FRW=8 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[(NMAG !INF) utu SOCK=3 FRW=8 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF) utu SOCK=3 FRW=8 ILVL>1 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[(NMAG !INF) utu SOCK=4 FRW=8 ILVL>1 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF) utu SOCK=4 FRW=8 ILVL>1 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) utu SOCK=3 ED=20 FRW=8]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) utu SOCK=4 ED=20 FRW=8]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) utu SOCK=0 FRW=8 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) utu SOCK=0 FRW=8 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) utu SOCK=3 FRW=8 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) utu SOCK=3 FRW=8 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) utu SOCK=4 FRW=8 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) utu SOCK=4 FRW=8 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
