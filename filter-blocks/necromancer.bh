@@ -337,8 +337,11 @@ ItemDisplay[(NMAG !INF) SOCK=2 (bwn || gwn || 9yw || 9bw || 9gw || 7wn || 7yw ||
 
 //+3 Teeth Voodoo Head
 ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK67>2]: + 3 Teeth {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK67>2 FILTLVL>3]: + 3 Teeth {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK67>2]: + 3 Teeth {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK67>2 FILTLVL>3]: + 3 Teeth {%GRAY%Rhyme: %ORANGE%(Shael Eth)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 ItemDisplay[(NMAG !INF) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK67>2]: + 3 Teeth %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF) (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK67>2 FILTLVL>3]: + 3 Teeth %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 
 //+3 Bone Spear Voodoo Head
 ItemDisplay[(NMAG !INF) SOCK=3 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) SK84>2]: + 3 Bone Spear {%GRAY%Ancients Pledge: %ORANGE%(Ral Ort Tal)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
@@ -511,11 +514,17 @@ ItemDisplay[RARE (pc4 || pc1 || pc5 || pc2 || pc6 || pc3) nearby_enemies_phys_pi
 
 // + 2 Necromancer Skills, 20+ % Dual Resistances, 15+ Life
 ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) CLSK2>1 CRES>19 FRES>19 LIFE>14]: + 2 Necro Skills Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) CLSK2>1 CRES>19 FRES>19 LIFE>14 FILTLVL>3]: + 2 Necro Skills Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) CLSK2>1 CRES>19 LRES>19 LIFE>14]: + 2 Necro Skills Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) CLSK2>1 CRES>19 LRES>19 LIFE>14 FILTLVL>3]: + 2 Necro Skills Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) CLSK2>1 CRES>19 PRES>19 LIFE>14]: + 2 Necro Skills Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) CLSK2>1 CRES>19 PRES>19 LIFE>14 FILTLVL>3]: + 2 Necro Skills Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) CLSK2>1 LRES>19 FRES>19 LIFE>14]: + 2 Necro Skills Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) CLSK2>1 LRES>19 FRES>19 LIFE>14 FILTLVL>3]: + 2 Necro Skills Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) CLSK2>1 PRES>19 FRES>19 LIFE>14]: + 2 Necro Skills Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) CLSK2>1 PRES>19 FRES>19 LIFE>14 FILTLVL>3]: + 2 Necro Skills Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) CLSK2>1 LRES>19 PRES>19 LIFE>14]: + 2 Necro Skills Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) CLSK2>1 LRES>19 PRES>19 LIFE>14 FILTLVL>3]: + 2 Necro Skills Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 
 //24+ % Faster Hit Recovery, 50+ % Poison Length Reduction, 40+ Dual Resistances, 15+ Life
 ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) FHR>23 STAT110>49 CRES>39 FRES>39 LIFE>14 FILTLVL<3]: FHR PLR Dual Res %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
