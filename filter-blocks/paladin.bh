@@ -111,7 +111,7 @@ ItemDisplay[MAG DIN SK109>2 CLSK3>1]: + 5 Vengeance %PURPLE%%BASENAME% %RED%0%YE
 ItemDisplay[MAG DIN SK109>2 TABSK24>2]: + 6 Vengeance %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
 
 ItemDisplay[RARE (CIRC || pc4 || pc1 || pc5 || pc2 || pc6 || pc3 || au1 || au2 || au3 || au4 || au5) TABSK24>2]: %GREEN%+3 Pal Combat%MAP% %YELLOW%%NAME%%TIER-5% [L%ILVL%]
-ItemDisplay[RARE (CIRC || pc4 || pc1 || pc5 || pc2 || pc6 || pc3 || au1 || au2 || au3 || au4 || au5) TABSK24>2]: %GREEN%+3 Pal Combat%MAP% %YELLOW%%NAME%%notify-dead% [L%ILVL%]
+ItemDisplay[RARE (CIRC || pc4 || pc1 || pc5 || pc2 || pc6 || pc3 || au1 || au2 || au3 || au4 || au5) TABSK24>2 FILTLVL>3]: %GREEN%+3 Pal Combat%MAP% %YELLOW%%NAME%%notify-dead% [L%ILVL%]
 
 /////////////////////////////////////////////////////////////////////////
 //Jewel Alchs////////////////////////////////////////////////////////////
