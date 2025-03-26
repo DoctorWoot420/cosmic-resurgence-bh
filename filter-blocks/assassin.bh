@@ -136,6 +136,16 @@ ItemDisplay[(RARE || MAG) (ktr || axf || ces || clw || btl || skr || wrb || 9ar 
 
 
 /////////////////////////////////////////////////////////////////////////
+//RARE HELMS/////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////
+
+ItemDisplay[RARE (CIRC || au1 || au2 || au3 || au4 || au5) TABSK48>2]: %GREEN%+3 Traps %MAP%%YELLOW%%NAME%%TIER-5% [L%ILVL%]
+ItemDisplay[RARE (CIRC || au1 || au2 || au3 || au4 || au5) TABSK48>2]: %GREEN%+3 Traps %MAP%%YELLOW%%NAME%%notify-dead% [L%ILVL%]
+ItemDisplay[RARE (CIRC || au1 || au2 || au3 || au4 || au5) TABSK49>2]: %GREEN%+3 Shadow Disc %MAP%%YELLOW%%NAME%%TIER-5% [L%ILVL%]
+ItemDisplay[RARE (CIRC || au1 || au2 || au3 || au4 || au5) TABSK49>2]: %GREEN%+3 Shadow Disc %MAP%%YELLOW%%NAME%%notify-dead% [L%ILVL%]
+
+
+/////////////////////////////////////////////////////////////////////////
 //Jewel Alchs////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////
 
