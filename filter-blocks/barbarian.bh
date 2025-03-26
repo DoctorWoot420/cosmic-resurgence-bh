@@ -120,7 +120,7 @@ ItemDisplay[RARE (baf || bae || bad || bac || bab || baa || ba9 || ba8 || ba7 ||
 ItemDisplay[MAG (baf || bae || bad || bac || bab || baa || ba9 || ba8 || ba7 || ba6 || ba2 || ba1 || ba5 || ba4 || ba3) SK131>2 CLSK4>1]: + 5 Winters Fury %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 ItemDisplay[RARE (CIRC || baf || bae || bad || bac || bab || baa || ba9 || ba8 || ba7 || ba6 || ba2 || ba1 || ba5 || ba4 || ba3 || au1 || au2 || au3 || au4 || au5) TABSK34>2]: %GREEN%+3 Warcry %MAP%%YELLOW%%NAME%%TIER-5% [L%ILVL%]
-ItemDisplay[RARE (CIRC || baf || bae || bad || bac || bab || baa || ba9 || ba8 || ba7 || ba6 || ba2 || ba1 || ba5 || ba4 || ba3 || au1 || au2 || au3 || au4 || au5) TABSK34>2]: %GREEN%+3 Warcry %MAP%%YELLOW%%NAME%%notify-dead% [L%ILVL%]
+ItemDisplay[RARE (CIRC || baf || bae || bad || bac || bab || baa || ba9 || ba8 || ba7 || ba6 || ba2 || ba1 || ba5 || ba4 || ba3 || au1 || au2 || au3 || au4 || au5) TABSK34>2 FILTLVL>3]: %GREEN%+3 Warcry %MAP%%YELLOW%%NAME%%notify-dead% [L%ILVL%]
 
 
 /////////////////////////////////////////////////////////////////////////
