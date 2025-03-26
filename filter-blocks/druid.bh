@@ -260,10 +260,10 @@ ItemDisplay[RARE (dr1 || dr6 || drb) SK224>2 TABSK41>2]: + 6 Lycanthropy %PURPLE
 ItemDisplay[MAG (dr1 || dr6 || drb) SK224>2 CLSK5>1]: + 5 Lycanthropy %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 ItemDisplay[MAG (dr1 || dr6 || drb) SK224>2 TABSK41>2]: + 6 Lycanthropy %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
 
-ItemDisplay[RARE (CIRC || au1 || au2 || au3 || au4 || au5) TABSK40>2]: %GREEN%+3 Dru Summon %MAP%%YELLOW%%NAME%%TIER-5% [L%ILVL%]
-ItemDisplay[RARE (CIRC || au1 || au2 || au3 || au4 || au5) TABSK40>2]: %GREEN%+3 Dru Summon %MAP%%YELLOW%%NAME%%notify-dead% [L%ILVL%]
-ItemDisplay[RARE (CIRC || au1 || au2 || au3 || au4 || au5) TABSK42>2]: %GREEN%+3 Elemental %MAP%%YELLOW%%NAME%%TIER-5% [L%ILVL%]
-ItemDisplay[RARE (CIRC || au1 || au2 || au3 || au4 || au5) TABSK42>2]: %GREEN%+3 Elemental %MAP%%YELLOW%%NAME%%notify-dead% [L%ILVL%]
+ItemDisplay[RARE (CIRC || DRU || au1 || au2 || au3 || au4 || au5) TABSK40>2]: %GREEN%+3 Dru Summon %MAP%%YELLOW%%NAME%%TIER-5% [L%ILVL%]
+ItemDisplay[RARE (CIRC || DRU || au1 || au2 || au3 || au4 || au5) TABSK40>2]: %GREEN%+3 Dru Summon %MAP%%YELLOW%%NAME%%notify-dead% [L%ILVL%]
+ItemDisplay[RARE (CIRC || DRU || au1 || au2 || au3 || au4 || au5) TABSK42>2]: %GREEN%+3 Elemental %MAP%%YELLOW%%NAME%%TIER-5% [L%ILVL%]
+ItemDisplay[RARE (CIRC || DRU || au1 || au2 || au3 || au4 || au5) TABSK42>2]: %GREEN%+3 Elemental %MAP%%YELLOW%%NAME%%notify-dead% [L%ILVL%]
 
 
 /////////////////////////////////////////////////////////////////////////
