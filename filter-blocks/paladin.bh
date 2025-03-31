@@ -13,12 +13,12 @@ ItemDisplay[(RARE || MAG) CIRC CLSK3>1 CLVL<70]: Paladin %PURPLE%%BASENAME% %RED
 ItemDisplay[(RARE || MAG) CIRC TABSK24>1 CLVL<70]: Pally Combat %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Low Level Class Skills Amulets
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK3>0 CLVL<50]: Paladin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK24>0 CLVL<50]: Pally Combat %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK3>0 CLVL<60]: Paladin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK24>0 CLVL<60]: Pally Combat %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Low Level Class Circlets
-ItemDisplay[(RARE || MAG) CIRC CLSK3>0 CLVL<50]: Paladin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[(RARE || MAG) CIRC TABSK24>0 CLVL<50]: Pally Combat %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC CLSK3>0 CLVL<60]: Paladin %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC TABSK24>0 CLVL<60]: Pally Combat %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Low Level Paladin Shields - Runewords
 ItemDisplay[(NMAG !INF) SOCK=3 (pa1 || pa2 || pa7 || pa9 || paa) CLVL<60]: {%GRAY%Ancients Pledge: %ORANGE%RalOrtTal%NL%%GRAY%Resurgence: %ORANGE%ShaelHelSol%NL%%GRAY%Piety: %ORANGE%HelOrtEld} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
@@ -75,43 +75,31 @@ ItemDisplay[(NMAG !INF) (pc4 || pc1 || pc5 || pc2 || pc3 || pc6) ED=20 SK109>2]:
 /////////////////////////////////////////////////////////////////////////
 
 //Paladin Helm - +5-6 Sacrifice
-ItemDisplay[RARE DIN SK96>2 CLSK3>1]: + 5 Sacrifice %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE DIN SK96>2 TABSK24>2]: + 6 Sacrifice %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
-ItemDisplay[MAG DIN SK96>2 CLSK3>1]: + 5 Sacrifice %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG DIN SK96>2 TABSK24>2]: + 6 Sacrifice %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
+ItemDisplay[(RARE || MAG) DIN SK96>2 TABSK24>2]: + 6 Sacrifice %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
+ItemDisplay[(RARE || MAG) DIN SK96>2 CLSK3>1]: + 5 Sacrifice %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Paladin Helm - +5-6 Zeal
-ItemDisplay[RARE DIN SK105>2 CLSK3>1]: + 5 Zeal %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE DIN SK105>2 TABSK24>2]: + 6 Zeal %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
-ItemDisplay[MAG DIN SK105>2 CLSK3>1]: + 5 Zeal %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG DIN SK105>2 TABSK24>2]: + 6 Zeal %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
+ItemDisplay[(RARE || MAG) DIN SK105>2 TABSK24>2]: + 6 Zeal %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
+ItemDisplay[(RARE || MAG) DIN SK105>2 CLSK3>1]: + 5 Zeal %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Paladin Helm - +5-6 Consecration
-ItemDisplay[RARE DIN SK111>2 CLSK3>1]: + 5 Consecration %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE DIN SK111>2 TABSK24>2]: + 6 Consecration %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
-ItemDisplay[MAG DIN SK111>2 CLSK3>1]: + 5 Consecration %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG DIN SK111>2 TABSK24>2]: + 6 Consecration %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
+ItemDisplay[(RARE || MAG) DIN SK111>2 TABSK24>2]: + 6 Consecration %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
+ItemDisplay[(RARE || MAG) DIN SK111>2 CLSK3>1]: + 5 Consecration %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Paladin Helm - +5-6 Blessed Hammer
-ItemDisplay[RARE DIN SK110>2 CLSK3>1]: + 5 Blessed Hammer %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE DIN SK110>2 TABSK24>2]: + 6 Blessed Hammer %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
-ItemDisplay[MAG DIN SK110>2 CLSK3>1]: + 5 Blessed Hammer %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG DIN SK110>2 TABSK24>2]: + 6 Blessed Hammer %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
+ItemDisplay[(RARE || MAG) DIN SK110>2 TABSK24>2]: + 6 Blessed Hammer %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
+ItemDisplay[(RARE || MAG) DIN SK110>2 CLSK3>1]: + 5 Blessed Hammer %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Paladin Helm - +5-6 Fist of The Heavens
-ItemDisplay[RARE DIN SK119>2 CLSK3>1]: + 5 Fist of The Heavens %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE DIN SK119>2 TABSK24>2]: + 6 Fist of The Heavens %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
-ItemDisplay[MAG DIN SK119>2 CLSK3>1]: + 5 Fist of The Heavens %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG DIN SK119>2 TABSK24>2]: + 6 Fist of The Heavens %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
+ItemDisplay[(RARE || MAG) DIN SK119>2 TABSK24>2]: + 6 Fist of The Heavens %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
+ItemDisplay[(RARE || MAG) DIN SK119>2 CLSK3>1]: + 5 Fist of The Heavens %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Paladin Helm - +5-6 Vengeance
-ItemDisplay[RARE DIN SK109>2 CLSK3>1]: + 5 Vengeance %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE DIN SK109>2 TABSK24>2]: + 6 Vengeance %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
-ItemDisplay[MAG DIN SK109>2 CLSK3>1]: + 5 Vengeance %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG DIN SK109>2 TABSK24>2]: + 6 Vengeance %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
+ItemDisplay[(RARE || MAG) DIN SK109>2 TABSK24>2]: + 6 Vengeance %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
+ItemDisplay[(RARE || MAG) DIN SK109>2 CLSK3>1]: + 5 Vengeance %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
-ItemDisplay[RARE (CIRC || pc4 || pc1 || pc5 || pc2 || pc6 || pc3 || au1 || au2 || au3 || au4 || au5) TABSK24>2]: %GREEN%+3 Pal Combat%MAP% %YELLOW%%NAME%%TIER-5% [L%ILVL%]
-ItemDisplay[RARE (CIRC || pc4 || pc1 || pc5 || pc2 || pc6 || pc3 || au1 || au2 || au3 || au4 || au5) TABSK24>2 FILTLVL>3]: %GREEN%+3 Pal Combat%MAP% %YELLOW%%NAME%%notify-dead% [L%ILVL%]
+ItemDisplay[RARE (CIRC || pc4 || pc1 || pc5 || pc2 || pc6 || pc3 || au1 || au2 || au3 || au4 || au5) TABSK24>2 FILTLVL<3]: %GREEN%+3 Pal Combat%MAP% %YELLOW%%NAME%%TIER-5% [L%ILVL%]
+ItemDisplay[RARE (CIRC || pc4 || pc1 || pc5 || pc2 || pc6 || pc3 || au1 || au2 || au3 || au4 || au5) TABSK24>2 FILTLVL<3]: %GREEN%+3 Pal Combat%MAP% %YELLOW%%NAME%%notify-dead% [L%ILVL%]
 
 /////////////////////////////////////////////////////////////////////////
 //Jewel Alchs////////////////////////////////////////////////////////////
