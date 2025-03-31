@@ -3,195 +3,98 @@
 //**THESE ITEMS WILL BE AUTOMATICALLY FILTERED OUT @ LVL70**//////
 //////////////////////////////////////////////////////////////////
 
+//Mid Level Amulets - Flat Damage
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) STAT21>29 STAT22>49 CLVL<70]: T2 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Mid Level Amulets - Flat Damage
-ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5) STAT21>29 STAT22>49 CLVL<70]: T2 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[MAG (au1 || au2 || au3 || au4 || au5) STAT21>29 STAT22>49 CLVL<70]: T2 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-
-//Mid Level Amulets - Flat Damage
-ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5) STAT21>14 STAT22>29 CLVL<70]: T3 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[MAG (au1 || au2 || au3 || au4 || au5) STAT21>14 STAT22>29 CLVL<70]: T3 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) STAT21>14 STAT22>29 CLVL<70]: T3 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Mid Level Amulets - Tri Resistances
-ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5) FRES>19 CRES>19 LRES>19 CLVL<70]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5) FRES>19 CRES>19 PRES>19 CLVL<70]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5) CRES>19 LRES>19 PRES>19 CLVL<70]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5) FRES>19 LRES>19 PRES>19 CLVL<70]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) (FRES>19 CRES>19 LRES>19 || FRES>19 CRES>19 PRES>19 || CRES>19 LRES>19 PRES>19 || FRES>19 LRES>19 PRES>19) CLVL<70]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Mid Level Amulets - Faster Cast Rate - Dual Resistances 
-ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5) FCR>9 CRES>19 FRES>19 CLVL<70]: FCR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5) FCR>9 CRES>19 LRES>19 CLVL<70]: FCR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5) FCR>9 CRES>19 PRES>19 CLVL<70]: FCR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5) FCR>9 LRES>19 FRES>19 CLVL<70]: FCR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5) FCR>9 PRES>19 FRES>19 CLVL<70]: FCR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5) FCR>9 LRES>19 PRES>19 CLVL<70]: FCR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5) FCR>9 (CRES>19 FRES>19 || CRES>19 LRES>19 || CRES>19 PRES>19 || LRES>19 FRES>19 || PRES>19 FRES>19 || LRES>19 PRES>19) CLVL<70]: FCR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Mid Level Rings - Flat Damage
-ItemDisplay[RARE (rg1 || rg2 || rg3 || rg4 || rg5 || li0 || li1 || li2 || li3 || li4 || sf1 || sf2 || sf3 || sf4) STAT21>14 STAT22>24 CLVL<70]: T2 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[MAG (rg1 || rg2 || rg3 || rg4 || rg5 || li0 || li1 || li2 || li3 || li4 || sf1 || sf2 || sf3 || sf4) STAT21>14 STAT22>24 CLVL<70]: T2 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (rg1 || rg2 || rg3 || rg4 || rg5 || li0 || li1 || li2 || li3 || li4 || sf1 || sf2 || sf3 || sf4) STAT21>14 STAT22>24 CLVL<70]: T2 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Mid Level Rings - Flat Damage
-ItemDisplay[RARE (rg1 || rg2 || rg3 || rg4 || rg5 || li0 || li1 || li2 || li3 || li4 || sf1 || sf2 || sf3 || sf4) STAT21>7 STAT22>14 CLVL<50]: T3 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[MAG (rg1 || rg2 || rg3 || rg4 || rg5 || li0 || li1 || li2 || li3 || li4 || sf1 || sf2 || sf3 || sf4) STAT21>7 STAT22>14 CLVL<50]: T3 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (rg1 || rg2 || rg3 || rg4 || rg5 || li0 || li1 || li2 || li3 || li4 || sf1 || sf2 || sf3 || sf4) STAT21>7 STAT22>14 CLVL<50]: T3 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Mid Level Rings - Faster Cast Rate - Dual Resistances
-ItemDisplay[RARE (rg1 || rg2 || rg3 || rg4 || rg5 || li0 || li1 || li2 || li3 || li4 || sf1 || sf2 || sf3 || sf4) FCR>9 CRES>9 FRES>9 CLVL<70]: FCR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE (rg1 || rg2 || rg3 || rg4 || rg5 || li0 || li1 || li2 || li3 || li4 || sf1 || sf2 || sf3 || sf4) FCR>9 CRES>9 LRES>9 CLVL<70]: FCR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE (rg1 || rg2 || rg3 || rg4 || rg5 || li0 || li1 || li2 || li3 || li4 || sf1 || sf2 || sf3 || sf4) FCR>9 CRES>9 PRES>9 CLVL<70]: FCR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE (rg1 || rg2 || rg3 || rg4 || rg5 || li0 || li1 || li2 || li3 || li4 || sf1 || sf2 || sf3 || sf4) FCR>9 LRES>9 FRES>9 CLVL<70]: FCR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE (rg1 || rg2 || rg3 || rg4 || rg5 || li0 || li1 || li2 || li3 || li4 || sf1 || sf2 || sf3 || sf4) FCR>9 PRES>9 FRES>9 CLVL<70]: FCR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE (rg1 || rg2 || rg3 || rg4 || rg5 || li0 || li1 || li2 || li3 || li4 || sf1 || sf2 || sf3 || sf4) FCR>9 LRES>9 PRES>9 CLVL<70]: FCR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[RARE (rg1 || rg2 || rg3 || rg4 || rg5 || sf1 || sf2 || sf3 || sf4) FCR>9 (CRES>9 FRES>9 || CRES>9 LRES>9 || CRES>9 PRES>9 || LRES>9 FRES>9 || PRES>9 FRES>9 || LRES>9 PRES>9) CLVL<70]: FCR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Mid Level Circlets - Flat Damage, Faster Run/Walk 
-ItemDisplay[RARE CIRC STAT21>34 STAT22>69 FRW>9 CLVL<70]: T2 Flat Dmg FRW %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[MAG CIRC STAT21>34 STAT22>69 FRW>9 CLVL<70]: T2 Flat Dmg FRW %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC STAT21>34 STAT22>69 FRW>9 CLVL<70]: T2 Flat Dmg FRW %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Mid Level Circlets - Flat Damage, Faster Run/Walk 
-ItemDisplay[RARE CIRC STAT21>24 STAT22>49 FRW>9 CLVL<70]: T3 Flat Dmg FRW %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[MAG CIRC STAT21>24 STAT22>49 FRW>9 CLVL<70]: T3 Flat Dmg FRW %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC STAT21>24 STAT22>49 FRW>9 CLVL<70]: T3 Flat Dmg FRW %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Mid Level Circlets - Faster Cast Rate, Faster Run/Walk, Faster Hit Recovery 
-ItemDisplay[RARE CIRC FCR>9 FRW>9 FHR>9 CLVL<70]: FRW FCR FHR %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[MAG CIRC FCR>9 FRW>9 FHR>9 CLVL<70]: FRW FCR FHR %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC FCR>9 FRW>9 FHR>9 CLVL<70]: FRW FCR FHR %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Mid Level Circlets - Tri Resistances
-ItemDisplay[RARE CIRC FRES>24 CRES>24 LRES>24 CLVL<70]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE CIRC FRES>24 CRES>24 PRES>24 CLVL<70]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE CIRC CRES>24 LRES>24 PRES>24 CLVL<70]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE CIRC FRES>24 LRES>24 PRES>24 CLVL<70]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC (FRES>19 CRES>19 LRES>19 || FRES>19 CRES>19 PRES>19 || CRES>19 LRES>19 PRES>19 || FRES>19 LRES>19 PRES>19) CLVL<70]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
-//Mid Level Circlets - Faster Cast Rate, 20+ Dual Resistances
-ItemDisplay[RARE CIRC FCR>9 CRES>19 FRES>19 CLVL<70]: FCR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE CIRC FCR>9 CRES>19 LRES>19 CLVL<70]: FCR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE CIRC FCR>9 CRES>19 PRES>19 CLVL<70]: FCR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE CIRC FCR>9 LRES>19 FRES>19 CLVL<70]: FCR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE CIRC FCR>9 PRES>19 FRES>19 CLVL<70]: FCR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE CIRC FCR>9 LRES>19 PRES>19 CLVL<70]: FCR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-
-//Mid Level Circlets - Faster Run/Walk, 20+ Dual Resistances
-ItemDisplay[RARE CIRC FRW>9 CRES>19 FRES>19 CLVL<70]: FRW Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE CIRC FRW>9 CRES>19 LRES>19 CLVL<70]: FRW Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE CIRC FRW>9 CRES>19 PRES>19 CLVL<70]: FRW Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE CIRC FRW>9 LRES>19 FRES>19 CLVL<70]: FRW Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE CIRC FRW>9 PRES>19 FRES>19 CLVL<70]: FRW Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE CIRC FRW>9 LRES>19 PRES>19 CLVL<70]: FRW Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+//Mid Level Circlets - Faster Cast Rate/FRW, 20+ Dual Resistances
+ItemDisplay[RARE CIRC (FCR>9 || FRW>9) (CRES>19 FRES>19 || CRES>19 LRES>19 || CRES>19 PRES>19 || LRES>19 FRES>19 || PRES>19 FRES>19 || LRES>19 PRES>19) CLVL<70]: Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Mid Level Helmets - Flat Damage
-ItemDisplay[RARE HELM STAT21>34 STAT22>69 CLVL<70]: T2 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[MAG HELM STAT21>34 STAT22>69 CLVL<70]: T2 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(RARE || MAG) HELM STAT21>34 STAT22>69 CLVL<70]: T2 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Mid Level Helmets - Flat Damage
-ItemDisplay[RARE HELM STAT21>24 STAT22>49 CLVL<50]: T3 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[MAG HELM STAT21>24 STAT22>49 CLVL<50]: T3 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(RARE || MAG) HELM STAT21>24 STAT22>49 CLVL<50]: T3 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Mid Level Helmets - Tri Resistances
-ItemDisplay[RARE HELM FRES>24 CRES>24 LRES>24 CLVL<70]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE HELM FRES>24 CRES>24 PRES>24 CLVL<70]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE HELM CRES>24 LRES>24 PRES>24 CLVL<70]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE HELM FRES>24 LRES>24 PRES>24 CLVL<70]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(RARE || MAG) HELM (FRES>19 CRES>19 LRES>19 || FRES>19 CRES>19 PRES>19 || CRES>19 LRES>19 PRES>19 || FRES>19 LRES>19 PRES>19) CLVL<70]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Mid Level Helmets - Faster Hit Recovery, 20+ Dual Resistances
-ItemDisplay[RARE HELM FHR>16 CRES>19 FRES>19 CLVL<70]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE HELM FHR>16 CRES>19 LRES>19 CLVL<70]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE HELM FHR>16 CRES>19 PRES>19 CLVL<70]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE HELM FHR>16 LRES>19 FRES>19 CLVL<70]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE HELM FHR>16 PRES>19 FRES>19 CLVL<70]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE HELM FHR>16 LRES>19 PRES>19 CLVL<70]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[RARE HELM FHR>16 (CRES>19 FRES>19 || CRES>19 LRES>19 || CRES>19 PRES>19 || LRES>19 FRES>19 || PRES>19 FRES>19 || LRES>19 PRES>19) CLVL<70]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Mid Level Armor - Tri Resistances
-ItemDisplay[RARE CHEST FRES>24 CRES>24 LRES>24 CLVL<70]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE CHEST FRES>24 CRES>24 PRES>24 CLVL<70]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE CHEST CRES>24 LRES>24 PRES>24 CLVL<70]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE CHEST FRES>24 LRES>24 PRES>24 CLVL<70]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CHEST (FRES>19 CRES>19 LRES>19 || FRES>19 CRES>19 PRES>19 || CRES>19 LRES>19 PRES>19 || FRES>19 LRES>19 PRES>19) CLVL<70]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Mid Level Armor - Faster Hit Recovery, 20+ Dual Resistances
-ItemDisplay[RARE CHEST FHR>16 CRES>19 FRES>19 CLVL<70]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE CHEST FHR>16 CRES>19 LRES>19 CLVL<70]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE CHEST FHR>16 CRES>19 PRES>19 CLVL<70]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE CHEST FHR>16 LRES>19 FRES>19 CLVL<70]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE CHEST FHR>16 PRES>19 FRES>19 CLVL<70]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE CHEST FHR>16 LRES>19 PRES>19 CLVL<70]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[RARE CHEST FHR>16 (CRES>19 FRES>19 || CRES>19 LRES>19 || CRES>19 PRES>19 || LRES>19 FRES>19 || PRES>19 FRES>19 || LRES>19 PRES>19) CLVL<70]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Mid Level Gloves - T2 Flat Damage
-ItemDisplay[RARE GLOVES STAT21>34 STAT22>69 CLVL<70]: T2 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[MAG GLOVES STAT21>34 STAT22>69 CLVL<70]: T2 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(RARE || MAG) GLOVES STAT21>34 STAT22>69 CLVL<70]: T2 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Mid Level Gloves - T3 Flat Damage
-ItemDisplay[RARE GLOVES STAT21>24 STAT22>49 CLVL<50]: T3 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[MAG GLOVES STAT21>24 STAT22>49 CLVL<50]: T3 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(RARE || MAG) GLOVES STAT21>24 STAT22>49 CLVL<50]: T3 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Mid Level Gloves - Tri Resistances
-ItemDisplay[RARE GLOVES FRES>24 CRES>24 LRES>24 CLVL<70]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[RARE GLOVES FRES>24 CRES>24 PRES>24 CLVL<70]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[RARE GLOVES CRES>24 LRES>24 PRES>24 CLVL<70]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[RARE GLOVES FRES>24 LRES>24 PRES>24 CLVL<70]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[RARE GLOVES (FRES>19 CRES>19 LRES>19 || FRES>19 CRES>19 PRES>19 || CRES>19 LRES>19 PRES>19 || FRES>19 LRES>19 PRES>19) CLVL<70]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
-//Mid Level Gloves - Strength, 20+ Dual Resistances
-ItemDisplay[RARE GLOVES STAT0>9 CRES>19 FRES>19 CLVL<70]: STR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE GLOVES STAT0>9 CRES>19 LRES>19 CLVL<70]: STR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE GLOVES STAT0>9 CRES>19 PRES>19 CLVL<70]: STR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE GLOVES STAT0>9 LRES>19 FRES>19 CLVL<70]: STR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE GLOVES STAT0>9 PRES>19 FRES>19 CLVL<70]: STR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE GLOVES STAT0>9 LRES>19 PRES>19 CLVL<70]: STR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-
-//Mid Level Gloves - Increased Attack Speed, 20+ Dual Resistances
-ItemDisplay[RARE GLOVES IAS>9 CRES>19 FRES>19 CLVL<70]: IAS Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE GLOVES IAS>9 CRES>19 LRES>19 CLVL<70]: IAS Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE GLOVES IAS>9 CRES>19 PRES>19 CLVL<70]: IAS Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE GLOVES IAS>9 LRES>19 FRES>19 CLVL<70]: IAS Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE GLOVES IAS>9 PRES>19 FRES>19 CLVL<70]: IAS Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE GLOVES IAS>9 LRES>19 PRES>19 CLVL<70]: IAS Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+//Mid Level Gloves - Strength/Increased Attack Speed, 20+ Dual Resistances
+ItemDisplay[RARE GLOVES (STAT0>9 || IAS>9) (CRES>19 FRES>19 || CRES>19 LRES>19 || CRES>19 PRES>19 || LRES>19 FRES>19 || PRES>19 FRES>19 || LRES>19 PRES>19) CLVL<70]: Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Mid Level Boots - 20+ Faster Run/Walk, Tri Resistances
-ItemDisplay[RARE BOOTS FRW>19 FRES>24 CRES>24 LRES>24 CLVL<70]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE BOOTS FRW>19 FRES>24 CRES>24 PRES>24 CLVL<70]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE BOOTS FRW>19 CRES>24 LRES>24 PRES>24 CLVL<70]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE BOOTS FRW>19 FRES>24 LRES>24 PRES>24 CLVL<70]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[RARE BOOTS FRW>19 (FRES>19 CRES>19 LRES>19 || FRES>19 CRES>19 PRES>19 || CRES>19 LRES>19 PRES>19 || FRES>19 LRES>19 PRES>19) CLVL<70]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Mid Level Boots - 20+ Faster Run/Walk, 20+ Dual Resistances
-ItemDisplay[RARE BOOTS FRW>19 CRES>14 FRES>14 CLVL<70]: FRW Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE BOOTS FRW>19 CRES>14 LRES>14 CLVL<70]: FRW Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE BOOTS FRW>19 CRES>14 PRES>14 CLVL<70]: FRW Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE BOOTS FRW>19 LRES>14 FRES>14 CLVL<70]: FRW Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE BOOTS FRW>19 PRES>14 FRES>14 CLVL<70]: FRW Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE BOOTS FRW>19 LRES>14 PRES>14 CLVL<70]: FRW Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[RARE BOOTS FRW>19 (CRES>14 FRES>14 || CRES>14 LRES>14 || CRES>14 PRES>14 || LRES>14 FRES>14 || PRES>14 FRES>14 || LRES>14 PRES>14) CLVL<70]: FRW Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Mid Level Belts - Tri Resistances
-ItemDisplay[RARE BELT FRES>24 CRES>24 LRES>24 CLVL<70]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE BELT FRES>24 CRES>24 PRES>24 CLVL<70]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE BELT CRES>24 LRES>24 PRES>24 CLVL<70]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE BELT FRES>24 LRES>24 PRES>24 CLVL<70]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[RARE BELT (FRES>19 CRES>19 LRES>19 || FRES>19 CRES>19 PRES>19 || CRES>19 LRES>19 PRES>19 || FRES>19 LRES>19 PRES>19) CLVL<70]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Mid Level Belts - Faster Hit Recovery, 20+ Dual Resistances
-ItemDisplay[RARE BELT FHR>16 CRES>19 FRES>19 CLVL<70]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE BELT FHR>16 CRES>19 LRES>19 CLVL<70]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE BELT FHR>16 CRES>19 PRES>19 CLVL<70]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE BELT FHR>16 LRES>19 FRES>19 CLVL<70]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE BELT FHR>16 PRES>19 FRES>19 CLVL<70]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE BELT FHR>16 LRES>19 PRES>19 CLVL<70]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[RARE BELT FHR>16 (CRES>19 FRES>19 || CRES>19 LRES>19 || CRES>19 PRES>19 || LRES>19 FRES>19 || PRES>19 FRES>19 || LRES>19 PRES>19) CLVL<70]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Mid Level Shields - +20 All Resistances Affix
 ItemDisplay[RARE SHIELD FRES>19 CRES>19 LRES>19 PRES>19 CLVL<70]: All Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Mid Level Shields - Faster Hit Recovery, 20+ Dual Resistances
-ItemDisplay[RARE SHIELD FHR>16 CRES>19 FRES>19 CLVL<70]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE SHIELD FHR>16 CRES>19 LRES>19 CLVL<70]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE SHIELD FHR>16 CRES>19 PRES>19 CLVL<70]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE SHIELD FHR>16 LRES>19 FRES>19 CLVL<70]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE SHIELD FHR>16 PRES>19 FRES>19 CLVL<70]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE SHIELD FHR>16 LRES>19 PRES>19 CLVL<70]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[RARE SHIELD FHR>16 (CRES>19 FRES>19 || CRES>19 LRES>19 || CRES>19 PRES>19 || LRES>19 FRES>19 || PRES>19 FRES>19 || LRES>19 PRES>19) CLVL<70]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Mid Level Arrow & Bolt Quivers - T2 Flat Damage
-ItemDisplay[RARE (aq2 || aq3 || bq2 || aq6 || bq4 || aq4 || aq5 || bq3) STAT21>59 STAT22>79 CLVL<70]: T2 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[MAG (aq2 || aq3 || bq2 || aq6 || bq4 || aq4 || aq5 || bq3) STAT21>59 STAT22>79 CLVL<70]: T2 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (aq2 || aq3 || bq2 || aq6 || bq4 || aq4 || aq5 || bq3) STAT21>59 STAT22>79 CLVL<70]: T2 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Mid Level Arrow & Bolt Quivers - T3 Flat Damage
-ItemDisplay[RARE (aq2 || aq3 || bq2 || aq6 || bq4 || aq4 || aq5 || bq3) STAT21>34 STAT22>49 CLVL<55]: T3 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[MAG (aq2 || aq3 || bq2 || aq6 || bq4 || aq4 || aq5 || bq3) STAT21>34 STAT22>49 CLVL<55]: T3 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (aq2 || aq3 || bq2 || aq6 || bq4 || aq4 || aq5 || bq3) STAT21>34 STAT22>49 CLVL<55]: T3 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Mid Level Arrow & Bolt Quivers - T4 Flat Damage
-ItemDisplay[RARE (aq2 || aq3 || bq2 || aq6 || bq4 || aq4 || aq5 || bq3) STAT21>14 STAT22>24 CLVL<45]: T4 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[MAG (aq2 || aq3 || bq2 || aq6 || bq4 || aq4 || aq5 || bq3) STAT21>14 STAT22>24 CLVL<45]: T4 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (aq2 || aq3 || bq2 || aq6 || bq4 || aq4 || aq5 || bq3) STAT21>14 STAT22>24 CLVL<45]: T4 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Mid Level Physical Weapons - Enhanced Damage - Dual Leech
 ItemDisplay[RARE (WP1 || WP2 || WP3 || WP5 || WP8 || WP9 || WP10) ED>219 STAT60>2 STAT62>2 CLVL<70]: ED Dual Leech %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
@@ -214,163 +117,85 @@ ItemDisplay[RARE (WP1 || WP2 || WP3 || WP5 || WP8 || WP9 || WP10) ED>99 STAT60>2
 //**THESE ITEMS WILL BE AUTOMATICALLY FILTERED OUT @ LVL70**//////
 //////////////////////////////////////////////////////////////////
 
-
 //Low Level Amulets - Flat Damage
-ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5) STAT21>9 STAT22>19 CLVL<35]: T4 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[MAG (au1 || au2 || au3 || au4 || au5) STAT21>9 STAT22>19 CLVL<35]: T4 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) STAT21>9 STAT22>19 CLVL<35]: T4 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Low Level Amulets - Faster Cast Rate
 ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5) FCR>9 CLVL<40]: FCR %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 ItemDisplay[MAG (au1 || au2 || au3 || au4 || au5) FCR>9 CLVL<25]: FCR %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Low Level Amulets - Tri Resistances
-ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5) FRES>9 CRES>9 LRES>9 CLVL<40]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5) FRES>9 CRES>9 PRES>9 CLVL<40]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5) CRES>9 LRES>9 PRES>9 CLVL<40]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5) FRES>9 LRES>9 PRES>9 CLVL<40]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5) (FRES>9 CRES>9 LRES>9 || FRES>9 CRES>9 PRES>9 || CRES>9 LRES>9 PRES>9 || FRES>9 LRES>9 PRES>9) CLVL<40]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Low Level Rings - Flat Damage
-ItemDisplay[RARE (rg1 || rg2 || rg3 || rg4 || rg5 || li0 || li1 || li2 || li3 || li4 || sf1 || sf2 || sf3 || sf4) STAT21>4 STAT22>9 CLVL<35]: T4 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[MAG (rg1 || rg2 || rg3 || rg4 || rg5 || li0 || li1 || li2 || li3 || li4 || sf1 || sf2 || sf3 || sf4) STAT21>4 STAT22>9 CLVL<35]: T4 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (rg1 || rg2 || rg3 || rg4 || rg5 || sf1 || sf2 || sf3 || sf4) STAT21>4 STAT22>9 CLVL<35]: T4 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Low Level Rings - Faster Cast Rate
-ItemDisplay[RARE (rg1 || rg2 || rg3 || rg4 || rg5 || li0 || li1 || li2 || li3 || li4 || sf1 || sf2 || sf3 || sf4) FCR>9 CLVL<40]: FCR %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[MAG (rg1 || rg2 || rg3 || rg4 || rg5 || li0 || li1 || li2 || li3 || li4 || sf1 || sf2 || sf3 || sf4) FCR>9 CLVL<25]: FCR %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[RARE (rg1 || rg2 || rg3 || rg4 || rg5 || sf1 || sf2 || sf3 || sf4) FCR>9 CLVL<40]: FCR %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[MAG (rg1 || rg2 || rg3 || rg4 || rg5 || sf1 || sf2 || sf3 || sf4) FCR>9 CLVL<25]: FCR %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Low Level Circlets - Flat Damage, Faster Run/Walk 
-ItemDisplay[RARE CIRC STAT21>9 STAT22>19 FRW>9 CLVL<70]: FRW Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[MAG CIRC STAT21>9 STAT22>19 FRW>9 CLVL<70]: FRW Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC STAT21>9 STAT22>19 FRW>9 CLVL<65]: FRW Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Low Level Circlets - Faster Cast Rate, Faster Run/Walk 
-ItemDisplay[RARE CIRC FCR>9 FRW>9 CLVL<70]: FRW FCR %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[MAG CIRC FCR>9 FRW>9 CLVL<70]: FRW FCR %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC FCR>9 FRW>9 CLVL<65]: FRW FCR %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Low Level Circlets - Tri Resistances
-ItemDisplay[RARE CIRC FRES>9 CRES>9 LRES>9 CLVL<60]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE CIRC FRES>9 CRES>9 PRES>9 CLVL<60]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE CIRC CRES>9 LRES>9 PRES>9 CLVL<60]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE CIRC FRES>9 LRES>9 PRES>9 CLVL<60]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC (FRES>9 CRES>9 LRES>9 || FRES>9 CRES>9 PRES>9 || CRES>9 LRES>9 PRES>9 || FRES>9 LRES>9 PRES>9) CLVL<60]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Low Level Circlets - Faster Cast Rate, 10+ Dual Resistances
-ItemDisplay[RARE CIRC FCR>9 CRES>9 FRES>9 CLVL<60]: FCR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE CIRC FCR>9 CRES>9 LRES>9 CLVL<60]: FCR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE CIRC FCR>9 CRES>9 PRES>9 CLVL<60]: FCR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE CIRC FCR>9 LRES>9 FRES>9 CLVL<60]: FCR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE CIRC FCR>9 PRES>9 FRES>9 CLVL<60]: FCR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE CIRC FCR>9 LRES>9 PRES>9 CLVL<60]: FCR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[RARE CIRC FCR>9 (CRES>9 FRES>9 || CRES>9 LRES>9 || CRES>9 PRES>9 || LRES>9 FRES>9 || PRES>9 FRES>9 || LRES>9 PRES>9) CLVL<60]: FCR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Low Level Circlets - Faster Run/Walk, 10+ Dual Resistances
-ItemDisplay[RARE CIRC FRW>9 CRES>9 FRES>9 CLVL<60]: FRW Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE CIRC FRW>9 CRES>9 LRES>9 CLVL<60]: FRW Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE CIRC FRW>9 CRES>9 PRES>9 CLVL<60]: FRW Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE CIRC FRW>9 LRES>9 FRES>9 CLVL<60]: FRW Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE CIRC FRW>9 PRES>9 FRES>9 CLVL<60]: FRW Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE CIRC FRW>9 LRES>9 PRES>9 CLVL<60]: FRW Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[RARE CIRC FRW>9 (CRES>9 FRES>9 || CRES>9 LRES>9 || CRES>9 PRES>9 || LRES>9 FRES>9 || PRES>9 FRES>9 || LRES>9 PRES>9) CLVL<60]: FRW Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Low Level Helmets - Flat Damage
-ItemDisplay[RARE HELM STAT21>9 STAT22>19 CLVL<35]: T4 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[MAG HELM STAT21>9 STAT22>19 CLVL<35]: T4 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(RARE || MAG) HELM STAT21>9 STAT22>19 CLVL<35]: T4 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Low Level Helmets - Tri Resistances
-ItemDisplay[RARE HELM FRES>9 CRES>9 LRES>9 CLVL<35]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE HELM FRES>9 CRES>9 PRES>9 CLVL<35]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE HELM CRES>9 LRES>9 PRES>9 CLVL<35]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE HELM FRES>9 LRES>9 PRES>9 CLVL<35]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[RARE HELM (FRES>9 CRES>9 LRES>9 || FRES>9 CRES>9 PRES>9 || CRES>9 LRES>9 PRES>9 || FRES>9 LRES>9 PRES>9) CLVL<50]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Low Level Helmets - Faster Hit Recovery, 10+ Dual Resistances
-ItemDisplay[RARE HELM FHR>9 CRES>9 FRES>9 CLVL<35]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE HELM FHR>9 CRES>9 LRES>9 CLVL<35]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE HELM FHR>9 CRES>9 PRES>9 CLVL<35]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE HELM FHR>9 LRES>9 FRES>9 CLVL<35]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE HELM FHR>9 PRES>9 FRES>9 CLVL<35]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE HELM FHR>9 LRES>9 PRES>9 CLVL<35]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[RARE HELM FHR>9 (CRES>9 FRES>9 || CRES>9 LRES>9 || CRES>9 PRES>9 || LRES>9 FRES>9 || PRES>9 FRES>9 || LRES>9 PRES>9) CLVL<40]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Low Level Armor - Tri Resistances
-ItemDisplay[RARE CHEST FRES>9 CRES>9 LRES>9 CLVL<35]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE CHEST FRES>9 CRES>9 PRES>9 CLVL<35]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE CHEST CRES>9 LRES>9 PRES>9 CLVL<35]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE CHEST FRES>9 LRES>9 PRES>9 CLVL<35]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[RARE CHEST (FRES>9 CRES>9 LRES>9 || FRES>9 CRES>9 PRES>9 || CRES>9 LRES>9 PRES>9 || FRES>9 LRES>9 PRES>9) CLVL<50]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Low Level Armor - Faster Hit Recovery, 10+ Dual Resistances
-ItemDisplay[RARE CHEST FHR>9 CRES>9 FRES>9 CLVL<35]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE CHEST FHR>9 CRES>9 LRES>9 CLVL<35]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE CHEST FHR>9 CRES>9 PRES>9 CLVL<35]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE CHEST FHR>9 LRES>9 FRES>9 CLVL<35]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE CHEST FHR>9 PRES>9 FRES>9 CLVL<35]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE CHEST FHR>9 LRES>9 PRES>9 CLVL<35]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[RARE CHEST FHR>9 (CRES>9 FRES>9 || CRES>9 LRES>9 || CRES>9 PRES>9 || LRES>9 FRES>9 || PRES>9 FRES>9 || LRES>9 PRES>9) CLVL<40]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Low Level Gloves - Flat Damage
-ItemDisplay[RARE GLOVES STAT21>9 STAT22>19 CLVL<35]: T4 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[MAG GLOVES STAT21>9 STAT22>19 CLVL<35]: T4 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(RARE || MAG) GLOVES STAT21>9 STAT22>19 CLVL<35]: T4 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Low Level Gloves - Tri Resistances
-ItemDisplay[RARE GLOVES FRES>9 CRES>9 LRES>9 CLVL<55]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE GLOVES FRES>9 CRES>9 PRES>9 CLVL<55]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE GLOVES CRES>9 LRES>9 PRES>9 CLVL<55]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE GLOVES FRES>9 LRES>9 PRES>9 CLVL<55]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[RARE GLOVES (FRES>9 CRES>9 LRES>9 || FRES>9 CRES>9 PRES>9 || CRES>9 LRES>9 PRES>9 || FRES>9 LRES>9 PRES>9) CLVL<55]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
-//Low Level Gloves - Strength, 10+ Dual Resistances
-ItemDisplay[RARE GLOVES STAT0>4 CRES>9 FRES>9 CLVL<50]: STR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE GLOVES STAT0>4 CRES>9 LRES>9 CLVL<50]: STR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE GLOVES STAT0>4 CRES>9 PRES>9 CLVL<50]: STR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE GLOVES STAT0>4 LRES>9 FRES>9 CLVL<50]: STR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE GLOVES STAT0>4 PRES>9 FRES>9 CLVL<50]: STR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE GLOVES STAT0>4 LRES>9 PRES>9 CLVL<50]: STR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-
-//Low Level Gloves - Increased Attack Speed, 10+ Dual Resistances
-ItemDisplay[RARE GLOVES IAS>9 CRES>9 FRES>9 CLVL<50]: IAS Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE GLOVES IAS>9 CRES>9 LRES>9 CLVL<50]: IAS Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE GLOVES IAS>9 CRES>9 PRES>9 CLVL<50]: IAS Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE GLOVES IAS>9 LRES>9 FRES>9 CLVL<50]: IAS Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE GLOVES IAS>9 PRES>9 FRES>9 CLVL<50]: IAS Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE GLOVES IAS>9 LRES>9 PRES>9 CLVL<50]: IAS Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+//Low Level Gloves - Strength/Increased Attack Speed, 10+ Dual Resistances
+ItemDisplay[RARE GLOVES (STAT0>4 || IAS>9) (CRES>9 FRES>9 || CRES>9 LRES>9 || CRES>9 PRES>9 || LRES>9 FRES>9 || PRES>9 FRES>9 || LRES>9 PRES>9) CLVL<50]: Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Low Level Boots - 20+ Faster Run/Walk
-ItemDisplay[MAG BOOTS FRW>19 CLVL<24]: FRW %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE BOOTS FRW>19 CLVL<24]: FRW %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(RARE || MAG) BOOTS FRW>19 CLVL<30]: FRW %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Low Level Boots - 20+ Faster Run/Walk, 10+ Tri Resistances
-ItemDisplay[RARE BOOTS FRW>19 FRES>9 CRES>9 LRES>9 CLVL<55]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE BOOTS FRW>19 FRES>9 CRES>9 PRES>9 CLVL<55]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE BOOTS FRW>19 CRES>9 LRES>9 PRES>9 CLVL<55]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE BOOTS FRW>19 FRES>9 LRES>9 PRES>9 CLVL<55]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[RARE BOOTS FRW>19 (FRES>9 CRES>9 LRES>9 || FRES>9 CRES>9 PRES>9 || CRES>9 LRES>9 PRES>9 || FRES>9 LRES>9 PRES>9) CLVL<65]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Low Level Boots - 20+ Faster Run/Walk, 10+ Dual Resistances
-ItemDisplay[RARE BOOTS FRW>19 CRES>9 FRES>9 CLVL<35]: FRW Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE BOOTS FRW>19 CRES>9 LRES>9 CLVL<35]: FRW Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE BOOTS FRW>19 CRES>9 PRES>9 CLVL<35]: FRW Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE BOOTS FRW>19 LRES>9 FRES>9 CLVL<35]: FRW Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE BOOTS FRW>19 PRES>9 FRES>9 CLVL<35]: FRW Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE BOOTS FRW>19 LRES>9 PRES>9 CLVL<35]: FRW Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[RARE BOOTS FRW>19 (CRES>9 FRES>9 || CRES>9 LRES>9 || CRES>9 PRES>9 || LRES>9 FRES>9 || PRES>9 FRES>9 || LRES>9 PRES>9) CLVL<60]: FRW Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Low Level Belts - Tri Resistances
-ItemDisplay[RARE BELT FRES>9 CRES>9 LRES>9 CLVL<50]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE BELT FRES>9 CRES>9 PRES>9 CLVL<50]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE BELT CRES>9 LRES>9 PRES>9 CLVL<50]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE BELT FRES>9 LRES>9 PRES>9 CLVL<50]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[RARE BELT (FRES>9 CRES>9 LRES>9 || FRES>9 CRES>9 PRES>9 || CRES>9 LRES>9 PRES>9 || FRES>9 LRES>9 PRES>9) CLVL<50]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Low Level Belts - Faster Hit Recovery, 10+ Dual Resistances
-ItemDisplay[RARE BELT FHR>9 CRES>9 FRES>9 CLVL<35]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE BELT FHR>9 CRES>9 LRES>9 CLVL<35]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE BELT FHR>9 CRES>9 PRES>9 CLVL<35]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE BELT FHR>9 LRES>9 FRES>9 CLVL<35]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE BELT FHR>9 PRES>9 FRES>9 CLVL<35]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE BELT FHR>9 LRES>9 PRES>9 CLVL<35]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[RARE BELT FHR>9 (CRES>9 FRES>9 || CRES>9 LRES>9 || CRES>9 PRES>9 || LRES>9 FRES>9 || PRES>9 FRES>9 || LRES>9 PRES>9) CLVL<50]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Low Level Shields - +12 All Resistances Affix
-ItemDisplay[RARE SHIELD FRES>11 CRES>11 LRES>11 PRES>11 CLVL<35]: All Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(RARE || MAG) SHIELD FRES>11 CRES>11 LRES>11 PRES>11 CLVL<50]: All Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Low Level Shields - Faster Hit Recovery, 10+ Dual Resistances
-ItemDisplay[RARE SHIELD FHR>9 CRES>9 FRES>9 CLVL<35]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE SHIELD FHR>9 CRES>9 LRES>9 CLVL<35]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE SHIELD FHR>9 CRES>9 PRES>9 CLVL<35]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE SHIELD FHR>9 LRES>9 FRES>9 CLVL<35]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE SHIELD FHR>9 PRES>9 FRES>9 CLVL<35]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[RARE SHIELD FHR>9 LRES>9 PRES>9 CLVL<35]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[RARE SHIELD FHR>9 (CRES>9 FRES>9 || CRES>9 LRES>9 || CRES>9 PRES>9 || LRES>9 FRES>9 || PRES>9 FRES>9 || LRES>9 PRES>9) CLVL<50]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Low Level Arrow & Bolt Quivers - Flat Damage
-ItemDisplay[RARE (aq2 || aq3 || bq2) STAT21>9 STAT22>14 CLVL<35]: T5 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[MAG (aq2 || aq3 || bq2) STAT21>9 STAT22>14 CLVL<35]: T5 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (aq2 || aq3 || bq2) STAT21>9 STAT22>14 CLVL<35]: T5 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
 
 //Low Level Physical Weapons - Enhanced Damage - Life Leech
 ItemDisplay[RARE (WP1 || WP2 || WP3 || WP4 || WP5 || WP8 || WP9 || WP10) ED>79 STAT60>1 CLVL<24]: ED Life Leech %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
