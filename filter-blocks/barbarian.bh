@@ -5,68 +5,68 @@
 
 
 //Mid Level Class Skills Amulets
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK4>1 CLVL<70]: Barbarian %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK34>1 CLVL<70]: Warcry Barb %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK4>1 CLVL<70]: Barbarian %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK34>1 CLVL<70]: Warcry Barb %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Mid Level Class Circlets
-ItemDisplay[(RARE || MAG) CIRC CLSK4>1 CLVL<70]: Barbarian %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[(RARE || MAG) CIRC TABSK34>1 CLVL<70]: Warcry Barb %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC CLSK4>1 CLVL<70]: Barbarian %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC TABSK34>1 CLVL<70]: Warcry Barb %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Mid Level Barbarian Helmets - Flat Damage
-ItemDisplay[(RARE || MAG) (ba1 || ba6 || bab) STAT21>34 STAT22>69 CLVL<70]: T2 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (ba1 || ba6 || bab) STAT21>34 STAT22>69 CLVL<70]: T2 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Mid Level Barbarian Helmets - Flat Damage
-ItemDisplay[(RARE || MAG) (ba1 || ba6 || bab) STAT21>24 STAT22>49 CLVL<50]: T3 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (ba1 || ba6 || bab) STAT21>24 STAT22>49 CLVL<50]: T3 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Mid Level Barbarian Helmets - Tri Resistances
-ItemDisplay[RARE (ba1 || ba6 || bab || bac) (FRES>19 CRES>19 LRES>19 || FRES>19 CRES>19 PRES>19 || CRES>19 LRES>19 PRES>19 || FRES>19 LRES>19 PRES>19) CLVL<70]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[RARE (ba1 || ba6 || bab || bac) (FRES>19 CRES>19 LRES>19 || FRES>19 CRES>19 PRES>19 || CRES>19 LRES>19 PRES>19 || FRES>19 LRES>19 PRES>19) CLVL<70]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Mid Level Barbarian Helmets - Faster Hit Recovery, 20+ Dual Resistances
-ItemDisplay[RARE (ba1 || ba6 || bab || bac) FHR>16 (CRES>19 FRES>19 || CRES>19 LRES>19 || CRES>19 PRES>19 || LRES>19 FRES>19 || PRES>19 FRES>19 || LRES>19 PRES>19) CLVL<70]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[RARE (ba1 || ba6 || bab || bac) FHR>16 (CRES>19 FRES>19 || CRES>19 LRES>19 || CRES>19 PRES>19 || LRES>19 FRES>19 || PRES>19 FRES>19 || LRES>19 PRES>19) CLVL<70]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Low Level Class Skills Amulets
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK4>0 CLVL<70]: Barbarian %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK34>0 CLVL<70]: Warcry Barb %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK4>0 CLVL<70]: Barbarian %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK34>0 CLVL<70]: Warcry Barb %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Low Level Class Circlets
-ItemDisplay[(RARE || MAG) CIRC CLSK4>0 CLVL<70]: Barbarian %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[(RARE || MAG) CIRC TABSK34>0 CLVL<70]: Warcry Barb %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC CLSK4>0 CLVL<70]: Barbarian %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC TABSK34>0 CLVL<70]: Warcry Barb %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Low Level Barbarian Helmets - Flat Damage
-ItemDisplay[(RARE || MAG) ba1 STAT21>9 STAT22>19 CLVL<35]: T4 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[MAG ba1 SK145>0 CLVL<35]: + Frenzy %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(RARE || MAG) ba1 STAT21>9 STAT22>19 CLVL<35]: T4 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[MAG ba1 SK145>0 CLVL<35]: + Frenzy %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Low Level Barbarian Helmets - Tri Resistances
-ItemDisplay[RARE ba1 (FRES>9 CRES>9 LRES>9 || FRES>9 CRES>9 PRES>9 || CRES>9 LRES>9 PRES>9 || FRES>9 LRES>9 PRES>9) CLVL<60]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[RARE ba1 (FRES>9 CRES>9 LRES>9 || FRES>9 CRES>9 PRES>9 || CRES>9 LRES>9 PRES>9 || FRES>9 LRES>9 PRES>9) CLVL<60]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Low Level Barbarian Helmets - Faster Hit Recovery, 10+ Dual Resistances
-ItemDisplay[RARE ba1 FHR>9 (CRES>9 FRES>9 || CRES>9 LRES>9 || CRES>9 PRES>9 || LRES>9 FRES>9 || PRES>9 FRES>9 || LRES>9 PRES>9) CLVL<50]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[RARE ba1 FHR>9 (CRES>9 FRES>9 || CRES>9 LRES>9 || CRES>9 PRES>9 || LRES>9 FRES>9 || PRES>9 FRES>9 || LRES>9 PRES>9) CLVL<50]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Low Level Barbarian Helmets - Runewords
-ItemDisplay[(NMAG !INF) SOCK=2 (ba1 || ba6 || bab) SK145>0 CLVL<80]: + Frenzy {%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (ba1 || ba6 || bab) ED=20 SK145>0 CLVL<80]: + Frenzy Perfect ED {%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 BAR SK148>0 CLVL<80]: + Whirlwind {%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 BAR ED=20 SK148>0 CLVL<80]: + Whirlwind Perfect ED {%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (bac || bad || bae || baf) SK150>0 CLVL<88]: + Warcry {%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (bac || bad || bae || baf) ED=20 SK150>0 CLVL<88]: + Warcry Perfect ED {%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (bac || bae) SK141>0 CLVL<88]: + Ancients Fury {%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (bac || bae) ED=20 SK141>0 CLVL<88]: + Ancients Fury Perfect ED {%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 BAR SK131>0 CLVL<88]: + Winters Fury {%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 BAR ED=20 SK131>0 CLVL<88]: + Winters Fury Perfect ED {%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (ba1 || ba6 || bab) SK145>0 CLVL<80]: + Frenzy {%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (ba1 || ba6 || bab) ED=20 SK145>0 CLVL<80]: + Frenzy Perfect ED {%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 BAR SK148>0 CLVL<80]: + Whirlwind {%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 BAR ED=20 SK148>0 CLVL<80]: + Whirlwind Perfect ED {%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (bac || bad || bae || baf) SK150>0 CLVL<88]: + Warcry {%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (bac || bad || bae || baf) ED=20 SK150>0 CLVL<88]: + Warcry Perfect ED {%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (bac || bae) SK141>0 CLVL<88]: + Ancients Fury {%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (bac || bae) ED=20 SK141>0 CLVL<88]: + Ancients Fury Perfect ED {%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 BAR SK131>0 CLVL<88]: + Winters Fury {%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 BAR ED=20 SK131>0 CLVL<88]: + Winters Fury Perfect ED {%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Low Level Destroyer Axe (-10 Speed) - Runewords
-ItemDisplay[(NMAG !INF) SOCK=2 bw4 CLVL<70]: {%GRAY%Steel: %ORANGE%Tir El%NL%%GRAY%Strength: %ORANGE%Amn Tir} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 bw4 ED=20 CLVL<70]: Perfect ED {%GRAY%Steel: %ORANGE%Tir El%NL%%GRAY%Strength: %ORANGE%Amn Tir} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=3 bw4 CLVL<70]: {%GRAY%Authority: %ORANGE%El Eth Ith%NL%%GRAY%Pestilence: %ORANGE%Tir Tal Tir%NL%%GRAY%Envy: %ORANGE%Ort Amn Ral%NL%%GRAY%Black: %ORANGE%Thul Io Nef} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=3 bw4 ED=20 CLVL<70]: Perfect ED {%GRAY%Authority: %ORANGE%El Eth Ith%NL%%GRAY%Pestilence: %ORANGE%Tir Tal Tir%NL%%GRAY%Envy: %ORANGE%Ort Amn Ral%NL%%GRAY%Black: %ORANGE%Thul Io Nef} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=5 bw4 CLVL<70]: {%GRAY%Honor: %ORANGE%Amn El Ith Tir Sol} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=5 bw4 ED=20 CLVL<70]: Perfect ED {%GRAY%Honor: %ORANGE%Amn El Ith Tir Sol} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 bw4 CLVL<70]: {%GRAY%Steel: %ORANGE%Tir El%NL%%GRAY%Strength: %ORANGE%Amn Tir} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 bw4 ED=20 CLVL<70]: Perfect ED {%GRAY%Steel: %ORANGE%Tir El%NL%%GRAY%Strength: %ORANGE%Amn Tir} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 bw4 CLVL<70]: {%GRAY%Authority: %ORANGE%El Eth Ith%NL%%GRAY%Pestilence: %ORANGE%Tir Tal Tir%NL%%GRAY%Envy: %ORANGE%Ort Amn Ral%NL%%GRAY%Black: %ORANGE%Thul Io Nef} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 bw4 ED=20 CLVL<70]: Perfect ED {%GRAY%Authority: %ORANGE%El Eth Ith%NL%%GRAY%Pestilence: %ORANGE%Tir Tal Tir%NL%%GRAY%Envy: %ORANGE%Ort Amn Ral%NL%%GRAY%Black: %ORANGE%Thul Io Nef} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=5 bw4 CLVL<70]: {%GRAY%Honor: %ORANGE%Amn El Ith Tir Sol} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=5 bw4 ED=20 CLVL<70]: Perfect ED {%GRAY%Honor: %ORANGE%Amn El Ith Tir Sol} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Low Level Slayer Hatchet (-10 Speed) - Runewords
-ItemDisplay[(NMAG !INF) SOCK=3 bw5 CLVL<70]: {%GRAY%Authority: %ORANGE%El Eth Ith%NL%%GRAY%Pestilence: %ORANGE%Tir Tal Tir%NL%%GRAY%Envy: %ORANGE%Ort Amn Ral%NL%%GRAY%Black: %ORANGE%Thul Io Nef} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=3 bw5 ED=20 CLVL<70]: Perfect ED {%GRAY%Authority: %ORANGE%El Eth Ith%NL%%GRAY%Pestilence: %ORANGE%Tir Tal Tir%NL%%GRAY%Envy: %ORANGE%Ort Amn Ral%NL%%GRAY%Black: %ORANGE%Thul Io Nef} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=5 bw5 CLVL<70]: {%GRAY%Honor: %ORANGE%Amn El Ith Tir Sol} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=5 bw5 ED=20 CLVL<70]: Perfect ED {%GRAY%Honor: %ORANGE%Amn El Ith Tir Sol} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 bw5 CLVL<70]: {%GRAY%Authority: %ORANGE%El Eth Ith%NL%%GRAY%Pestilence: %ORANGE%Tir Tal Tir%NL%%GRAY%Envy: %ORANGE%Ort Amn Ral%NL%%GRAY%Black: %ORANGE%Thul Io Nef} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 bw5 ED=20 CLVL<70]: Perfect ED {%GRAY%Authority: %ORANGE%El Eth Ith%NL%%GRAY%Pestilence: %ORANGE%Tir Tal Tir%NL%%GRAY%Envy: %ORANGE%Ort Amn Ral%NL%%GRAY%Black: %ORANGE%Thul Io Nef} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=5 bw5 CLVL<70]: {%GRAY%Honor: %ORANGE%Amn El Ith Tir Sol} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=5 bw5 ED=20 CLVL<70]: Perfect ED {%GRAY%Honor: %ORANGE%Amn El Ith Tir Sol} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 
 //////////////////////////////////////////////////////////////////
