@@ -5,77 +5,77 @@
 
 
 //Mid Level Class Skills Amulets
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK5>1 CLVL<70]: Druid %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK40>1 CLVL<70]: Druid Summon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK42>1 CLVL<70]: Druid Elemental %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK5>1 CLVL<70]: Druid %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK40>1 CLVL<70]: Druid Summon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK42>1 CLVL<70]: Druid Elemental %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Mid Level Class Circlets
-ItemDisplay[(RARE || MAG) CIRC CLSK5>1 CLVL<70]: Druid %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[(RARE || MAG) CIRC TABSK40>1 CLVL<70]: Druid Summon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[(RARE || MAG) CIRC TABSK42>1 CLVL<70]: Druid Elemental %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC CLSK5>1 CLVL<70]: Druid %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC TABSK40>1 CLVL<70]: Druid Summon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC TABSK42>1 CLVL<70]: Druid Elemental %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Mid Level Druid Helmets - Tier 2 Flat Damage
-ItemDisplay[(RARE || MAG) (dr1 || dr6 || drb) STAT21>34 STAT22>69 CLVL<70]: T2 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (dr1 || dr6 || drb) STAT21>34 STAT22>69 CLVL<70]: T2 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Mid Level Druid Helmets - Tier 3 Flat Damage
-ItemDisplay[(RARE || MAG) (dr1 || dr6 || drb) STAT21>24 STAT22>49 CLVL<50]: T3 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (dr1 || dr6 || drb) STAT21>24 STAT22>49 CLVL<50]: T3 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Mid Level Druid Helmets - Tri Resistances
-ItemDisplay[RARE (dr1 || dr6 || drb) (FRES>19 CRES>19 LRES>19 || FRES>19 CRES>19 PRES>19 || CRES>19 LRES>19 PRES>19 || FRES>19 LRES>19 PRES>19) CLVL<70]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[RARE (dr1 || dr6 || drb) (FRES>19 CRES>19 LRES>19 || FRES>19 CRES>19 PRES>19 || CRES>19 LRES>19 PRES>19 || FRES>19 LRES>19 PRES>19) CLVL<70]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Mid Level Druid Helmets - Faster Hit Recovery, 20+ Dual Resistances
-ItemDisplay[RARE (dr1 || dr6 || drb) FHR>16 (CRES>19 FRES>19 || CRES>19 LRES>19 || CRES>19 PRES>19 || LRES>19 FRES>19 || PRES>19 FRES>19 || LRES>19 PRES>19) CLVL<70]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[RARE (dr1 || dr6 || drb) FHR>16 (CRES>19 FRES>19 || CRES>19 LRES>19 || CRES>19 PRES>19 || LRES>19 FRES>19 || PRES>19 FRES>19 || LRES>19 PRES>19) CLVL<70]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Low Level Class Skills Amulets
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK5>0 CLVL<60]: Druid %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK40>0 CLVL<60]: Druid Summon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK42>0 CLVL<60]: Druid Elemental %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK5>0 CLVL<60]: Druid %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK40>0 CLVL<60]: Druid Summon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK42>0 CLVL<60]: Druid Elemental %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Low Level Class Circlets
-ItemDisplay[(RARE || MAG) CIRC CLSK5>0 CLVL<60]: Druid %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[(RARE || MAG) CIRC TABSK40>0 CLVL<60]: Druid Summon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[(RARE || MAG) CIRC TABSK42>0 CLVL<60]: Druid Elemental %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC CLSK5>0 CLVL<60]: Druid %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC TABSK40>0 CLVL<60]: Druid Summon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC TABSK42>0 CLVL<60]: Druid Elemental %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Low Level Druid Helmets - Flat Damage
-ItemDisplay[(RARE || MAG) dr1 STAT21>9 STAT22>19 CLVL<35]: T4 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(RARE || MAG) dr1 STAT21>9 STAT22>19 CLVL<35]: T4 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Low Level Druid Helmets - Tri Resistances
-ItemDisplay[RARE dr1 (FRES>9 CRES>9 LRES>9 || FRES>9 CRES>9 PRES>9 || CRES>9 LRES>9 PRES>9 || FRES>9 LRES>9 PRES>9) CLVL<60]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[RARE dr1 (FRES>9 CRES>9 LRES>9 || FRES>9 CRES>9 PRES>9 || CRES>9 LRES>9 PRES>9 || FRES>9 LRES>9 PRES>9) CLVL<60]: Tri Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Low Level Druid Helmets - Faster Hit Recovery, 10+ Dual Resistances
-ItemDisplay[RARE dr1 FHR>9 (CRES>9 FRES>9 || CRES>9 LRES>9 || CRES>9 PRES>9 || LRES>9 FRES>9 || PRES>9 FRES>9 || LRES>9 PRES>9) CLVL<50]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[RARE dr1 FHR>9 (CRES>9 FRES>9 || CRES>9 LRES>9 || CRES>9 PRES>9 || LRES>9 FRES>9 || PRES>9 FRES>9 || LRES>9 PRES>9) CLVL<50]: FHR Dual Resist %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 //Low Level Druid Pelts - Runewords
-ItemDisplay[(NMAG !INF) SOCK=2 (dr1 || dr6 || drb) CLVL<62]: {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (dr1 || dr6 || drb) ED=20 CLVL<62]: Perfect ED {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (dr1 || dr6 || drb) SK223>0 CLVL<88]: + Werewolf {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (dr1 || dr6 || drb) ED=20 SK223>0 CLVL<88]: + Werewolf Perfect ED {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (dr1 || dr6 || drb) SK224>0 CLVL<88]: + Lycanthropy {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (dr1 || dr6 || drb) ED=20 SK224>0 CLVL<88]: + Lycanthropy Perfect ED {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (dr1 || dr6 || drb) SK228>0 CLVL<88]: + Werebear {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (dr1 || dr6 || drb) ED=20 SK228>0 CLVL<88]: + Werebear Perfect ED {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (dr1 || dr6 || drb) SK232>0 CLVL<88]: + Feral Rage {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (dr1 || dr6 || drb) ED=20 SK232>0 CLVL<88]: + Feral Rage Perfect ED {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (dr1 || dr6 || drb || drc) SK239>0 CLVL<88]: + Fire Claws {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (dr1 || dr6 || drb || drc) ED=20 SK239>0 CLVL<88]: + Fire Claws Perfect ED {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (dr1 || dr6 || drb) SK233>0 CLVL<88]: + Maul {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (dr1 || dr6 || drb) ED=20 SK233>0 CLVL<88]: + Maul Perfect ED {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (dr1 || dr6 || drb) SK248>0 CLVL<88]: + Fury {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (dr1 || dr6 || drb) ED=20 SK248>0 CLVL<88]: + Fury Perfect ED {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 DRU SK243>0 CLVL<88]: + Shockwave {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 DRU ED=20 SK243>0 CLVL<88]: + Shockwave Perfect ED {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 DRU SK249>0 CLVL<88]: + Armageddon {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 DRU ED=20 SK249>0 CLVL<88]: + Armageddon Perfect ED {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 DRU SK250>0 CLVL<88]: + Hurricane {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 DRU ED=20 SK250>0 CLVL<88]: + Hurricane Perfect ED {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 DRU SK226>0 CLVL<88]: + Oak Sage {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 DRU ED=20 SK226>0 CLVL<88]: + Oak Sage Perfect ED {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 DRU SK236>0 CLVL<88]: + Heart of The Wolverine {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 DRU ED=20 SK236>0 CLVL<88]: + Heart of The Wolverine Perfect ED {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 DRU SK246>0 CLVL<88]: + Star Spirit {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 DRU ED=20 SK246>0 CLVL<88]: + Star Spirit Perfect ED {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 DRU SK247>0 CLVL<88]: + Summon Grizzly {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 DRU ED=20 SK247>0 CLVL<88]: + Summon Grizzly Perfect ED {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (dr1 || dr6 || drb) CLVL<62]: {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (dr1 || dr6 || drb) ED=20 CLVL<62]: Perfect ED {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (dr1 || dr6 || drb) SK223>0 CLVL<88]: + Werewolf {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (dr1 || dr6 || drb) ED=20 SK223>0 CLVL<88]: + Werewolf Perfect ED {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (dr1 || dr6 || drb) SK224>0 CLVL<88]: + Lycanthropy {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (dr1 || dr6 || drb) ED=20 SK224>0 CLVL<88]: + Lycanthropy Perfect ED {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (dr1 || dr6 || drb) SK228>0 CLVL<88]: + Werebear {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (dr1 || dr6 || drb) ED=20 SK228>0 CLVL<88]: + Werebear Perfect ED {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (dr1 || dr6 || drb) SK232>0 CLVL<88]: + Feral Rage {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (dr1 || dr6 || drb) ED=20 SK232>0 CLVL<88]: + Feral Rage Perfect ED {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (dr1 || dr6 || drb || drc) SK239>0 CLVL<88]: + Fire Claws {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (dr1 || dr6 || drb || drc) ED=20 SK239>0 CLVL<88]: + Fire Claws Perfect ED {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (dr1 || dr6 || drb) SK233>0 CLVL<88]: + Maul {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (dr1 || dr6 || drb) ED=20 SK233>0 CLVL<88]: + Maul Perfect ED {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (dr1 || dr6 || drb) SK248>0 CLVL<88]: + Fury {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (dr1 || dr6 || drb) ED=20 SK248>0 CLVL<88]: + Fury Perfect ED {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 DRU SK243>0 CLVL<88]: + Shockwave {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 DRU ED=20 SK243>0 CLVL<88]: + Shockwave Perfect ED {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 DRU SK249>0 CLVL<88]: + Armageddon {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 DRU ED=20 SK249>0 CLVL<88]: + Armageddon Perfect ED {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 DRU SK250>0 CLVL<88]: + Hurricane {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 DRU ED=20 SK250>0 CLVL<88]: + Hurricane Perfect ED {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 DRU SK226>0 CLVL<88]: + Oak Sage {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 DRU ED=20 SK226>0 CLVL<88]: + Oak Sage Perfect ED {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 DRU SK236>0 CLVL<88]: + Heart of The Wolverine {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 DRU ED=20 SK236>0 CLVL<88]: + Heart of The Wolverine Perfect ED {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 DRU SK246>0 CLVL<88]: + Star Spirit {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 DRU ED=20 SK246>0 CLVL<88]: + Star Spirit Perfect ED {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 DRU SK247>0 CLVL<88]: + Summon Grizzly {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 DRU ED=20 SK247>0 CLVL<88]: + Summon Grizzly Perfect ED {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
 
 /////////////////////////////////////////////////////////////////////////
