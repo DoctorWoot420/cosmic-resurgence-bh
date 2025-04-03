@@ -373,7 +373,7 @@ ItemDisplay[(NMAG !INF) uea SOCK=4 FHR=15 FILTLVL<3]: %SOCKETS%os Perfect Automo
 //Perfect Dusk Shroud Armor Base
 ItemDisplay[(NMAG !INF) uui SOCK=3 ED=20 STAT35=10]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 ItemDisplay[(NMAG !INF) uui SOCK=4 ED=20 STAT35=10]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) uui SOCK=0 STAT35=10 FILTLVL>3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) uui SOCK=0 STAT35=10 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
 ItemDisplay[(NMAG !INF) uui SOCK=0 STAT35=10 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 ItemDisplay[(NMAG !INF) uui SOCK=3 STAT35=10 FILTLVL<3]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
 ItemDisplay[(NMAG !INF) uui SOCK=3 STAT35=10 FILTLVL<3]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
