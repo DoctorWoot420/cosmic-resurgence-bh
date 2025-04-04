@@ -215,6 +215,9 @@ ItemDisplay[(NMAG !INF) SOCK=2 (ne3 || ne4 || ne5 || ne1 || ne2 || ne6) SK79>0 C
 //Low Level Teeth Bone Wand - Wand - Yew Wand 
 ItemDisplay[(NMAG !INF) (bwn || wnd || ywn) SK67>2 CLVL<24]: + 3 Teeth %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
+//Low Level Bone Spear Bone Wand - Wand - Yew Wand 
+ItemDisplay[(NMAG !INF) (bwn || wnd || ywn) SK84>2 CLVL<24]: + 3 Bone Spear %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
 //Low Level Toxic Delivery Bone Wand - Wand - Yew Wand 
 ItemDisplay[(NMAG !INF) (bwn || wnd || ywn) SK73>2 CLVL<24]: + 3 Toxic Delivery %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
