@@ -239,33 +239,33 @@ ItemDisplay[(NMAG !INF) SOCK=3 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 ||
 ItemDisplay[(NMAG !INF) SOCK=3 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK63>2]: + 3 Lightning Mastery {%GRAY%Punishment: %ORANGE%Lo Jah Lo} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Rings - Matching Sorceress Skills - Elemental % Damage
-ItemDisplay[RARE (sf2 || sf4) STAT417>0 FILTLVL<3]: Fire Sorc Skills %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[RARE (sf2 || sf4) STAT417>0 FILTLVL<3]: Fire Sorc Skills %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[RARE (sf3 || sf4) STAT413>0 FILTLVL<3]: Cold Sorc Skills %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[RARE (sf3 || sf4) STAT413>0 FILTLVL<3]: Cold Sorc Skills %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[RARE (sf1 || sf4) STAT414>0 FILTLVL<3]: Light Sorc Skills %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[RARE (sf1 || sf4) STAT414>0 FILTLVL<3]: Light Sorc Skills %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[RARE (sf2 || sf4) STAT417>0 FILTLVL>=3]: Fire Sorc Skills %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[RARE (sf2 || sf4) STAT417>0 FILTLVL>=3]: Fire Sorc Skills %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[RARE (sf3 || sf4) STAT413>0 FILTLVL>=3]: Cold Sorc Skills %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[RARE (sf3 || sf4) STAT413>0 FILTLVL>=3]: Cold Sorc Skills %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[RARE (sf1 || sf4) STAT414>0 FILTLVL>=3]: Light Sorc Skills %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[RARE (sf1 || sf4) STAT414>0 FILTLVL>=3]: Light Sorc Skills %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 
 //Rings - Perfect Fire Damage % With Faster Cast Rate
 ItemDisplay[RARE (rg1 || rg2 || rg3 || rg4 || rg5 || sf1 || sf2 || sf3 || sf4) STAT329>19 FCR>9]: Perfect Fire Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG (rg1 || rg2 || rg3 || rg4 || rg5 || sf1 || sf2 || sf3 || sf4) STAT329>19 FCR>9 FILTLVL<3]: Perfect Fire Dmg %PURPLE%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[MAG (rg1 || rg2 || rg3 || rg4 || rg5 || sf1 || sf2 || sf3 || sf4) STAT329>19 FCR>9 FILTLVL<3]: Perfect Fire Dmg %PURPLE%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[MAG (rg1 || rg2 || rg3 || rg4 || rg5 || sf1 || sf2 || sf3 || sf4) STAT329>19 FCR>9 FILTLVL>=3]: Perfect Fire Dmg %PURPLE%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[MAG (rg1 || rg2 || rg3 || rg4 || rg5 || sf1 || sf2 || sf3 || sf4) STAT329>19 FCR>9 FILTLVL>=3]: Perfect Fire Dmg %PURPLE%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 
 //Rings - Perfect Fire Damage %, Faster Cast Rate, 10+ Dual Resistances
 ItemDisplay[RARE (rg1 || rg2 || rg3 || rg4 || rg5 || sf1 || sf2 || sf3 || sf4) STAT329>19 FCR>9 (CRES>9 FRES>9 || CRES>9 LRES>9 || CRES>9 PRES>9 || LRES>9 FRES>9 || PRES>9 FRES>9 || LRES>9 PRES>9)]: Fire Dmg Dual Res %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-2% [L%ILVL%]
 
 //Rings - Perfect Light Damage % With Faster Cast Rate
 ItemDisplay[RARE (rg1 || rg2 || rg3 || rg4 || rg5 || sf1 || sf2 || sf3 || sf4) STAT330>19 FCR>9]: Perfect Light Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG (rg1 || rg2 || rg3 || rg4 || rg5 || sf1 || sf2 || sf3 || sf4) STAT330>19 FCR>9 FILTLVL<3]: Perfect Light Dmg %PURPLE%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[MAG (rg1 || rg2 || rg3 || rg4 || rg5 || sf1 || sf2 || sf3 || sf4) STAT330>19 FCR>9 FILTLVL<3]: Perfect Light Dmg %PURPLE%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[MAG (rg1 || rg2 || rg3 || rg4 || rg5 || sf1 || sf2 || sf3 || sf4) STAT330>19 FCR>9 FILTLVL>=3]: Perfect Light Dmg %PURPLE%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[MAG (rg1 || rg2 || rg3 || rg4 || rg5 || sf1 || sf2 || sf3 || sf4) STAT330>19 FCR>9 FILTLVL>=3]: Perfect Light Dmg %PURPLE%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 
 //Rings - Perfect Light Damage %, Faster Cast Rate, 10+ Dual Resistances
 ItemDisplay[RARE (rg1 || rg2 || rg3 || rg4 || rg5 || sf1 || sf2 || sf3 || sf4) STAT330>19 FCR>9 (CRES>9 FRES>9 || CRES>9 LRES>9 || CRES>9 PRES>9 || LRES>9 FRES>9 || PRES>9 FRES>9 || LRES>9 PRES>9)]: Light Dmg Dual Res %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-2% [L%ILVL%]
 
 //Rings - Perfect Cold Damage % With Faster Cast Rate
 ItemDisplay[RARE (rg1 || rg2 || rg3 || rg4 || rg5 || sf1 || sf2 || sf3 || sf4) STAT331>19 FCR>9]: Perfect Cold Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG (rg1 || rg2 || rg3 || rg4 || rg5 || sf1 || sf2 || sf3 || sf4) STAT331>19 FCR>9 FILTLVL<3]: Perfect Cold Dmg %PURPLE%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[MAG (rg1 || rg2 || rg3 || rg4 || rg5 || sf1 || sf2 || sf3 || sf4) STAT331>19 FCR>9 FILTLVL<3]: Perfect Cold Dmg %PURPLE%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[MAG (rg1 || rg2 || rg3 || rg4 || rg5 || sf1 || sf2 || sf3 || sf4) STAT331>19 FCR>9 FILTLVL>=3]: Perfect Cold Dmg %PURPLE%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[MAG (rg1 || rg2 || rg3 || rg4 || rg5 || sf1 || sf2 || sf3 || sf4) STAT331>19 FCR>9 FILTLVL>=3]: Perfect Cold Dmg %PURPLE%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 
 //Rings - Perfect Cold Damage %, Faster Cast Rate, 10+ Dual Resistances
 ItemDisplay[RARE (rg1 || rg2 || rg3 || rg4 || rg5 || sf1 || sf2 || sf3 || sf4) STAT331>19 FCR>9 (CRES>9 FRES>9 || CRES>9 LRES>9 || CRES>9 PRES>9 || LRES>9 FRES>9 || PRES>9 FRES>9 || LRES>9 PRES>9)]: Cold Dmg Dual Res %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-2% [L%ILVL%]
@@ -332,11 +332,11 @@ ItemDisplay[RARE (CIRC || au1 || au2 || au3 || au4 || au5) ((TABSK10>1 CLSK1>1) 
 
 //Circlets - Ping Tier 5 For +3 Sorceress Skills
 ItemDisplay[RARE (CIRC || au1 || au2 || au3 || au4 || au5) TABSK8>2]: %GREEN%+3 Fire %MAP%%YELLOW%%NAME%%TIER-5% [L%ILVL%]
-ItemDisplay[RARE (CIRC || au1 || au2 || au3 || au4 || au5) TABSK8>2 FILTLVL<3]: %GREEN%+3 Fire %MAP%%YELLOW%%NAME%%notify-dead% [L%ILVL%]
+ItemDisplay[RARE (CIRC || au1 || au2 || au3 || au4 || au5) TABSK8>2 FILTLVL>=3]: %GREEN%+3 Fire %MAP%%YELLOW%%NAME%%notify-dead% [L%ILVL%]
 ItemDisplay[RARE (CIRC || au1 || au2 || au3 || au4 || au5) TABSK9>2]: %GREEN%+3 Light %MAP%%YELLOW%%NAME%%TIER-5% [L%ILVL%]
-ItemDisplay[RARE (CIRC || au1 || au2 || au3 || au4 || au5) TABSK9>2 FILTLVL<3]: %GREEN%+3 Light %MAP%%YELLOW%%NAME%%notify-dead% [L%ILVL%]
+ItemDisplay[RARE (CIRC || au1 || au2 || au3 || au4 || au5) TABSK9>2 FILTLVL>=3]: %GREEN%+3 Light %MAP%%YELLOW%%NAME%%notify-dead% [L%ILVL%]
 ItemDisplay[RARE (CIRC || au1 || au2 || au3 || au4 || au5) TABSK10>2]: %GREEN%+3 Cold %MAP%%YELLOW%%NAME%%TIER-5% [L%ILVL%]
-ItemDisplay[RARE (CIRC || au1 || au2 || au3 || au4 || au5) TABSK10>2 FILTLVL<3]: %GREEN%+3 Cold %MAP%%YELLOW%%NAME%%notify-dead% [L%ILVL%]
+ItemDisplay[RARE (CIRC || au1 || au2 || au3 || au4 || au5) TABSK10>2 FILTLVL>=3]: %GREEN%+3 Cold %MAP%%YELLOW%%NAME%%notify-dead% [L%ILVL%]
 
 
 /////////////////////////////////////////////////////////////////////////
@@ -492,16 +492,16 @@ ItemDisplay[RARE (6bs || 8bs || bst) enchantment_of_lightning_aura]: Cascade Enc
 /////////////////////////////////////////////////////////////////////////
 
 //Nightwings Alch
-ItemDisplay[(NMAG !INF !SUP) msk ILVL>20 FILTLVL<3]: Nightwings Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) msk ILVL>20 FILTLVL<3]: Nightwings Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) xsk ILVL>56 FILTLVL<3]: Nightwings Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) xsk ILVL>56 FILTLVL<3]: Nightwings Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) usk ILVL>80 FILTLVL<3]: Nightwings Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) usk ILVL>80 FILTLVL<3]: Nightwings Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) msk ILVL>20 FILTLVL>=3]: Nightwings Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) msk ILVL>20 FILTLVL>=3]: Nightwings Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) xsk ILVL>56 FILTLVL>=3]: Nightwings Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) xsk ILVL>56 FILTLVL>=3]: Nightwings Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) usk ILVL>80 FILTLVL>=3]: Nightwings Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) usk ILVL>80 FILTLVL>=3]: Nightwings Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 
 //Griffon's Eye Alch
-ItemDisplay[(NMAG !INF !SUP) ci2 ILVL>74 FILTLVL<3]: Griffons Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) ci2 ILVL>74 FILTLVL<3]: Griffons Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) ci2 ILVL>74 FILTLVL>=3]: Griffons Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) ci2 ILVL>74 FILTLVL>=3]: Griffons Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 
 
 /////////////////////////////////////////////////////////////////////////
@@ -520,10 +520,10 @@ ItemDisplay[(NMAG !INF !SUP) aca ILVL>91]: Raiment Alch %RED%%NAME% %RED%0%WHITE
 /////////////////////////////////////////////////////////////////////////
 
 //Magefist Gloves Alch
-ItemDisplay[(NMAG !INF !SUP) tgl ILVL>12 FILTLVL<3]: Magefist Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) tgl ILVL>12 FILTLVL<3]: Magefist Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) xtg ILVL>49 FILTLVL<3]: Magefist Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) xtg ILVL>49 FILTLVL<3]: Magefist Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) tgl ILVL>12 FILTLVL>=3]: Magefist Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) tgl ILVL>12 FILTLVL>=3]: Magefist Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) xtg ILVL>49 FILTLVL>=3]: Magefist Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) xtg ILVL>49 FILTLVL>=3]: Magefist Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 
 
 /////////////////////////////////////////////////////////////////////////
@@ -531,31 +531,31 @@ ItemDisplay[(NMAG !INF !SUP) xtg ILVL>49 FILTLVL<3]: Magefist Alch %RED%%NAME% %
 /////////////////////////////////////////////////////////////////////////
 
 //Providence Alch For Cascade Sorc
-ItemDisplay[(NMAG !INF !SUP) 8bs ILVL>56 FILTLVL<3]: Providence Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) 8bs ILVL>56 FILTLVL<3]: Providence Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) 6bs ILVL>84 FILTLVL<3]: Providence Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) 6bs ILVL>84 FILTLVL<3]: Providence Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) 8bs ILVL>56 FILTLVL>=3]: Providence Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) 8bs ILVL>56 FILTLVL>=3]: Providence Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) 6bs ILVL>84 FILTLVL>=3]: Providence Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) 6bs ILVL>84 FILTLVL>=3]: Providence Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 
 //Amm's Eclipe Orb For Discharge Sorc
-ItemDisplay[(NMAG !INF !SUP) ob8 ILVL>49 FILTLVL<3]: Amm's Eclipse Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) ob8 ILVL>49 FILTLVL<3]: Amm's Eclipse Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) obd ILVL>73 FILTLVL<3]: Amm's Absolution Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) obd ILVL>73 FILTLVL<3]: Amm's Absolution Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) ob8 ILVL>49 FILTLVL>=3]: Amm's Eclipse Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) ob8 ILVL>49 FILTLVL>=3]: Amm's Eclipse Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) obd ILVL>73 FILTLVL>=3]: Amm's Absolution Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) obd ILVL>73 FILTLVL>=3]: Amm's Absolution Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 
 //Ulm's Undulator Vortex Orb For Voltaic Blast Sorc
 ItemDisplay[(NMAG !INF !SUP) obe ILVL>73]: Ulm's Undulator Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Death's Fathom Dimensional Shard For Cold Sorc
-ItemDisplay[(NMAG !INF !SUP) obf ILVL>76 FILTLVL<3]: Death's Fathom Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) obf ILVL>76 FILTLVL<3]: Death's Fathom Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) obf ILVL>76 FILTLVL>=3]: Death's Fathom Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) obf ILVL>76 FILTLVL>=3]: Death's Fathom Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 
 /////////////////////////////////////////////////////////////////////////
 //Shield Alchs///////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////
 
 //Visceratuant/Donumatre Shield (Discharge Build)
-ItemDisplay[(NMAG !INF !SUP) xuc ILVL>41 FILTLVL<3]: Visceratuant Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) xuc ILVL>41 FILTLVL<3]: Visceratuant Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) xuc ILVL>41 FILTLVL>=3]: Visceratuant Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) xuc ILVL>41 FILTLVL>=3]: Visceratuant Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 
 /////////////////////////////////////////////////////////////////////////
 //Ring Alchs/////////////////////////////////////////////////////////////
@@ -573,9 +573,9 @@ ItemDisplay[(NMAG !INF !SUP) sf4 ILVL>80]: Tear of Elyssia Alch %RED%%NAME% %RED
 /////////////////////////////////////////////////////////////////////////
 
 //Hellforge Plate For Crafting (Voltaic Blast Sorc)
-ItemDisplay[(NMAG !INF !SUP || MAG) ult FILTLVL<3]: Volt Blast Sorc Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP || MAG) ult FILTLVL<3]: Volt Blast Sorc Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP || MAG) ult FILTLVL>=3]: Volt Blast Sorc Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP || MAG) ult FILTLVL>=3]: Volt Blast Sorc Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 
 //Lich Wand For Crafting (Voltaic Blast Sorc)
-ItemDisplay[(NMAG !INF !SUP || MAG) 7bw FILTLVL<3]: Volt Blast Sorc Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP || MAG) 7bw FILTLVL<3]: Volt Blast Sorc Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP || MAG) 7bw FILTLVL>=3]: Volt Blast Sorc Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP || MAG) 7bw FILTLVL>=3]: Volt Blast Sorc Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
