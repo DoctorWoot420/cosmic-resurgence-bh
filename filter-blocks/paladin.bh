@@ -23,8 +23,8 @@ ItemDisplay[(RARE || MAG) CIRC TABSK24>0 CLVL<60]: Pally Combat %PURPLE%%BASENAM
 //Low Level Paladin Shields - Runewords
 ItemDisplay[(NMAG !INF) SOCK=3 (pa1 || pa2 || pa7 || pa9 || paa) CLVL<60]: {%GRAY%Ancients Pledge: %ORANGE%RalOrtTal%NL%%GRAY%Resurgence: %ORANGE%ShaelHelSol%NL%%GRAY%Piety: %ORANGE%HelOrtEld} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[(NMAG !INF) SOCK=2 (pa1 || pa2 || pa7 || pa9 || paa) CLVL<60]: {%GRAY%Rhyme: %ORANGE%Shael Eth%NL%%GRAY%Splendor: %ORANGE%Eth Lum} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=3 (pa9 || paa || || pab || pac || pad || pae || paf) FRES>29 CRES>29 LRES>29 PRES>29]: Perfect Resist %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=4 (pa9 || paa || || pab || pac || pad || pae || paf) FRES>29 CRES>29 LRES>29 PRES>29]: Perfect Resist %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (pa9 || paa || pab || pac || pad || pae || paf) FRES>29 CRES>29 LRES>29 PRES>29]: Perfect Resist %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=4 (pa9 || paa || pab || pac || pad || pae || paf) FRES>29 CRES>29 LRES>29 PRES>29]: Perfect Resist %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Low Level Paladin Helms - Runewords
 ItemDisplay[(NMAG !INF) SOCK=2 (pc4 || pc1 || pc5 || pc2) CLVL<60]: {%GRAY%Holy Tears: %ORANGE%Ral Eld} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
