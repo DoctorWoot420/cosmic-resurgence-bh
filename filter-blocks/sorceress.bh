@@ -3,7 +3,6 @@
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
 
-
 ////////Mid Level Sorceress Skills Amulets
 ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK1>1 CLVL<70]: Sorceress %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK8>1 CLVL<70]: Fire Sorc %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
@@ -247,41 +246,41 @@ ItemDisplay[RARE (sf1 || sf4) STAT414>0 FILTLVL<3]: Light Sorc Skills %PURPLE%%B
 ItemDisplay[RARE (sf1 || sf4) STAT414>0 FILTLVL<3]: Light Sorc Skills %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 
 //Rings - Perfect Fire Damage % With Faster Cast Rate
-ItemDisplay[RARE (rg1 || rg2 || rg3 || rg4 || rg5 || sf1 || sf2 || sf3 || sf4) STAT329>19 FCR>9]: Perfect Fire Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG (rg1 || rg2 || rg3 || rg4 || rg5 || sf1 || sf2 || sf3 || sf4) STAT329>19 FCR>9 FILTLVL<3]: Perfect Fire Dmg %PURPLE%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[MAG (rg1 || rg2 || rg3 || rg4 || rg5 || sf1 || sf2 || sf3 || sf4) STAT329>19 FCR>9 FILTLVL<3]: Perfect Fire Dmg %PURPLE%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+//ItemDisplay[RARE (rg1 || rg2 || rg3 || rg4 || rg5 || sf1 || sf2 || sf3 || sf4) STAT329>19 FCR>9]: Perfect Fire Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+//ItemDisplay[MAG (rg1 || rg2 || rg3 || rg4 || rg5 || sf1 || sf2 || sf3 || sf4) STAT329>19 FCR>9 FILTLVL<3]: Perfect Fire Dmg %PURPLE%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+//ItemDisplay[MAG (rg1 || rg2 || rg3 || rg4 || rg5 || sf1 || sf2 || sf3 || sf4) STAT329>19 FCR>9 FILTLVL<3]: Perfect Fire Dmg %PURPLE%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 
 //Rings - Perfect Fire Damage %, Faster Cast Rate, 10+ Dual Resistances
-ItemDisplay[RARE (rg1 || rg2 || rg3 || rg4 || rg5 || sf1 || sf2 || sf3 || sf4) STAT329>19 FCR>9 (CRES>9 FRES>9 || CRES>9 LRES>9 || CRES>9 PRES>9 || LRES>9 FRES>9 || PRES>9 FRES>9 || LRES>9 PRES>9)]: Fire Dmg Dual Res %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-2% [L%ILVL%]
+//ItemDisplay[RARE (rg1 || rg2 || rg3 || rg4 || rg5 || sf1 || sf2 || sf3 || sf4) STAT329>19 FCR>9 (CRES>9 FRES>9 || CRES>9 LRES>9 || CRES>9 PRES>9 || LRES>9 FRES>9 || PRES>9 FRES>9 || LRES>9 PRES>9)]: Fire Dmg Dual Res %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-2% [L%ILVL%]
 
 //Rings - Perfect Light Damage % With Faster Cast Rate
-ItemDisplay[RARE (rg1 || rg2 || rg3 || rg4 || rg5 || sf1 || sf2 || sf3 || sf4) STAT330>19 FCR>9]: Perfect Light Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG (rg1 || rg2 || rg3 || rg4 || rg5 || sf1 || sf2 || sf3 || sf4) STAT330>19 FCR>9 FILTLVL<3]: Perfect Light Dmg %PURPLE%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[MAG (rg1 || rg2 || rg3 || rg4 || rg5 || sf1 || sf2 || sf3 || sf4) STAT330>19 FCR>9 FILTLVL<3]: Perfect Light Dmg %PURPLE%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+//ItemDisplay[RARE (rg1 || rg2 || rg3 || rg4 || rg5 || sf1 || sf2 || sf3 || sf4) STAT330>19 FCR>9]: Perfect Light Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+//ItemDisplay[MAG (rg1 || rg2 || rg3 || rg4 || rg5 || sf1 || sf2 || sf3 || sf4) STAT330>19 FCR>9 FILTLVL<3]: Perfect Light Dmg %PURPLE%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+//ItemDisplay[MAG (rg1 || rg2 || rg3 || rg4 || rg5 || sf1 || sf2 || sf3 || sf4) STAT330>19 FCR>9 FILTLVL<3]: Perfect Light Dmg %PURPLE%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 
 //Rings - Perfect Light Damage %, Faster Cast Rate, 10+ Dual Resistances
-ItemDisplay[RARE (rg1 || rg2 || rg3 || rg4 || rg5 || sf1 || sf2 || sf3 || sf4) STAT330>19 FCR>9 (CRES>9 FRES>9 || CRES>9 LRES>9 || CRES>9 PRES>9 || LRES>9 FRES>9 || PRES>9 FRES>9 || LRES>9 PRES>9)]: Light Dmg Dual Res %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-2% [L%ILVL%]
+//ItemDisplay[RARE (rg1 || rg2 || rg3 || rg4 || rg5 || sf1 || sf2 || sf3 || sf4) STAT330>19 FCR>9 (CRES>9 FRES>9 || CRES>9 LRES>9 || CRES>9 PRES>9 || LRES>9 FRES>9 || PRES>9 FRES>9 || LRES>9 PRES>9)]: Light Dmg Dual Res %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-2% [L%ILVL%]
 
 //Rings - Perfect Cold Damage % With Faster Cast Rate
-ItemDisplay[RARE (rg1 || rg2 || rg3 || rg4 || rg5 || sf1 || sf2 || sf3 || sf4) STAT331>19 FCR>9]: Perfect Cold Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG (rg1 || rg2 || rg3 || rg4 || rg5 || sf1 || sf2 || sf3 || sf4) STAT331>19 FCR>9 FILTLVL<3]: Perfect Cold Dmg %PURPLE%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[MAG (rg1 || rg2 || rg3 || rg4 || rg5 || sf1 || sf2 || sf3 || sf4) STAT331>19 FCR>9 FILTLVL<3]: Perfect Cold Dmg %PURPLE%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+//ItemDisplay[RARE (rg1 || rg2 || rg3 || rg4 || rg5 || sf1 || sf2 || sf3 || sf4) STAT331>19 FCR>9]: Perfect Cold Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+//ItemDisplay[MAG (rg1 || rg2 || rg3 || rg4 || rg5 || sf1 || sf2 || sf3 || sf4) STAT331>19 FCR>9 FILTLVL<3]: Perfect Cold Dmg %PURPLE%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+//ItemDisplay[MAG (rg1 || rg2 || rg3 || rg4 || rg5 || sf1 || sf2 || sf3 || sf4) STAT331>19 FCR>9 FILTLVL<3]: Perfect Cold Dmg %PURPLE%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 
 //Rings - Perfect Cold Damage %, Faster Cast Rate, 10+ Dual Resistances
-ItemDisplay[RARE (rg1 || rg2 || rg3 || rg4 || rg5 || sf1 || sf2 || sf3 || sf4) STAT331>19 FCR>9 (CRES>9 FRES>9 || CRES>9 LRES>9 || CRES>9 PRES>9 || LRES>9 FRES>9 || PRES>9 FRES>9 || LRES>9 PRES>9)]: Cold Dmg Dual Res %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-2% [L%ILVL%]
+//ItemDisplay[RARE (rg1 || rg2 || rg3 || rg4 || rg5 || sf1 || sf2 || sf3 || sf4) STAT331>19 FCR>9 (CRES>9 FRES>9 || CRES>9 LRES>9 || CRES>9 PRES>9 || LRES>9 FRES>9 || PRES>9 FRES>9 || LRES>9 PRES>9)]: Cold Dmg Dual Res %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-2% [L%ILVL%]
 
 //Rings - Matching Sorceress Elemental Skills and Perfect % Damage
-ItemDisplay[RARE sf2 STAT329>19 STAT417>0]: Perfect Fire Sorc Skills %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-2% [L%ILVL%]
-ItemDisplay[RARE sf3 STAT331>19 STAT413>0]: Perfect Cold Sorc Skills %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-2% [L%ILVL%]
-ItemDisplay[RARE sf1 STAT330>19 STAT414>0]: Perfect Light Sorc Skills %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-2% [L%ILVL%]
+//ItemDisplay[RARE sf2 STAT329>19 STAT417>0]: Perfect Fire Sorc Skills %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-2% [L%ILVL%]
+//ItemDisplay[RARE sf3 STAT331>19 STAT413>0]: Perfect Cold Sorc Skills %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-2% [L%ILVL%]
+//ItemDisplay[RARE sf1 STAT330>19 STAT414>0]: Perfect Light Sorc Skills %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-2% [L%ILVL%]
 
 //Amulets - Sorceress Skills - 30+ Elemental Damage %
-ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5) CLSK1>1 STAT329>29]: Fire Sorceress %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5) CLSK1>1 STAT331>29]: Cold Sorceress %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5) CLSK1>1 STAT330>29]: Light Sorceress %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5) TABSK8>2 STAT329>29]: Fire Sorc %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5) TABSK9>2 STAT330>29]: Light Sorc %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5) TABSK10>2 STAT331>29]: Cold Sorc %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+//ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5) CLSK1>1 STAT329>29]: Fire Sorceress %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+//ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5) CLSK1>1 STAT331>29]: Cold Sorceress %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+//ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5) CLSK1>1 STAT330>29]: Light Sorceress %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+//ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5) TABSK8>2 STAT329>29]: Fire Sorc %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+//ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5) TABSK9>2 STAT330>29]: Light Sorc %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+//ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5) TABSK10>2 STAT331>29]: Cold Sorc %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Amulets - Sorceress Skills - T1 Flat Damage
 ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5 || au6 || %n0 || %n1 || %n2 || %n3 || %n4 || %n5 || %n6 || %n7) CLSK1>1 STAT21>49 STAT22>79 ILVL>90]: Sorceress T1 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
@@ -290,22 +289,22 @@ ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5 || au6 || %n0 || %n1 || %n2 ||
 ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5 || au6 || %n0 || %n1 || %n2 || %n3 || %n4 || %n5 || %n6 || %n7) TABSK10>2 STAT21>49 STAT22>79 ILVL>90]: Cold Sorc T1 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Amulets - Sorceress Skills, Max Mana %, Faster Cast Rate - Sacred Affix
-ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5 || au6 || %n0 || %n1 || %n2 || %n3 || %n4 || %n5 || %n6 || %n7) CLSK1>1 FCR>9 STAT77>9 ILVL>90]: Sorceress FCR Max Mana %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5 || au6 || %n0 || %n1 || %n2 || %n3 || %n4 || %n5 || %n6 || %n7) TABSK8>2 FCR>9 STAT77>9 ILVL>90]: Fire Sorc FCR Max Mana %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5 || au6 || %n0 || %n1 || %n2 || %n3 || %n4 || %n5 || %n6 || %n7) TABSK9>2 FCR>9 STAT77>9 ILVL>90]: Light Sorc FCR Max Mana %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5 || au6 || %n0 || %n1 || %n2 || %n3 || %n4 || %n5 || %n6 || %n7) TABSK10>2 FCR>9 STAT77>9 ILVL>90]: Cold Sorc FCR Max Mana %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+//ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5 || au6 || %n0 || %n1 || %n2 || %n3 || %n4 || %n5 || %n6 || %n7) CLSK1>1 FCR>9 STAT77>9 ILVL>90]: Sorceress FCR Max Mana %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+//ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5 || au6 || %n0 || %n1 || %n2 || %n3 || %n4 || %n5 || %n6 || %n7) TABSK8>2 FCR>9 STAT77>9 ILVL>90]: Fire Sorc FCR Max Mana %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+//ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5 || au6 || %n0 || %n1 || %n2 || %n3 || %n4 || %n5 || %n6 || %n7) TABSK9>2 FCR>9 STAT77>9 ILVL>90]: Light Sorc FCR Max Mana %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+//ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5 || au6 || %n0 || %n1 || %n2 || %n3 || %n4 || %n5 || %n6 || %n7) TABSK10>2 FCR>9 STAT77>9 ILVL>90]: Cold Sorc FCR Max Mana %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Amulets - Sorceress Skills, Attack Rating, Physical Pierce - Sacred Affix
-ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5 || au6 || %n0 || %n1 || %n2 || %n3 || %n4 || %n5 || %n6 || %n7) CLSK1>1 STAT19>999 STAT373>4 ILVL>90]: Sorceress AR Phys Pierce %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5 || au6 || %n0 || %n1 || %n2 || %n3 || %n4 || %n5 || %n6 || %n7) TABSK8>2 STAT19>999 STAT373>4 ILVL>90]: Fire Sorc AR Phys Pierce %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5 || au6 || %n0 || %n1 || %n2 || %n3 || %n4 || %n5 || %n6 || %n7) TABSK9>2 STAT19>999 STAT373>4 ILVL>90]: Light Sorc AR Phys Pierce %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5 || au6 || %n0 || %n1 || %n2 || %n3 || %n4 || %n5 || %n6 || %n7) TABSK10>2 STAT19>999 STAT373>4 ILVL>90]: Cold Sorc AR Phys Pierce %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+//ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5 || au6 || %n0 || %n1 || %n2 || %n3 || %n4 || %n5 || %n6 || %n7) CLSK1>1 STAT19>999 STAT373>4 ILVL>90]: Sorceress AR Phys Pierce %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+//ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5 || au6 || %n0 || %n1 || %n2 || %n3 || %n4 || %n5 || %n6 || %n7) TABSK8>2 STAT19>999 STAT373>4 ILVL>90]: Fire Sorc AR Phys Pierce %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+//ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5 || au6 || %n0 || %n1 || %n2 || %n3 || %n4 || %n5 || %n6 || %n7) TABSK9>2 STAT19>999 STAT373>4 ILVL>90]: Light Sorc AR Phys Pierce %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+//ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5 || au6 || %n0 || %n1 || %n2 || %n3 || %n4 || %n5 || %n6 || %n7) TABSK10>2 STAT19>999 STAT373>4 ILVL>90]: Cold Sorc AR Phys Pierce %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Amulets - Sorceress Skills, All Stats - Sacred Affix
-ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5 || au6 || %n0 || %n1 || %n2 || %n3 || %n4 || %n5 || %n6 || %n7) CLSK1>1 STAT0>19 STAT1>19 STAT2>19 STAT3>19 ILVL>90]: Sorceress All Stats %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5 || au6 || %n0 || %n1 || %n2 || %n3 || %n4 || %n5 || %n6 || %n7) TABSK8>2 STAT0>19 STAT1>19 STAT2>19 STAT3>19 ILVL>90]: Fire Sorc All Stats %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5 || au6 || %n0 || %n1 || %n2 || %n3 || %n4 || %n5 || %n6 || %n7) TABSK9>2 STAT0>19 STAT1>19 STAT2>19 STAT3>19 ILVL>90]: Light Sorc All Stats %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5 || au6 || %n0 || %n1 || %n2 || %n3 || %n4 || %n5 || %n6 || %n7) TABSK10>2 STAT0>19 STAT1>19 STAT2>19 STAT3>19 ILVL>90]: Cold Sorc All Stats %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+//ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5 || au6 || %n0 || %n1 || %n2 || %n3 || %n4 || %n5 || %n6 || %n7) CLSK1>1 STAT0>19 STAT1>19 STAT2>19 STAT3>19 ILVL>90]: Sorceress All Stats %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+//ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5 || au6 || %n0 || %n1 || %n2 || %n3 || %n4 || %n5 || %n6 || %n7) TABSK8>2 STAT0>19 STAT1>19 STAT2>19 STAT3>19 ILVL>90]: Fire Sorc All Stats %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+//ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5 || au6 || %n0 || %n1 || %n2 || %n3 || %n4 || %n5 || %n6 || %n7) TABSK9>2 STAT0>19 STAT1>19 STAT2>19 STAT3>19 ILVL>90]: Light Sorc All Stats %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+//ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5 || au6 || %n0 || %n1 || %n2 || %n3 || %n4 || %n5 || %n6 || %n7) TABSK10>2 STAT0>19 STAT1>19 STAT2>19 STAT3>19 ILVL>90]: Cold Sorc All Stats %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Amulets - Rare Sorceress (Sanctum)
 ItemDisplay[RARE (%n0 || %n7) STAT127>0]: All Skills %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]

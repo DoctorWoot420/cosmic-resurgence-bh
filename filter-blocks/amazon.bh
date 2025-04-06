@@ -3,7 +3,6 @@
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
 
-
 //Mid Level Class Skills Amulets 
 ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK0>1 CLVL<70]: Amazon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK2>1 CLVL<70]: Javzon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
