@@ -567,17 +567,17 @@ ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT36>5 (CRES>39 FRES
 ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT36>5 (CRES>39 FRES>39 || CRES>39 LRES>39 || CRES>39 PRES>39 || LRES>39 FRES>39 || PRES>39 FRES>39 || LRES>39 PRES>39) LIFE>14 FILTLVL<3]: Phys Res Dual Res Life %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 
 //+2 Maximum Elemental Resistances, 20+ % All Resistances - Sacred Resisting Prefix
-ItemDisplay[(RARE || MAG) (na1 || na2 || na3 || na4 || na5 || na6) STAT40>1 STAT42>1 STAT44>1 STAT46>1 FRES>19 CRES>19 LRES>19 PRES>19 ILVL>90]: %PURPLE%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+//ItemDisplay[(RARE || MAG) (na1 || na2 || na3 || na4 || na5 || na6) STAT40>1 STAT42>1 STAT44>1 STAT46>1 FRES>19 CRES>19 LRES>19 PRES>19 ILVL>90]: %PURPLE%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //7+ % Physical Resistance, 7+ % Physical Resistance Pierce, 20+ Dual Resistances - Sacred Penetrating Prefix
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT36>6 STAT373>6 (CRES>19 FRES>19 || CRES>19 LRES>19 || CRES>19 PRES>19 || LRES>19 FRES>19 || PRES>19 FRES>19 || LRES>19 PRES>19) ILVL>90]: %PURPLE%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG (na1 || na2 || na3 || na4 || na5 || na6) STAT36>6 STAT373>6 ILVL>90]: %PURPLE%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+//ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT36>6 STAT373>6 (CRES>19 FRES>19 || CRES>19 LRES>19 || CRES>19 PRES>19 || LRES>19 FRES>19 || PRES>19 FRES>19 || LRES>19 PRES>19) ILVL>90]: %PURPLE%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+//ItemDisplay[MAG (na1 || na2 || na3 || na4 || na5 || na6) STAT36>6 STAT373>6 ILVL>90]: %PURPLE%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //7+ % Elemental Pierce, 20+ % All Resistances - Sacred Piercing Prefix
-ItemDisplay[(RARE || MAG) (na1 || na2 || na3 || na4 || na5 || na6) STAT333>6 STAT334>6 STAT335>6 STAT336>6 FRES>19 CRES>19 LRES>19 PRES>19 ILVL>90]: %PURPLE%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+//ItemDisplay[(RARE || MAG) (na1 || na2 || na3 || na4 || na5 || na6) STAT333>6 STAT334>6 STAT335>6 STAT336>6 FRES>19 CRES>19 LRES>19 PRES>19 ILVL>90]: %PURPLE%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //7+ % Elemental Pierce, +2 Max Resistances - Sacred Prefix
-ItemDisplay[(RARE || MAG) (na1 || na2 || na3 || na4 || na5 || na6) STAT333>6 STAT334>6 STAT335>6 STAT336>6 STAT40>1 STAT42>1 STAT44>1 STAT46>1 ILVL>90]: %PURPLE%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+//ItemDisplay[(RARE || MAG) (na1 || na2 || na3 || na4 || na5 || na6) STAT333>6 STAT334>6 STAT335>6 STAT336>6 STAT40>1 STAT42>1 STAT44>1 STAT46>1 ILVL>90]: %PURPLE%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Purity/Diamond Skin/Aegis/Conduction When Struck, Elemental Pierce/Max Elemental Resistances/Physical Pierce
 ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) ( purity_when_struck || diamond_skin_when_struck || aegis_when_struck || conduction_when_struck ) (STAT333>6 STAT334>6 STAT335>6 STAT336>6 || STAT40>1 STAT42>1 STAT44>1 STAT46>1 || STAT373>6)]: %PURPLE%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
