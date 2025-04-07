@@ -95,8 +95,8 @@ ItemDisplay[(RARE || MAG) (baf || bae || bad || bac || bab || baa || ba9 || ba8 
 ItemDisplay[(RARE || MAG) (baf || bae || bad || bac || bab || baa || ba9 || ba8 || ba7 || ba6 || ba2 || ba1 || ba5 || ba4 || ba3) SK131>2 TABSK34>2]: + 6 Winters Fury %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-1% [L%ILVL%]
 ItemDisplay[(RARE || MAG) (baf || bae || bad || bac || bab || baa || ba9 || ba8 || ba7 || ba6 || ba2 || ba1 || ba5 || ba4 || ba3) SK131>2 CLSK4>1]: + 5 Winters Fury %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
-ItemDisplay[RARE (CIRC || baf || bae || bad || bac || bab || baa || ba9 || ba8 || ba7 || ba6 || ba2 || ba1 || ba5 || ba4 || ba3 || au1 || au2 || au3 || au4 || au5) TABSK34>2]: %GREEN%+3 Warcry %MAP%%YELLOW%%NAME%%TIER-5% [L%ILVL%]
-ItemDisplay[RARE (CIRC || baf || bae || bad || bac || bab || baa || ba9 || ba8 || ba7 || ba6 || ba2 || ba1 || ba5 || ba4 || ba3 || au1 || au2 || au3 || au4 || au5) TABSK34>2 FILTLVL>=3]: %GREEN%+3 Warcry %MAP%%YELLOW%%NAME%%notify-dead% [L%ILVL%]
+ItemDisplay[RARE (CIRC || baf || bae || bad || bac || bab || baa || ba9 || ba8 || ba7 || ba6 || ba2 || ba1 || ba5 || ba4 || ba3 || au1 || au2 || au3 || au4 || au5) TABSK34>2 FILTLVL<3]: %GREEN%+3 Warcry %MAP%%YELLOW%%NAME%%TIER-5% [L%ILVL%]
+ItemDisplay[RARE (CIRC || baf || bae || bad || bac || bab || baa || ba9 || ba8 || ba7 || ba6 || ba2 || ba1 || ba5 || ba4 || ba3 || au1 || au2 || au3 || au4 || au5) TABSK34>2 FILTLVL<3]: %GREEN%+3 Warcry %MAP%%YELLOW%%NAME%%notify-dead% [L%ILVL%]
 
 
 /////////////////////////////////////////////////////////////////////////
@@ -104,23 +104,23 @@ ItemDisplay[RARE (CIRC || baf || bae || bad || bac || bab || baa || ba9 || ba8 |
 /////////////////////////////////////////////////////////////////////////
 
 //Ginther's Rift Alch (Use for Cold Uber)
-ItemDisplay[(NMAG !INF !SUP) 9cr ILVL>49 FILTLVL>=3]: Ginther's Rift Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) 9cr ILVL>49 FILTLVL>=3]: Ginther's Rift Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) 9cr ILVL>49 FILTLVL<3]: Ginther's Rift Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) 9cr ILVL>49 FILTLVL<3]: Ginther's Rift Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //Renit's Fury Alch (Use With Frenzy)
-ItemDisplay[(NMAG !INF !SUP) tsp ILVL>20 FILTLVL>=3]: Renit's Rage Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) tsp ILVL>20 FILTLVL>=3]: Renit's Rage Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) 9ts ILVL>52 FILTLVL>=3]: Renit's Anger Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) 9ts ILVL>52 FILTLVL>=3]: Renit's Anger Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) tsp ILVL>20 FILTLVL<3]: Renit's Rage Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) tsp ILVL>20 FILTLVL<3]: Renit's Rage Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) 9ts ILVL>52 FILTLVL<3]: Renit's Anger Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) 9ts ILVL>52 FILTLVL<3]: Renit's Anger Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //The Diggler Alch (Use for Warcry Barbs)
-ItemDisplay[(NMAG !INF !SUP) dir ILVL>11 FILTLVL>=3]: The Diggler Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) dir ILVL>11 FILTLVL>=3]: The Diggler Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) 9di ILVL>43 FILTLVL>=3]: Heart Carver Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) 9di ILVL>43 FILTLVL>=3]: Heart Carver Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) 7di ILVL>74 FILTLVL>=3]: Soul Sculpter Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) 7di ILVL>74 FILTLVL>=3]: Soul Sculpter Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) dir ILVL>11 FILTLVL<3]: The Diggler Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) dir ILVL>11 FILTLVL<3]: The Diggler Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) 9di ILVL>43 FILTLVL<3]: Heart Carver Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) 9di ILVL>43 FILTLVL<3]: Heart Carver Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) 7di ILVL>74 FILTLVL<3]: Soul Sculpter Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) 7di ILVL>74 FILTLVL<3]: Soul Sculpter Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //Bonds of Blood Set - Sister of The Slaughter - Brother of The Beast
-ItemDisplay[(NMAG !INF !SUP) bw6 ILVL>84 FILTLVL>=3]: Bonds of Blood Axe Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) bw6 ILVL>84 FILTLVL>=3]: Bonds of Blood Axe Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) bw6 ILVL>84 FILTLVL<3]: Bonds of Blood Axe Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) bw6 ILVL>84 FILTLVL<3]: Bonds of Blood Axe Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 
 
 /////////////////////////////////////////////////////////////////////////
