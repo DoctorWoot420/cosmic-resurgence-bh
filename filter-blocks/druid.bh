@@ -384,7 +384,7 @@ ItemDisplay[(NMAG !INF !SUP) uts ILVL>98 FILTLVL<3]: Radament Alch %RED%%NAME% %
 ItemDisplay[(NMAG !INF !SUP) acs ILVL>91 FILTLVL<3]: Monolith Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 ItemDisplay[(NMAG !INF !SUP) acs ILVL>91 FILTLVL<3]: Monolith Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //Zahhak's Entombment Shield Alch
-ItemDisplay[(NMAG !INF !SUP) uow ILVL>80]: Zahhak's Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) uow ILVL>80 FILTLVL<3]: Zahhak's Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 ItemDisplay[(NMAG !INF !SUP) uow ILVL>80 FILTLVL<3]: Zahhak's Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 
 /////////////////////////////////////////////////////////////////////////
