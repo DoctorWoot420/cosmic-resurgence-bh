@@ -330,11 +330,11 @@ ItemDisplay[RARE (CIRC || au1 || au2 || au3 || au4 || au5) ((TABSK9>1 CLSK1>1) |
 ItemDisplay[RARE (CIRC || au1 || au2 || au3 || au4 || au5) ((TABSK10>1 CLSK1>1) || (TABSK10>2 CLSK1>0))]: %RED%0 T3 %MAP%%YELLOW%%NAME% %GREEN%4+ Cold%TIER-3% [L%ILVL%]
 
 //Circlets - Ping Tier 5 For +3 Sorceress Skills
-ItemDisplay[RARE (CIRC || au1 || au2 || au3 || au4 || au5) TABSK8>2]: %GREEN%+3 Fire %MAP%%YELLOW%%NAME%%TIER-5% [L%ILVL%]
+ItemDisplay[RARE (CIRC || au1 || au2 || au3 || au4 || au5) TABSK8>2 FILTLVL<3]: %GREEN%+3 Fire %MAP%%YELLOW%%NAME%%TIER-5% [L%ILVL%]
 ItemDisplay[RARE (CIRC || au1 || au2 || au3 || au4 || au5) TABSK8>2 FILTLVL<3]: %GREEN%+3 Fire %MAP%%YELLOW%%NAME%%notify-dead% [L%ILVL%]
-ItemDisplay[RARE (CIRC || au1 || au2 || au3 || au4 || au5) TABSK9>2]: %GREEN%+3 Light %MAP%%YELLOW%%NAME%%TIER-5% [L%ILVL%]
+ItemDisplay[RARE (CIRC || au1 || au2 || au3 || au4 || au5) TABSK9>2 FILTLVL<3]: %GREEN%+3 Light %MAP%%YELLOW%%NAME%%TIER-5% [L%ILVL%]
 ItemDisplay[RARE (CIRC || au1 || au2 || au3 || au4 || au5) TABSK9>2 FILTLVL<3]: %GREEN%+3 Light %MAP%%YELLOW%%NAME%%notify-dead% [L%ILVL%]
-ItemDisplay[RARE (CIRC || au1 || au2 || au3 || au4 || au5) TABSK10>2]: %GREEN%+3 Cold %MAP%%YELLOW%%NAME%%TIER-5% [L%ILVL%]
+ItemDisplay[RARE (CIRC || au1 || au2 || au3 || au4 || au5) TABSK10>2 FILTLVL<3]: %GREEN%+3 Cold %MAP%%YELLOW%%NAME%%TIER-5% [L%ILVL%]
 ItemDisplay[RARE (CIRC || au1 || au2 || au3 || au4 || au5) TABSK10>2 FILTLVL<3]: %GREEN%+3 Cold %MAP%%YELLOW%%NAME%%notify-dead% [L%ILVL%]
 
 
