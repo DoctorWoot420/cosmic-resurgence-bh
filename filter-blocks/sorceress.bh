@@ -111,7 +111,7 @@ ItemDisplay[(RARE || MAG) (ob1 || ob2 || ob3 || lxb) SK39>2 CLVL<60]: + 3 Charge
 //Socketables For Runewords
 //Low Level Battle Staff - Jo Staff - Gothic Staff - Walking Stick For Cascade Sorc Runewords
 ItemDisplay[(NMAG !INF) SOCK=2 (bst || 8ss || 8bs || 6ss) CLVL<70]: Cascade Sorc {%GRAY%Strength: %ORANGE%Amn Tir%NL%%GRAY%Night: %ORANGE%Tir Io} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (bst || 8ss || 8bs || 6ss) ED=20  CLVL<70]: Cascade Sorc Perfect ED {%GRAY%Strength: %ORANGE%Amn Tir%NL%%GRAY%Night: %ORANGE%Tir Io} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (bst || 8ss || 8bs || 6ss) ED=20 CLVL<70]: Cascade Sorc Perfect ED {%GRAY%Strength: %ORANGE%Amn Tir%NL%%GRAY%Night: %ORANGE%Tir Io} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[(NMAG !INF) SOCK=3 (bst || 8ss || 8bs || 6ss) CLVL<70]: Cascade Sorc {%GRAY%Madness: %ORANGE%El Ort El%NL%%GRAY%Envy: %ORANGE%Ort Amn Ral} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[(NMAG !INF) SOCK=3 (bst || 8ss || 8bs || 6ss) ED=20 CLVL<70]: Cascade Sorc Perfect ED {%GRAY%Madness: %ORANGE%El Ort El%NL%%GRAY%Envy: %ORANGE%Ort Amn Ral} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 ItemDisplay[(NMAG !INF) SOCK=4 (bst || 8ss || 8bs || 6ss) CLVL<70]: Cascade Sorc {%GRAY%Insight: %ORANGE%Ral Tir Tal Sol} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
