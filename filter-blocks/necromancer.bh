@@ -226,11 +226,11 @@ ItemDisplay[(NMAG !INF) (bwn || wnd || ywn) SK83>2 CLVL<24]: + 3 Putrify %RED%%N
 //Low Level Skeleton Warrior Bone Wand - Wand - Yew Wand 
 ItemDisplay[(NMAG !INF) (bwn || wnd || ywn) SK70>2 CLVL<24]: + 3 Skeleton Warrior %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
 
-//Insight Runeword Mercenary Bases
-ItemDisplay[(NMAG !INF) (crs || bsd || lsd) SOCK=4 ED=20 FILTLVL<3]: Perfect ED {%GRAY%Insight: %ORANGE%(Ral Tir Tal Sol)} %SOCKETS%os %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(NMAG !INF) (crs || bsd || lsd) SOCK=4 ED=20 FILTLVL<3]: %SOCKETS%os %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[(NMAG !INF) (crs || bsd || lsd) SOCK=4 FILTLVL<3]: {%GRAY%Insight: %ORANGE%(Ral Tir Tal Sol)} %SOCKETS%os %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(NMAG !INF) (crs || bsd || lsd) SOCK=4 FILTLVL<3]: %SOCKETS%os %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+//Insight Runeword Act 5 Barbarian Mercenary Bases
+ItemDisplay[(NMAG !INF) (flb || gsd || 9cm || 9gs || 9b9 || 7cm || 7gs || 7b7) SOCK=4 ED=20 FILTLVL<3]: Perfect ED {%GRAY%Insight: %ORANGE%(Ral Tir Tal Sol)} %SOCKETS%os %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) (flb || gsd || 9cm || 9gs || 9b9 || 7cm || 7gs || 7b7) SOCK=4 ED=20 FILTLVL<3]: %SOCKETS%os %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) (flb || gsd || 9cm || 9gs || 9b9 || 7cm || 7gs || 7b7) SOCK=4 FILTLVL<3]: {%GRAY%Insight: %ORANGE%(Ral Tir Tal Sol)} %SOCKETS%os %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) (flb || gsd || 9cm || 9gs || 9b9 || 7cm || 7gs || 7b7) SOCK=4 FILTLVL<3]: %SOCKETS%os %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 
 
 /////////////////////////////////////////////////////////////////////////
