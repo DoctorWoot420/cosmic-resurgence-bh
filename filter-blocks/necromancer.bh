@@ -586,25 +586,25 @@ ItemDisplay[(RARE || MAG) (na1 || na2 || na3 || na4 || na5 || na6) STAT333>6 STA
 ItemDisplay[(RARE || MAG) (na1 || na2 || na3 || na4 || na5 || na6) STAT333>6 STAT334>6 STAT335>6 STAT336>6 STAT40>1 STAT42>1 STAT44>1 STAT46>1 ILVL>90]: %PURPLE%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Purity/Diamond Skin/Aegis/Conduction When Struck, Elemental Pierce/Max Elemental Resistances/Physical Pierce
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) ( purity_when_struck || diamond_skin_when_struck || aegis_when_struck || conduction_when_struck ) (STAT333>6 STAT334>6 STAT335>6 STAT336>6 || STAT40>1 STAT42>1 STAT44>1 STAT46>1 || STAT373>6)]: %PURPLE%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+//ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) ( purity_when_struck || diamond_skin_when_struck || aegis_when_struck || conduction_when_struck ) (STAT333>6 STAT334>6 STAT335>6 STAT336>6 || STAT40>1 STAT42>1 STAT44>1 STAT46>1 || STAT373>6)]: %PURPLE%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Basic Gain Skill Armors
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) ( conduction_on_kill || conduction_when_struck || avalanche_on_kill || avalanche_when_struck || hellfire_on_kill || hellfire_when_struck || corruption_when_struck || corruption_on_kill || empower_on_melee_attack || empower_on_kill || empower_when_struck || empower_on_striking || diamond_skin_on_melee_attack || diamond_skin_on_kill || diamond_skin_when_struck || diamond_skin_on_striking || clarity_on_melee_attack || clarity_on_kill || clarity_when_struck || clarity_on_striking || brutality_on_melee_attack || brutality_on_kill || brutality_when_struck || brutality_on_striking || carnage_on_melee_attack || carnage_on_kill || carnage_when_struck || carnage_on_striking || resurgence_on_melee_attack || resurgence_on_kill || resurgence_when_struck || resurgence_on_striking || grace_on_melee_attack || grace_on_kill || grace_when_struck || grace_on_striking || blood_rage_on_melee_attack || blood_rage_on_kill || blood_rage_when_struck || blood_rage_on_striking || good_fortune_on_melee_attack || good_fortune_on_kill || good_fortune_when_struck || good_fortune_on_striking || haste_on_melee_attack || haste_on_kill || haste_when_struck || haste_on_striking || purity_on_melee_attack || purity_on_kill || purity_when_struck || purity_on_striking || aegis_on_melee_attack || aegis_on_kill || aegis_when_struck || aegis_on_striking )]: %PURPLE%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+//ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) ( conduction_on_kill || conduction_when_struck || avalanche_on_kill || avalanche_when_struck || hellfire_on_kill || hellfire_when_struck || corruption_when_struck || corruption_on_kill || empower_on_melee_attack || empower_on_kill || empower_when_struck || empower_on_striking || diamond_skin_on_melee_attack || diamond_skin_on_kill || diamond_skin_when_struck || diamond_skin_on_striking || clarity_on_melee_attack || clarity_on_kill || clarity_when_struck || clarity_on_striking || brutality_on_melee_attack || brutality_on_kill || brutality_when_struck || brutality_on_striking || carnage_on_melee_attack || carnage_on_kill || carnage_when_struck || carnage_on_striking || resurgence_on_melee_attack || resurgence_on_kill || resurgence_when_struck || resurgence_on_striking || grace_on_melee_attack || grace_on_kill || grace_when_struck || grace_on_striking || blood_rage_on_melee_attack || blood_rage_on_kill || blood_rage_when_struck || blood_rage_on_striking || good_fortune_on_melee_attack || good_fortune_on_kill || good_fortune_when_struck || good_fortune_on_striking || haste_on_melee_attack || haste_on_kill || haste_when_struck || haste_on_striking || purity_on_melee_attack || purity_on_kill || purity_when_struck || purity_on_striking || aegis_on_melee_attack || aegis_on_kill || aegis_when_struck || aegis_on_striking )]: %PURPLE%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //CTC Chain Lightning/Poison Nova/Frozen Orb/Meteor/Fire/Cold/Lightning Immunity
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) ( chain_lightning_skill_on_melee_attack || chain_lightning_skill_on_kill || chain_lightning_skill_when_struck || chain_lightning_skill_on_striking || poison_nova_skill_on_melee_attack || poison_nova_skill_on_kill || poison_nova_skill_when_struck || poison_nova_skill_on_striking || frozen_orb_skill_on_melee_attack || frozen_orb_skill_on_kill || frozen_orb_skill_when_struck || frozen_orb_skill_on_striking || meteor_skill_on_melee_attack || meteor_skill_on_kill || meteor_skill_when_struck || meteor_skill_on_striking || fire_immunity_on_melee_attack || fire_immunity_on_kill || fire_immunity_when_struck || fire_immunity_on_striking || cold_immunity_on_melee_attack || cold_immunity_on_kill || cold_immunity_when_struck || cold_immunity_on_striking || lightning_immunity_on_melee_attack || lightning_immunity_on_kill || lightning_immunity_when_struck || lightning_immunity_on_striking )]: %PURPLE%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+//ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) ( chain_lightning_skill_on_melee_attack || chain_lightning_skill_on_kill || chain_lightning_skill_when_struck || chain_lightning_skill_on_striking || poison_nova_skill_on_melee_attack || poison_nova_skill_on_kill || poison_nova_skill_when_struck || poison_nova_skill_on_striking || frozen_orb_skill_on_melee_attack || frozen_orb_skill_on_kill || frozen_orb_skill_when_struck || frozen_orb_skill_on_striking || meteor_skill_on_melee_attack || meteor_skill_on_kill || meteor_skill_when_struck || meteor_skill_on_striking || fire_immunity_on_melee_attack || fire_immunity_on_kill || fire_immunity_when_struck || fire_immunity_on_striking || cold_immunity_on_melee_attack || cold_immunity_on_kill || cold_immunity_when_struck || cold_immunity_on_striking || lightning_immunity_on_melee_attack || lightning_immunity_on_kill || lightning_immunity_when_struck || lightning_immunity_on_striking )]: %PURPLE%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Fire Damage % , 20+ Dual Resistances
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT329>19 (CRES>19 FRES>19 || CRES>19 LRES>19 || CRES>19 PRES>19 || LRES>19 FRES>19 || PRES>19 FRES>19 || LRES>19 PRES>19)]: Fire Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+//ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT329>19 (CRES>19 FRES>19 || CRES>19 LRES>19 || CRES>19 PRES>19 || LRES>19 FRES>19 || PRES>19 FRES>19 || LRES>19 PRES>19)]: Fire Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Cold Damage % , 20+ Dual Resistances
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT331>19 (CRES>19 FRES>19 || CRES>19 LRES>19 || CRES>19 PRES>19 || LRES>19 FRES>19 || PRES>19 FRES>19 || LRES>19 PRES>19)]: Cold Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+//ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT331>19 (CRES>19 FRES>19 || CRES>19 LRES>19 || CRES>19 PRES>19 || LRES>19 FRES>19 || PRES>19 FRES>19 || LRES>19 PRES>19)]: Cold Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Lightning Damage % , 20+ Dual Resistances
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT330>19 (CRES>19 FRES>19 || CRES>19 LRES>19 || CRES>19 PRES>19 || LRES>19 FRES>19 || PRES>19 FRES>19 || LRES>19 PRES>19)]: Light Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+//ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT330>19 (CRES>19 FRES>19 || CRES>19 LRES>19 || CRES>19 PRES>19 || LRES>19 FRES>19 || PRES>19 FRES>19 || LRES>19 PRES>19)]: Light Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Poison Damage % , 20+ Dual Resistances
-ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT332>19 (CRES>19 FRES>19 || CRES>19 LRES>19 || CRES>19 PRES>19 || LRES>19 FRES>19 || PRES>19 FRES>19 || LRES>19 PRES>19)]: Poison Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+//ItemDisplay[RARE (na1 || na2 || na3 || na4 || na5 || na6) STAT332>19 (CRES>19 FRES>19 || CRES>19 LRES>19 || CRES>19 PRES>19 || LRES>19 FRES>19 || PRES>19 FRES>19 || LRES>19 PRES>19)]: Poison Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 
 /////////////////////////////////////////////////////////////////////////
@@ -782,67 +782,67 @@ ItemDisplay[MAG (nef || neg || nee || ned || neb) TABSK18>2 STAT145>39 ILVL>59 F
 /////////////////////////////////////////////////////////////////////////
 
 //Vestratium/Melee Splash Jewel Alch
-ItemDisplay[(NMAG !INF !SUP) jw5 ILVL>31]: Vestratium Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) jw5 ILVL>31]: Vestratium Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Endurance/Fortify Alch
-ItemDisplay[(NMAG !INF !SUP) jw3 ILVL>91]: Endurance Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) jw3 ILVL>91]: Endurance Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Anger Jewel Alch
-ItemDisplay[(NMAG !INF !SUP) jw4 ILVL>14 FILTLVL<3]: Anger Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) jw4 ILVL>14 FILTLVL<3]: Anger Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) jw4 ILVL>14 FILTLVL<3]: Anger Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) jw4 ILVL>14 FILTLVL<3]: Anger Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //Bloodbathe Jewel Alch
-ItemDisplay[(NMAG !INF !SUP) jw2 ILVL>47 FILTLVL<3]: Bloodbathe Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) jw2 ILVL>47 FILTLVL<3]: Bloodbathe Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) jw2 ILVL>47 FILTLVL<3]: Bloodbathe Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) jw2 ILVL>47 FILTLVL<3]: Bloodbathe Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //Rainbow Facet Jewel Alch
-ItemDisplay[(NMAG !INF !SUP) jw1 ILVL>48]: Rainbow Facet Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) jw1 ILVL>48]: Rainbow Facet Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Illyria's Tear Jewel Alch
-ItemDisplay[(NMAG !INF !SUP) jw6 ILVL>70]: Illyria's Tear Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) jw6 ILVL>70]: Illyria's Tear Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Focus Jewel Alch
-ItemDisplay[(NMAG !INF !SUP) jw6 ILVL>49 FILTLVL<3]: Focus Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) jw6 ILVL>49 FILTLVL<3]: Focus Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) jw6 ILVL>49 FILTLVL<3]: Focus Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) jw6 ILVL>49 FILTLVL<3]: Focus Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 
 ///////////////////////////////////////////////////////////////////////////
 //Rings & Amulet Alchs/////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 
 //Carnage Heart - Ghaa's Ward Ring Alch
-ItemDisplay[(NMAG !INF !SUP) rg5 ILVL>30 FILTLVL<3]: Carnage - Ghaa's Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) rg5 ILVL>30 FILTLVL<3]: Carnage - Ghaa's Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) rg5 ILVL>30 FILTLVL<3]: Carnage - Ghaa's Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) rg5 ILVL>30 FILTLVL<3]: Carnage - Ghaa's Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //Eon Band Ring Alch
-ItemDisplay[(NMAG !INF !SUP) rg1 ILVL>91]: Eon Band Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) rg1 ILVL>91]: Eon Band Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Constriction Ring Alch
-ItemDisplay[(NMAG !INF !SUP) rg2 ILVL>94]: Constriction Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) rg2 ILVL>94]: Constriction Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Mara's Kaleidoscope Ammy Alch
-ItemDisplay[(NMAG !INF !SUP) au5 ILVL>76 FILTLVL<3]: Mara's Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) au5 ILVL>76 FILTLVL<3]: Mara's Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) au5 ILVL>76 FILTLVL<3]: Mara's Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) au5 ILVL>76 FILTLVL<3]: Mara's Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //Topaz Amulet - Horologia's Pendulum Alch
 ItemDisplay[((NMAG !INF !SUP ILVL>91) || (MAG ILVL>91)) au3]: Horo Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Garnet Ring - Carbuncle Star Alch
-ItemDisplay[(NMAG !INF !SUP) rg3 ILVL>91]: Carbuncle Star Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) rg3 ILVL>91]: Carbuncle Star Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Lich Rings for Alching (Cave Of Horrors)
-ItemDisplay[NMAG (li0 || li1 || li2 || li3 || li4 || li5 || li6)]: Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[NMAG (li0 || li1 || li2 || li3 || li4 || li5 || li6)]: Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 /////////////////////////////////////////////////////////////////////////
 //Helm Alchs/////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////
 
 //Visions from the Aether Alch
-ItemDisplay[(NMAG !INF !SUP) ach ILVL>91]: Visions FTA Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) ach ILVL>91]: Visions FTA Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 /////////////////////////////////////////////////////////////////////////
 //Armor Alchs////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////
 
 //The Gloaming Armor Alch
-ItemDisplay[(NMAG !INF !SUP) uul ILVL>84]: Gloaming Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) uul ILVL>84]: Gloaming Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Horadric Raiment Armor Alch
-ItemDisplay[(NMAG !INF !SUP) aca ILVL>91]: Raiment Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) aca ILVL>91]: Raiment Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Tyrael's Armor Alch
-ItemDisplay[(NMAG !INF !SUP) aca ILVL>79 FILTLVL<3]: Tyrael's Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) aca ILVL>79 FILTLVL<3]: Tyrael's Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) aca ILVL>79 FILTLVL<3]: Tyrael's Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) aca ILVL>79 FILTLVL<3]: Tyrael's Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //Mendeln's Armor Alch
-ItemDisplay[(NMAG !INF !SUP) na4 ILVL>23 FILTLVL<3]: Mendelns Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) na4 ILVL>23 FILTLVL<3]: Mendelns Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) na5 ILVL>52 FILTLVL<3]: Mendelns Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) na5 ILVL>52 FILTLVL<3]: Mendelns Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) na4 ILVL>23 FILTLVL<3]: Mendelns Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) na4 ILVL>23 FILTLVL<3]: Mendelns Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) na5 ILVL>52 FILTLVL<3]: Mendelns Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) na5 ILVL>52 FILTLVL<3]: Mendelns Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 
 /////////////////////////////////////////////////////////////////////////
 //Glove Alchs////////////////////////////////////////////////////////////
@@ -853,10 +853,10 @@ ItemDisplay[(NMAG !INF !SUP) na5 ILVL>52 FILTLVL<3]: Mendelns Alch %RED%%NAME% %
 /////////////////////////////////////////////////////////////////////////
 
 //Lenymo Belt Alch
-ItemDisplay[(NMAG !INF !SUP) lbl ILVL>1 FILTLVL<3]: Lenymo Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) lbl ILVL>1 FILTLVL<3]: Lenymo Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) zlb ILVL>39 FILTLVL<3]: Lenymo Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) zlb ILVL>39 FILTLVL<3]: Lenymo Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) lbl ILVL>1 FILTLVL<3]: Lenymo Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) lbl ILVL>1 FILTLVL<3]: Lenymo Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) zlb ILVL>39 FILTLVL<3]: Lenymo Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) zlb ILVL>39 FILTLVL<3]: Lenymo Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 
 /////////////////////////////////////////////////////////////////////////
 //Boot Alchs/////////////////////////////////////////////////////////////
@@ -867,26 +867,26 @@ ItemDisplay[(NMAG !INF !SUP) zlb ILVL>39 FILTLVL<3]: Lenymo Alch %RED%%NAME% %RE
 /////////////////////////////////////////////////////////////////////////
 
 //Radament's Shield Alch
-ItemDisplay[(NMAG !INF !SUP) xts ILVL>62 FILTLVL<3]: Radament Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) xts ILVL>62 FILTLVL<3]: Radament Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) uts ILVL>98 FILTLVL<3]: Radament Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) uts ILVL>98 FILTLVL<3]: Radament Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) xts ILVL>62 FILTLVL<3]: Radament Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) xts ILVL>62 FILTLVL<3]: Radament Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) uts ILVL>98 FILTLVL<3]: Radament Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) uts ILVL>98 FILTLVL<3]: Radament Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //Zahhak's Entombment Shield Alch
-ItemDisplay[(NMAG !INF !SUP) uow ILVL>80 FILTLVL<3]: Zahhak's Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) uow ILVL>80 FILTLVL<3]: Zahhak's Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) uow ILVL>80 FILTLVL<3]: Zahhak's Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) uow ILVL>80 FILTLVL<3]: Zahhak's Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 
 /////////////////////////////////////////////////////////////////////////
 //Weapon Alchs///////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////
 
 //Suicide Branch Alch
-ItemDisplay[(NMAG !INF !SUP) 7wn ILVL>70 FILTLVL<3]: Suicide Branch Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) 7wn ILVL>70 FILTLVL<3]: Suicide Branch Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) 7wn ILVL>70 FILTLVL<3]: Suicide Branch Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) 7wn ILVL>70 FILTLVL<3]: Suicide Branch Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //Edyrem Odyssey Alch
-ItemDisplay[(NMAG !INF !SUP) 9bw ILVL>47 FILTLVL<3]: Edyrem Odyssey Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) 9bw ILVL>47 FILTLVL<3]: Edyrem Odyssey Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) 7bw ILVL>83 FILTLVL<3]: Edyrem Odyssey Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) 7bw ILVL>83 FILTLVL<3]: Edyrem Odyssey Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) 9bw ILVL>47 FILTLVL<3]: Edyrem Odyssey Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) 9bw ILVL>47 FILTLVL<3]: Edyrem Odyssey Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) 7bw ILVL>83 FILTLVL<3]: Edyrem Odyssey Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) 7bw ILVL>83 FILTLVL<3]: Edyrem Odyssey Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 
 /////////////////////////////////////////////////////////////////////////
 //Magic Crafts & Jeweler's Socketables///////////////////////////////////

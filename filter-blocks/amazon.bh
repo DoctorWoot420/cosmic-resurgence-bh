@@ -91,65 +91,65 @@ ItemDisplay[MAG (jav || am5 || 9ja || ama || 7ja || amf) CLSK0>3 TABSK2>1]: + 6 
 /////////////////////////////////////////////////////////////////////////
 
 //Illyria's Tear Jewel Alch
-ItemDisplay[(NMAG !INF !SUP) jw6 ILVL>70]: Illyria's Tear Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) jw6 ILVL>70]: Illyria's Tear Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Focus Jewel Alch
-ItemDisplay[(NMAG !INF !SUP) jw6 ILVL>49 FILTLVL<3]: Focus Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) jw6 ILVL>49 FILTLVL<3]: Focus Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) jw6 ILVL>49 FILTLVL<3]: Focus Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) jw6 ILVL>49 FILTLVL<3]: Focus Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 
 ///////////////////////////////////////////////////////////////////////////
 //Rings & Amulet Alchs/////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 
 //Eon Band Ring Alch
-ItemDisplay[(NMAG !INF !SUP) rg1 ILVL>91]: Eon Band Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) rg1 ILVL>91]: Eon Band Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Mara's Kaleidoscope Ammy Alch
-ItemDisplay[(NMAG !INF !SUP) au5 ILVL>76 FILTLVL<3]: Mara's Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) au5 ILVL>76 FILTLVL<3]: Mara's Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) au5 ILVL>76 FILTLVL<3]: Mara's Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) au5 ILVL>76 FILTLVL<3]: Mara's Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //Topaz Amulet - Horologia's Pendulum Alch
 ItemDisplay[((NMAG !INF !SUP ILVL>91) || (MAG ILVL>91)) au3]: Horo Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Lich Rings for Alching (Cave Of Horrors)
-ItemDisplay[NMAG (li0 || li1 || li2 || li3 || li4 || li5 || li6) ILVL>91]: Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[NMAG (li0 || li1 || li2 || li3 || li4 || li5 || li6) ILVL>91]: Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 /////////////////////////////////////////////////////////////////////////
 //Helm Alchs/////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////
 
 //Griffon's Eye Alch
-ItemDisplay[(NMAG !INF !SUP) ci2 ILVL>74 FILTLVL<3]: Griffons Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) ci2 ILVL>74 FILTLVL<3]: Griffons Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) ci2 ILVL>74 FILTLVL<3]: Griffons Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) ci2 ILVL>74 FILTLVL<3]: Griffons Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 
 /////////////////////////////////////////////////////////////////////////
 //Armor Alchs////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////
 
 //Ormus Armor Alch
-ItemDisplay[(NMAG !INF !SUP) uui ILVL>91]: Ormus Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) uui ILVL>91]: Ormus Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Horadric Raiment Armor Alch
-ItemDisplay[(NMAG !INF !SUP) aca ILVL>91]: Raiment Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) aca ILVL>91]: Raiment Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Tyrael's Armor Alch
-ItemDisplay[(NMAG !INF !SUP) aca ILVL>79 FILTLVL<3]: Tyrael's Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) aca ILVL>79 FILTLVL<3]: Tyrael's Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) aca ILVL>79 FILTLVL<3]: Tyrael's Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) aca ILVL>79 FILTLVL<3]: Tyrael's Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 
 /////////////////////////////////////////////////////////////////////////
 //Glove Alchs////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////
 
 //Crusader Gauntlets - Perimetus Glory Alch
-ItemDisplay[(NMAG !INF !SUP) utg ILVL>91]: Perimetus Glory Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) utg ILVL>91]: Perimetus Glory Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Mirabella Gloves Alch
-ItemDisplay[(NMAG !INF !SUP) ag3 ILVL>74]: Mirabella Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) ag3 ILVL>74]: Mirabella Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 /////////////////////////////////////////////////////////////////////////
 //Belt Alchs/////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////
 
 //Troll Belt - Headhunter's Glory Alch
-ItemDisplay[(NMAG !INF !SUP) utc ILVL>88]: Headhunter's Glory Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) utc ILVL>88]: Headhunter's Glory Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Burning Buckle, Snowblind & Thundergod's Belt Alch
-ItemDisplay[(NMAG !INF !SUP) hbl ILVL>19 FILTLVL<3]: Snowblind - TGod's Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) hbl ILVL>19 FILTLVL<3]: Snowblind - TGod's Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) zhb ILVL>54 FILTLVL<3]: Snowblind - TGod's Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) zhb ILVL>54 FILTLVL<3]: Snowblind - TGod's Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) hbl ILVL>19 FILTLVL<3]: Snowblind - TGod's Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) hbl ILVL>19 FILTLVL<3]: Snowblind - TGod's Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) zhb ILVL>54 FILTLVL<3]: Snowblind - TGod's Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) zhb ILVL>54 FILTLVL<3]: Snowblind - TGod's Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 
 /////////////////////////////////////////////////////////////////////////
 //Boot Alchs/////////////////////////////////////////////////////////////
@@ -164,26 +164,26 @@ ItemDisplay[(NMAG !INF !SUP) zhb ILVL>54 FILTLVL<3]: Snowblind - TGod's Alch %RE
 /////////////////////////////////////////////////////////////////////////
 
 //Blade of The Ammuit Alch For Act 3 Merc
-ItemDisplay[(NMAG !INF !SUP) 7bs ILVL>81 FILTLVL<3]: Blade of Ammuit Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) 7bs ILVL>81 FILTLVL<3]: Blade of Ammuit Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) 7bs ILVL>81 FILTLVL<3]: Blade of Ammuit Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) 7bs ILVL>81 FILTLVL<3]: Blade of Ammuit Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //Stormspire Giant Thresher Alch
-ItemDisplay[(NMAG !INF !SUP) 7wc ILVL>91 FILTLVL<3]: Stormspire Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) 7wc ILVL>91 FILTLVL<3]: Stormspire Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) 7wc ILVL>91 FILTLVL<3]: Stormspire Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) 7wc ILVL>91 FILTLVL<3]: Stormspire Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 
 /////////////////////////////////////////////////////////////////////////
 //Quiver Alchs///////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////
 
 //The Burdens Of Truth Alch
-ItemDisplay[(NMAG !INF !SUP) aq5 ILVL>66]: Burdens Of Truth Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) aq5 ILVL>66]: Burdens Of Truth Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Acid Rain Alch
-ItemDisplay[(NMAG !INF !SUP) aq4 ILVL>72 FILTLVL<3]: Acid Rain Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) aq4 ILVL>72 FILTLVL<3]: Acid Rain Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) aq4 ILVL>72 FILTLVL<3]: Acid Rain Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) aq4 ILVL>72 FILTLVL<3]: Acid Rain Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 
 //Deathbloom Alch
-ItemDisplay[(NMAG !INF !SUP) aq6 ILVL>78 FILTLVL<3]: Deathbloom Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) aq6 ILVL>78 FILTLVL<3]: Deathbloom Alch %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) aq6 ILVL>78 FILTLVL<3]: Deathbloom Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) aq6 ILVL>78 FILTLVL<3]: Deathbloom Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 
 /////////////////////////////////////////////////////////////////////////
 //Magic Crafts & Jeweler's Socketables///////////////////////////////////
