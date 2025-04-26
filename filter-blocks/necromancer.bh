@@ -836,8 +836,8 @@ ItemDisplay[(NMAG !INF !SUP) uul ILVL>84]: Gloaming Alch %RED%%BASENAME% %RED%0%
 //Horadric Raiment Armor Alch
 ItemDisplay[(NMAG !INF !SUP) aca ILVL>91]: Raiment Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Tyrael's Armor Alch
-ItemDisplay[(NMAG !INF !SUP) aca ILVL>79 FILTLVL<3]: Tyrael's Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) aca ILVL>79 FILTLVL<3]: Tyrael's Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) aca ILVL>91 FILTLVL<3]: Tyrael's Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) aca ILVL>91 FILTLVL<3]: Tyrael's Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 //Mendeln's Armor Alch
 ItemDisplay[(NMAG !INF !SUP) na4 ILVL>23 FILTLVL<3]: Mendelns Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
 ItemDisplay[(NMAG !INF !SUP) na4 ILVL>23 FILTLVL<3]: Mendelns Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
