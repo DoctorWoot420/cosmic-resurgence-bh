@@ -265,9 +265,6 @@ ItemDisplay[(NMAG !INF !SUP) 7wc ILVL>91 FILTLVL<3]: Stormspire Alch %RED%%BASEN
 //Magic Crafts & Jeweler's Socketables///////////////////////////////////
 /////////////////////////////////////////////////////////////////////////
 
-//Lich Rings For Crafting (Cave Of Horrors)
-ItemDisplay[MAG (li0 || li1 || li2 || li3 || li4 || li5 || li6)]: Craft %BASENAME%%RED%0%BLUE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (li0 || li1 || li2 || li3 || li4 || li5 || li6)]: Diffuse %BASENAME%%RED%0%BLUE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Loricated Mail For Crafting
 ItemDisplay[(NMAG !INF !SUP || MAG) ucl FILTLVL<3]: MA Sin Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
 ItemDisplay[(NMAG !INF !SUP || MAG) ucl FILTLVL<3]: MA Sin Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
