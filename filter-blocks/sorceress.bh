@@ -571,10 +571,6 @@ ItemDisplay[(NMAG !INF !SUP) sf4 ILVL>80]: Tear of Elyssia Alch %RED%%BASENAME% 
 //Magic Crafts & Jeweler's Socketables///////////////////////////////////
 /////////////////////////////////////////////////////////////////////////
 
-//Hellforge Plate For Crafting (Voltaic Blast Sorc)
-ItemDisplay[(NMAG !INF !SUP || MAG) ult FILTLVL<3]: Volt Blast Sorc Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP || MAG) ult FILTLVL<3]: Volt Blast Sorc Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-
 //Vortex Orb For Crafting (Voltaic Blast Sorc)
 ItemDisplay[(NMAG !INF !SUP || MAG) obe FILTLVL<3]: Volt Blast Sorc Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
 ItemDisplay[(NMAG !INF !SUP || MAG) obe FILTLVL<3]: Volt Blast Sorc Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
