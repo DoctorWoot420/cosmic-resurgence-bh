@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//STAR AMAZON BLOCK///////////////////////////////////////////////////////////////////////////////////////////////
+//STAR AMAZON GEAR////////////////////////////////////////////////////////////////////////////////////////////////
 //TIER 3 & 4 AMAZON (END GAME)////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -9,117 +9,117 @@
 /////////////////////////////////////////////////////////////////////////
 
 //+6 Javelins (Tier 3)
-ItemDisplay[RARE (jav || am5 || 9ja || ama || 7ja || amf) TABSK2>5]: + 6 Javzon Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (jav || am5 || 9ja || ama || 7ja || amf) CLSK0>1 TABSK2>3]: + 6 Javzon Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (jav || am5 || 9ja || ama || 7ja || amf) CLSK0>0 TABSK2>4]: + 6 Javzon Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (jav || am5 || 9ja || ama || 7ja || amf) CLSK0>2 TABSK2>2]: + 6 Javzon Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (jav || am5 || 9ja || ama || 7ja || amf) CLSK0>3 TABSK2>1]: + 6 Javzon Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG (jav || am5 || 9ja || ama || 7ja || amf) TABSK2>5]: + 6 Javzon Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG (jav || am5 || 9ja || ama || 7ja || amf) CLSK0>1 TABSK2>3]: + 6 Javzon Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG (jav || am5 || 9ja || ama || 7ja || amf) CLSK0>0 TABSK2>4]: + 6 Javzon Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG (jav || am5 || 9ja || ama || 7ja || amf) CLSK0>2 TABSK2>2]: + 6 Javzon Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG (jav || am5 || 9ja || ama || 7ja || amf) CLSK0>3 TABSK2>1]: + 6 Javzon Skill %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (jav || am5 || 9ja || ama || 7ja || amf) TABSK2>5]: |+ 6 Javzon Skill %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (jav || am5 || 9ja || ama || 7ja || amf) CLSK0>1 TABSK2>3]: |+ 6 Javzon Skill %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (jav || am5 || 9ja || ama || 7ja || amf) CLSK0>0 TABSK2>4]: |+ 6 Javzon Skill %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (jav || am5 || 9ja || ama || 7ja || amf) CLSK0>2 TABSK2>2]: |+ 6 Javzon Skill %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (jav || am5 || 9ja || ama || 7ja || amf) CLSK0>3 TABSK2>1]: |+ 6 Javzon Skill %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (jav || am5 || 9ja || ama || 7ja || amf) TABSK2>5]: |+ 6 Javzon Skill %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (jav || am5 || 9ja || ama || 7ja || amf) CLSK0>1 TABSK2>3]: |+ 6 Javzon Skill %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (jav || am5 || 9ja || ama || 7ja || amf) CLSK0>0 TABSK2>4]: |+ 6 Javzon Skill %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (jav || am5 || 9ja || ama || 7ja || amf) CLSK0>2 TABSK2>2]: |+ 6 Javzon Skill %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (jav || am5 || 9ja || ama || 7ja || amf) CLSK0>3 TABSK2>1]: |+ 6 Javzon Skill %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 /////////////////////////////////////////////////////////////////////////
 //JEWEL ALCHS////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////
 
 //Illyria's Tear Jewel Alch (Tier 3)
-ItemDisplay[(NMAG !INF !SUP) jw6 ILVL>70]: Illyria's Tear Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) jw6 ILVL>70]: |Illyria's Tear Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Focus Jewel Alch (Tier 5 Logic - Kept here for grouping, but uses T5 visibility)
-ItemDisplay[(NMAG !INF !SUP) jw6 ILVL>49 FILTLVL<2]: Focus Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) jw6 ILVL>49 FILTLVL<2]: |Focus Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
 
 ///////////////////////////////////////////////////////////////////////////
 //RINGS & AMULET ALCHS/////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 
 //Eon Band Ring Alch (Tier 3)
-ItemDisplay[(NMAG !INF !SUP) rg1 ILVL>91]: Eon Band Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) rg1 ILVL>91]: |Eon Band Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Topaz Amulet - Horologia's Pendulum Alch (Tier 3)
-ItemDisplay[((NMAG !INF !SUP ILVL>91) || (MAG ILVL>92)) au3]: Horo Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[((NMAG !INF !SUP ILVL>91) || (MAG ILVL>92)) au3]: |Horo Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Lich Rings for Alching (Cave Of Horrors) (Tier 3)
-ItemDisplay[NMAG (li0 || li1 || li2 || li3 || li4 || li5 || li6) ILVL>91]: Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[NMAG (li0 || li1 || li2 || li3 || li4 || li5 || li6) ILVL>91]: |Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Mara's Kaleidoscope Ammy Alch (Tier 4)
-ItemDisplay[(NMAG !INF !SUP) au5 ILVL>76]: Mara's Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) au5 ILVL>76]: Mara's Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) au5 ILVL>76]: |Mara's Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) au5 ILVL>76]: |Mara's Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
 
 /////////////////////////////////////////////////////////////////////////
 //HELM ALCHS/////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////
 
 //Griffon's Eye Alch (Tier 4)
-ItemDisplay[(NMAG !INF !SUP) ci2 ILVL>74]: Griffons Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) ci2 ILVL>74]: |Griffons Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-4% [L%ILVL%]
 
 /////////////////////////////////////////////////////////////////////////
 //ARMOR ALCHS////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////
 
 //Ormus Armor Alch (Tier 3)
-ItemDisplay[(NMAG !INF !SUP) uui ILVL>91]: Ormus Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) uui ILVL>91]: |Ormus Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Horadric Raiment Armor Alch (Tier 3)
-ItemDisplay[(NMAG !INF !SUP) aca ILVL>91]: Raiment Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) aca ILVL>91]: |Raiment Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Tyrael's Armor Alch (Tier 4)
-ItemDisplay[(NMAG !INF !SUP) aca ILVL>91]: Tyrael's Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) aca ILVL>91]: |Tyrael's Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-4% [L%ILVL%]
 
 /////////////////////////////////////////////////////////////////////////
 //GLOVE ALCHS////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////
 
 //Crusader Gauntlets - Perimetus Glory Alch (Tier 3)
-ItemDisplay[(NMAG !INF !SUP) utg ILVL>91]: Perimetus Glory Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) utg ILVL>91]: |Perimetus Glory Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Mirabella Gloves Alch (Tier 3)
-ItemDisplay[(NMAG !INF !SUP) ag3 ILVL>74]: Mirabella Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) ag3 ILVL>74]: |Mirabella Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 /////////////////////////////////////////////////////////////////////////
 //BELT ALCHS/////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////
 
 //Troll Belt - Headhunter's Glory Alch (Tier 3)
-ItemDisplay[(NMAG !INF !SUP) utc ILVL>88]: Headhunter's Glory Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) utc ILVL>88]: |Headhunter's Glory Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 /////////////////////////////////////////////////////////////////////////
 //WEAPON ALCHS///////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////
 
 //Blade of The Ammuit Alch For Act 3 Merc (Tier 4)
-ItemDisplay[(NMAG !INF !SUP) 7bs ILVL>81]: Blade of Ammuit Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) 7bs ILVL>81]: |Blade of Ammuit Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-4% [L%ILVL%]
 //Stormspire Giant Thresher Alch (Tier 4)
-ItemDisplay[(NMAG !INF !SUP) 7wc ILVL>91]: Stormspire Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) 7wc ILVL>91]: |Stormspire Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-4% [L%ILVL%]
 
 /////////////////////////////////////////////////////////////////////////
 //QUIVER ALCHS///////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////
 
 //The Burdens Of Truth Alch (Tier 3)
-ItemDisplay[(NMAG !INF !SUP) aq5 ILVL>66]: Burdens Of Truth Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) aq5 ILVL>66]: |Burdens Of Truth Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Acid Rain Alch (Tier 4)
-ItemDisplay[(NMAG !INF !SUP) aq4 ILVL>72]: Acid Rain Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) aq4 ILVL>72]: |Acid Rain Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-4% [L%ILVL%]
 //Deathbloom Alch (Tier 4)
-ItemDisplay[(NMAG !INF !SUP) aq6 ILVL>78]: Deathbloom Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) aq6 ILVL>78]: |Deathbloom Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-4% [L%ILVL%]
 
 /////////////////////////////////////////////////////////////////////////
 //SOCKETABLE BASES (TIER 3)//////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////
 
 //Perfect Great Hauberk Armor Base
-ItemDisplay[(NMAG !INF) urs SOCK=3 ED=20 LIFE=40]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) urs SOCK=4 ED=20 LIFE=40]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) urs SOCK=3 ED=20 LIFE=40]: |%SOCKETS%os Perfect %RED%%NAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) urs SOCK=4 ED=20 LIFE=40]: |%SOCKETS%os Perfect %RED%%NAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Perfect Loricated Mail Armor Base
-ItemDisplay[(NMAG !INF) ucl SOCK=3 ED=20 AR=400]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) ucl SOCK=4 ED=20 AR=400]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) ucl SOCK=3 ED=20 AR=400]: |%SOCKETS%os Perfect %RED%%NAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) ucl SOCK=4 ED=20 AR=400]: |%SOCKETS%os Perfect %RED%%NAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Perfect Wire Fleece Armor Base
-ItemDisplay[(NMAG !INF) utu SOCK=3 ED=20 FRW=8]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) utu SOCK=4 ED=20 FRW=8]: %SOCKETS%os Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) utu SOCK=3 ED=20 FRW=8]: |%SOCKETS%os Perfect %RED%%NAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) utu SOCK=4 ED=20 FRW=8]: |%SOCKETS%os Perfect %RED%%NAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Perfect Dusk Shroud Armor Base
-ItemDisplay[(NMAG !INF) uui SOCK=3 ED=20 STAT35=10]: Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) uui SOCK=4 ED=20 STAT35=10]: Perfect %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) uui SOCK=3 ED=20 STAT35=10]: |Perfect %RED%%NAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) uui SOCK=4 ED=20 STAT35=10]: |Perfect %RED%%NAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -132,106 +132,106 @@ ItemDisplay[(NMAG !INF) uui SOCK=4 ED=20 STAT35=10]: Perfect %RED%%NAME% %RED%0%
 /////////////////////////////////////////////////////////////////////////
 
 //Mid Level Class Skills Amulets
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK0>1 CLVL<70 FILTLVL<2]: Amazon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK2>1 CLVL<70 FILTLVL<2]: Javzon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK0>1 CLVL<70 FILTLVL<2]: Bowzon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK0>1 CLVL<70 FILTLVL<2]: |Amazon %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK2>1 CLVL<70 FILTLVL<2]: |Javzon %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK0>1 CLVL<70 FILTLVL<2]: |Bowzon %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
 
 //Mid Level Class Circlets
-ItemDisplay[(RARE || MAG) CIRC CLSK0>1 CLVL<70 FILTLVL<2]: Amazon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
-ItemDisplay[(RARE || MAG) CIRC TABSK2>1 CLVL<70 FILTLVL<2]: Javzon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
-ItemDisplay[(RARE || MAG) CIRC TABSK0>1 CLVL<70 FILTLVL<2]: Bowzon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC CLSK0>1 CLVL<70 FILTLVL<2]: |Amazon %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC TABSK2>1 CLVL<70 FILTLVL<2]: |Javzon %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC TABSK0>1 CLVL<70 FILTLVL<2]: |Bowzon %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
 
 //Mid Level Amazon Gloves - +3 Javelin Skills
-ItemDisplay[(RARE || MAG) (ag1 || ag4 || ag2 || ag5) TABSK2>2 CLVL<70 FILTLVL<2]: + 3 Jav Skill Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (ag1 || ag4 || ag2 || ag5) TABSK2>2 CLVL<70 FILTLVL<2]: |+ 3 Jav Skill Zon %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
 
 //Mid Level Amazon Gloves - +3 Bow & Crossbow Skills
-ItemDisplay[(RARE || MAG) (ag1 || ag4 || ag2 || ag5) TABSK0>2 CLVL<70 FILTLVL<2]: + 3 Bow Skill Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (ag1 || ag4 || ag2 || ag5) TABSK0>2 CLVL<70 FILTLVL<2]: |+ 3 Bow Skill Zon %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
 
 //Mid Level Amazon Gloves - +2 Javelin Skills
-ItemDisplay[(RARE || MAG) (ag1 || ag4 || ag2 || ag5) TABSK2>1 CLVL<65 FILTLVL<2]: + 2 Jav Skill Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (ag1 || ag4 || ag2 || ag5) TABSK2>1 CLVL<65 FILTLVL<2]: |+ 2 Jav Skill Zon %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
 
 //Mid Level Amazon Gloves - +2 Bow & Crossbow Skills
-ItemDisplay[(RARE || MAG) (ag1 || ag4 || ag2 || ag5) TABSK0>1 CLVL<65 FILTLVL<2]: + 2 Bow Skill Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (ag1 || ag4 || ag2 || ag5) TABSK0>1 CLVL<65 FILTLVL<2]: |+ 2 Bow Skill Zon %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
 
 //Mid Level Amazon Gloves - Tier 2 Flat Damage
-ItemDisplay[(RARE || MAG) (ag1 || ag4 || ag2 || ag5) STAT21>34 STAT22>69 CLVL<70 FILTLVL<2]: T2 Flat Dmg Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (ag1 || ag4 || ag2 || ag5) STAT21>34 STAT22>69 CLVL<70 FILTLVL<2]: |T2 Flat Dmg Zon %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
 
 //Mid Level Amazon Gloves - Tier 3 Flat Damage
-ItemDisplay[(RARE || MAG) (ag1 || ag4 || ag2 || ag5) STAT21>24 STAT22>49 CLVL<50 FILTLVL<2]: T3 Flat Dmg Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (ag1 || ag4 || ag2 || ag5) STAT21>24 STAT22>49 CLVL<50 FILTLVL<2]: |T3 Flat Dmg Zon %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
 
 //Mid Level Amazon Gloves - Tri Resistances
-ItemDisplay[RARE (ag1 || ag4 || ag2 || ag5) (FRES>19 CRES>19 LRES>19 || FRES>19 CRES>19 PRES>19 || CRES>19 LRES>19 PRES>19 || FRES>19 LRES>19 PRES>19) CLVL<70 FILTLVL<2]: Tri Resist Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+ItemDisplay[RARE (ag1 || ag4 || ag2 || ag5) (FRES>19 CRES>19 LRES>19 || FRES>19 CRES>19 PRES>19 || CRES>19 LRES>19 PRES>19 || FRES>19 LRES>19 PRES>19) CLVL<70 FILTLVL<2]: |Tri Resist Zon %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
 
 //Mid Level Amazon Armguards and Fletcher Mitt Gloves - Increased Attack Speed, 20+ Dual Resistances
-ItemDisplay[RARE (ag1 || ag2) IAS>4 (CRES>19 FRES>19 || CRES>19 LRES>19 || CRES>19 PRES>19 || LRES>19 FRES>19 || PRES>19 FRES>19 || LRES>19 PRES>19) CLVL<70 FILTLVL<2]: IAS Dual Resist Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+ItemDisplay[RARE (ag1 || ag2) IAS>4 (CRES>19 FRES>19 || CRES>19 LRES>19 || CRES>19 PRES>19 || LRES>19 FRES>19 || PRES>19 FRES>19 || LRES>19 PRES>19) CLVL<70 FILTLVL<2]: |IAS Dual Resist Zon %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
 
 //Mid Level Amazon Maiden and Matriarch Bracer Gloves - Enhanced Damage, 20+ Dual Resistances
-ItemDisplay[RARE (ag4 || ag5) ED>24 (CRES>19 FRES>19 || CRES>19 LRES>19 || CRES>19 PRES>19 || LRES>19 FRES>19 || PRES>19 FRES>19 || LRES>19 PRES>19) CLVL<70 FILTLVL<2]: ED Dual Resist Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+ItemDisplay[RARE (ag4 || ag5) ED>24 (CRES>19 FRES>19 || CRES>19 LRES>19 || CRES>19 PRES>19 || LRES>19 FRES>19 || PRES>19 FRES>19 || LRES>19 PRES>19) CLVL<70 FILTLVL<2]: |ED Dual Resist Zon %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
 
 /////////////////////////////////////////////////////////////////////////
 //BELT ALCHS (TIER 5)////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////
 
 //Burning Buckle, Snowblind & Thundergod's Belt Alch
-ItemDisplay[(NMAG !INF !SUP) hbl ILVL>19 FILTLVL<2]: Snowblind - TGod's Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) zhb ILVL>54 FILTLVL<2]: Snowblind - TGod's Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) hbl ILVL>19 FILTLVL<2]: |Snowblind - TGod's Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) zhb ILVL>54 FILTLVL<2]: |Snowblind - TGod's Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
 
 /////////////////////////////////////////////////////////////////////////
 //MAGIC CRAFTS & BASES///////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////
 
 //Loricated Mail For Crafting
-ItemDisplay[(NMAG !INF !SUP || MAG) ucl FILTLVL<2]: MA Sin Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP || MAG) ucl FILTLVL<2]: |MA Sin Craft %RED%%BASENAME%| %RED%0 %BLUE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
 
 //Shadow Steps Sin Boots For Crafting
-ItemDisplay[(NMAG !INF !SUP || MAG) ab3 FILTLVL<2]: MA Sin Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP || MAG) ab3 FILTLVL<2]: |MA Sin Craft %RED%%BASENAME%| %RED%0 %BLUE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
 
 //Dark Slippers Sin Boots For Crafting
-ItemDisplay[(NMAG !INF !SUP || MAG) ab6 FILTLVL<2]: Sin Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP || MAG) ab6 FILTLVL<2]: |Sin Craft %RED%%BASENAME%| %RED%0 %BLUE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
 
 //Vampirefang Belt For Crafting
-ItemDisplay[(NMAG !INF !SUP || MAG) uvc FILTLVL<2]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP || MAG) uvc FILTLVL<2]: |Craft %RED%%BASENAME%| %RED%0 %BLUE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
 
 //Mithril Coil Belt For Crafting
-ItemDisplay[(NMAG !INF !SUP || MAG) umc FILTLVL<2]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP || MAG) umc FILTLVL<2]: |Craft %RED%%BASENAME%| %RED%0 %BLUE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
 
 //Crusader Gauntlets For Crafting
-ItemDisplay[(NMAG !INF !SUP || MAG) utg FILTLVL<2]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP || MAG) utg FILTLVL<2]: |Craft %RED%%BASENAME%| %RED%0 %BLUE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
 
 //Crusader Bow For Crafting (Physical Bow Zon)
-ItemDisplay[(NMAG !INF !SUP || MAG) 6l7 FILTLVL<2]: Phys Bow Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP || MAG) 6l7 FILTLVL<2]: |Phys Bow Craft %RED%%BASENAME%| %RED%0 %BLUE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
 
 //Mat Bow For Crafting
-ItemDisplay[(NMAG !INF !SUP || MAG) amb FILTLVL<2]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP || MAG) amb FILTLVL<2]: |Craft %RED%%BASENAME%| %RED%0 %BLUE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
 
 //Apex Arrow Quivers For Crafting
-ItemDisplay[(NMAG !INF !SUP || MAG) aq6 FILTLVL<2]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP || MAG) aq6 FILTLVL<2]: |Craft %RED%%BASENAME%| %RED%0 %BLUE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
 
 //Wyrmhide Boots For Crafting
-ItemDisplay[(NMAG !INF !SUP || MAG) ulb FILTLVL<2]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP || MAG) ulb FILTLVL<2]: |Craft %RED%%BASENAME%| %RED%0 %BLUE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
 
 //Boneweave Boots For Crafting
-ItemDisplay[(NMAG !INF !SUP || MAG) umb FILTLVL<2]: Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP || MAG) umb FILTLVL<2]: |Craft %RED%%BASENAME%| %RED%0 %BLUE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
 
 /////////////////////////////////////////////////////////////////////////
 //SOCKETABLE BASES (TIER 5 AUTOMODS)/////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////
 
 //Perfect Great Hauberk Armor Base
-ItemDisplay[(NMAG !INF) urs SOCK=0 LIFE=40 FILTLVL<2]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF) urs (SOCK=3 || SOCK=4) LIFE=40 FILTLVL<2]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) urs SOCK=0 LIFE=40 FILTLVL<2]: |Perfect Automod %RED%%NAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) urs (SOCK=3 || SOCK=4) LIFE=40 FILTLVL<2]: |%SOCKETS%os Perfect Automod %RED%%NAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
 
 //Perfect Loricated Mail Armor Base
-ItemDisplay[(NMAG !INF) ucl SOCK=0 AR=400 FILTLVL<2]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF) ucl (SOCK=3 || SOCK=4) AR=400 FILTLVL<2]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) ucl SOCK=0 AR=400 FILTLVL<2]: |Perfect Automod %RED%%NAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) ucl (SOCK=3 || SOCK=4) AR=400 FILTLVL<2]: |%SOCKETS%os Perfect Automod %RED%%NAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
 
 //Perfect Wire Fleece Armor Base
-ItemDisplay[(NMAG !INF) utu SOCK=0 FRW=8 FILTLVL<2]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF) utu (SOCK=3 || SOCK=4) FRW=8 FILTLVL<2]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) utu SOCK=0 FRW=8 FILTLVL<2]: |Perfect Automod %RED%%NAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) utu (SOCK=3 || SOCK=4) FRW=8 FILTLVL<2]: |%SOCKETS%os Perfect Automod %RED%%NAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
 
 //Perfect Dusk Shroud Armor Base
-ItemDisplay[(NMAG !INF) uui SOCK=0 STAT35=10 FILTLVL<2]: Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF) uui (SOCK=3 || SOCK=4) STAT35=10 FILTLVL<2]: %SOCKETS%os Perfect Automod %RED%%NAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) uui SOCK=0 STAT35=10 FILTLVL<2]: |Perfect Automod %RED%%NAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF) uui (SOCK=3 || SOCK=4) STAT35=10 FILTLVL<2]: |%SOCKETS%os Perfect Automod %RED%%NAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -244,29 +244,29 @@ ItemDisplay[(NMAG !INF) uui (SOCK=3 || SOCK=4) STAT35=10 FILTLVL<2]: %SOCKETS%os
 /////////////////////////////////////////////////////////////////////////
 
 //Low Level Class Skills Amulets
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK0>0 CLVL<60 FILTLVL<1]: Amazon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK2>0 CLVL<60 FILTLVL<1]: Javzon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK0>0 CLVL<60 FILTLVL<1]: Bowzon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK0>0 CLVL<60 FILTLVL<1]: |Amazon %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK2>0 CLVL<60 FILTLVL<1]: |Javzon %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK0>0 CLVL<60 FILTLVL<1]: |Bowzon %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
 
 //Low Level Class Circlets
-ItemDisplay[(RARE || MAG) CIRC CLSK0>0 CLVL<60 FILTLVL<1]: Amazon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
-ItemDisplay[(RARE || MAG) CIRC TABSK2>0 CLVL<60 FILTLVL<1]: Javzon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
-ItemDisplay[(RARE || MAG) CIRC TABSK0>0 CLVL<60 FILTLVL<1]: Bowzon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC CLSK0>0 CLVL<60 FILTLVL<1]: |Amazon %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC TABSK2>0 CLVL<60 FILTLVL<1]: |Javzon %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC TABSK0>0 CLVL<60 FILTLVL<1]: |Bowzon %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
 
 //Low Level Amazon Gloves - Javelin Skills
-ItemDisplay[(RARE || MAG) (ag1 || ag4) TABSK2>0 CLVL<60 FILTLVL<1]: Jav Skill Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (ag1 || ag4) TABSK2>0 CLVL<60 FILTLVL<1]: |Jav Skill Zon %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
 
 //Low Level Amazon Gloves - Bow & Crossbow Skills
-ItemDisplay[(RARE || MAG) (ag1 || ag4) TABSK0>0 CLVL<60 FILTLVL<1]: Bow Skill Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (ag1 || ag4) TABSK0>0 CLVL<60 FILTLVL<1]: |Bow Skill Zon %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
 
 //Low Level Amazon Gloves - Flat Damage
-ItemDisplay[(RARE || MAG) (ag1 || ag4) STAT21>9 STAT22>19 CLVL<35 FILTLVL<1]: T4 Flat Dmg Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (ag1 || ag4) STAT21>9 STAT22>19 CLVL<35 FILTLVL<1]: |T4 Flat Dmg Zon %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
 
 //Low Level Amazon Gloves - Tri Resistances
-ItemDisplay[RARE (ag1 || ag4) (FRES>9 CRES>9 LRES>9 || FRES>9 CRES>9 PRES>9 || CRES>9 LRES>9 PRES>9 || FRES>9 LRES>9 PRES>9) CLVL<60 FILTLVL<1]: Tri Resist Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+ItemDisplay[RARE (ag1 || ag4) (FRES>9 CRES>9 LRES>9 || FRES>9 CRES>9 PRES>9 || CRES>9 LRES>9 PRES>9 || FRES>9 LRES>9 PRES>9) CLVL<60 FILTLVL<1]: |Tri Resist Zon %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
 
 //Low Level Amazon Armguards Gloves - Increased Attack Speed, 10+ Dual Resistances
-ItemDisplay[RARE ag1 IAS>4 (CRES>9 FRES>9 || CRES>9 LRES>9 || CRES>9 PRES>9 || LRES>9 FRES>9 || PRES>9 FRES>9 || LRES>9 PRES>9) CLVL<60 FILTLVL<1]: IAS Dual Resist Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+ItemDisplay[RARE ag1 IAS>4 (CRES>9 FRES>9 || CRES>9 LRES>9 || CRES>9 PRES>9 || LRES>9 FRES>9 || PRES>9 FRES>9 || LRES>9 PRES>9) CLVL<60 FILTLVL<1]: |IAS Dual Resist Zon %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
 
 //Low Level Maiden Gloves - Enhanced Damage, 10+ Dual Resistances
-ItemDisplay[RARE ag4 ED>24 (CRES>9 FRES>9 || CRES>9 LRES>9 || CRES>9 PRES>9 || LRES>9 FRES>9 || PRES>9 FRES>9 || LRES>9 PRES>9) CLVL<60 FILTLVL<1]: ED Dual Resist Zon %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+ItemDisplay[RARE ag4 ED>24 (CRES>9 FRES>9 || CRES>9 LRES>9 || CRES>9 PRES>9 || LRES>9 FRES>9 || PRES>9 FRES>9 || LRES>9 PRES>9) CLVL<60 FILTLVL<1]: |ED Dual Resist Zon %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
