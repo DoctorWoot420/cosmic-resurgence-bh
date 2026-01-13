@@ -1,576 +1,575 @@
-//////////////////////////////////////////////////////////////////
-//Start Sorceress Gear////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////
-
-////////Mid Level Sorceress Skills Amulets
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK1>1 CLVL<70]: Sorceress %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK8>1 CLVL<70]: Fire Sorc %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK9>1 CLVL<70]: Light Sorc %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK10>1 CLVL<70]: Cold Sorc %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Sorceress Circlets
-ItemDisplay[(RARE || MAG) CIRC CLSK1>1 CLVL<70]: Sorceress %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) CIRC TABSK8>1 CLVL<70]: Fire Sorc %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) CIRC TABSK9>1 CLVL<70]: Light Sorc %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) CIRC TABSK10>1 CLVL<70]: Cold Sorc %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Voltaic Blast Clasped Orb - Sparkling Ball
-ItemDisplay[(RARE || MAG) (ob4 || ob9) TABSK9>0 SK43>2 CLVL<70]: Voltaic Blast %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Voltaic Blast Clasped Orb - Sparkling Ball
-ItemDisplay[(RARE || MAG) (ob4 || ob9) GOODSK>0 SK43>2 CLVL<70]: Voltaic Blast %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Fireball Orb
-ItemDisplay[(RARE || MAG) (ob1 || ob2 || ob3 || lxb || ob5 || ob6 || ob7 || ob8 || ob9 || oba || obb || obc) TABSK8>0 SK47>2 CLVL<70]: Fireball %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Fireball Orb
-ItemDisplay[(RARE || MAG) (ob1 || ob2 || ob3 || lxb || ob5 || ob6 || ob7 || ob8 || ob9 || oba || obb || obc) GOODSK>0 SK47>2 CLVL<70]: Fireball %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Hydra Orb
-ItemDisplay[(RARE || MAG) (ob1 || ob2 || ob3 || lxb || ob5 || ob6 || ob7 || ob8 || ob9 || oba || obb || obc) TABSK8>0 SK62>2 CLVL<70]: Hydra %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Hydra Orb
-ItemDisplay[(RARE || MAG) (ob1 || ob2 || ob3 || lxb || ob5 || ob6 || ob7 || ob8 || ob9 || oba || obb || obc) GOODSK>0 SK62>2 CLVL<70]: Hydra %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Meteor Orb
-ItemDisplay[(RARE || MAG) (ob1 || ob2 || ob3 || lxb || ob5 || ob6 || ob7 || ob8 || ob9 || oba || obb || obc) TABSK8>0 SK56>2 CLVL<70]: Meteor %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Meteor Orb
-ItemDisplay[(RARE || MAG) (ob1 || ob2 || ob3 || lxb || ob5 || ob6 || ob7 || ob8 || ob9 || oba || obb || obc) GOODSK>0 SK56>2 CLVL<70]: Meteor %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Ice Lance Orb
-ItemDisplay[(RARE || MAG) (ob1 || ob2 || ob3 || lxb || ob5 || ob6 || ob7 || ob8 || ob9 || oba || obb || obc) TABSK10>0 SK37>2 CLVL<70]: Ice Lance %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Ice Lance Orb
-ItemDisplay[(RARE || MAG) (ob1 || ob2 || ob3 || lxb || ob5 || ob6 || ob7 || ob8 || ob9 || oba || obb || obc) GOODSK>0 SK37>2 CLVL<70]: Ice Lance %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Blizzard Orb
-ItemDisplay[(RARE || MAG) (ob1 || ob2 || ob3 || lxb || ob5 || ob6 || ob7 || ob8 || ob9 || oba || obb || obc) TABSK10>0 SK59>2 CLVL<70]: Blizzard %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Blizzard Orb
-ItemDisplay[(RARE || MAG) (ob1 || ob2 || ob3 || lxb || ob5 || ob6 || ob7 || ob8 || ob9 || oba || obb || obc) GOODSK>0 SK59>2 CLVL<70]: Blizzard %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Frozen Orb Orb
-ItemDisplay[(RARE || MAG) (ob1 || ob2 || ob3 || lxb || ob5 || ob6 || ob7 || ob8 || ob9 || oba || obb || obc) TABSK10>0 SK64>2 CLVL<70]: Frozen %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Frozen Orb Orb
-ItemDisplay[(RARE || MAG) (ob1 || ob2 || ob3 || lxb || ob5 || ob6 || ob7 || ob8 || ob9 || oba || obb || obc) GOODSK>0 SK64>2 CLVL<70]: Frozen %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Charged Bolt Orb
-ItemDisplay[(RARE || MAG) (ob1 || ob2 || ob3 || lxb || ob5 || ob6 || ob7 || ob8 || ob9 || oba || obb || obc) TABSK9>0 SK39>2 CLVL<70]: Charged Bolt %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Charged Bolt Orb
-ItemDisplay[(RARE || MAG) (ob1 || ob2 || ob3 || lxb || ob5 || ob6 || ob7 || ob8 || ob9 || oba || obb || obc) GOODSK>0 SK39>2 CLVL<70]: Charged Bolt %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Chain Lightning Orb
-ItemDisplay[(RARE || MAG) (ob1 || ob2 || ob3 || lxb || ob5 || ob6 || ob7 || ob8 || ob9 || oba || obb || obc) TABSK9>0 SK53>2 CLVL<70]: Chain Lightning %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Chain Lightning Orb
-ItemDisplay[(RARE || MAG) (ob1 || ob2 || ob3 || lxb || ob5 || ob6 || ob7 || ob8 || ob9 || oba || obb || obc) GOODSK>0 SK53>2 CLVL<70]: Chain Lightning %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Lightning Orb
-ItemDisplay[(RARE || MAG) (ob1 || ob2 || ob3 || lxb || ob5 || ob6 || ob7 || ob8 || ob9 || oba || obb || obc) TABSK9>0 SK49>2 CLVL<70]: Lightning %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Lightning Orb
-ItemDisplay[(RARE || MAG) (ob1 || ob2 || ob3 || lxb || ob5 || ob6 || ob7 || ob8 || ob9 || oba || obb || obc) GOODSK>0 SK49>2 CLVL<70]: Lightning %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Nova Orb
-ItemDisplay[(RARE || MAG) (ob1 || ob2 || ob3 || lxb || ob5 || ob6 || ob7 || ob8 || ob9 || oba || obb || obc) TABSK9>0 SK48>2 CLVL<70]: Nova %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Mid Level Nova Orb
-ItemDisplay[(RARE || MAG) (ob1 || ob2 || ob3 || lxb || ob5 || ob6 || ob7 || ob8 || ob9 || oba || obb || obc) GOODSK>0 SK48>2 CLVL<70]: Nova %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Sorceress Skills Amulets
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK1>0 CLVL<60]: Sorceress %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK8>0 CLVL<60]: Fire Sorc %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK9>0 CLVL<60]: Light Sorc %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK10>0 CLVL<60]: Cold Sorc %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Sorceress Circlets
-ItemDisplay[(RARE || MAG) CIRC CLSK1>0 CLVL<60]: Sorceress %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) CIRC TABSK8>0 CLVL<60]: Fire Sorc %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) CIRC TABSK9>0 CLVL<60]: Light Sorc %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(RARE || MAG) CIRC TABSK10>0 CLVL<60]: Cold Sorc %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Voltaic Blast Clasped Orb - Eagle Orb - Smoked Sphere - Sacred Globe
-ItemDisplay[(RARE || MAG) (ob1 || ob2 || ob3 || lxb || ob4) SK43>2 CLVL<60]: + 3 Voltaic Blast %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Fireball Eagle Orb - Smoked Sphere - Sacred Globe
-ItemDisplay[(RARE || MAG) (ob1 || ob2 || ob3 || lxb) SK47>2 CLVL<60]: + 3 Fireball %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Hydra Eagle Orb - Smoked Sphere - Sacred Globe
-ItemDisplay[(RARE || MAG) (ob1 || ob2 || ob3 || lxb) SK62>2 CLVL<60]: + 3 Hydra %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Ice Lance Eagle Orb - Smoked Sphere - Sacred Globe
-ItemDisplay[(RARE || MAG) (ob1 || ob2 || ob3 || lxb) SK37>2 CLVL<60]: + 3 Ice Lance %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Charged Bolt Eagle Orb - Smoked Sphere - Sacred Globe
-ItemDisplay[(RARE || MAG) (ob1 || ob2 || ob3 || lxb) SK39>2 CLVL<60]: + 3 Charged Bolt %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Socketables For Runewords
-//Low Level Battle Staff - Jo Staff - Gothic Staff - Walking Stick For Cascade Sorc Runewords
-ItemDisplay[(NMAG !INF) SOCK=2 (bst || 8ss || 8bs || 6ss) CLVL<70]: Cascade Sorc {%GRAY%Strength: %ORANGE%Amn Tir%NL%%GRAY%Night: %ORANGE%Tir Io} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (bst || 8ss || 8bs || 6ss) ED=20 CLVL<70]: Cascade Sorc Perfect ED {%GRAY%Strength: %ORANGE%Amn Tir%NL%%GRAY%Night: %ORANGE%Tir Io} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=3 (bst || 8ss || 8bs || 6ss) CLVL<70]: Cascade Sorc {%GRAY%Madness: %ORANGE%El Ort El%NL%%GRAY%Envy: %ORANGE%Ort Amn Ral} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=3 (bst || 8ss || 8bs || 6ss) ED=20 CLVL<70]: Cascade Sorc Perfect ED {%GRAY%Madness: %ORANGE%El Ort El%NL%%GRAY%Envy: %ORANGE%Ort Amn Ral} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=4 (bst || 8ss || 8bs || 6ss) CLVL<70]: Cascade Sorc {%GRAY%Insight: %ORANGE%Ral Tir Tal Sol} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=4 (bst || 8ss || 8bs || 6ss) ED=20 CLVL<70]: Cascade Sorc Perfect ED {%GRAY%Insight: %ORANGE%Ral Tir Tal Sol} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Fire Ball Short Staff - Gnarled Staff - Battle Staff - Long Staff - Runewords
-ItemDisplay[(NMAG !INF) SOCK=2 (sst || cst || bst || lst) SK47>2 CLVL<60]: Fireball {%GRAY%Leaf: %ORANGE%Tir Ral} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Hydra Short Staff - Gnarled Staff - Battle Staff - Long Staff - Runewords
-ItemDisplay[(NMAG !INF) SOCK=2 (sst || cst || bst || lst) SK62>2 CLVL<60]: Hydra {%GRAY%Leaf: %ORANGE%Tir Ral} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Clasped Orb (Voltaic Blast) - Runewords
-ItemDisplay[(NMAG !INF) SOCK=2 ob4 CLVL<35]: Voltaic Blast {%GRAY%Terror: %ORANGE%Ith Eth} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 ob4 ED=20 CLVL<35]: Voltaic Blast Perfect ED {%GRAY%Terror: %ORANGE%Ith Eth} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Clasped Orb - Voltaic Blast - Runewords
-ItemDisplay[(NMAG !INF) SOCK=2 (ob4 || ob9) SK43>0 CLVL<70]: + Voltaic Blast {%GRAY%Tradition: %ORANGE%Eld Amn} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (ob4 || ob9) ED=20 SK43>0 CLVL<70]: + Voltaic Blast Perfect ED {%GRAY%Tradition: %ORANGE%Eld Amn} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Hydra Eagle Orb - Smoked Sphere - Sacred Globe - Runewords
-ItemDisplay[(NMAG !INF) SOCK=2 (ob1 || ob2 || ob3 || lxb) SK62>2 CLVL<70]: + 3 Hydra {%GRAY%Terror: %ORANGE%Ith Eth} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Fireball Eagle Orb - Smoked Sphere - Sacred Globe - Runewords
-ItemDisplay[(NMAG !INF) SOCK=2 (ob1 || ob2 || ob3 || lxb) SK47>2 CLVL<70]: +3 Fireball {%GRAY%Terror: %ORANGE%Ith Eth} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Ice Lance Eagle Orb - Smoked Sphere - Sacred Globe - Runewords
-ItemDisplay[(NMAG !INF) SOCK=2 (ob1 || ob2 || ob3 || lxb) SK37>2 CLVL<70]: +3 Ice Lance {%GRAY%Terror: %ORANGE%Ith Eth} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Charged Bolt Eagle Orb - Smoked Sphere - Sacred Globe - Runewords
-ItemDisplay[(NMAG !INF) SOCK=2 (ob1 || ob2 || ob3 || lxb) SK39>2 CLVL<70]: +3 Charged Bolt {%GRAY%Terror: %ORANGE%Ith Eth} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Tradition Orb Runeword
-//Low Level Voltaic Blast Clasped Orb - Sparkling Ball - Vortex Orb - Runewords
-ItemDisplay[(NMAG !INF) SOCK=2 (ob4 || ob9 || obe) SK43>2 CLVL<70]: + 3 Voltaic Blast {%GRAY%Tradition: %ORANGE%Eld Amn} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (ob4 || ob9 || obe) ED=20 SK43>2 CLVL<70]: + 3 Voltaic Blast Perfect ED {%GRAY%Tradition: %ORANGE%Eld Amn} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Fireball Eagle Orb - Smoked Sphere - Sacred Globe - Jareds Stone - Glowing Orb - Crystalline Globe - Cloudy Sphere - Swirling Crystal - Heavenly Stone - Eldritch Orb - Demon Heart - Dimensional Shard - Runewords
-ItemDisplay[(NMAG !INF) SOCK=2 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK36>2 CLVL<70]: + 3 Fireball {%GRAY%Tradition: %ORANGE%Eld Amn} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Hydra Eagle Orb - Smoked Sphere - Sacred Globe - Jareds Stone - Glowing Orb - Crystalline Globe - Cloudy Sphere - Swirling Crystal - Heavenly Stone - Eldritch Orb - Demon Heart - Dimensional Shard - Runewords
-ItemDisplay[(NMAG !INF) SOCK=2 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK62>2 CLVL<70]: + 3 Hydra {%GRAY%Tradition: %ORANGE%Eld Amn} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Immolate Eagle Orb - Smoked Sphere - Sacred Globe - Jareds Stone - Glowing Orb - Crystalline Globe - Cloudy Sphere - Swirling Crystal - Heavenly Stone - Eldritch Orb - Demon Heart - Dimensional Shard - Runewords
-ItemDisplay[(NMAG !INF) SOCK=2 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK47>2 CLVL<70]: + 3 Immolate {%GRAY%Tradition: %ORANGE%Eld Amn} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Meteor Eagle Orb - Smoked Sphere - Sacred Globe - Jareds Stone - Glowing Orb - Crystalline Globe - Cloudy Sphere - Swirling Crystal - Heavenly Stone - Eldritch Orb - Demon Heart - Dimensional Shard - Runewords
-ItemDisplay[(NMAG !INF) SOCK=2 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK56>2 CLVL<70]: + 3 Meteor {%GRAY%Tradition: %ORANGE%Eld Amn} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Conflagration Eagle Orb - Smoked Sphere - Sacred Globe - Jareds Stone - Glowing Orb - Crystalline Globe - Cloudy Sphere - Swirling Crystal - Heavenly Stone - Eldritch Orb - Demon Heart - Dimensional Shard - Runewords
-ItemDisplay[(NMAG !INF) SOCK=2 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK52>2 CLVL<70]: + 3 Conflagration {%GRAY%Tradition: %ORANGE%Eld Amn} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Flame Orb Eagle Orb - Smoked Sphere - Sacred Globe - Jareds Stone - Glowing Orb - Crystalline Globe - Cloudy Sphere - Swirling Crystal - Heavenly Stone - Eldritch Orb - Demon Heart - Dimensional Shard - Runewords
-ItemDisplay[(NMAG !INF) SOCK=2 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK38>2 CLVL<70]: + 3 Flame Orb {%GRAY%Tradition: %ORANGE%Eld Amn} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Fire Mastery Eagle Orb - Smoked Sphere - Sacred Globe - Jareds Stone - Glowing Orb - Crystalline Globe - Cloudy Sphere - Swirling Crystal - Heavenly Stone - Eldritch Orb - Demon Heart - Dimensional Shard - Runewords
-ItemDisplay[(NMAG !INF) SOCK=2 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK61>2 CLVL<70]: + 3 Fire Mastery {%GRAY%Tradition: %ORANGE%Eld Amn} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Ice Lance Eagle Orb - Smoked Sphere - Sacred Globe - Jareds Stone - Glowing Orb - Crystalline Globe - Cloudy Sphere - Swirling Crystal - Heavenly Stone - Eldritch Orb - Demon Heart - Dimensional Shard - Runewords
-ItemDisplay[(NMAG !INF) SOCK=2 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK37>2 CLVL<70]: + 3 Ice Lance {%GRAY%Tradition: %ORANGE%Eld Amn} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Frost Nova Eagle Orb - Smoked Sphere - Sacred Globe - Jareds Stone - Glowing Orb - Crystalline Globe - Cloudy Sphere - Swirling Crystal - Heavenly Stone - Eldritch Orb - Demon Heart - Dimensional Shard - Runewords
-ItemDisplay[(NMAG !INF) SOCK=2 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK45>2 CLVL<70]: + 3 Frost Nova {%GRAY%Tradition: %ORANGE%Eld Amn} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Creeping Rime Eagle Orb - Smoked Sphere - Sacred Globe - Jareds Stone - Glowing Orb - Crystalline Globe - Cloudy Sphere - Swirling Crystal - Heavenly Stone - Eldritch Orb - Demon Heart - Dimensional Shard - Runewords
-ItemDisplay[(NMAG !INF) SOCK=2 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK41>2 CLVL<70]: + 3 Creeping Rime {%GRAY%Tradition: %ORANGE%Eld Amn} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Blizzard Eagle Orb - Smoked Sphere - Sacred Globe - Jareds Stone - Glowing Orb - Crystalline Globe - Cloudy Sphere - Swirling Crystal - Heavenly Stone - Eldritch Orb - Demon Heart - Dimensional Shard - Runewords
-ItemDisplay[(NMAG !INF) SOCK=2 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK59>2 CLVL<70]: + 3 Blizzard {%GRAY%Tradition: %ORANGE%Eld Amn} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Frozen Orb Eagle Orb - Smoked Sphere - Sacred Globe - Jareds Stone - Glowing Orb - Crystalline Globe - Cloudy Sphere - Swirling Crystal - Heavenly Stone - Eldritch Orb - Demon Heart - Dimensional Shard - Runewords
-ItemDisplay[(NMAG !INF) SOCK=2 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK62>2 CLVL<70]: + 3 Frozen Orb {%GRAY%Tradition: %ORANGE%Eld Amn} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Cold Mastery Eagle Orb - Smoked Sphere - Sacred Globe - Jareds Stone - Glowing Orb - Crystalline Globe - Cloudy Sphere - Swirling Crystal - Heavenly Stone - Eldritch Orb - Demon Heart - Dimensional Shard - Runewords
-ItemDisplay[(NMAG !INF) SOCK=2 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK65>2 CLVL<70]: + 3 Cold Mastery {%GRAY%Tradition: %ORANGE%Eld Amn} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Charged Bolt Eagle Orb - Smoked Sphere - Sacred Globe - Jareds Stone - Glowing Orb - Crystalline Globe - Cloudy Sphere - Swirling Crystal - Heavenly Stone - Eldritch Orb - Demon Heart - Dimensional Shard - Runewords
-ItemDisplay[(NMAG !INF) SOCK=2 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK39>2 CLVL<70]: + 3 Charged Bolt {%GRAY%Tradition: %ORANGE%Eld Amn} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Chain Lightning Eagle Orb - Smoked Sphere - Sacred Globe - Jareds Stone - Glowing Orb - Crystalline Globe - Cloudy Sphere - Swirling Crystal - Heavenly Stone - Eldritch Orb - Demon Heart - Dimensional Shard - Runewords
-ItemDisplay[(NMAG !INF) SOCK=2 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK53>2 CLVL<70]: + 3 Chain Lightning {%GRAY%Tradition: %ORANGE%Eld Amn} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Lightning Eagle Orb - Smoked Sphere - Sacred Globe - Jareds Stone - Glowing Orb - Crystalline Globe - Cloudy Sphere - Swirling Crystal - Heavenly Stone - Eldritch Orb - Demon Heart - Dimensional Shard - Runewords
-ItemDisplay[(NMAG !INF) SOCK=2 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK49>2 CLVL<70]: + 3 Lightning {%GRAY%Tradition: %ORANGE%Eld Amn} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Discharge Eagle Orb - Smoked Sphere - Sacred Globe - Jareds Stone - Glowing Orb - Crystalline Globe - Cloudy Sphere - Swirling Crystal - Heavenly Stone - Eldritch Orb - Demon Heart - Dimensional Shard - Runewords
-ItemDisplay[(NMAG !INF) SOCK=2 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK54>2 CLVL<70]: + 3 Discharge {%GRAY%Tradition: %ORANGE%Eld Amn} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Energy Shield Eagle Orb - Smoked Sphere - Sacred Globe - Jareds Stone - Glowing Orb - Crystalline Globe - Cloudy Sphere - Swirling Crystal - Heavenly Stone - Eldritch Orb - Demon Heart - Dimensional Shard - Runewords
-ItemDisplay[(NMAG !INF) SOCK=2 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK58>2 CLVL<70]: + 3 Energy Shield Tradition RW (Eld Amn) {%NAME%%GRAY%Use For Pre-Buff}%RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Nova Eagle Orb - Smoked Sphere - Sacred Globe - Jareds Stone - Glowing Orb - Crystalline Globe - Cloudy Sphere - Swirling Crystal - Heavenly Stone - Eldritch Orb - Demon Heart - Dimensional Shard - Runewords
-ItemDisplay[(NMAG !INF) SOCK=2 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK48>2 CLVL<70]: + 3 Nova {%GRAY%Tradition: %ORANGE%Eld Amn} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-//Low Level Lightning Mastery Eagle Orb - Smoked Sphere - Sacred Globe - Jareds Stone - Glowing Orb - Crystalline Globe - Cloudy Sphere - Swirling Crystal - Heavenly Stone - Eldritch Orb - Demon Heart - Dimensional Shard - Runewords
-ItemDisplay[(NMAG !INF) SOCK=2 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK63>2 CLVL<70]: + 3 Lightning Mastery {%GRAY%Tradition: %ORANGE%Eld Amn} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
-
-
-/////////////////Hell Level Sorceress Gear
-
-//Punishment Orb Runeword
-//Voltaic Blast Clasped Orb - Sparkling Ball - Vortex Orb - Runewords
-ItemDisplay[(NMAG !INF) SOCK=3 (ob4 || ob9 || obe) SK43>2]: + 3 Voltaic Blast {%GRAY%Punishment: %ORANGE%Lo Jah Lo} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=3 (ob4 || ob9 || obe) ED=20 SK43>2]: + 3 Voltaic Blast Perfect ED {%GRAY%Punishment: %ORANGE%Lo Jah Lo} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-
-//Charged Bolt Eagle Orb - Smoked Sphere - Sacred Globe - Jareds Stone - Glowing Orb - Crystalline Globe - Cloudy Sphere - Swirling Crystal - Heavenly Stone - Eldritch Orb - Demon Heart - Dimensional Shard - Runewords
-ItemDisplay[(NMAG !INF) SOCK=3 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK39>2]: + 3 Charged Bolt {%GRAY%Punishment: %ORANGE%Lo Jah Lo} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-
-//Chain Lightning Eagle Orb - Smoked Sphere - Sacred Globe - Jareds Stone - Glowing Orb - Crystalline Globe - Cloudy Sphere - Swirling Crystal - Heavenly Stone - Eldritch Orb - Demon Heart - Dimensional Shard - Runewords
-ItemDisplay[(NMAG !INF) SOCK=3 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK53>2]: + 3 Chain Lightning {%GRAY%Punishment: %ORANGE%Lo Jah Lo} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-
-//Lightning Eagle Orb - Smoked Sphere - Sacred Globe - Jareds Stone - Glowing Orb - Crystalline Globe - Cloudy Sphere - Swirling Crystal - Heavenly Stone - Eldritch Orb - Demon Heart - Dimensional Shard - Runewords
-ItemDisplay[(NMAG !INF) SOCK=3 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK49>2]: + 3 Lightning {%GRAY%Punishment: %ORANGE%Lo Jah Lo} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-
-//Discharge Eagle Orb - Smoked Sphere - Sacred Globe - Jareds Stone - Glowing Orb - Crystalline Globe - Cloudy Sphere - Swirling Crystal - Heavenly Stone - Eldritch Orb - Demon Heart - Dimensional Shard - Runewords
-ItemDisplay[(NMAG !INF) SOCK=3 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK54>2]: + 3 Discharge {%GRAY%Punishment: %ORANGE%Lo Jah Lo} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-
-//Energy Shield Eagle Orb - Smoked Sphere - Sacred Globe - Jareds Stone - Glowing Orb - Crystalline Globe - Cloudy Sphere - Swirling Crystal - Heavenly Stone - Eldritch Orb - Demon Heart - Dimensional Shard - Runewords
-ItemDisplay[(NMAG !INF) SOCK=3 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK58>2]: + 3 Energy Shield Punishment RW (Lo Jah Lo) {%NAME%%GRAY%Use For Pre-Buff}%RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-
-//Nova Eagle Orb - Smoked Sphere - Sacred Globe - Jareds Stone - Glowing Orb - Crystalline Globe - Cloudy Sphere - Swirling Crystal - Heavenly Stone - Eldritch Orb - Demon Heart - Dimensional Shard - Runewords
-ItemDisplay[(NMAG !INF) SOCK=3 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK48>2]: + 3 Nova {%GRAY%Punishment: %ORANGE%Lo Jah Lo} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-
-//Lightning Mastery Eagle Orb - Smoked Sphere - Sacred Globe - Jareds Stone - Glowing Orb - Crystalline Globe - Cloudy Sphere - Swirling Crystal - Heavenly Stone - Eldritch Orb - Demon Heart - Dimensional Shard - Runewords
-ItemDisplay[(NMAG !INF) SOCK=3 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK63>2]: + 3 Lightning Mastery {%GRAY%Punishment: %ORANGE%Lo Jah Lo} %SOCKETS%os %RED%%NAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-
-//Rings - Matching Sorceress Skills - Elemental % Damage
-//ItemDisplay[RARE (sf2 || sf4) STAT417>0 FILTLVL<3]: Fire Sorc Skills %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-//ItemDisplay[RARE (sf2 || sf4) STAT417>0 FILTLVL<3]: Fire Sorc Skills %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-//ItemDisplay[RARE (sf3 || sf4) STAT413>0 FILTLVL<3]: Cold Sorc Skills %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-//ItemDisplay[RARE (sf3 || sf4) STAT413>0 FILTLVL<3]: Cold Sorc Skills %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-//ItemDisplay[RARE (sf1 || sf4) STAT414>0 FILTLVL<3]: Light Sorc Skills %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-//ItemDisplay[RARE (sf1 || sf4) STAT414>0 FILTLVL<3]: Light Sorc Skills %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-
-//Rings - Perfect Fire Damage % With Faster Cast Rate
-ItemDisplay[RARE (rg1 || rg2 || rg3 || rg4 || rg5 || sf1 || sf2 || sf3 || sf4) STAT329>19 FCR>9]: Perfect Fire Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG (rg1 || rg2 || rg3 || rg4 || rg5 || sf1 || sf2 || sf3 || sf4) STAT329>19 FCR>9 FILTLVL<3]: Perfect Fire Dmg %PURPLE%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[MAG (rg1 || rg2 || rg3 || rg4 || rg5 || sf1 || sf2 || sf3 || sf4) STAT329>19 FCR>9 FILTLVL<3]: Perfect Fire Dmg %PURPLE%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-
-//Rings - Perfect Fire Damage %, Faster Cast Rate, 10+ Dual Resistances
-ItemDisplay[RARE (rg1 || rg2 || rg3 || rg4 || rg5 || sf1 || sf2 || sf3 || sf4) STAT329>19 FCR>9 (CRES>9 FRES>9 || CRES>9 LRES>9 || CRES>9 PRES>9 || LRES>9 FRES>9 || PRES>9 FRES>9 || LRES>9 PRES>9)]: Fire Dmg Dual Res %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-2% [L%ILVL%]
-
-//Rings - Perfect Light Damage % With Faster Cast Rate
-ItemDisplay[RARE (rg1 || rg2 || rg3 || rg4 || rg5 || sf1 || sf2 || sf3 || sf4) STAT330>19 FCR>9]: Perfect Light Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG (rg1 || rg2 || rg3 || rg4 || rg5 || sf1 || sf2 || sf3 || sf4) STAT330>19 FCR>9 FILTLVL<3]: Perfect Light Dmg %PURPLE%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[MAG (rg1 || rg2 || rg3 || rg4 || rg5 || sf1 || sf2 || sf3 || sf4) STAT330>19 FCR>9 FILTLVL<3]: Perfect Light Dmg %PURPLE%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-
-//Rings - Perfect Light Damage %, Faster Cast Rate, 10+ Dual Resistances
-ItemDisplay[RARE (rg1 || rg2 || rg3 || rg4 || rg5 || sf1 || sf2 || sf3 || sf4) STAT330>19 FCR>9 (CRES>9 FRES>9 || CRES>9 LRES>9 || CRES>9 PRES>9 || LRES>9 FRES>9 || PRES>9 FRES>9 || LRES>9 PRES>9)]: Light Dmg Dual Res %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-2% [L%ILVL%]
-
-//Rings - Perfect Cold Damage % With Faster Cast Rate
-ItemDisplay[RARE (rg1 || rg2 || rg3 || rg4 || rg5 || sf1 || sf2 || sf3 || sf4) STAT331>19 FCR>9]: Perfect Cold Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG (rg1 || rg2 || rg3 || rg4 || rg5 || sf1 || sf2 || sf3 || sf4) STAT331>19 FCR>9 FILTLVL<3]: Perfect Cold Dmg %PURPLE%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[MAG (rg1 || rg2 || rg3 || rg4 || rg5 || sf1 || sf2 || sf3 || sf4) STAT331>19 FCR>9 FILTLVL<3]: Perfect Cold Dmg %PURPLE%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-
-//Rings - Perfect Cold Damage %, Faster Cast Rate, 10+ Dual Resistances
-ItemDisplay[RARE (rg1 || rg2 || rg3 || rg4 || rg5 || sf1 || sf2 || sf3 || sf4) STAT331>19 FCR>9 (CRES>9 FRES>9 || CRES>9 LRES>9 || CRES>9 PRES>9 || LRES>9 FRES>9 || PRES>9 FRES>9 || LRES>9 PRES>9)]: Cold Dmg Dual Res %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-2% [L%ILVL%]
-
-//Rings - Matching Sorceress Elemental Skills and Perfect % Damage
-//ItemDisplay[RARE sf2 STAT329>19 STAT417>0]: Perfect Fire Sorc Skills %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-2% [L%ILVL%]
-//ItemDisplay[RARE sf3 STAT331>19 STAT413>0]: Perfect Cold Sorc Skills %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-2% [L%ILVL%]
-//ItemDisplay[RARE sf1 STAT330>19 STAT414>0]: Perfect Light Sorc Skills %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-2% [L%ILVL%]
-
-//Amulets - Sorceress Skills - 30+ Elemental Damage %
-//ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5) CLSK1>1 STAT329>29]: Fire Sorceress %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-//ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5) CLSK1>1 STAT331>29]: Cold Sorceress %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-//ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5) CLSK1>1 STAT330>29]: Light Sorceress %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-//ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5) TABSK8>2 STAT329>29]: Fire Sorc %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-//ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5) TABSK9>2 STAT330>29]: Light Sorc %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-//ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5) TABSK10>2 STAT331>29]: Cold Sorc %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-
-//Amulets - Sorceress Skills - T1 Flat Damage
-ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5 || au6 || %n0 || %n1 || %n2 || %n3 || %n4 || %n5 || %n6 || %n7) CLSK1>1 STAT21>49 STAT22>79 ILVL>90]: Sorceress T1 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5 || au6 || %n0 || %n1 || %n2 || %n3 || %n4 || %n5 || %n6 || %n7) TABSK8>2 STAT21>49 STAT22>79 ILVL>90]: Fire Sorc T1 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5 || au6 || %n0 || %n1 || %n2 || %n3 || %n4 || %n5 || %n6 || %n7) TABSK9>2 STAT21>49 STAT22>79 ILVL>90]: Light Sorc T1 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5 || au6 || %n0 || %n1 || %n2 || %n3 || %n4 || %n5 || %n6 || %n7) TABSK10>2 STAT21>49 STAT22>79 ILVL>90]: Cold Sorc T1 Flat Dmg %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-
-//Amulets - Sorceress Skills, Max Mana %, Faster Cast Rate - Sacred Affix
-ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5 || au6 || %n0 || %n1 || %n2 || %n3 || %n4 || %n5 || %n6 || %n7) CLSK1>1 FCR>9 STAT77>9 ILVL>90]: Sorceress FCR Max Mana %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5 || au6 || %n0 || %n1 || %n2 || %n3 || %n4 || %n5 || %n6 || %n7) TABSK8>2 FCR>9 STAT77>9 ILVL>90]: Fire Sorc FCR Max Mana %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5 || au6 || %n0 || %n1 || %n2 || %n3 || %n4 || %n5 || %n6 || %n7) TABSK9>2 FCR>9 STAT77>9 ILVL>90]: Light Sorc FCR Max Mana %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5 || au6 || %n0 || %n1 || %n2 || %n3 || %n4 || %n5 || %n6 || %n7) TABSK10>2 FCR>9 STAT77>9 ILVL>90]: Cold Sorc FCR Max Mana %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-
-//Amulets - Sorceress Skills, Attack Rating, Physical Pierce - Sacred Affix
-ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5 || au6 || %n0 || %n1 || %n2 || %n3 || %n4 || %n5 || %n6 || %n7) CLSK1>1 STAT19>999 STAT373>4 ILVL>90]: Sorceress AR Phys Pierce %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5 || au6 || %n0 || %n1 || %n2 || %n3 || %n4 || %n5 || %n6 || %n7) TABSK8>2 STAT19>999 STAT373>4 ILVL>90]: Fire Sorc AR Phys Pierce %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5 || au6 || %n0 || %n1 || %n2 || %n3 || %n4 || %n5 || %n6 || %n7) TABSK9>2 STAT19>999 STAT373>4 ILVL>90]: Light Sorc AR Phys Pierce %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5 || au6 || %n0 || %n1 || %n2 || %n3 || %n4 || %n5 || %n6 || %n7) TABSK10>2 STAT19>999 STAT373>4 ILVL>90]: Cold Sorc AR Phys Pierce %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-
-//Amulets - Sorceress Skills, All Stats - Sacred Affix
-ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5 || au6 || %n0 || %n1 || %n2 || %n3 || %n4 || %n5 || %n6 || %n7) CLSK1>1 STAT0>19 STAT1>19 STAT2>19 STAT3>19 ILVL>90]: Sorceress All Stats %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5 || au6 || %n0 || %n1 || %n2 || %n3 || %n4 || %n5 || %n6 || %n7) TABSK8>2 STAT0>19 STAT1>19 STAT2>19 STAT3>19 ILVL>90]: Fire Sorc All Stats %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5 || au6 || %n0 || %n1 || %n2 || %n3 || %n4 || %n5 || %n6 || %n7) TABSK9>2 STAT0>19 STAT1>19 STAT2>19 STAT3>19 ILVL>90]: Light Sorc All Stats %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5 || au6 || %n0 || %n1 || %n2 || %n3 || %n4 || %n5 || %n6 || %n7) TABSK10>2 STAT0>19 STAT1>19 STAT2>19 STAT3>19 ILVL>90]: Cold Sorc All Stats %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-
-//Amulets - Rare Sorceress (Sanctum)
-ItemDisplay[RARE (%n0 || %n7) STAT127>0]: All Skills %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (%n0 || %n7) CLSK1>0]: Sorceress Skills %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (%n0 || %n7) TABSK8>0]: Fire Sorc Skills %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (%n0 || %n7) TABSK9>0]: Light Sorc Skills %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (%n0 || %n7) TABSK10>0]: Cold Sorc Skills %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-
-//Circlets - Sorceress Skills - Faster Run/Walk
-ItemDisplay[(RARE || MAG) CIRC CLSK1>1 FRW>29]: Sorceress %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(RARE || MAG) CIRC TABSK8>2 FRW>29]: Fire Sorc %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(RARE || MAG) CIRC TABSK9>2 FRW>29]: Light Sorc %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(RARE || MAG) CIRC TABSK10>2 FRW>29]: Cold Sorc %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-
-//Circlets - Ping Tier 2 For +6 Sorceress Skills
-ItemDisplay[RARE (CIRC || au1 || au2 || au3 || au4 || au5) TABSK8>5]: %PURPLE%0 T2 %MAP%%YELLOW%%NAME% %GREEN%+6 Fire%TIER-2% [L%ILVL%]
-ItemDisplay[RARE (CIRC || au1 || au2 || au3 || au4 || au5) TABSK9>5]: %PURPLE%0 T2 %MAP%%YELLOW%%NAME% %GREEN%+6 Light%TIER-2% [L%ILVL%]
-ItemDisplay[RARE (CIRC || au1 || au2 || au3 || au4 || au5) TABSK10>5]: %PURPLE%0 T2 %MAP%%YELLOW%%NAME% %GREEN%+6 Cold%TIER-2% [L%ILVL%]
-
-//Circlets - Ping Tier 3 For 4+ Sorceress Skills
-ItemDisplay[RARE (CIRC || au1 || au2 || au3 || au4 || au5) ((TABSK8>1 CLSK1>1) || (TABSK8>2 CLSK1>0))]: %RED%0 T3 %MAP%%YELLOW%%NAME% %GREEN%4+ Fire%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (CIRC || au1 || au2 || au3 || au4 || au5) ((TABSK9>1 CLSK1>1) || (TABSK9>2 CLSK1>0))]: %RED%0 T3 %MAP%%YELLOW%%NAME% %GREEN%4+ Light%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (CIRC || au1 || au2 || au3 || au4 || au5) ((TABSK10>1 CLSK1>1) || (TABSK10>2 CLSK1>0))]: %RED%0 T3 %MAP%%YELLOW%%NAME% %GREEN%4+ Cold%TIER-3% [L%ILVL%]
-
-//Circlets - Ping Tier 5 For +3 Sorceress Skills
-ItemDisplay[RARE (CIRC || au1 || au2 || au3 || au4 || au5) TABSK8>2 FILTLVL<3]: %GREEN%+3 Fire %MAP%%YELLOW%%NAME%%TIER-5% [L%ILVL%]
-ItemDisplay[RARE (CIRC || au1 || au2 || au3 || au4 || au5) TABSK8>2 FILTLVL<3]: %GREEN%+3 Fire %MAP%%YELLOW%%NAME%%notify-dead% [L%ILVL%]
-ItemDisplay[RARE (CIRC || au1 || au2 || au3 || au4 || au5) TABSK9>2 FILTLVL<3]: %GREEN%+3 Light %MAP%%YELLOW%%NAME%%TIER-5% [L%ILVL%]
-ItemDisplay[RARE (CIRC || au1 || au2 || au3 || au4 || au5) TABSK9>2 FILTLVL<3]: %GREEN%+3 Light %MAP%%YELLOW%%NAME%%notify-dead% [L%ILVL%]
-ItemDisplay[RARE (CIRC || au1 || au2 || au3 || au4 || au5) TABSK10>2 FILTLVL<3]: %GREEN%+3 Cold %MAP%%YELLOW%%NAME%%TIER-5% [L%ILVL%]
-ItemDisplay[RARE (CIRC || au1 || au2 || au3 || au4 || au5) TABSK10>2 FILTLVL<3]: %GREEN%+3 Cold %MAP%%YELLOW%%NAME%%notify-dead% [L%ILVL%]
-
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////START SORCERESS GEAR/////////////////////////////////////////////////////////////////////////////////////////
+//TIER 3 - 4 SORCERESS (END GAME)/////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 /////////////////////////////////////////////////////////////////////////
-//SORCERESS ORBS & STAVES////////////////////////////////////////////////
+//TIER 3 ORBS & STAVES (+3 SKILLS & RARE)////////////////////////////////
 /////////////////////////////////////////////////////////////////////////
-
-//Cascade Shillelagh - Increased Attack Speed, Attack Rating, Lightning Damage %, Lightning Pierce
-//ItemDisplay[RARE (6bs || 8bs || bst) IAS>39 STAT19>999 STAT330>9 STAT307>4]: Cascade %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-//Cascade Shillelagh With Enchantment Aura
-//ItemDisplay[RARE (6bs || 8bs || bst) enchantment_of_lightning_aura]: Cascade Enchantment Aura %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-2% [L%ILVL%]
 
 //Voltaic Blast Orb
-ItemDisplay[RARE (obe || ob9 || ob4) TABSK9>2 SK43>2 STAT330>9 STAT307>4]: Voltaic Blast %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG obe TABSK9>2 SK43>2 STAT330>9 STAT307>4]: Voltaic Blast %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (obe || ob9 || ob4) CLSK1>1 SK43>2 STAT330>9 STAT307>4]: Voltaic Blast %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG obe CLSK1>1 SK43>2 STAT330>9 STAT307>4]: Voltaic Blast %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (obe || ob9 || ob4) TABSK9>2 SK43>2 STAT330>9 STAT307>4]: |Voltaic Blast %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG obe TABSK9>2 SK43>2 STAT330>9 STAT307>4]: |Voltaic Blast %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (obe || ob9 || ob4) CLSK1>1 SK43>2 STAT330>9 STAT307>4]: |Voltaic Blast %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG obe CLSK1>1 SK43>2 STAT330>9 STAT307>4]: |Voltaic Blast %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Fireball Orb
-ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK8>2 SK36>2 STAT329>9 STAT306>4]: Fireball %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK8>2 SK36>2 STAT329>9 STAT306>4]: Fireball %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK36>2 STAT329>9 STAT306>4]: Fireball %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK36>2 STAT329>9 STAT306>4]: Fireball %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK8>2 SK36>2 STAT329>9 STAT306>4]: |Fireball %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK8>2 SK36>2 STAT329>9 STAT306>4]: |Fireball %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK36>2 STAT329>9 STAT306>4]: |Fireball %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK36>2 STAT329>9 STAT306>4]: |Fireball %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Hydra Orb
-ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK8>2 SK62>2 STAT329>9 STAT306>4]: Hydra %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK8>2 SK62>2 STAT329>9 STAT306>4]: Hydra %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK62>2 STAT329>9 STAT306>4]: Hydra %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK62>2 STAT329>9 STAT306>4]: Hydra %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK8>2 SK62>2 STAT329>9 STAT306>4]: |Hydra %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK8>2 SK62>2 STAT329>9 STAT306>4]: |Hydra %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK62>2 STAT329>9 STAT306>4]: |Hydra %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK62>2 STAT329>9 STAT306>4]: |Hydra %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Immolate Orb
-ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK8>2 SK47>2 STAT329>9 STAT306>4]: Immolate %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK8>2 SK47>2 STAT329>9 STAT306>4]: Immolate %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK47>2 STAT329>9 STAT306>4]: Immolate %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK47>2 STAT329>9 STAT306>4]: Immolate %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK8>2 SK47>2 STAT329>9 STAT306>4]: |Immolate %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK8>2 SK47>2 STAT329>9 STAT306>4]: |Immolate %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK47>2 STAT329>9 STAT306>4]: |Immolate %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK47>2 STAT329>9 STAT306>4]: |Immolate %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Molten Armor Orb - Used For Snapshot/Pre-Buff Switch
-ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK8>2 SK42>2 STAT329>9 STAT306>4]: Molten Armor {%NAME%%GRAY%Use For Pre-Buff}%PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK8>2 SK42>2 STAT329>9 STAT306>4]: Molten Armor {%NAME%%GRAY%Use For Pre-Buff}%PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK42>2 STAT329>9 STAT306>4]: Molten Armor {%NAME%%GRAY%Use For Pre-Buff}%PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK42>2 STAT329>9 STAT306>4]: Molten Armor {%NAME%%GRAY%Use For Pre-Buff}%PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK8>2 SK42>2 STAT329>9 STAT306>4]: |Molten Armor {%NAME%%GRAY%Use For Pre-Buff}%PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK8>2 SK42>2 STAT329>9 STAT306>4]: |Molten Armor {%NAME%%GRAY%Use For Pre-Buff}%PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK42>2 STAT329>9 STAT306>4]: |Molten Armor {%NAME%%GRAY%Use For Pre-Buff}%PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK42>2 STAT329>9 STAT306>4]: |Molten Armor {%NAME%%GRAY%Use For Pre-Buff}%PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Meteor Orb
-ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK8>2 SK56>2 STAT329>9 STAT306>4]: Meteor %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK8>2 SK56>2 STAT329>9 STAT306>4]: Meteor %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK56>2 STAT329>9 STAT306>4]: Meteor %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK56>2 STAT329>9 STAT306>4]: Meteor %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK8>2 SK56>2 STAT329>9 STAT306>4]: |Meteor %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK8>2 SK56>2 STAT329>9 STAT306>4]: |Meteor %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK56>2 STAT329>9 STAT306>4]: |Meteor %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK56>2 STAT329>9 STAT306>4]: |Meteor %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Conflagration Orb
-ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK8>2 SK52>2 STAT329>9 STAT306>4]: Conflagration %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK8>2 SK52>2 STAT329>9 STAT306>4]: Conflagration %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK52>2 STAT329>9 STAT306>4]: Conflagration %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK52>2 STAT329>9 STAT306>4]: Conflagration %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK8>2 SK52>2 STAT329>9 STAT306>4]: |Conflagration %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK8>2 SK52>2 STAT329>9 STAT306>4]: |Conflagration %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK52>2 STAT329>9 STAT306>4]: |Conflagration %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK52>2 STAT329>9 STAT306>4]: |Conflagration %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Flame Orb Orb
-ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK8>2 SK38>2 STAT329>9 STAT306>4]: Flame Orb %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK8>2 SK38>2 STAT329>9 STAT306>4]: Flame Orb %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK38>2 STAT329>9 STAT306>4]: Flame Orb %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK38>2 STAT329>9 STAT306>4]: Flame Orb %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK8>2 SK38>2 STAT329>9 STAT306>4]: |Flame Orb %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK8>2 SK38>2 STAT329>9 STAT306>4]: |Flame Orb %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK38>2 STAT329>9 STAT306>4]: |Flame Orb %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK38>2 STAT329>9 STAT306>4]: |Flame Orb %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Fire Mastery Orb
-ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK8>2 SK61>2 STAT329>9 STAT306>4]: Fire Mastery %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK8>2 SK61>2 STAT329>9 STAT306>4]: Fire Mastery %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK61>2 STAT329>9 STAT306>4]: Fire Mastery %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK61>2 STAT329>9 STAT306>4]: Fire Mastery %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK8>2 SK61>2 STAT329>9 STAT306>4]: |Fire Mastery %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK8>2 SK61>2 STAT329>9 STAT306>4]: |Fire Mastery %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK61>2 STAT329>9 STAT306>4]: |Fire Mastery %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK61>2 STAT329>9 STAT306>4]: |Fire Mastery %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Ice Lance Orb
-ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK10>2 SK37>2 STAT331>9 STAT305>4]: Ice Lance %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK10>2 SK37>2 STAT331>9 STAT305>4]: Ice Lance %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK37>2 STAT331>9 STAT305>4]: Ice Lance %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK37>2 STAT331>9 STAT305>4]: Ice Lance %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK10>2 SK37>2 STAT331>9 STAT305>4]: |Ice Lance %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK10>2 SK37>2 STAT331>9 STAT305>4]: |Ice Lance %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK37>2 STAT331>9 STAT305>4]: |Ice Lance %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK37>2 STAT331>9 STAT305>4]: |Ice Lance %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Frost Nova Orb
-ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK10>2 SK45>2 STAT331>9 STAT305>4]: Frost Nova %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK10>2 SK45>2 STAT331>9 STAT305>4]: Frost Nova %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK45>2 STAT331>9 STAT305>4]: Frost Nova %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK45>2 STAT331>9 STAT305>4]: Frost Nova %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK10>2 SK45>2 STAT331>9 STAT305>4]: |Frost Nova %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK10>2 SK45>2 STAT331>9 STAT305>4]: |Frost Nova %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK45>2 STAT331>9 STAT305>4]: |Frost Nova %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK45>2 STAT331>9 STAT305>4]: |Frost Nova %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Shiver Armor Orb - Used For Snapshot/Pre-Buff Switch
-ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK10>2 SK50>2 STAT331>9 STAT305>4]: Shiver Armor {%NAME%%GRAY%Use For Pre-Buff}%PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK10>2 SK50>2 STAT331>9 STAT305>4]: Shiver Armor {%NAME%%GRAY%Use For Pre-Buff}%PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK50>2 STAT331>9 STAT305>4]: Shiver Armor {%NAME%%GRAY%Use For Pre-Buff}%PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK50>2 STAT331>9 STAT305>4]: Shiver Armor {%NAME%%GRAY%Use For Pre-Buff}%PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK10>2 SK50>2 STAT331>9 STAT305>4]: |Shiver Armor {%NAME%%GRAY%Use For Pre-Buff}%PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK10>2 SK50>2 STAT331>9 STAT305>4]: |Shiver Armor {%NAME%%GRAY%Use For Pre-Buff}%PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK50>2 STAT331>9 STAT305>4]: |Shiver Armor {%NAME%%GRAY%Use For Pre-Buff}%PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK50>2 STAT331>9 STAT305>4]: |Shiver Armor {%NAME%%GRAY%Use For Pre-Buff}%PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Creeping Rime Orb
-ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK10>2 SK41>2 STAT331>9 STAT305>4]: Creeping Rime %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK10>2 SK41>2 STAT331>9 STAT305>4]: Creeping Rime %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK41>2 STAT331>9 STAT305>4]: Creepig Rime %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK41>2 STAT331>9 STAT305>4]: Creeping Rime %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK10>2 SK41>2 STAT331>9 STAT305>4]: |Creeping Rime %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK10>2 SK41>2 STAT331>9 STAT305>4]: |Creeping Rime %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK41>2 STAT331>9 STAT305>4]: |Creeping Rime %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK41>2 STAT331>9 STAT305>4]: |Creeping Rime %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Blizzard Orb
-ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK10>2 SK59>2 STAT331>9 STAT305>4]: Blizzard %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK10>2 SK59>2 STAT331>9 STAT305>4]: Blizzard %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK59>2 STAT331>9 STAT305>4]: Blizzard %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK59>2 STAT331>9 STAT305>4]: Blizzard %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK10>2 SK59>2 STAT331>9 STAT305>4]: |Blizzard %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK10>2 SK59>2 STAT331>9 STAT305>4]: |Blizzard %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK59>2 STAT331>9 STAT305>4]: |Blizzard %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK59>2 STAT331>9 STAT305>4]: |Blizzard %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Frozen Orb Orb
-ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK10>2 SK62>2 STAT331>9 STAT305>4]: Frozen Orb %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK10>2 SK64>2 STAT331>9 STAT305>4]: Frozen Orb %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK64>2 STAT331>9 STAT305>4]: Frozen Orb %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK64>2 STAT331>9 STAT305>4]: Frozen Orb %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK10>2 SK62>2 STAT331>9 STAT305>4]: |Frozen Orb %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK10>2 SK64>2 STAT331>9 STAT305>4]: |Frozen Orb %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK64>2 STAT331>9 STAT305>4]: |Frozen Orb %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK64>2 STAT331>9 STAT305>4]: |Frozen Orb %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Cold Mastery Orb
-ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK10>2 SK65>2 STAT331>9 STAT305>4]: Cold Mastery %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK10>2 SK65>2 STAT331>9 STAT305>4]: Cold Mastery %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK65>2 STAT331>9 STAT305>4]: Cold Mastery %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK65>2 STAT331>9 STAT305>4]: Cold Mastery %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK10>2 SK65>2 STAT331>9 STAT305>4]: |Cold Mastery %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK10>2 SK65>2 STAT331>9 STAT305>4]: |Cold Mastery %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK65>2 STAT331>9 STAT305>4]: |Cold Mastery %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK65>2 STAT331>9 STAT305>4]: |Cold Mastery %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Charged Bolt Orb
-ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK9>2 SK39>2 STAT330>9 STAT307>4]: Charged Bolt %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK9>2 SK39>2 STAT330>9 STAT307>4]: Charged Bolt %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK39>2 STAT330>9 STAT307>4]: Charged Bolt %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK39>2 STAT330>9 STAT307>4]: Charged Bolt %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK9>2 SK39>2 STAT330>9 STAT307>4]: |Charged Bolt %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK9>2 SK39>2 STAT330>9 STAT307>4]: |Charged Bolt %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK39>2 STAT330>9 STAT307>4]: |Charged Bolt %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK39>2 STAT330>9 STAT307>4]: |Charged Bolt %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Chain Lightning Orb
-ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK9>2 SK53>2 STAT330>9 STAT307>4]: Chain Lightning %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK9>2 SK53>2 STAT330>9 STAT307>4]: Chain Lightning %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK53>2 STAT330>9 STAT307>4]: Chain Lightning %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK53>2 STAT330>9 STAT307>4]: Chain Lightning %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK9>2 SK53>2 STAT330>9 STAT307>4]: |Chain Lightning %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK9>2 SK53>2 STAT330>9 STAT307>4]: |Chain Lightning %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK53>2 STAT330>9 STAT307>4]: |Chain Lightning %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK53>2 STAT330>9 STAT307>4]: |Chain Lightning %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Lightning Orb
-ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK9>2 SK49>2 STAT330>9 STAT307>4]: Lightning %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK9>2 SK49>2 STAT330>9 STAT307>4]: Lightning %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK49>2 STAT330>9 STAT307>4]: Lightning %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK49>2 STAT330>9 STAT307>4]: Lightning %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK9>2 SK49>2 STAT330>9 STAT307>4]: |Lightning %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK9>2 SK49>2 STAT330>9 STAT307>4]: |Lightning %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK49>2 STAT330>9 STAT307>4]: |Lightning %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK49>2 STAT330>9 STAT307>4]: |Lightning %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Discharge Orb
-ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK9>2 SK54>2 STAT330>9 STAT307>4]: Discharge %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK9>2 SK54>2 STAT330>9 STAT307>4]: Discharge %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK54>2 STAT330>9 STAT307>4]: Discharge %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK54>2 STAT330>9 STAT307>4]: Discharge %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK9>2 SK54>2 STAT330>9 STAT307>4]: |Discharge %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK9>2 SK54>2 STAT307>4]: |Discharge %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK54>2 STAT330>9 STAT307>4]: |Discharge %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK54>2 STAT330>9 STAT307>4]: |Discharge %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Energy Shield Orb - Used For Snapshot/Pre-Buff Switch
-ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK9>2 SK58>2 STAT330>9 STAT307>4]: Energy Shield {%NAME%%GRAY%Use For Pre-Buff}%PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK9>2 SK58>2 STAT330>9 STAT307>4]: Energy Shield {%NAME%%GRAY%Use For Pre-Buff}%PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK58>2 STAT330>9 STAT307>4]: Energy Shield {%NAME%%GRAY%Use For Pre-Buff}%PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK58>2 STAT330>9 STAT307>4]: Energy Shield {%NAME%%GRAY%Use For Pre-Buff}%PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK9>2 SK58>2 STAT330>9 STAT307>4]: |Energy Shield {%NAME%%GRAY%Use For Pre-Buff}%PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK9>2 SK58>2 STAT330>9 STAT307>4]: |Energy Shield {%NAME%%GRAY%Use For Pre-Buff}%PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK58>2 STAT330>9 STAT307>4]: |Energy Shield {%NAME%%GRAY%Use For Pre-Buff}%PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK58>2 STAT330>9 STAT307>4]: |Energy Shield {%NAME%%GRAY%Use For Pre-Buff}%PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Nova Orb
-ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK9>2 SK48>2 STAT330>9 STAT307>4]: Nova %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK9>2 SK48>2 STAT330>9 STAT307>4]: Nova %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK48>2 STAT330>9 STAT307>4]: Nova %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK48>2 STAT330>9 STAT307>4]: Nova %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK9>2 SK48>2 STAT330>9 STAT307>4]: |Nova %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK9>2 SK48>2 STAT330>9 STAT307>4]: |Nova %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK48>2 STAT330>9 STAT307>4]: |Nova %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK48>2 STAT330>9 STAT307>4]: |Nova %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Lightning Mastery Orb
-ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK9>2 SK63>2 STAT330>9 STAT307>4]: Lightning Mastery %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK9>2 SK63>2 STAT330>9 STAT307>4]: Lightning Mastery %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK63>2 STAT330>9 STAT307>4]: Lightning Mastery %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK63>2 STAT330>9 STAT307>4]: Lightning Mastery %PURPLE%%BASENAME% %RED%0%YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK9>2 SK63>2 STAT330>9 STAT307>4]: |Lightning Mastery %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) TABSK9>2 SK63>2 STAT330>9 STAT307>4]: |Lightning Mastery %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK63>2 STAT330>9 STAT307>4]: |Lightning Mastery %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK63>2 STAT330>9 STAT307>4]: |Lightning Mastery %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
-
-/////////////////////////////////////////////////////////////////////////
-//Helm Alchs/////////////////////////////////////////////////////////////
-/////////////////////////////////////////////////////////////////////////
-
-//Nightwings Alch
-ItemDisplay[(NMAG !INF !SUP) msk ILVL>20 FILTLVL<3]: Nightwings Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) msk ILVL>20 FILTLVL<3]: Nightwings Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) xsk ILVL>56 FILTLVL<3]: Nightwings Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) xsk ILVL>56 FILTLVL<3]: Nightwings Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) usk ILVL>80 FILTLVL<3]: Nightwings Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) usk ILVL>80 FILTLVL<3]: Nightwings Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-
-//Griffon's Eye Alch
-ItemDisplay[(NMAG !INF !SUP) ci2 ILVL>74 FILTLVL<3]: Griffons Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) ci2 ILVL>74 FILTLVL<3]: Griffons Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-
+//Punishment Orb Runeword Bases (Tier 3)
+ItemDisplay[(NMAG !INF) SOCK=3 (ob4 || ob9 || obe) SK43>2]: |+ 3 Voltaic Blast {%GRAY%Punishment: %ORANGE%Lo Jah Lo} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK39>2]: |+ 3 Charged Bolt {%GRAY%Punishment: %ORANGE%Lo Jah Lo} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK53>2]: |+ 3 Chain Lightning {%GRAY%Punishment: %ORANGE%Lo Jah Lo} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK49>2]: |+ 3 Lightning {%GRAY%Punishment: %ORANGE%Lo Jah Lo} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK54>2]: |+ 3 Discharge {%GRAY%Punishment: %ORANGE%Lo Jah Lo} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK58>2]: |+ 3 Energy Shield Punishment RW (Lo Jah Lo) {%NAME%%GRAY%Use For Pre-Buff}%RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK48>2]: |+ 3 Nova {%GRAY%Punishment: %ORANGE%Lo Jah Lo} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK63>2]: |+ 3 Lightning Mastery {%GRAY%Punishment: %ORANGE%Lo Jah Lo} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 /////////////////////////////////////////////////////////////////////////
-//Armor Alchs////////////////////////////////////////////////////////////
+//TIER 3 ALCHS///////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////
+
+//Vestratium/Melee Splash Jewel Alch
+ItemDisplay[(NMAG !INF !SUP) jw5 ILVL>31]: |Vestratium Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+//Endurance/Fortify Alch
+ItemDisplay[(NMAG !INF !SUP) jw3 ILVL>91]: |Endurance Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+//Rainbow Facet Jewel Alch
+ItemDisplay[(NMAG !INF !SUP) jw1 ILVL>48]: |Rainbow Facet Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+//Illyria's Tear Jewel Alch
+ItemDisplay[(NMAG !INF !SUP) jw6 ILVL>70]: |Illyria's Tear Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+
+//Eon Band Ring Alch
+ItemDisplay[(NMAG !INF !SUP) rg1 ILVL>91]: |Eon Band Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+//Constriction Ring Alch
+ItemDisplay[(NMAG !INF !SUP) rg2 ILVL>94]: |Constriction Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+//Topaz Amulet - Horologia's Pendulum Alch
+ItemDisplay[((NMAG !INF !SUP ILVL>91) || (MAG ILVL>92)) au3]: |Horo Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+//Garnet Ring - Carbuncle Star Alch
+ItemDisplay[(NMAG !INF !SUP) rg3 ILVL>91]: |Carbuncle Star Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+//Lich Rings for Alching (Cave Of Horrors)
+ItemDisplay[NMAG (li0 || li1 || li2 || li3 || li4 || li5 || li6)]: |Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+
+//Visions from the Aether Alch
+ItemDisplay[(NMAG !INF !SUP) ach ILVL>91]: |Visions FTA Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Ormus Armor Alch
-ItemDisplay[(NMAG !INF !SUP) uui ILVL>91]: Ormus Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-
+ItemDisplay[(NMAG !INF !SUP) uui ILVL>91]: |Ormus Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //Horadric Raiment Armor Alch
-ItemDisplay[(NMAG !INF !SUP) aca ILVL>91]: Raiment Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) aca ILVL>91]: |Raiment Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
+//Crusader Gauntlets - Perimetus Glory Alch
+ItemDisplay[(NMAG !INF !SUP) utg ILVL>91]: |Perimetus Glory Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
-/////////////////////////////////////////////////////////////////////////
-//Glove Alchs////////////////////////////////////////////////////////////
-/////////////////////////////////////////////////////////////////////////
-
-//Magefist Gloves Alch
-ItemDisplay[(NMAG !INF !SUP) tgl ILVL>12 FILTLVL<3]: Magefist Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) tgl ILVL>12 FILTLVL<3]: Magefist Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) xtg ILVL>49 FILTLVL<3]: Magefist Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) xtg ILVL>49 FILTLVL<3]: Magefist Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-
-
-/////////////////////////////////////////////////////////////////////////
-//Weapon Alchs///////////////////////////////////////////////////////////
-/////////////////////////////////////////////////////////////////////////
-
-//Providence Alch For Cascade Sorc
-ItemDisplay[(NMAG !INF !SUP) 8bs ILVL>56 FILTLVL<3]: Providence Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) 8bs ILVL>56 FILTLVL<3]: Providence Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) 6bs ILVL>84 FILTLVL<3]: Providence Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) 6bs ILVL>84 FILTLVL<3]: Providence Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-
-//Amm's Eclipe Orb For Discharge Sorc
-ItemDisplay[(NMAG !INF !SUP) ob8 ILVL>49 FILTLVL<3]: Amm's Eclipse Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) ob8 ILVL>49 FILTLVL<3]: Amm's Eclipse Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) obd ILVL>73 FILTLVL<3]: Amm's Absolution Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) obd ILVL>73 FILTLVL<3]: Amm's Absolution Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+//Troll Belt - Headhunter's Glory Alch
+ItemDisplay[(NMAG !INF !SUP) utc ILVL>88]: |Headhunter's Glory Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+//The Unconquerable Belt Alch
+ItemDisplay[(NMAG !INF !SUP) uhc ILVL>91]: |Unconquerable Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Ulm's Undulator Vortex Orb For Voltaic Blast Sorc
-ItemDisplay[(NMAG !INF !SUP) obe ILVL>73]: Ulm's Undulator Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-
-//Death's Fathom Dimensional Shard For Cold Sorc
-ItemDisplay[(NMAG !INF !SUP) obf ILVL>76 FILTLVL<3]: Death's Fathom Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) obf ILVL>76 FILTLVL<3]: Death's Fathom Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-
-/////////////////////////////////////////////////////////////////////////
-//Shield Alchs///////////////////////////////////////////////////////////
-/////////////////////////////////////////////////////////////////////////
-
-//Visceratuant/Donumatre Shield (Discharge Build)
-ItemDisplay[(NMAG !INF !SUP) xuc ILVL>41 FILTLVL<3]: Visceratuant Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) xuc ILVL>41 FILTLVL<3]: Visceratuant Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
-
-/////////////////////////////////////////////////////////////////////////
-//Ring Alchs/////////////////////////////////////////////////////////////
-/////////////////////////////////////////////////////////////////////////
+ItemDisplay[(NMAG !INF !SUP) obe ILVL>73]: |Ulm's Undulator Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Rathma's Union Charged Stone Alch (Energy Shield Build)
-ItemDisplay[(NMAG !INF !SUP) sf1 ILVL>80]: Rathma's Union Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) sf1 ILVL>80]: |Rathma's Union Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Tear OF Elyssia Arcane Stone
-ItemDisplay[(NMAG !INF !SUP) sf4 ILVL>80]: Tear of Elyssia Alch %RED%%BASENAME% %RED%0%WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) sf4 ILVL>80]: |Tear of Elyssia Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
+//Circlets - Sorceress Skills - Faster Run/Walk
+ItemDisplay[(RARE || MAG) CIRC CLSK1>1 FRW>29]: |Sorceress %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC TABSK8>2 FRW>29]: |Fire Sorc %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC TABSK9>2 FRW>29]: |Light Sorc %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC TABSK10>2 FRW>29]: |Cold Sorc %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+
+//Circlets - Ping Tier 2 For +6 Sorceress Skills
+ItemDisplay[RARE (CIRC || au1 || au2 || au3 || au4 || au5) TABSK8>5]: |%YELLOW%%NAME% %GREEN%+6 Fire| %PURPLE%0 T2 %MAP%%TIER-2% [L%ILVL%]
+ItemDisplay[RARE (CIRC || au1 || au2 || au3 || au4 || au5) TABSK9>5]: |%YELLOW%%NAME% %GREEN%+6 Light| %PURPLE%0 T2 %MAP%%TIER-2% [L%ILVL%]
+ItemDisplay[RARE (CIRC || au1 || au2 || au3 || au4 || au5) TABSK10>5]: |%YELLOW%%NAME% %GREEN%+6 Cold| %PURPLE%0 T2 %MAP%%TIER-2% [L%ILVL%]
+
+//Circlets - Ping Tier 3 For 4+ Sorceress Skills
+ItemDisplay[RARE (CIRC || au1 || au2 || au3 || au4 || au5) ((TABSK8>1 CLSK1>1) || (TABSK8>2 CLSK1>0))]: |%YELLOW%%NAME% %GREEN%4+ Fire| %RED%0 T3 %MAP%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (CIRC || au1 || au2 || au3 || au4 || au5) ((TABSK9>1 CLSK1>1) || (TABSK9>2 CLSK1>0))]: |%YELLOW%%NAME% %GREEN%4+ Light| %RED%0 T3 %MAP%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (CIRC || au1 || au2 || au3 || au4 || au5) ((TABSK10>1 CLSK1>1) || (TABSK10>2 CLSK1>0))]: |%YELLOW%%NAME% %GREEN%4+ Cold| %RED%0 T3 %MAP%%TIER-3% [L%ILVL%]
+
+//Cascade Shillelagh - Increased Attack Speed, Attack Rating, Lightning Damage %, Lightning Pierce
+ItemDisplay[RARE (6bs || 8bs || bst) IAS>39 STAT19>999 STAT330>9 STAT307>4]: |Cascade %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+
+//Amulets - Sorceress Skills - T1 Flat Damage
+ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5 || au6 || %n0 || %n1 || %n2 || %n3 || %n4 || %n5 || %n6 || %n7) CLSK1>1 STAT21>49 STAT22>79 ILVL>90]: |Sorceress T1 Flat Dmg %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5 || au6 || %n0 || %n1 || %n2 || %n3 || %n4 || %n5 || %n6 || %n7) TABSK8>2 STAT21>49 STAT22>79 ILVL>90]: |Fire Sorc T1 Flat Dmg %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5 || au6 || %n0 || %n1 || %n2 || %n3 || %n4 || %n5 || %n6 || %n7) TABSK9>2 STAT21>49 STAT22>79 ILVL>90]: |Light Sorc T1 Flat Dmg %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5 || au6 || %n0 || %n1 || %n2 || %n3 || %n4 || %n5 || %n6 || %n7) TABSK10>2 STAT21>49 STAT22>79 ILVL>90]: |Cold Sorc T1 Flat Dmg %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+
+//Amulets - Sorceress Skills, Max Mana %, Faster Cast Rate - Sacred Affix
+ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5 || au6 || %n0 || %n1 || %n2 || %n3 || %n4 || %n5 || %n6 || %n7) CLSK1>1 FCR>9 STAT77>9 ILVL>90]: |Sorceress FCR Max Mana %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5 || au6 || %n0 || %n1 || %n2 || %n3 || %n4 || %n5 || %n6 || %n7) TABSK8>2 FCR>9 STAT77>9 ILVL>90]: |Fire Sorc FCR Max Mana %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5 || au6 || %n0 || %n1 || %n2 || %n3 || %n4 || %n5 || %n6 || %n7) TABSK9>2 FCR>9 STAT77>9 ILVL>90]: |Light Sorc FCR Max Mana %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5 || au6 || %n0 || %n1 || %n2 || %n3 || %n4 || %n5 || %n6 || %n7) TABSK10>2 FCR>9 STAT77>9 ILVL>90]: |Cold Sorc FCR Max Mana %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+
+//Amulets - Sorceress Skills, Attack Rating, Physical Pierce - Sacred Affix
+ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5 || au6 || %n0 || %n1 || %n2 || %n3 || %n4 || %n5 || %n6 || %n7) CLSK1>1 STAT19>999 STAT373>4 ILVL>90]: |Sorceress AR Phys Pierce %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5 || au6 || %n0 || %n1 || %n2 || %n3 || %n4 || %n5 || %n6 || %n7) TABSK8>2 STAT19>999 STAT373>4 ILVL>90]: |Fire Sorc AR Phys Pierce %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5 || au6 || %n0 || %n1 || %n2 || %n3 || %n4 || %n5 || %n6 || %n7) TABSK9>2 STAT19>999 STAT373>4 ILVL>90]: |Light Sorc AR Phys Pierce %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5 || au6 || %n0 || %n1 || %n2 || %n3 || %n4 || %n5 || %n6 || %n7) TABSK10>2 STAT19>999 STAT373>4 ILVL>90]: |Cold Sorc AR Phys Pierce %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+
+//Amulets - Sorceress Skills, All Stats - Sacred Affix
+ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5 || au6 || %n0 || %n1 || %n2 || %n3 || %n4 || %n5 || %n6 || %n7) CLSK1>1 STAT0>19 STAT1>19 STAT2>19 STAT3>19 ILVL>90]: |Sorceress All Stats %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5 || au6 || %n0 || %n1 || %n2 || %n3 || %n4 || %n5 || %n6 || %n7) TABSK8>2 STAT0>19 STAT1>19 STAT2>19 STAT3>19 ILVL>90]: |Fire Sorc All Stats %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5 || au6 || %n0 || %n1 || %n2 || %n3 || %n4 || %n5 || %n6 || %n7) TABSK9>2 STAT0>19 STAT1>19 STAT2>19 STAT3>19 ILVL>90]: |Light Sorc All Stats %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (au1 || au2 || au3 || au4 || au5 || au6 || %n0 || %n1 || %n2 || %n3 || %n4 || %n5 || %n6 || %n7) TABSK10>2 STAT0>19 STAT1>19 STAT2>19 STAT3>19 ILVL>90]: |Cold Sorc All Stats %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+
+//Amulets - Rare Sorceress (Sanctum)
+ItemDisplay[RARE (%n0 || %n7) STAT127>0]: |All Skills %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (%n0 || %n7) CLSK1>0]: |Sorceress Skills %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (%n0 || %n7) TABSK8>0]: |Fire Sorc Skills %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (%n0 || %n7) TABSK9>0]: |Light Sorc Skills %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[RARE (%n0 || %n7) TABSK10>0]: |Cold Sorc Skills %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+
+//Rings - Perfect Fire Damage % With Faster Cast Rate (Tier 4 - Always Visible)
+ItemDisplay[MAG (rg1 || rg2 || rg3 || rg4 || rg5 || sf1 || sf2 || sf3 || sf4) STAT329>19 FCR>9]: |Perfect Fire Dmg %PURPLE%%BASENAME%| %RED%0 %BLUE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+
+//Rings - Perfect Light Damage % With Faster Cast Rate (Tier 4 - Always Visible)
+ItemDisplay[MAG (rg1 || rg2 || rg3 || rg4 || rg5 || sf1 || sf2 || sf3 || sf4) STAT330>19 FCR>9]: |Perfect Light Dmg %PURPLE%%BASENAME%| %RED%0 %BLUE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+
+//Rings - Perfect Cold Damage % With Faster Cast Rate (Tier 4 - Always Visible)
+ItemDisplay[MAG (rg1 || rg2 || rg3 || rg4 || rg5 || sf1 || sf2 || sf3 || sf4) STAT331>19 FCR>9]: |Perfect Cold Dmg %PURPLE%%BASENAME%| %RED%0 %BLUE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 
 /////////////////////////////////////////////////////////////////////////
-//Magic Crafts & Jeweler's Socketables///////////////////////////////////
+//TIER 4 ALCHS (ALWAYS VISIBLE)//////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////
+
+//Bloodbathe Jewel Alch
+ItemDisplay[(NMAG !INF !SUP) jw2 ILVL>47]: |Bloodbathe Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+
+//Mara's Kaleidoscope Ammy Alch
+ItemDisplay[(NMAG !INF !SUP) au5 ILVL>76]: |Mara's Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+
+//Griffon's Eye Alch
+ItemDisplay[(NMAG !INF !SUP) ci2 ILVL>74]: |Griffons Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+
+//Tyrael's Armor Alch
+ItemDisplay[(NMAG !INF !SUP) aca ILVL>91]: |Tyrael's Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+
+//Amm's Eclipe Orb For Discharge Sorc
+ItemDisplay[(NMAG !INF !SUP) ob8 ILVL>49]: |Amm's Eclipse Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) obd ILVL>73]: |Amm's Absolution Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+
+//Death's Fathom Dimensional Shard For Cold Sorc
+ItemDisplay[(NMAG !INF !SUP) obf ILVL>76]: |Death's Fathom Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//TIER 5 SORCERESS (MID-LEVEL & CRAFTING)/////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////////////
+//MID LEVEL CLASS ITEMS//////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////
+
+//Mid Level Class Skills Amulets
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK1>1 CLVL<70 FILTLVL<2]: |Sorceress %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-5%%notify-dead% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK8>1 CLVL<70 FILTLVL<2]: |Fire Sorc %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-5%%notify-dead% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK9>1 CLVL<70 FILTLVL<2]: |Light Sorc %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-5%%notify-dead% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK10>1 CLVL<70 FILTLVL<2]: |Cold Sorc %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-5%%notify-dead% [L%ILVL%]
+
+//Mid Level Class Circlets
+ItemDisplay[(RARE || MAG) CIRC CLSK1>1 CLVL<70 FILTLVL<2]: |Sorceress %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-5%%notify-dead% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC TABSK8>1 CLVL<70 FILTLVL<2]: |Fire Sorc %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-5%%notify-dead% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC TABSK9>1 CLVL<70 FILTLVL<2]: |Light Sorc %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-5%%notify-dead% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC TABSK10>1 CLVL<70 FILTLVL<2]: |Cold Sorc %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-5%%notify-dead% [L%ILVL%]
+
+//Mid Level Voltaic Blast Clasped Orb - Sparkling Ball
+ItemDisplay[(RARE || MAG) (ob4 || ob9) TABSK9>0 SK43>2 CLVL<70 FILTLVL<2]: |Voltaic Blast %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-5%%notify-dead% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (ob4 || ob9) GOODSK>0 SK43>2 CLVL<70 FILTLVL<2]: |Voltaic Blast %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-5%%notify-dead% [L%ILVL%]
+
+//Mid Level Fireball Orb
+ItemDisplay[(RARE || MAG) (ob1 || ob2 || ob3 || lxb || ob5 || ob6 || ob7 || ob8 || ob9 || oba || obb || obc) TABSK8>0 SK47>2 CLVL<70 FILTLVL<2]: |Fireball %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-5%%notify-dead% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (ob1 || ob2 || ob3 || lxb || ob5 || ob6 || ob7 || ob8 || ob9 || oba || obb || obc) GOODSK>0 SK47>2 CLVL<70 FILTLVL<2]: |Fireball %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-5%%notify-dead% [L%ILVL%]
+
+//Mid Level Hydra Orb
+ItemDisplay[(RARE || MAG) (ob1 || ob2 || ob3 || lxb || ob5 || ob6 || ob7 || ob8 || ob9 || oba || obb || obc) TABSK8>0 SK62>2 CLVL<70 FILTLVL<2]: |Hydra %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-5%%notify-dead% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (ob1 || ob2 || ob3 || lxb || ob5 || ob6 || ob7 || ob8 || ob9 || oba || obb || obc) GOODSK>0 SK62>2 CLVL<70 FILTLVL<2]: |Hydra %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-5%%notify-dead% [L%ILVL%]
+
+//Mid Level Meteor Orb
+ItemDisplay[(RARE || MAG) (ob1 || ob2 || ob3 || lxb || ob5 || ob6 || ob7 || ob8 || ob9 || oba || obb || obc) TABSK8>0 SK56>2 CLVL<70 FILTLVL<2]: |Meteor %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-5%%notify-dead% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (ob1 || ob2 || ob3 || lxb || ob5 || ob6 || ob7 || ob8 || ob9 || oba || obb || obc) GOODSK>0 SK56>2 CLVL<70 FILTLVL<2]: |Meteor %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-5%%notify-dead% [L%ILVL%]
+
+//Mid Level Ice Lance Orb
+ItemDisplay[(RARE || MAG) (ob1 || ob2 || ob3 || lxb || ob5 || ob6 || ob7 || ob8 || ob9 || oba || obb || obc) TABSK10>0 SK37>2 CLVL<70 FILTLVL<2]: |Ice Lance %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-5%%notify-dead% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (ob1 || ob2 || ob3 || lxb || ob5 || ob6 || ob7 || ob8 || ob9 || oba || obb || obc) GOODSK>0 SK37>2 CLVL<70 FILTLVL<2]: |Ice Lance %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-5%%notify-dead% [L%ILVL%]
+
+//Mid Level Blizzard Orb
+ItemDisplay[(RARE || MAG) (ob1 || ob2 || ob3 || lxb || ob5 || ob6 || ob7 || ob8 || ob9 || oba || obb || obc) TABSK10>0 SK59>2 CLVL<70 FILTLVL<2]: |Blizzard %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-5%%notify-dead% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (ob1 || ob2 || ob3 || lxb || ob5 || ob6 || ob7 || ob8 || ob9 || oba || obb || obc) GOODSK>0 SK59>2 CLVL<70 FILTLVL<2]: |Blizzard %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-5%%notify-dead% [L%ILVL%]
+
+//Mid Level Frozen Orb Orb
+ItemDisplay[(RARE || MAG) (ob1 || ob2 || ob3 || lxb || ob5 || ob6 || ob7 || ob8 || ob9 || oba || obb || obc) TABSK10>0 SK64>2 CLVL<70 FILTLVL<2]: |Frozen %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-5%%notify-dead% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (ob1 || ob2 || ob3 || lxb || ob5 || ob6 || ob7 || ob8 || ob9 || oba || obb || obc) GOODSK>0 SK64>2 CLVL<70 FILTLVL<2]: |Frozen %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-5%%notify-dead% [L%ILVL%]
+
+//Mid Level Charged Bolt Orb
+ItemDisplay[(RARE || MAG) (ob1 || ob2 || ob3 || lxb || ob5 || ob6 || ob7 || ob8 || ob9 || oba || obb || obc) TABSK9>0 SK39>2 CLVL<70 FILTLVL<2]: |Charged Bolt %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-5%%notify-dead% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (ob1 || ob2 || ob3 || lxb || ob5 || ob6 || ob7 || ob8 || ob9 || oba || obb || obc) GOODSK>0 SK39>2 CLVL<70 FILTLVL<2]: |Charged Bolt %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-5%%notify-dead% [L%ILVL%]
+
+//Mid Level Chain Lightning Orb
+ItemDisplay[(RARE || MAG) (ob1 || ob2 || ob3 || lxb || ob5 || ob6 || ob7 || ob8 || ob9 || oba || obb || obc) TABSK9>0 SK53>2 CLVL<70 FILTLVL<2]: |Chain Lightning %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-5%%notify-dead% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (ob1 || ob2 || ob3 || lxb || ob5 || ob6 || ob7 || ob8 || ob9 || oba || obb || obc) GOODSK>0 SK53>2 CLVL<70 FILTLVL<2]: |Chain Lightning %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-5%%notify-dead% [L%ILVL%]
+
+//Mid Level Lightning Orb
+ItemDisplay[(RARE || MAG) (ob1 || ob2 || ob3 || lxb || ob5 || ob6 || ob7 || ob8 || ob9 || oba || obb || obc) TABSK9>0 SK49>2 CLVL<70 FILTLVL<2]: |Lightning %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-5%%notify-dead% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (ob1 || ob2 || ob3 || lxb || ob5 || ob6 || ob7 || ob8 || ob9 || oba || obb || obc) GOODSK>0 SK49>2 CLVL<70 FILTLVL<2]: |Lightning %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-5%%notify-dead% [L%ILVL%]
+
+//Mid Level Nova Orb
+ItemDisplay[(RARE || MAG) (ob1 || ob2 || ob3 || lxb || ob5 || ob6 || ob7 || ob8 || ob9 || oba || obb || obc) TABSK9>0 SK48>2 CLVL<70 FILTLVL<2]: |Nova %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-5%%notify-dead% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (ob1 || ob2 || ob3 || lxb || ob5 || ob6 || ob7 || ob8 || ob9 || oba || obb || obc) GOODSK>0 SK48>2 CLVL<70 FILTLVL<2]: |Nova %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-5%%notify-dead% [L%ILVL%]
+
+//Rare Helms +3 Sorceress Skills (Tier 5)
+ItemDisplay[RARE (CIRC || au1 || au2 || au3 || au4 || au5) TABSK8>2 FILTLVL<2]: |%GREEN%+3 Fire %YELLOW%%NAME%| %MAP%%notify-dead%%TIER-5% [L%ILVL%]
+ItemDisplay[RARE (CIRC || au1 || au2 || au3 || au4 || au5) TABSK9>2 FILTLVL<2]: |%GREEN%+3 Light %YELLOW%%NAME%| %MAP%%notify-dead%%TIER-5% [L%ILVL%]
+ItemDisplay[RARE (CIRC || au1 || au2 || au3 || au4 || au5) TABSK10>2 FILTLVL<2]: |%GREEN%+3 Cold %YELLOW%%NAME%| %MAP%%notify-dead%%TIER-5% [L%ILVL%]
+
+/////////////////////////////////////////////////////////////////////////
+//TIER 5 ALCHS///////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////
+
+//Focus Jewel Alch
+ItemDisplay[(NMAG !INF !SUP) jw6 ILVL>49 FILTLVL<2]: |Focus Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
+
+//Anger Jewel Alch
+ItemDisplay[(NMAG !INF !SUP) jw4 ILVL>14 FILTLVL<2]: |Anger Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
+
+//Carnage Heart - Ghaa's Ward Ring Alch
+ItemDisplay[(NMAG !INF !SUP) rg5 ILVL>30 FILTLVL<2]: |Carnage - Ghaa's Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
+
+//Nightwings Alch
+ItemDisplay[(NMAG !INF !SUP) msk ILVL>20 FILTLVL<2]: |Nightwings Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) xsk ILVL>56 FILTLVL<2]: |Nightwings Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) usk ILVL>80 FILTLVL<2]: |Nightwings Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
+
+//Rockstopper Alch
+ItemDisplay[(NMAG !INF !SUP) fhl ILVL>18 FILTLVL<2]: |Rockstopper Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) xhl ILVL>53 FILTLVL<2]: |Rockstopper Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) uhl ILVL>83 FILTLVL<2]: |Rockstopper Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
+
+//Magefist Gloves Alch
+ItemDisplay[(NMAG !INF !SUP) tgl ILVL>12 FILTLVL<2]: |Magefist Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) xtg ILVL>49 FILTLVL<2]: |Magefist Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
+
+//String of Ears Alch
+ItemDisplay[(NMAG !INF !SUP) zlb ILVL>31 FILTLVL<2]: |Stof Ears Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) ulc ILVL>95 FILTLVL<2]: |Stof Ears Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
+
+//Verdungo Alch
+ItemDisplay[(NMAG !INF !SUP) tbl ILVL>18 FILTLVL<2]: |Verdungo Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) ztb ILVL>48 FILTLVL<2]: |Verdungo Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) utc ILVL>83 FILTLVL<2]: |Verdungo Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
+
+//Lenymo Belt Alch
+ItemDisplay[(NMAG !INF !SUP) lbl ILVL>1 FILTLVL<2]: |Lenymo Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) zlb ILVL>39 FILTLVL<2]: |Lenymo Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
+
+//Burning Buckle, Snowblind & Thundergod's Belt Alch
+ItemDisplay[(NMAG !INF !SUP) hbl ILVL>19 FILTLVL<2]: |Snowblind - TGod's Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) zhb ILVL>54 FILTLVL<2]: |Snowblind - TGod's Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
+
+//Mirrored Boots - The Indomitable Alch
+ItemDisplay[(NMAG !INF !SUP) utb ILVL>91 FILTLVL<2]: |Indomitable Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
+
+//Spellbender Alch
+ItemDisplay[(NMAG !INF !SUP) pa2 ILVL>12 FILTLVL<2]: |Spellbender Alch %NAME% %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) pa7 ILVL>38 FILTLVL<2]: |Spelleater Alch %NAME% %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
+
+//Visceratuant/Donumatre Shield (Discharge Build)
+ItemDisplay[(NMAG !INF !SUP) xuc ILVL>41 FILTLVL<2]: |Visceratuant Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
+
+//Glitterblade Alch
+ItemDisplay[(NMAG !INF !SUP) crs ILVL>23 FILTLVL<2]: |Glitterblade Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) 9cr ILVL>48 FILTLVL<2]: |Ethereal Edge Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
+
+//Suicide Branch Alch
+ItemDisplay[(NMAG !INF !SUP) 7wn ILVL>70 FILTLVL<2]: |Suicide Branch Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
+
+//Edyrem Odyssey Alch
+ItemDisplay[(NMAG !INF !SUP) 9bw ILVL>47 FILTLVL<2]: |Edyrem Odyssey Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) 7bw ILVL>83 FILTLVL<2]: |Edyrem Odyssey Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
+
+//Providence Alch For Cascade Sorc
+ItemDisplay[(NMAG !INF !SUP) 8bs ILVL>56 FILTLVL<2]: |Providence Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) 6bs ILVL>84 FILTLVL<2]: |Providence Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
+
+/////////////////////////////////////////////////////////////////////////
+//MAGIC CRAFTS & BASES///////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////
 
 //Vortex Orb For Crafting (Voltaic Blast Sorc)
-ItemDisplay[(NMAG !INF !SUP || MAG) obe FILTLVL<3]: Volt Blast Sorc Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%TIER-5% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP || MAG) obe FILTLVL<3]: Volt Blast Sorc Craft %RED%%BASENAME% %RED%0%BLUE%%dot-0a%%border-20%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP || MAG) obe FILTLVL<2]: |Volt Blast Sorc Craft %RED%%BASENAME%| %RED%0 %BLUE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//TIER 6 SORCERESS (LOW-LEVEL)////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////////////
+//LOW LEVEL CLASS ITEMS//////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////
+
+//Low Level Sorceress Skills Amulets
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) CLSK1>0 CLVL<60 FILTLVL<1]: |Sorceress %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK8>0 CLVL<60 FILTLVL<1]: |Fire Sorc %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK9>0 CLVL<60 FILTLVL<1]: |Light Sorc %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+ItemDisplay[(RARE || MAG) (au1 || au2 || au3 || au4 || au5) TABSK10>0 CLVL<60 FILTLVL<1]: |Cold Sorc %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+
+//Low Level Sorceress Circlets
+ItemDisplay[(RARE || MAG) CIRC CLSK1>0 CLVL<60 FILTLVL<1]: |Sorceress %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC TABSK8>0 CLVL<60 FILTLVL<1]: |Fire Sorc %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC TABSK9>0 CLVL<60 FILTLVL<1]: |Light Sorc %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+ItemDisplay[(RARE || MAG) CIRC TABSK10>0 CLVL<60 FILTLVL<1]: |Cold Sorc %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+
+//Low Level Voltaic Blast Clasped Orb - Eagle Orb - Smoked Sphere - Sacred Globe
+ItemDisplay[(RARE || MAG) (ob1 || ob2 || ob3 || lxb || ob4) SK43>2 CLVL<60 FILTLVL<1]: |+ 3 Voltaic Blast %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+
+//Low Level Fireball Eagle Orb - Smoked Sphere - Sacred Globe
+ItemDisplay[(RARE || MAG) (ob1 || ob2 || ob3 || lxb) SK47>2 CLVL<60 FILTLVL<1]: |+ 3 Fireball %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+
+//Low Level Hydra Eagle Orb - Smoked Sphere - Sacred Globe
+ItemDisplay[(RARE || MAG) (ob1 || ob2 || ob3 || lxb) SK62>2 CLVL<60 FILTLVL<1]: |+ 3 Hydra %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+
+//Low Level Ice Lance Eagle Orb - Smoked Sphere - Sacred Globe
+ItemDisplay[(RARE || MAG) (ob1 || ob2 || ob3 || lxb) SK37>2 CLVL<60 FILTLVL<1]: |+ 3 Ice Lance %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+
+//Low Level Charged Bolt Eagle Orb - Smoked Sphere - Sacred Globe
+ItemDisplay[(RARE || MAG) (ob1 || ob2 || ob3 || lxb) SK39>2 CLVL<60 FILTLVL<1]: |+ 3 Charged Bolt %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+
+/////////////////////////////////////////////////////////////////////////
+//SOCKETABLES FOR RUNEWORDS (LOW LEVEL)//////////////////////////////////
+/////////////////////////////////////////////////////////////////////////
+
+//Low Level Battle Staff - Jo Staff - Gothic Staff - Walking Stick For Cascade Sorc Runewords
+ItemDisplay[(NMAG !INF) SOCK=2 (bst || 8ss || 8bs || 6ss) CLVL<70 FILTLVL<1]: |Cascade Sorc {%GRAY%Strength: %ORANGE%Amn Tir%NL%%GRAY%Night: %ORANGE%Tir Io} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (bst || 8ss || 8bs || 6ss) ED=20 CLVL<70 FILTLVL<1]: |Cascade Sorc Perfect ED {%GRAY%Strength: %ORANGE%Amn Tir%NL%%GRAY%Night: %ORANGE%Tir Io} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (bst || 8ss || 8bs || 6ss) CLVL<70 FILTLVL<1]: |Cascade Sorc {%GRAY%Madness: %ORANGE%El Ort El%NL%%GRAY%Envy: %ORANGE%Ort Amn Ral} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=3 (bst || 8ss || 8bs || 6ss) ED=20 CLVL<70 FILTLVL<1]: |Cascade Sorc Perfect ED {%GRAY%Madness: %ORANGE%El Ort El%NL%%GRAY%Envy: %ORANGE%Ort Amn Ral} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=4 (bst || 8ss || 8bs || 6ss) CLVL<70 FILTLVL<1]: |Cascade Sorc {%GRAY%Insight: %ORANGE%Ral Tir Tal Sol} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=4 (bst || 8ss || 8bs || 6ss) ED=20 CLVL<70 FILTLVL<1]: |Cascade Sorc Perfect ED {%GRAY%Insight: %ORANGE%Ral Tir Tal Sol} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+
+//Low Level Fire Ball Short Staff - Gnarled Staff - Battle Staff - Long Staff - Runewords
+ItemDisplay[(NMAG !INF) SOCK=2 (sst || cst || bst || lst) SK47>2 CLVL<60 FILTLVL<1]: |Fireball {%GRAY%Leaf: %ORANGE%Tir Ral} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+
+//Low Level Hydra Short Staff - Gnarled Staff - Battle Staff - Long Staff - Runewords
+ItemDisplay[(NMAG !INF) SOCK=2 (sst || cst || bst || lst) SK62>2 CLVL<60 FILTLVL<1]: |Hydra {%GRAY%Leaf: %ORANGE%Tir Ral} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+
+//Low Level Clasped Orb (Voltaic Blast) - Runewords
+ItemDisplay[(NMAG !INF) SOCK=2 ob4 CLVL<35 FILTLVL<1]: |Voltaic Blast {%GRAY%Terror: %ORANGE%Ith Eth} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 ob4 ED=20 CLVL<35 FILTLVL<1]: |Voltaic Blast Perfect ED {%GRAY%Terror: %ORANGE%Ith Eth} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+
+//Low Level Clasped Orb - Voltaic Blast - Runewords
+ItemDisplay[(NMAG !INF) SOCK=2 (ob4 || ob9) SK43>0 CLVL<70 FILTLVL<1]: |+ Voltaic Blast {%GRAY%Tradition: %ORANGE%Eld Amn} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (ob4 || ob9) ED=20 SK43>0 CLVL<70 FILTLVL<1]: |+ Voltaic Blast Perfect ED {%GRAY%Tradition: %ORANGE%Eld Amn} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+
+//Low Level Hydra Eagle Orb - Smoked Sphere - Sacred Globe - Runewords
+ItemDisplay[(NMAG !INF) SOCK=2 (ob1 || ob2 || ob3 || lxb) SK62>2 CLVL<70 FILTLVL<1]: |+ 3 Hydra {%GRAY%Terror: %ORANGE%Ith Eth} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+
+//Low Level Fireball Eagle Orb - Smoked Sphere - Sacred Globe - Runewords
+ItemDisplay[(NMAG !INF) SOCK=2 (ob1 || ob2 || ob3 || lxb) SK47>2 CLVL<70 FILTLVL<1]: |+3 Fireball {%GRAY%Terror: %ORANGE%Ith Eth} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+
+//Low Level Ice Lance Eagle Orb - Smoked Sphere - Sacred Globe - Runewords
+ItemDisplay[(NMAG !INF) SOCK=2 (ob1 || ob2 || ob3 || lxb) SK37>2 CLVL<70 FILTLVL<1]: |+3 Ice Lance {%GRAY%Terror: %ORANGE%Ith Eth} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+
+//Low Level Charged Bolt Eagle Orb - Smoked Sphere - Sacred Globe - Runewords
+ItemDisplay[(NMAG !INF) SOCK=2 (ob1 || ob2 || ob3 || lxb) SK39>2 CLVL<70 FILTLVL<1]: |+3 Charged Bolt {%GRAY%Terror: %ORANGE%Ith Eth} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+
+//Tradition Orb Runeword
+//Low Level Voltaic Blast Clasped Orb - Sparkling Ball - Vortex Orb - Runewords
+ItemDisplay[(NMAG !INF) SOCK=2 (ob4 || ob9 || obe) SK43>2 CLVL<70 FILTLVL<1]: |+ 3 Voltaic Blast {%GRAY%Tradition: %ORANGE%Eld Amn} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (ob4 || ob9 || obe) ED=20 SK43>2 CLVL<70 FILTLVL<1]: |+ 3 Voltaic Blast Perfect ED {%GRAY%Tradition: %ORANGE%Eld Amn} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+
+//Low Level Fireball Eagle Orb - Smoked Sphere - Sacred Globe - Jareds Stone - Glowing Orb - Crystalline Globe - Cloudy Sphere - Swirling Crystal - Heavenly Stone - Eldritch Orb - Demon Heart - Dimensional Shard - Runewords
+ItemDisplay[(NMAG !INF) SOCK=2 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK36>2 CLVL<70 FILTLVL<1]: |+ 3 Fireball {%GRAY%Tradition: %ORANGE%Eld Amn} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+
+//Low Level Hydra Eagle Orb - Smoked Sphere - Sacred Globe - Jareds Stone - Glowing Orb - Crystalline Globe - Cloudy Sphere - Swirling Crystal - Heavenly Stone - Eldritch Orb - Demon Heart - Dimensional Shard - Runewords
+ItemDisplay[(NMAG !INF) SOCK=2 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK62>2 CLVL<70 FILTLVL<1]: |+ 3 Hydra {%GRAY%Tradition: %ORANGE%Eld Amn} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+
+//Low Level Immolate Eagle Orb - Smoked Sphere - Sacred Globe - Jareds Stone - Glowing Orb - Crystalline Globe - Cloudy Sphere - Swirling Crystal - Heavenly Stone - Eldritch Orb - Demon Heart - Dimensional Shard - Runewords
+ItemDisplay[(NMAG !INF) SOCK=2 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK47>2 CLVL<70 FILTLVL<1]: |+ 3 Immolate {%GRAY%Tradition: %ORANGE%Eld Amn} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+
+//Low Level Meteor Eagle Orb - Smoked Sphere - Sacred Globe - Jareds Stone - Glowing Orb - Crystalline Globe - Cloudy Sphere - Swirling Crystal - Heavenly Stone - Eldritch Orb - Demon Heart - Dimensional Shard - Runewords
+ItemDisplay[(NMAG !INF) SOCK=2 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK56>2 CLVL<70 FILTLVL<1]: |+ 3 Meteor {%GRAY%Tradition: %ORANGE%Eld Amn} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+
+//Low Level Conflagration Eagle Orb - Smoked Sphere - Sacred Globe - Jareds Stone - Glowing Orb - Crystalline Globe - Cloudy Sphere - Swirling Crystal - Heavenly Stone - Eldritch Orb - Demon Heart - Dimensional Shard - Runewords
+ItemDisplay[(NMAG !INF) SOCK=2 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK52>2 CLVL<70 FILTLVL<1]: |+ 3 Conflagration {%GRAY%Tradition: %ORANGE%Eld Amn} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+
+//Low Level Flame Orb Eagle Orb - Smoked Sphere - Sacred Globe - Jareds Stone - Glowing Orb - Crystalline Globe - Cloudy Sphere - Swirling Crystal - Heavenly Stone - Eldritch Orb - Demon Heart - Dimensional Shard - Runewords
+ItemDisplay[(NMAG !INF) SOCK=2 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK38>2 CLVL<70 FILTLVL<1]: |+ 3 Flame Orb {%GRAY%Tradition: %ORANGE%Eld Amn} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+
+//Low Level Fire Mastery Eagle Orb - Smoked Sphere - Sacred Globe - Jareds Stone - Glowing Orb - Crystalline Globe - Cloudy Sphere - Swirling Crystal - Heavenly Stone - Eldritch Orb - Demon Heart - Dimensional Shard - Runewords
+ItemDisplay[(NMAG !INF) SOCK=2 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK61>2 CLVL<70 FILTLVL<1]: |+ 3 Fire Mastery {%GRAY%Tradition: %ORANGE%Eld Amn} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+
+//Low Level Ice Lance Eagle Orb - Smoked Sphere - Sacred Globe - Jareds Stone - Glowing Orb - Crystalline Globe - Cloudy Sphere - Swirling Crystal - Heavenly Stone - Eldritch Orb - Demon Heart - Dimensional Shard - Runewords
+ItemDisplay[(NMAG !INF) SOCK=2 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK37>2 CLVL<70 FILTLVL<1]: |+ 3 Ice Lance {%GRAY%Tradition: %ORANGE%Eld Amn} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+
+//Low Level Frost Nova Eagle Orb - Smoked Sphere - Sacred Globe - Jareds Stone - Glowing Orb - Crystalline Globe - Cloudy Sphere - Swirling Crystal - Heavenly Stone - Eldritch Orb - Demon Heart - Dimensional Shard - Runewords
+ItemDisplay[(NMAG !INF) SOCK=2 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK45>2 CLVL<70 FILTLVL<1]: |+ 3 Frost Nova {%GRAY%Tradition: %ORANGE%Eld Amn} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+
+//Low Level Creeping Rime Eagle Orb - Smoked Sphere - Sacred Globe - Jareds Stone - Glowing Orb - Crystalline Globe - Cloudy Sphere - Swirling Crystal - Heavenly Stone - Eldritch Orb - Demon Heart - Dimensional Shard - Runewords
+ItemDisplay[(NMAG !INF) SOCK=2 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK41>2 CLVL<70 FILTLVL<1]: |+ 3 Creeping Rime {%GRAY%Tradition: %ORANGE%Eld Amn} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+
+//Low Level Blizzard Eagle Orb - Smoked Sphere - Sacred Globe - Jareds Stone - Glowing Orb - Crystalline Globe - Cloudy Sphere - Swirling Crystal - Heavenly Stone - Eldritch Orb - Demon Heart - Dimensional Shard - Runewords
+ItemDisplay[(NMAG !INF) SOCK=2 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK59>2 CLVL<70 FILTLVL<1]: |+ 3 Blizzard {%GRAY%Tradition: %ORANGE%Eld Amn} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+
+//Low Level Frozen Orb Eagle Orb - Smoked Sphere - Sacred Globe - Jareds Stone - Glowing Orb - Crystalline Globe - Cloudy Sphere - Swirling Crystal - Heavenly Stone - Eldritch Orb - Demon Heart - Dimensional Shard - Runewords
+ItemDisplay[(NMAG !INF) SOCK=2 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK62>2 CLVL<70 FILTLVL<1]: |+ 3 Frozen Orb {%GRAY%Tradition: %ORANGE%Eld Amn} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+
+//Low Level Cold Mastery Eagle Orb - Smoked Sphere - Sacred Globe - Jareds Stone - Glowing Orb - Crystalline Globe - Cloudy Sphere - Swirling Crystal - Heavenly Stone - Eldritch Orb - Demon Heart - Dimensional Shard - Runewords
+ItemDisplay[(NMAG !INF) SOCK=2 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK65>2 CLVL<70 FILTLVL<1]: |+ 3 Cold Mastery {%GRAY%Tradition: %ORANGE%Eld Amn} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+
+//Low Level Charged Bolt Eagle Orb - Smoked Sphere - Sacred Globe - Jareds Stone - Glowing Orb - Crystalline Globe - Cloudy Sphere - Swirling Crystal - Heavenly Stone - Eldritch Orb - Demon Heart - Dimensional Shard - Runewords
+ItemDisplay[(NMAG !INF) SOCK=2 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK39>2 CLVL<70 FILTLVL<1]: |+ 3 Charged Bolt {%GRAY%Tradition: %ORANGE%Eld Amn} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+
+//Low Level Chain Lightning Eagle Orb - Smoked Sphere - Sacred Globe - Jareds Stone - Glowing Orb - Crystalline Globe - Cloudy Sphere - Swirling Crystal - Heavenly Stone - Eldritch Orb - Demon Heart - Dimensional Shard - Runewords
+ItemDisplay[(NMAG !INF) SOCK=2 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK53>2 CLVL<70 FILTLVL<1]: |+ 3 Chain Lightning {%GRAY%Tradition: %ORANGE%Eld Amn} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+
+//Low Level Lightning Eagle Orb - Smoked Sphere - Sacred Globe - Jareds Stone - Glowing Orb - Crystalline Globe - Cloudy Sphere - Swirling Crystal - Heavenly Stone - Eldritch Orb - Demon Heart - Dimensional Shard - Runewords
+ItemDisplay[(NMAG !INF) SOCK=2 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK49>2 CLVL<70 FILTLVL<1]: |+ 3 Lightning {%GRAY%Tradition: %ORANGE%Eld Amn} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+
+//Low Level Discharge Eagle Orb - Smoked Sphere - Sacred Globe - Jareds Stone - Glowing Orb - Crystalline Globe - Cloudy Sphere - Swirling Crystal - Heavenly Stone - Eldritch Orb - Demon Heart - Dimensional Shard - Runewords
+ItemDisplay[(NMAG !INF) SOCK=2 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK54>2 CLVL<70 FILTLVL<1]: |+ 3 Discharge {%GRAY%Tradition: %ORANGE%Eld Amn} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+
+//Low Level Energy Shield Eagle Orb - Smoked Sphere - Sacred Globe - Jareds Stone - Glowing Orb - Crystalline Globe - Cloudy Sphere - Swirling Crystal - Heavenly Stone - Eldritch Orb - Demon Heart - Dimensional Shard - Runewords
+ItemDisplay[(NMAG !INF) SOCK=2 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK58>2 CLVL<70 FILTLVL<1]: |+ 3 Energy Shield Tradition RW (Eld Amn) {%NAME%%GRAY%Use For Pre-Buff}%RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+
+//Low Level Nova Eagle Orb - Smoked Sphere - Sacred Globe - Jareds Stone - Glowing Orb - Crystalline Globe - Cloudy Sphere - Swirling Crystal - Heavenly Stone - Eldritch Orb - Demon Heart - Dimensional Shard - Runewords
+ItemDisplay[(NMAG !INF) SOCK=2 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK48>2 CLVL<70 FILTLVL<1]: |+ 3 Nova {%GRAY%Tradition: %ORANGE%Eld Amn} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
+
+//Low Level Lightning Mastery Eagle Orb - Smoked Sphere - Sacred Globe - Jareds Stone - Glowing Orb - Crystalline Globe - Cloudy Sphere - Swirling Crystal - Heavenly Stone - Eldritch Orb - Demon Heart - Dimensional Shard - Runewords
+ItemDisplay[(NMAG !INF) SOCK=2 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK63>2 CLVL<70 FILTLVL<1]: |+ 3 Lightning Mastery {%GRAY%Tradition: %ORANGE%Eld Amn} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-6%%notify-dead% [L%ILVL%]
