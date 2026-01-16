@@ -119,22 +119,22 @@ ItemDisplay[(NMAG !INF) uui (SOCK=3 || SOCK=4) ED=20 STAT35=10]: |Perfect %RED%%
 /////////////////////////////////////////////////////////////////////////
 
 //Bloodbathe Jewel Alch
-ItemDisplay[(NMAG !INF !SUP) jw2 ILVL>47 FILTLVL<3]: |Bloodbathe Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) jw2 ILVL>47]: |Bloodbathe Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-4% [L%ILVL%]
 
 //Mara's Kaleidoscope Ammy Alch
-ItemDisplay[(NMAG !INF !SUP) au5 ILVL>76 FILTLVL<3]: |Mara's Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) au5 ILVL>76]: |Mara's Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-4% [L%ILVL%]
 
 //Griffon's Eye Alch
-ItemDisplay[(NMAG !INF !SUP) ci2 ILVL>74 FILTLVL<3]: |Griffons Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) ci2 ILVL>74]: |Griffons Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-4% [L%ILVL%]
 
 //Tyrael's Armor Alch
-ItemDisplay[(NMAG !INF !SUP) aca ILVL>91 FILTLVL<3]: |Tyrael's Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) aca ILVL>91]: |Tyrael's Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-4% [L%ILVL%]
 
 //Blade of The Ammuit Alch For Act 3 Merc
-ItemDisplay[(NMAG !INF !SUP) 7bs ILVL>81 FILTLVL<3]: |Blade of Ammuit Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) 7bs ILVL>81]: |Blade of Ammuit Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-4% [L%ILVL%]
 
 //Stormspire Giant Thresher Alch
-ItemDisplay[(NMAG !INF !SUP) 7wc ILVL>91 FILTLVL<3]: |Stormspire Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) 7wc ILVL>91]: |Stormspire Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-4% [L%ILVL%]
 
 //3os Runic Talons - Fastest IAS Claw Base For Runewords
 ItemDisplay[(NMAG !INF) 7tw SOCK=3 FILTLVL<3]: |{%GRAY%Mosaic: %ORANGE%(Cham Vex Ohm)%NL%%GRAY%Plague: %ORANGE%(Cham Fal Um)} %SOCKETS%os %RED%%NAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-4% [L%ILVL%]
