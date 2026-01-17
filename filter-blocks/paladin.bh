@@ -294,8 +294,8 @@ ItemDisplay[(NMAG !INF !SUP) hbl ILVL>19 FILTLVL<2]: |Snowblind - TGod's Alch %R
 ItemDisplay[(NMAG !INF !SUP) zhb ILVL>54 FILTLVL<2]: |Snowblind - TGod's Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
 
 //Spellbender Alch
-ItemDisplay[(NMAG !INF !SUP) pa2 ILVL>12 FILTLVL<2]: |Spellbender Alch %NAME% %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-6% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) pa7 ILVL>38 FILTLVL<2]: |Spelleater Alch %NAME% %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) pa2 ILVL>12 FILTLVL<2]: |Spellbender Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) pa7 ILVL>38 FILTLVL<2]: |Spelleater Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
 
 //Glitterblade Alch
 ItemDisplay[(NMAG !INF !SUP) crs ILVL>23 FILTLVL<2]: |Glitterblade Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
