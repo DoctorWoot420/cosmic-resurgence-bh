@@ -197,10 +197,20 @@ ItemDisplay[((NMAG !INF !SUP ILVL>91) || (MAG ILVL>92)) au3]: |Horo Alch %RED%%B
 //Lich Rings for Alching (Cave Of Horrors)
 ItemDisplay[NMAG (li0 || li1 || li2 || li3 || li4 || li5 || li6) ILVL>91]: |Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
+//Gladiator's Bane Alch
+ItemDisplay[(NMAG !INF !SUP) ula ILVL>72]: |GBane Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+
 //Ormus Armor Alch
 ItemDisplay[(NMAG !INF !SUP) uui ILVL>91]: |Ormus Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+
 //Horadric Raiment Armor Alch
 ItemDisplay[(NMAG !INF !SUP) aca ILVL>91]: |Raiment Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+
+//Blood Spirit - Cerberus' Bite Alch
+ItemDisplay[(NMAG !INF !SUP) drb ILVL>62]: |Cerberus' Bite Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+
+//Bramble Mitts - Edyrem Union Alch
+ItemDisplay[(NMAG !INF !SUP) ulg ILVL>62]: |Edyrem Union Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Crusader Gauntlets - Perimetus Glory Alch
 ItemDisplay[(NMAG !INF !SUP) utg ILVL>91]: |Perimetus Glory Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
@@ -209,6 +219,9 @@ ItemDisplay[(NMAG !INF !SUP) utg ILVL>91]: |Perimetus Glory Alch %RED%%BASENAME%
 ItemDisplay[(NMAG !INF !SUP) utc ILVL>88]: |Headhunter's Glory Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 //The Unconquerable Belt Alch
 ItemDisplay[(NMAG !INF !SUP) uhc ILVL>91]: |Unconquerable Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+
+//Spirit Weaver Alch
+ItemDisplay[(NMAG !INF !SUP) dwc ILVL>64]: |Spirit Weaver Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Ward - Ghaa's Guide Alch
 ItemDisplay[(NMAG !INF !SUP) uts ILVL>91]: |Ghaa's Guide Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
@@ -245,6 +258,9 @@ ItemDisplay[(NMAG !INF !SUP) jw2 ILVL>47]: |Bloodbathe Alch %RED%%BASENAME%| %RE
 
 //Mara's Kaleidoscope Ammy Alch
 ItemDisplay[(NMAG !INF !SUP) au5 ILVL>76]: |Mara's Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+
+//Legionnaire's Woe/Gladiator's Bane Alch
+ItemDisplay[(NMAG !INF !SUP) xla ILVL>46]: |GBane Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 
 //Tyrael's Armor Alch
 ItemDisplay[(NMAG !INF !SUP) aca ILVL>91]: |Tyrael's Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
@@ -319,6 +335,9 @@ ItemDisplay[(NMAG !INF !SUP) usk ILVL>80 FILTLVL<2]: |Nightwings Alch %RED%%BASE
 ItemDisplay[(NMAG !INF !SUP) fhl ILVL>18 FILTLVL<2]: |Rockstopper Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
 ItemDisplay[(NMAG !INF !SUP) xhl ILVL>53 FILTLVL<2]: |Rockstopper Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
 ItemDisplay[(NMAG !INF !SUP) uhl ILVL>83 FILTLVL<2]: |Rockstopper Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
+
+//Centurion's Hide/Gladiator's Bane Alch
+ItemDisplay[(NMAG !INF !SUP) hla ILVL>17]: |GBane Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
 
 //Linked Mail - The Replenisher Alch
 ItemDisplay[(NMAG !INF !SUP) xng ILVL>43 FILTLVL<2]: |Replenisher Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%notify-dead%%TIER-5% [L%ILVL%]
