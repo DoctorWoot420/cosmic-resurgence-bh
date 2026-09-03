@@ -2,6 +2,14 @@
 // 7. RUNES BLOCK (Centered & Logic Fixed)
 // ============================================================================
 
+// Hide first so filtered runes never pick up Count via CONTINUE.
+ItemDisplay[RUNE<10 CLVL>23 FILTLVL>0]: %NL%
+ItemDisplay[(RUNE>9 RUNE<15) FILTLVL>1]: %NL%
+ItemDisplay[(RUNE>14 RUNE<20) FILTLVL>2]: %NL%
+
+// Ladder stackables: STAT 70 = quantity. Qty > 1 prepends Count; named line below stays.
+ItemDisplay[STAT70>1 RUNE>0]: Count: %stat-70%%nl%%CONTINUE%
+
 // -- Low Runes (El - Ort) --
 ItemDisplay[RUNE=1 CLVL<24]: %LIGHT_GRAY%0 * %RUNENAME% * (%RUNENUM%)%border-d0%%TIER-6%{%ORANGE%Essence: 1}
 ItemDisplay[RUNE=1 CLVL>23 FILTLVL=0]: %LIGHT_GRAY%0 * %RUNENAME% * (%RUNENUM%)%dot-d0%%notify-dead%{%ORANGE%Essence: 1}
@@ -21,7 +29,6 @@ ItemDisplay[RUNE=8 CLVL<24]: %LIGHT_GRAY%0 * %RUNENAME% * (%RUNENUM%)%border-d0%
 ItemDisplay[RUNE=8 CLVL>23 FILTLVL=0]: %LIGHT_GRAY%0 * %RUNENAME% * (%RUNENUM%)%dot-d0%%notify-dead%{%ORANGE%Essence: 16}
 ItemDisplay[RUNE=9 CLVL<24]: %LIGHT_GRAY%0 * %RUNENAME% * (%RUNENUM%)%border-d0%%TIER-6%{%ORANGE%Essence: 24}
 ItemDisplay[RUNE=9 CLVL>23 FILTLVL=0]: %LIGHT_GRAY%0 * %RUNENAME% * (%RUNENUM%)%dot-d0%%notify-dead%{%ORANGE%Essence: 24}
-ItemDisplay[RUNE<10 CLVL>23 FILTLVL>0]: %NL%
 
 // -- Mid Runes (Thul - Dol) --
 ItemDisplay[RUNE=10 FILTLVL<2]: %LIGHT_GRAY%0 %ORANGE%* %RUNENAME% * (%RUNENUM%)%border-d0%%TIER-6%{%ORANGE%Essence: 32}
@@ -29,7 +36,6 @@ ItemDisplay[RUNE=11 FILTLVL<2]: %LIGHT_GRAY%0 %ORANGE%* %RUNENAME% * (%RUNENUM%)
 ItemDisplay[RUNE=12 FILTLVL<2]: %LIGHT_GRAY%0 %ORANGE%* %RUNENAME% * (%RUNENUM%)%border-d0%%TIER-6%{%ORANGE%Essence: 64}
 ItemDisplay[RUNE=13 FILTLVL<2]: %LIGHT_GRAY%0 %ORANGE%* %RUNENAME% * (%RUNENUM%)%border-d0%%TIER-6%{%ORANGE%Essence: 96}
 ItemDisplay[RUNE=14 FILTLVL<2]: %LIGHT_GRAY%0 %ORANGE%* %RUNENAME% * (%RUNENUM%)%border-d0%%TIER-6%{%ORANGE%Essence: 128}
-ItemDisplay[(RUNE>9 RUNE<15) FILTLVL>1]: %NL%
 
 // -- High-Mid Runes (Hel - Fal) --
 ItemDisplay[RUNE=15 FILTLVL<3]:  %TAN%0 %ORANGE%* %RUNENAME% * (%RUNENUM%)%border-d0%%TIER-5%{%ORANGE%Essence: 180}
@@ -37,7 +43,6 @@ ItemDisplay[RUNE=16 FILTLVL<3]:  %TAN%0 %ORANGE%* %RUNENAME% * (%RUNENUM%)%borde
 ItemDisplay[RUNE=17 FILTLVL<3]:  %TAN%0 %ORANGE%* %RUNENAME% * (%RUNENUM%)%border-d0%%TIER-5%{%ORANGE%Essence: 360}
 ItemDisplay[RUNE=18 FILTLVL<3]:  %TAN%0 %ORANGE%* %RUNENAME% * (%RUNENUM%)%border-d0%%TIER-5%{%ORANGE%Essence: 512}
 ItemDisplay[RUNE=19 FILTLVL<3]:  %TAN%0 %ORANGE%* %RUNENAME% * (%RUNENUM%)%border-d0%%TIER-5%{%ORANGE%Essence: 768}
-ItemDisplay[(RUNE>14 RUNE<20) FILTLVL>2]: %NL%
 
 // -- High Runes (Lem - Gul) --
 ItemDisplay[RUNE=20]:  %NL%          %RED% *********%ORANGE% %RUNENAME% (%RUNENUM%) %RED%*********          %NL% %border-d0%%dot-0a%%TIER-4%{%ORANGE%Essence: 1K}

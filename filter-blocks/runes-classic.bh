@@ -1,3 +1,11 @@
+// Hide first so filtered runes never pick up Count via CONTINUE.
+ItemDisplay[RUNE<10 CLVL>23 FILTLVL>0]: %NL%
+ItemDisplay[(RUNE>9 RUNE<15) FILTLVL>1]: %NL%
+ItemDisplay[(RUNE>14 RUNE<20) FILTLVL>2]: %NL%
+
+// Ladder stackables: STAT 70 = quantity. Qty > 1 prepends Count; named line below stays.
+ItemDisplay[STAT70>1 RUNE>0]: Count: %stat-70%%nl%%CONTINUE%
+
 // El - Ort: Ping T6 until lvl 24, then show on map until filtered at filter 1+
 ItemDisplay[RUNE=1 CLVL<24]: %WHITE%* %RUNENAME% * (%RUNENUM%)%border-d0%%TIER-6%{%ORANGE%Essence: 1}
 ItemDisplay[RUNE=1 CLVL>23 FILTLVL=0]: %WHITE%* %RUNENAME% * (%RUNENUM%)%dot-d0%%notify-dead%{%ORANGE%Essence: 1}
