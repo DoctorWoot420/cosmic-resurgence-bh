@@ -79,34 +79,34 @@ ItemDisplay[(RARE || MAG) (dr1 || dr6 || drb) SK228>2 CLSK5>1]: |+ 5 Werebear %P
 ItemDisplay[(RARE || MAG) (dr1 || dr6 || drb) SK224>2 CLSK5>1]: |+ 5 Lycanthropy %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Druid Socketable Helms (+3 Specific Skills)
-ItemDisplay[(NMAG !INF) SOCK=2 (dr1 || dr6 || drb) SK223>2]: |+ 3 Werewolf {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (dr1 || dr6 || drb) ED=20 SK223>2]: |+ 3 Werewolf Perfect ED {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (dr1 || dr6 || drb) SK224>2]: |+ 3 Lycanthropy {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (dr1 || dr6 || drb) ED=20 SK224>2]: |+ 3 Lycanthropy Perfect ED {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (dr1 || dr6 || drb) SK228>2]: |+ 3 Werebear {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (dr1 || dr6 || drb) ED=20 SK228>2]: |+ 3 Werebear Perfect ED {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (dr1 || dr6 || drb) SK232>2]: |+ 3 Feral Rage {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (dr1 || dr6 || drb) ED=20 SK232>2]: |+ 3 Feral Rage Perfect ED {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (dr1 || dr6 || drb || drc) SK239>2]: |+ 3 Fire Claws {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (dr1 || dr6 || drb || drc) ED=20 SK239>2]: |+ 3 Fire Claws Perfect ED {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (dr1 || dr6 || drb) SK233>2]: |+ 3 Maul {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (dr1 || dr6 || drb) ED=20 SK233>2]: |+ 3 Maul Perfect ED {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (dr1 || dr6 || drb) SK248>2]: |+ 3 Fury {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 (dr1 || dr6 || drb) ED=20 SK248>2]: |+ 3 Fury Perfect ED {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 DRU SK243>2]: |+ 3 Shockwave {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 DRU ED=20 SK243>2]: |+ 3 Shockwave Perfect ED {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 DRU SK249>2]: |+ 3 Armageddon {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 DRU ED=20 SK249>2]: |+ 3 Armageddon Perfect ED {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 DRU SK250>2]: |+ 3 Hurricane {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 DRU ED=20 SK250>2]: |+ 3 Hurricane Perfect ED {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 DRU SK226>2]: |+ 3 Oak Sage {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 DRU ED=20 SK226>2]: |+ 3 Oak Sage Perfect ED {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 DRU SK236>2]: |+ 3 Heart of The Wolverine {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 DRU ED=20 SK236>2]: |+ 3 Heart of The Wolverine Perfect ED {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 DRU SK246>2]: |+ 3 Star Spirit {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 DRU ED=20 SK246>2]: |+ 3 Star Spirit Perfect ED {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 DRU SK247>2]: |+ 3 Summon Grizzly {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=2 DRU ED=20 SK247>2]: |+ 3 Summon Grizzly Perfect ED {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (dr1 || dr6 || drb) SK223>2]: |+ 3 Werewolf {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Nadir: %ORANGE%(Nef Tir)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (dr1 || dr6 || drb) ED=20 SK223>2]: |+ 3 Werewolf Perfect ED {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Nadir: %ORANGE%(Nef Tir)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (dr1 || dr6 || drb) SK224>2]: |+ 3 Lycanthropy {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Nadir: %ORANGE%(Nef Tir)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (dr1 || dr6 || drb) ED=20 SK224>2]: |+ 3 Lycanthropy Perfect ED {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Nadir: %ORANGE%(Nef Tir)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (dr1 || dr6 || drb) SK228>2]: |+ 3 Werebear {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Nadir: %ORANGE%(Nef Tir)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (dr1 || dr6 || drb) ED=20 SK228>2]: |+ 3 Werebear Perfect ED {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Nadir: %ORANGE%(Nef Tir)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (dr1 || dr6 || drb) SK232>2]: |+ 3 Feral Rage {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Nadir: %ORANGE%(Nef Tir)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (dr1 || dr6 || drb) ED=20 SK232>2]: |+ 3 Feral Rage Perfect ED {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Nadir: %ORANGE%(Nef Tir)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (dr1 || dr6 || drb || drc) SK239>2]: |+ 3 Fire Claws {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Nadir: %ORANGE%(Nef Tir)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (dr1 || dr6 || drb || drc) ED=20 SK239>2]: |+ 3 Fire Claws Perfect ED {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Nadir: %ORANGE%(Nef Tir)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (dr1 || dr6 || drb) SK233>2]: |+ 3 Maul {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Nadir: %ORANGE%(Nef Tir)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (dr1 || dr6 || drb) ED=20 SK233>2]: |+ 3 Maul Perfect ED {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Nadir: %ORANGE%(Nef Tir)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (dr1 || dr6 || drb) SK248>2]: |+ 3 Fury {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Nadir: %ORANGE%(Nef Tir)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 (dr1 || dr6 || drb) ED=20 SK248>2]: |+ 3 Fury Perfect ED {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Nadir: %ORANGE%(Nef Tir)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 DRU SK243>2]: |+ 3 Shockwave {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Nadir: %ORANGE%(Nef Tir)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 DRU ED=20 SK243>2]: |+ 3 Shockwave Perfect ED {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Nadir: %ORANGE%(Nef Tir)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 DRU SK249>2]: |+ 3 Armageddon {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Nadir: %ORANGE%(Nef Tir)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 DRU ED=20 SK249>2]: |+ 3 Armageddon Perfect ED {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Nadir: %ORANGE%(Nef Tir)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 DRU SK250>2]: |+ 3 Hurricane {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Nadir: %ORANGE%(Nef Tir)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 DRU ED=20 SK250>2]: |+ 3 Hurricane Perfect ED {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Nadir: %ORANGE%(Nef Tir)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 DRU SK226>2]: |+ 3 Oak Sage {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Nadir: %ORANGE%(Nef Tir)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 DRU ED=20 SK226>2]: |+ 3 Oak Sage Perfect ED {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Nadir: %ORANGE%(Nef Tir)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 DRU SK236>2]: |+ 3 Heart of The Wolverine {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Nadir: %ORANGE%(Nef Tir)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 DRU ED=20 SK236>2]: |+ 3 Heart of The Wolverine Perfect ED {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Nadir: %ORANGE%(Nef Tir)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 DRU SK246>2]: |+ 3 Star Spirit {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Nadir: %ORANGE%(Nef Tir)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 DRU ED=20 SK246>2]: |+ 3 Star Spirit Perfect ED {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Nadir: %ORANGE%(Nef Tir)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 DRU SK247>2]: |+ 3 Summon Grizzly {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Nadir: %ORANGE%(Nef Tir)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 DRU ED=20 SK247>2]: |+ 3 Summon Grizzly Perfect ED {%GRAY%Water: %ORANGE%(Thul Ith)%NL%%GRAY%Nadir: %ORANGE%(Nef Tir)%NL%%GRAY%Lore: %ORANGE%(Ort Sol)} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 ItemDisplay[(NMAG !INF) SOCK=3 (dr1 || dr6 || drb) SK223>2]: |+ 3 Werewolf %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 ItemDisplay[(NMAG !INF) SOCK=3 (dr1 || dr6 || drb) ED=20 SK223>2]: |+ 3 Werewolf Perfect ED %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
@@ -178,6 +178,18 @@ ItemDisplay[(NMAG !INF) SOCK=4 dw3 SK245>2]: |{%GRAY%Mist: %ORANGE%(Fal Ohm Gul 
 ItemDisplay[(NMAG !INF) SOCK=4 dw3 ED=20 SK245>2]: |Perfect ED {%GRAY%Mist: %ORANGE%(Fal Ohm Gul Ist)} %SOCKETS%os %RED%%NAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 /////////////////////////////////////////////////////////////////////////
+//TIER 6 ////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////
+
+//2 Socket 2H Large Axe/Military Axe/Feral Axe For Steel Runeword
+ItemDisplay[(NMAG !INF) SOCK=2 lax]: |{%GRAY%Steel: %ORANGE%(Tir El)} %SOCKETS%os %RED%%NAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 dw3 ED=20]: |Perfect ED {%GRAY%Steel: %ORANGE%(Tir El)} %SOCKETS%os %RED%%NAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 9la]: |{%GRAY%Steel: %ORANGE%(Tir El)} %SOCKETS%os %RED%%NAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 9la ED=20]: |Perfect ED {%GRAY%Steel: %ORANGE%(Tir El)} %SOCKETS%os %RED%%NAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 7la]: |{%GRAY%Steel: %ORANGE%(Tir El)} %SOCKETS%os %RED%%NAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+ItemDisplay[(NMAG !INF) SOCK=2 7la ED=20]: |Perfect ED {%GRAY%Steel: %ORANGE%(Tir El)} %SOCKETS%os %RED%%NAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-6% [L%ILVL%]
+
+/////////////////////////////////////////////////////////////////////////
 //TIER 3 ALCHS///////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////
 
@@ -198,6 +210,8 @@ ItemDisplay[((NMAG !INF !SUP ILVL>91) || (MAG ILVL>92)) au3]: |Horo Alch %RED%%B
 ItemDisplay[NMAG (li0 || li1 || li2 || li3 || li4 || li5 || li6) ILVL>91]: |Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Gladiator's Bane Alch
+ItemDisplay[(NMAG !INF !SUP) hla ILVL>18]: |GBane Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) xla ILVL>47]: |GBane Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 ItemDisplay[(NMAG !INF !SUP) ula ILVL>72]: |GBane Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Ormus Armor Alch
@@ -222,6 +236,10 @@ ItemDisplay[(NMAG !INF !SUP) uhc ILVL>91]: |Unconquerable Alch %RED%%BASENAME%| 
 
 //Spirit Weaver Alch
 ItemDisplay[(NMAG !INF !SUP) dwc ILVL>64]: |Spirit Weaver Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+
+//Hybrid Vigor Alch
+ItemDisplay[(NMAG !INF !SUP) dw7 ILVL>19]: |Doomfang Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP) dw8 ILVL>47]: |Ferocity Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Ward - Ghaa's Guide Alch
 ItemDisplay[(NMAG !INF !SUP) uts ILVL>91]: |Ghaa's Guide Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
