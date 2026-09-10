@@ -234,6 +234,9 @@ ItemDisplay[(NMAG !INF !SUP) utc ILVL>88]: |Headhunter's Glory Alch %RED%%BASENA
 //The Unconquerable Belt Alch
 ItemDisplay[(NMAG !INF !SUP) uhc ILVL>91]: |Unconquerable Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
+//Cinderfall Alch
+ItemDisplay[(NMAG !INF !SUP) dwc ILVL>91]: |Cinderfall Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+
 //Spirit Weaver Alch
 ItemDisplay[(NMAG !INF !SUP) dwc ILVL>64]: |Spirit Weaver Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
