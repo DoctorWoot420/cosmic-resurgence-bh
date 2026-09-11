@@ -146,15 +146,15 @@ ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || 
 ItemDisplay[RARE (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK63>2 STAT330>9 STAT307>4]: |Lightning Mastery %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 ItemDisplay[MAG (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf) CLSK1>1 SK63>2 STAT330>9 STAT307>4]: |Lightning Mastery %PURPLE%%BASENAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
-//Punishment Orb Runeword Bases (Tier 3)
-ItemDisplay[(NMAG !INF) SOCK=3 (ob4 || ob9 || obe) SK43>2]: |+ 3 Voltaic Blast {%GRAY%Punishment: %ORANGE%Lo Jah Lo} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=3 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK39>2]: |+ 3 Charged Bolt {%GRAY%Punishment: %ORANGE%Lo Jah Lo} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=3 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK53>2]: |+ 3 Chain Lightning {%GRAY%Punishment: %ORANGE%Lo Jah Lo} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=3 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK49>2]: |+ 3 Lightning {%GRAY%Punishment: %ORANGE%Lo Jah Lo} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=3 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK54>2]: |+ 3 Discharge {%GRAY%Punishment: %ORANGE%Lo Jah Lo} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=3 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK58>2]: |+ 3 Energy Shield Punishment RW (Lo Jah Lo) {%NAME%%GRAY%Use For Pre-Buff}%RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=3 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK48>2]: |+ 3 Nova {%GRAY%Punishment: %ORANGE%Lo Jah Lo} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
-ItemDisplay[(NMAG !INF) SOCK=3 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK63>2]: |+ 3 Lightning Mastery {%GRAY%Punishment: %ORANGE%Lo Jah Lo} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+//Punishment Orb Runeword Bases (Tier 3). !RW so a finished Punishment does not look like an empty base.
+ItemDisplay[(NMAG !INF !RW) SOCK=3 (ob4 || ob9 || obe) SK43>2]: |+ 3 Voltaic Blast {%GRAY%Punishment: %ORANGE%Lo Jah Lo} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF !RW) SOCK=3 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK39>2]: |+ 3 Charged Bolt {%GRAY%Punishment: %ORANGE%Lo Jah Lo} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF !RW) SOCK=3 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK53>2]: |+ 3 Chain Lightning {%GRAY%Punishment: %ORANGE%Lo Jah Lo} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF !RW) SOCK=3 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK49>2]: |+ 3 Lightning {%GRAY%Punishment: %ORANGE%Lo Jah Lo} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF !RW) SOCK=3 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK54>2]: |+ 3 Discharge {%GRAY%Punishment: %ORANGE%Lo Jah Lo} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF !RW) SOCK=3 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK58>2]: |+ 3 Energy Shield Punishment RW (Lo Jah Lo) {%NAME%%GRAY%Use For Pre-Buff}%RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF !RW) SOCK=3 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK48>2]: |+ 3 Nova {%GRAY%Punishment: %ORANGE%Lo Jah Lo} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+ItemDisplay[(NMAG !INF !RW) SOCK=3 (ob1 || ob2 || ob3 || ob5 || ob6 || ob7 || ob8 || oba || obb || obc || obd || obf || lxb) SK63>2]: |+ 3 Lightning Mastery {%GRAY%Punishment: %ORANGE%Lo Jah Lo} %SOCKETS%os %RED%%NAME%| %RED%0 %YELLOW%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 /////////////////////////////////////////////////////////////////////////
 //TIER 3 ALCHS///////////////////////////////////////////////////////////
@@ -196,8 +196,8 @@ ItemDisplay[(NMAG !INF !SUP) utc ILVL>88]: |Headhunter's Glory Alch %RED%%BASENA
 //The Unconquerable Belt Alch
 ItemDisplay[(NMAG !INF !SUP) uhc ILVL>91]: |Unconquerable Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
-//Ulm's Undulator Vortex Orb For Voltaic Blast Sorc
-ItemDisplay[(NMAG !INF !SUP) obe ILVL>73]: |Ulm's Undulator Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
+//Ulm's Undulator Vortex Orb For Voltaic Blast Sorc. !RW so Punishment in this base keeps the runeword name.
+ItemDisplay[(NMAG !INF !SUP !RW) obe ILVL>73]: |Ulm's Undulator Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
 
 //Rathma's Union Charged Stone Alch (Energy Shield Build)
 ItemDisplay[(NMAG !INF !SUP) sf1 ILVL>80]: |Rathma's Union Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-3% [L%ILVL%]
@@ -280,12 +280,12 @@ ItemDisplay[(NMAG !INF !SUP) ci2 ILVL>74]: |Griffons Alch %RED%%BASENAME%| %RED%
 //Tyrael's Armor Alch
 ItemDisplay[(NMAG !INF !SUP) aca ILVL>91]: |Tyrael's Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 
-//Amm's Eclipe Orb For Discharge Sorc
-ItemDisplay[(NMAG !INF !SUP) ob8 ILVL>49]: |Amm's Eclipse Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
-ItemDisplay[(NMAG !INF !SUP) obd ILVL>73]: |Amm's Absolution Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+//Amm's Eclipe Orb For Discharge Sorc. !RW so Punishment (etc.) in the same base keeps the runeword name.
+ItemDisplay[(NMAG !INF !SUP !RW) ob8 ILVL>49]: |Amm's Eclipse Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+ItemDisplay[(NMAG !INF !SUP !RW) obd ILVL>73]: |Amm's Absolution Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 
-//Death's Fathom Dimensional Shard For Cold Sorc
-ItemDisplay[(NMAG !INF !SUP) obf ILVL>76]: |Death's Fathom Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
+//Death's Fathom Dimensional Shard For Cold Sorc. Empty high-ilvl shard still pings Alch; finished RW does not.
+ItemDisplay[(NMAG !INF !SUP !RW) obf ILVL>76]: |Death's Fathom Alch %RED%%BASENAME%| %RED%0 %WHITE%%dot-0a%%border-20%%TIER-4% [L%ILVL%]
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
